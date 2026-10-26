@@ -1,3 +1,23 @@
+# Browser and software QA · v0.4 real-career integration
+
+Actual local HTTP app, not an inline bundle. The original engine is preserved at practice.html.
+
+- 49 Node tests pass, including all original 22 plus real-source state, expiry, substitutions, preferred conditions, incomplete evidence, shared titles, safe exports and historical attribution.
+- Actual HTTP browser harness: 23/23 real-workflow assertions. Preserved Practice Mode harness: 15/15. Both capture generated Blobs for repeatable export regression; separate real-file downloads were also performed.
+- Downloaded actual md-admin advisor packet and portfolio files through browser controls. Read the advisor file from disk: actual recruitment, current fictional 30-credit declaration, typed draft, unknown conditions, historical-source analogies and action plan present.
+- Default catalog excludes the Coding it Forward intake whose deadline passed. History shows it; query with no results explains the empty state. Shortlist has stable IDs, clears explicitly, and is tab-only. Selection moves focus to workspace. Save action retains keyboard focus.
+- Desktop reflow inspected at measured 1366 CSS pixels: client/scroll width 1351, no overflow. Narrow view measured 390: client/scroll width 375, no overflow, including selected real record and successful portfolio download. This is responsive simulation, not physical-device testing. Captures use a narrower full viewport because the desktop panel can clip an emulated wider surface.
+- Selected mobile record had zero unlabeled inputs/selects/textareas and zero duplicate IDs. One primary h1. Native controls and details/summary expose labels and states; visible focus, print CSS and reduced-motion rules present. This is not an independent WCAG or screen-reader audit.
+- Source consistency retrieval succeeded for Maryland, NIH, DOE, PITcases and Coding it Forward; seven selected exact-fragment checks matched. Some USAJOBS direct curl retrievals failed while the web tool could read them. Failures remain in evidence/source-http-observations.json; no blanket all-links-pass claim.
+- Privacy review: no application fetch/XHR, analytics, remote fonts, cookies or browser persistent storage. Drafts use text/value APIs rather than innerHTML. Official sites may require login and maintain separate policies; hosting logs are disclosed. No sensitive conditions are collected for actual people. No packet-capture or legal audit claimed.
+- The v0.4 requirement review initially overwrote the criterion title with its status; browser inspection caught it. Fixed with separate statusLabel and a regression test. No unobserved export defect was assumed.
+
+Evidence: evidence/v04/ screenshots, test harness sources and benchmark result JSON. Media: actual captures assembled into a captioned 150-second screenshot walkthrough; not a live screen recording. No independent unfamiliar users, comparative timing, career impact or institutional approval.
+
+Public release/browser verification and saved draft state are recorded separately in RELEASE.md and the execution report. Historical v0.2 observations follow for provenance; they describe the older fictional-first experience.
+
+---
+
 # Actual browser verification · October 26, 2026
 
 ## v0.2 local HTTP observations

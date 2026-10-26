@@ -1,7 +1,7 @@
-# Release v0.2 status and next evidence
+# v0.4 status and next evidence
 
-Completed: current-declaration skill fix; evidence bridge worksheets; local advisor handoff; simpler explanations; separate sourced resources with deadline states; readable controls and system fonts; 22 regression tests; internal frozen benchmark and manual worksheet; detailed pilot costs and governance; submission copy, credits and judge guide. Browser/deployment evidence is recorded separately.
+Implemented real-source-first catalog, selected-criterion review, local shortlist, evidence notes, application/portfolio/advisor exports, optional discovery channels and attributed historical work gallery. Fictional v0.2 engine moved to Practice Mode and preserved with its 15 browser assertions. Baseline tag baseline-v0.2 retains rollback history. No new repository, registration or paid runtime.
 
-Remaining evidence: independent advisor review of source completeness and benchmark gold labels; unfamiliar consenting learner usability study; actual screen-reader and accommodation testing; institutional commitment and source permissions/review; measured comparison against manual work. These require people and governance, not invented software metrics.
+Highest-value next evidence: independent HR review, unfamiliar learner/advisor testing, actual assistive-technology sessions and a willing campus/municipal pilot. The 60-day operational kit retains 25 learners / 25 reviewed opportunities and $6,240 economic cost. All are proposed, not achieved outcomes.
 
-Before Nov 5: owner reviews and edits submission; verifies registration, eligibility and source availability; optionally records genuine demo; submits personally and retains receipt. Never treat this roadmap as evidence those activities happened.
+Submission target Nov 4–5. Revalidate source dates within 48 hours; review current rules. Existing Kenny! draft is updated only as a draft; final submission requires explicit owner authorization.

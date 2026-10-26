@@ -1,0 +1,8 @@
+October 26, 2026 · real HTTP-loaded modules
+Real workflow: 23/23 assertions passed.
+Practice Mode: 15/15 assertions passed.
+Desktop 1366 CSS px and mobile 390 CSS px: no horizontal document overflow in observed states.
+Mobile selected record: zero unlabeled controls and duplicate IDs; actual portfolio download completed.
+Actual advisor download read from disk, including current facts, fictional draft, sources and unknown conditions.
+Video metadata: duration=150, readyState=4, videoWidth=1280, videoHeight=800, textTracks=1, error=null. Full FFmpeg decode exit 0.
+These are implementer/software checks; independent unfamiliar users n=0.

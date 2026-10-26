@@ -1,6 +1,6 @@
 # OpportunityBridge · proposed 60-day pilot
 
-**Proposal only: 25 adult learners, 25 verified opportunities, zero committed institutions, zero recruited learners, zero observed career outcomes.** A college career-services office and a municipal workforce/HR team must agree to named responsibilities before launch. The current demonstrator does not evaluate real vacancy eligibility.
+**Proposal only: 25 adult learners, 25 verified opportunities, zero committed institutions, zero recruited learners, zero observed career outcomes.** A college career-services office and a municipal workforce/HR team must agree to named responsibilities before launch. The current demonstrator reviews selected real-source conditions using fictional declarations; it never evaluates overall employment eligibility. Pilot use requires independent double review of every mapping. See PILOT_OPERATIONS.md for the source SOP, consent, staff workflow and rubric.
 
 ## Decision and intervention
 

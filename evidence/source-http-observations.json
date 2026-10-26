@@ -1,0 +1,149 @@
+{
+  "purpose": "Consistency observation only, not independent human review or automatic refresh",
+  "results": [
+    {
+      "url": "https://codingitforward.com/apply",
+      "requestedAt": "2026-10-26T18:15:49.481945+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "c2a5422cca91244837e5ef4d8598c72f90a1c9e81b35b3c7e399002ed2026f7a",
+      "error": null,
+      "shortExcerptChecks": []
+    },
+    {
+      "url": "https://datascience.nih.gov/director/directors-blog-conversation-with-coding-it-forward-civic-digital-fellow-snipta-mallick",
+      "requestedAt": "2026-10-26T18:15:49.483702+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "38bc0a3317431b6d62a2248636a3cc45303ab1fa05d217a193c57fde1969bf1d",
+      "error": null,
+      "shortExcerptChecks": []
+    },
+    {
+      "url": "https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows",
+      "requestedAt": "2026-10-26T18:15:49.484044+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "a8da4fd84772279e5581d4d03978601ada4d138ee8a93fbba3353def7d2bb7a3",
+      "error": null,
+      "shortExcerptChecks": []
+    },
+    {
+      "url": "https://earlycareer.usajobs.gov/search/results",
+      "requestedAt": "2026-10-26T18:15:49.489302+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": false,
+      "sha256": null,
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "url": "https://pitcases.org/portfolio/coding-it-forward-civic-digital-fellowship-and-civic-innovation-corps/",
+      "requestedAt": "2026-10-26T18:15:49.700363+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "d0887072d18fcd58259484fbcdd4bbdec5f731bcfcb6eb852f9514523cde1487",
+      "error": null,
+      "shortExcerptChecks": []
+    },
+    {
+      "url": "https://science.osti.gov/wdts/suli",
+      "requestedAt": "2026-10-26T18:15:49.947717+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "490904ed81f8d3dbe1fc1b021513d349f6bf8daa8d8cf7f35c2f4405cb8eae17",
+      "error": null,
+      "shortExcerptChecks": []
+    },
+    {
+      "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "requestedAt": "2026-10-26T18:15:49.996234+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
+      "error": null,
+      "shortExcerptChecks": [
+        {
+          "record": "md-admin",
+          "criterion": "education",
+          "found": true
+        },
+        {
+          "record": "md-admin",
+          "criterion": "experience",
+          "found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "requestedAt": "2026-10-26T18:15:50.146927+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142",
+      "error": null,
+      "shortExcerptChecks": [
+        {
+          "record": "md-vendor",
+          "criterion": "education",
+          "found": true
+        },
+        {
+          "record": "md-vendor",
+          "criterion": "experience",
+          "found": true
+        },
+        {
+          "record": "md-vendor",
+          "criterion": "office",
+          "found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.training.nih.gov/research-training/pb/pb/",
+      "requestedAt": "2026-10-26T18:15:50.434839+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "4eced983bdbb567dc42aadcb445dd8d4d5d71e9ac590b8d84e2b3389f79bd199",
+      "error": null,
+      "shortExcerptChecks": [
+        {
+          "record": "nih-postbac",
+          "criterion": "credential-window",
+          "found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.training.nih.gov/research-training/pb/sip/",
+      "requestedAt": "2026-10-26T18:15:50.686458+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": true,
+      "sha256": "0a2ce21340dad13be93beaff2ccecb103b913508148434651f8b3846a0a88d5d",
+      "error": null,
+      "shortExcerptChecks": [
+        {
+          "record": "nih-sip",
+          "criterion": "inperson",
+          "found": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.usajobs.gov/hiringpath/recentgraduates/",
+      "requestedAt": "2026-10-26T18:15:50.807037+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": false,
+      "sha256": null,
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "url": "https://www.usajobs.gov/hiringpath/students/",
+      "requestedAt": "2026-10-26T18:15:50.908016+00:00",
+      "method": "public HTTPS GET via system curl; no authentication",
+      "retrieved": false,
+      "sha256": null,
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    }
+  ]
+}

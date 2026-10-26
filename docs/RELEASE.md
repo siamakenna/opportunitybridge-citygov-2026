@@ -1,3 +1,23 @@
+# v0.4 release · real opportunities first
+
+Public app: https://siamakenna.github.io/opportunitybridge-citygov-2026/
+Judge guide: https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html
+Practice Mode: https://siamakenna.github.io/opportunitybridge-citygov-2026/practice.html
+Captioned walkthrough: https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html
+Public source: https://github.com/siamakenna/opportunitybridge-citygov-2026
+
+This section describes the real-career integration release; the v0.2 receipt below is historical. Confirm publication against source.json and the latest successful Pages workflow. The execution report records the exact final SHA, matching deployed assets and observed draft-save state after verification; a source-only commit does not prove deployment.
+
+Baseline rollback: Git tag baseline-v0.2 points to c3c798fa85971324dc97f8b84262ee103e2245d6. No repository or team was recreated, and no paid runtime or external application was submitted.
+
+Current registered team observed in signed-in workspace: Kenny!, captain Makenna Rodriguez, one member. Existing project is draft-only; final Submit for Judging is not authorized. Name/description/demo/repository/media fields may be saved; team, eligibility and registration metadata are preserved. Any save claim requires a confirmed state, recorded after the operation.
+
+Source inventory: nine official records with eight default active/pathway records on observation; five attributed historical records. 49 Node tests, 23 real-workflow and 15 Practice Mode browser assertions; eight real-source software checks plus twelve practice judgments. Independent users n=0; no manual performance or career benefit claim. v0.3 Impact Lab was not supplied/found and is not integrated.
+
+Significant AI assistance and screenshot-walkthrough assembly are disclosed. The final submission text is 607 words; equity text 230 words. Internal mock review 84/100, not official. Human review, source revalidation within 48 hours of submission, independent testing, willing hosts and final owner submission remain necessary.
+
+## Historical v0.2 receipt
+
 # Publication and verification receipt · October 26, 2026
 
 - Public prototype: https://siamakenna.github.io/opportunitybridge-citygov-2026/

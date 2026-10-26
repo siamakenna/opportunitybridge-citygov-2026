@@ -1,0 +1,26 @@
+const frame=document.querySelector('iframe'),out=document.querySelector('#results');let passed=0;const lines=[];
+const check=(value,label)=>{if(!value)throw Error(label);passed++;lines.push('PASS '+label);out.textContent=lines.join('\n');};
+try{await new Promise(resolve=>frame.addEventListener('load',resolve,{once:true}));const w=frame.contentWindow,d=frame.contentDocument;
+check(d.querySelector('.career-card')!==null,'Actual real-opportunity modules load');
+check(!d.querySelector('#profiles'),'Fictional engine is absent from primary page');
+check(d.querySelectorAll('.outcome-card').length===5,'Five attributed historical records load');
+check(!d.querySelector('[data-id="cif-winter"]'),'Expired intake excluded from default');
+d.querySelector('[data-view="expired"]').click();check(d.querySelector('[data-id="cif-winter"]')?.textContent.includes('Deadline passed'),'History preserves expired status');
+d.querySelector('#career-reset').click();
+const query=d.querySelector('#career-query');query.value='zz-no-such-record';query.dispatchEvent(new w.Event('input',{bubbles:true}));check(!!d.querySelector('.empty-catalog'),'No-result state is explained');
+d.querySelector('#career-reset').click();let card=d.querySelector('[data-id="md-admin"]');card.querySelector('.save-career').click();d.querySelector('[data-view="shortlist"]').click();check(d.querySelectorAll('.career-card').length===1,'Shortlist shows only saved record');
+d.querySelector('#career-reset').click();card=d.querySelector('[data-id="md-admin"]');card.querySelector('button').click();check(d.activeElement.id==='career-plan-title','Inspect moves focus to selected opportunity');
+check(d.querySelector('[data-criterion="experience"] h4').textContent==='Administrative experience or a published substitution','Requirement title distinct from state');
+check(d.querySelector('[data-criterion="experience"]').textContent.includes('Insufficient information'),'Unknown declarations remain unknown');
+d.querySelector('.real-facts button').click();check(d.querySelector('#real-fact-collegeCredits').value==='30','Sample coursework declarations load');
+const note=d.querySelector('#career-note-experience');note.value='<img src=x> Fictional 30-credit note';note.dispatchEvent(new w.Event('input',{bubbles:true}));
+const hs=d.querySelector('#real-fact-hs');hs.value='unknown';hs.dispatchEvent(new w.Event('change',{bubbles:true}));check(d.querySelector('#career-note-experience').value.includes('30-credit'),'Fact editing preserves the selected record draft');
+check(!d.querySelector('#real-reviews img'),'Untrusted draft is never inserted as HTML');
+let blob;const original=w.URL.createObjectURL;w.URL.createObjectURL=b=>{blob=b;return original.call(w.URL,b);};d.addEventListener('click',e=>{if(e.target.tagName==='A'&&e.target.download)e.preventDefault();});
+d.querySelector('.exports button').click();const text=await blob.text();for(const [value,label] of [['26-001755-0041','Export preserves actual recruitment ID'],['collegeCredits: 30','Export uses edited facts'],['Fictional 30-credit note','Export includes selected draft'],['Insufficient information','Export keeps missing conditions'],['14-day plan','Export includes action plan']])check(text.includes(value),label);
+check(!text.includes('<img'),'Export strips HTML delimiters');
+d.querySelector('#career-reset').click();check(d.querySelector('#shortlist-count').textContent==='0','Clear session deletes shortlist');check(!d.querySelector('.real-facts'),'Clear session deletes selection and facts');
+const details=d.querySelector('.outcome-card details');details.open=true;check(details.textContent.includes('OpportunityBridge recommendation'),'Historical skills distinguish recommended portfolio work');
+check(d.querySelector('a[href="./practice.html"]')!==null,'Practice Mode remains reachable');
+out.textContent=passed+' assertions passed\n'+lines.join('\n');document.title='PASS · Real-opportunity browser regression';
+}catch(e){out.textContent='FAIL '+e.message+'\n'+lines.join('\n');document.title='FAIL · Real-opportunity browser regression';}

@@ -1,15 +1,25 @@
-# Authentic demonstration · proposed 2–3 minutes
+# v0.4 demonstration and finalist pitch
 
-0:00–0:25 — Show the public home page. “A student can have useful experience and still struggle to connect it to civic job requirements. OpportunityBridge makes that translation inspectable.” Identify fictional demonstration data immediately.
+Public 150-second English-captioned screenshot walkthrough: walkthrough.html / media/walkthrough.mp4. Six genuine captured views: problem/home (20s), actual catalog (25s), selected requirement (30s), NIH historical deliverable (30s), generated handoff (25s), proposed pilot (20s). It is explicitly a still-capture sequence, not a continuous live recording. Actual source-file download was executed and inspected. Captions are burned in and supplied as VTT/SRT plus transcript. No narration or synthetic testimonials.
 
-0:25–0:55 — Choose Maya, open the civic data pathway, change credential to No and data skill to Not sure. Show the resulting conflict and unknown state. “Missing information becomes a question, not an automated rejection.”
+## Optional continuous narrated recording
 
-0:55–1:35 — Scroll through one evidence bridge: experience, civic skill, exact fictional criterion, artifact and human-verification question. Enter a fictional class-project note. Download the advisor packet and open it to show current declarations and the two-week plan.
+0:00–0:20 explain the requirement/network translation barrier. 0:20–0:55 open an actual Maryland record, source and deadline. 0:55–1:30 load the fictional coursework example; show the 30-credit route and unknown conditions. 1:30–2:00 inspect NIH’s documented deliverable and distinguish our proposed portfolio exercise. 2:00–2:30 download and open the genuine advisor packet. 2:30–2:55 summarize the proposed pilot and independent n=0. Record actual UI and use English captions; do not claim this optional recording already exists.
 
-1:35–2:00 — Show the separate official-resource area, observation dates and deadlines. “Two Maryland bulletins were checked; DC and Philadelphia links are search resources. Real jobs are not fed into the demonstration engine.”
+## Finalist pitch: 5–7 minutes
 
-2:00–2:35 — Show the pilot budget and four proposed metrics. “A college and municipal partner could test this with 25 adult learners and 25 reviewed postings. No partner or users have joined yet; no hiring effects are claimed.”
+0:00–0:45 — A learner has useful experience but cannot explain how it meets an unfamiliar civic requirement. Define that specific information barrier without inventing prevalence statistics.
+0:45–2:15 — Demonstrate the actual catalog and selected-source review; contrast full employment eligibility with a limited requirement interpretation. Show a substitution and a remaining unknown.
+2:15–3:15 — Show a historical municipal account and NIH institutional deliverable. Separate deliverable, self-reported offer, contractor role and product outcome. Open portfolio suggestions and label them ours.
+3:15–4:15 — Generate the advisor handoff, explain official application destinations and learner-controlled sharing. Show clear/reset and paper route.
+4:15–5:30 — Present the 60-day operations kit: six staff roles, 25 learners/25 reviewed records, consent, double review, $6,240 economic budget, four outcome measures and source maintenance.
+5:30–6:15 — Show test/evaluation evidence and limits: source-backed internal cases, no independent participants or manual advantage, no accessibility certification. End with the next independent test and willing-host requirement.
 
-2:35–2:50 — Close with the source repository, test report and AI-use disclosure. “The next evidence we need is independent advisor and learner testing.”
+## Concise Q&A
 
-Record actual UI only; no staged testimonials, synthetic impact claims or fabricated employer logos. Check playback and link access after uploading; do not call this script a finished video.
+“Does it decide eligibility?” No. It reviews selected source conditions and preserves unknowns; the employer decides.
+“How fresh is it?” Observation timestamps, 48-hour stale warnings, passed-deadline history and manual checks; static sites cannot detect every withdrawal.
+“Are the fellows endorsers?” No. Public historical sources illustrate work from other programs, not our results.
+“What has been measured?” Software behavior and actual browser downloads. Independent learner benefit, manual comparison and hiring effects are unmeasured.
+“Who runs it?” Proposed campus/municipal owners with backups and budgeted time; no host agreement yet.
+“What would you do next?” Independent HR/source adjudication, unfamiliar consenting usability sessions and actual assistive-technology testing.

@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "frozenAt": "2026-10-26",
+  "evaluationTime": "2026-10-26T20:00:00Z",
+  "cases": [
+    {
+      "id": "R1",
+      "record": "md-admin",
+      "criterion": "experience",
+      "facts": {
+        "collegeCredits": 30
+      },
+      "expected": "yes",
+      "task": "Identify whether the published 30-credit substitution supports this selected experience condition."
+    },
+    {
+      "id": "R2",
+      "record": "md-vendor",
+      "criterion": "experience",
+      "facts": {
+        "accountingCredits": 6,
+        "financeMonths": 0,
+        "military": "no",
+        "vocational": "no"
+      },
+      "expected": "no",
+      "task": "Determine whether six accounting credits alone establish two years of financial experience."
+    },
+    {
+      "id": "R3",
+      "record": "md-vendor",
+      "criterion": "office",
+      "facts": {
+        "office": "yes"
+      },
+      "expected": "yes",
+      "required": false,
+      "task": "Separate preferred Office familiarity from required financial experience."
+    },
+    {
+      "id": "R4",
+      "record": "nih-sip",
+      "mode": "application",
+      "expected": "https://www2.training.nih.gov/xfer/nihac",
+      "task": "Find the source-linked official NIH application destination; do not sign in."
+    },
+    {
+      "id": "R5",
+      "record": "cif-winter",
+      "mode": "lifecycle",
+      "expected": "expired",
+      "task": "Classify the passed deadline despite stale open wording."
+    },
+    {
+      "id": "R6",
+      "record": "md-admin",
+      "mode": "handoff",
+      "expected": true,
+      "task": "Generate a real-source handoff that preserves missing conditions and recruitment ID."
+    },
+    {
+      "id": "R7",
+      "mode": "history",
+      "person": "mahadeshwar",
+      "expected": "NIH institutional project report",
+      "task": "Distinguish the documented PDF-tool deliverable from a hiring outcome."
+    },
+    {
+      "id": "R8",
+      "mode": "offer",
+      "person": "badri",
+      "expected": true,
+      "task": "Recognize that the published offer is self-reported and not an OpportunityBridge result."
+    }
+  ]
+}

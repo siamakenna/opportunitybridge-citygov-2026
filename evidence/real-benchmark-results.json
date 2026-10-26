@@ -1,0 +1,84 @@
+{
+  "type": "internal source-backed software benchmark; not a human comparison",
+  "frozenEvaluationTime": "2026-10-26T20:00:00Z",
+  "independentUsers": 0,
+  "independentGoldReview": false,
+  "passed": 8,
+  "total": 8,
+  "cases": [
+    {
+      "id": "R1",
+      "task": "Identify whether the published 30-credit substitution supports this selected experience condition.",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "expected": "yes",
+      "observed": "yes",
+      "pass": true
+    },
+    {
+      "id": "R2",
+      "task": "Determine whether six accounting credits alone establish two years of financial experience.",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "expected": "no",
+      "observed": "no",
+      "pass": true
+    },
+    {
+      "id": "R3",
+      "task": "Separate preferred Office familiarity from required financial experience.",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "expected": "yes",
+      "observed": "yes",
+      "pass": true
+    },
+    {
+      "id": "R4",
+      "task": "Find the source-linked official NIH application destination; do not sign in.",
+      "source": "https://www.training.nih.gov/research-training/pb/sip/",
+      "expected": "https://www2.training.nih.gov/xfer/nihac",
+      "observed": "https://www2.training.nih.gov/xfer/nihac",
+      "pass": true
+    },
+    {
+      "id": "R5",
+      "task": "Classify the passed deadline despite stale open wording.",
+      "source": "https://codingitforward.com/apply",
+      "expected": "expired",
+      "observed": "expired",
+      "pass": true
+    },
+    {
+      "id": "R6",
+      "task": "Generate a real-source handoff that preserves missing conditions and recruitment ID.",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "expected": true,
+      "observed": true,
+      "pass": true
+    },
+    {
+      "id": "R7",
+      "task": "Distinguish the documented PDF-tool deliverable from a hiring outcome.",
+      "source": "https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows",
+      "expected": "NIH institutional project report",
+      "observed": "NIH institutional project report",
+      "pass": true
+    },
+    {
+      "id": "R8",
+      "task": "Recognize that the published offer is self-reported and not an OpportunityBridge result.",
+      "source": "https://pitcases.org/portfolio/coding-it-forward-civic-digital-fellowship-and-civic-innovation-corps/",
+      "expected": true,
+      "observed": true,
+      "pass": true
+    }
+  ],
+  "manualComparison": {
+    "correctness": null,
+    "evidenceCompleteness": null,
+    "unsupportedClaims": null,
+    "missedConditions": null,
+    "actions": null,
+    "elapsedTime": null,
+    "handoffQuality": null
+  },
+  "limitations": "Same AI-assisted authoring process. Official pages checked; selected mappings only. No measured usability, hiring outcome or advantage over manual browsing."
+}

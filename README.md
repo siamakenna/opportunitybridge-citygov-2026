@@ -1,30 +1,29 @@
-# OpportunityBridge — Civic Careers, With Evidence
+# OpportunityBridge — From Education to Real Civic Careers, With Evidence
 
-CityGov 2026 · standalone prototype v0.2 · October 26, 2026
+CityGov 2026 · Kenny! · v0.4 · October 26, 2026
 
-A free, browser-only bridge from learning to civic skills, exact illustrative requirements, portfolio prompts, unanswered questions and a career-advisor handoff.
+[Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Practice Mode](https://siamakenna.github.io/opportunitybridge-citygov-2026/practice.html)
 
-## Try it
+Official opportunities are the first interaction. Inspect a real record, compare fictional declarations to selected source-grounded criteria, draft evidence, prepare an application checklist and download an advisor handoff. Historical civic work shows what other programs produced, with institutional versus first-person provenance. No certification, rejection, hiring guarantee or endorsement.
 
-Public source: [opportunitybridge-citygov-2026](https://github.com/siamakenna/opportunitybridge-citygov-2026). Deployment and verification: [release receipt](docs/RELEASE.md).
+## Run and verify
 
-Locally: `npm start`, then open http://localhost:5173. Node 20+ is sufficient for tests; Python 3 serves the static site. No package installation or API key is needed.
+`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 49 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/.
 
-- `npm test`: 22 regression tests, including edited facts and current-skill export behavior.
-- `npm run benchmark`: internal 12-judgment software fixture dry run and equal-information manual worksheet; no participant comparison.
-- Browser export regression: serve the repository and open `/tests/browser.html` (15 assertions).
-- `npm run build`: copy public assets into `dist/` for free static hosting.
+Open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. These load actual HTTP modules. `python3 scripts/source-observations.py` optionally records public HTTPS retrieval hashes and excerpt checks; failures remain explicit and dates are not silently refreshed.
 
-Choose a fictional learner, edit declarations and inspect a fictional pathway. Build a sample evidence note; download the plan or advisor packet. Official Maryland postings and DC/Philadelphia search resources appear separately, with source dates and expiry warnings. Real requirements never enter the fictional engine.
+## What is real, historical and fictional
 
-## What changed from the supplied v0.1
+Nine official-source records: two Maryland vacancies, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Eight appear by default on the observation date; none of these counts means nine open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
 
-Retained all three personas, four role briefs, three-state engine, source excerpts, baseline tests and 14-day plan. Corrected translated skill suggestions that retained contradicted persona defaults. Added requirement-linked evidence worksheets, bounded local draft notes, advisor packet, simpler explanations, reset cleanup, mobile/readability improvements, reduced motion, no remote fonts, content policy and official-resource inventory. No account, backend, hosted learner data, automatic email or runtime model.
+Five historical accounts/reports retain published names, source type, deliverables and limited career outcomes. Portfolio exercises are OpportunityBridge recommendations, not fellow artifacts. Snipta Mallick’s later work is attributed to an outside contractor; Soma Badri’s account describes an offer, not an inferred accepted job. No one endorses this app.
 
-[Judge’s guide](judge.html) · [Submission copy](docs/SUBMISSION_DRAFT.md) · [Pilot and budget](docs/PILOT_PLAN.md) · [Source inventory](docs/SOURCE_INVENTORY.md) · [QA](docs/BROWSER_QA_README.md) · [Benchmark protocol](docs/BENCHMARK_PROTOCOL.md) · [Mock judging](docs/CITYGOV_RUBRIC_MATRIX.md) · [Owner actions](docs/OWNER_ACTIONS.md).
+The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
 
-## Limits and provenance
+## Privacy and limits
 
-All personas and assessed pathways are fictional. Official resources are point-in-time observations, not eligibility matches or endorsements. Independent unfamiliar users: n=0. No partner, registration, placement, hiring benefit or certified accessibility is claimed. Pilot target: 25 adults / 25 reviewed opportunities in 60 days, $6,240 illustrative economic cost; no funding committed.
+No runtime model, backend, account, uploaded résumé, private learner records, demographic scoring, automatic email or application. Notes/shortlist live in memory, reset on reload, and clear with the session button. Downloads remain on the device. Hosting receives ordinary request logs; outbound sites have separate policies and may require accounts. Google general job search, LinkedIn and Handshake are optional discovery, not validated results or platform partnerships.
 
-Declarations/notes stay in memory and disappear on reload; exports stay on your device. Hosting receives ordinary page-request logs; external links have separate policies. Use fictional information in the public demo. MIT code; [AI-use disclosure and third-party credits](docs/AI_DISCLOSURE.md). This implementation is separate from FundPilot and Perturb-LM and copied neither project's code or private data during continuation. Owner must review the AI-assisted work and submit personally.
+Independent unfamiliar users n=0. Internal tests are not manual-comparison results, certified accessibility or career impact. No partner has committed. [Pilot](docs/PILOT_PLAN.md) and [operations kit](docs/PILOT_OPERATIONS.md) propose 25 adults/25 double-reviewed sources over 60 days; $6,240 illustrative economic cost, $500 cash if staff labor donated. MIT code; [AI-use and third-party credits](docs/AI_DISCLOSURE.md).
+
+[Submission copy](docs/SUBMISSION_DRAFT.md) · [Benchmark](docs/BENCHMARK_PROTOCOL.md) · [QA](docs/BROWSER_QA_README.md) · [Mock judging](docs/CITYGOV_RUBRIC_MATRIX.md) · [Release receipt](docs/RELEASE.md) · [Owner actions](docs/OWNER_ACTIONS.md).

@@ -1,5 +1,4 @@
 import {sampleProfiles,sampleOpportunities,evaluateAll,matchedProofs,createPlan,currentProfile,bridges,createHandoff} from './core.js';
-import {publicResources, resourceStatus} from './resources.js';
 const $=id=>document.getElementById(id);
 let notes={}, plain=false;
 const activeProfile=()=>currentProfile(sampleProfiles[profileIndex],facts);
@@ -26,4 +25,3 @@ renderAll();
 $('handoff').addEventListener('click',()=>{const r=evaluateAll(facts).find(x=>x.id===selected);if(!r)return;const scoped={};for(const c of r.checks)scoped[c.key]=notes[r.id+':'+c.key]||'';downloadText(createHandoff(activeProfile(),r,scoped),'OpportunityBridge-'+r.id+'-advisor.md');});
 function downloadText(text,name){const url=URL.createObjectURL(new Blob([text],{type:'text/markdown;charset=utf-8'}));const a=make('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);}
 $('plain-language').addEventListener('click',()=>{plain=!plain;$('plain-language').setAttribute('aria-pressed',String(plain));renderPlan();});
-for(const item of publicResources){const card=make('article','resource-card');card.append(make('span','category',item.kind==='posting'?resourceStatus(item):'Official search resource'),make('h3','',item.title),make('p','',item.employer+' · '+item.region),make('p','',item.summary));if(item.requirement)card.append(make('blockquote','',item.requirement));card.append(make('p','resource-date','Observed '+item.observed+(item.deadlineLabel?' · Filing deadline '+item.deadlineLabel:'')));const a=make('a','','Open official source ↗');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';card.append(a);$('public-resources').append(card);}

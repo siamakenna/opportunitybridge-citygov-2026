@@ -1,19 +1,19 @@
-# Ten-category mock judging review · v0.2
+# Ten-category internal mock review · v0.4
 
-Internal AI-assisted self-review, not an official award or independent rating. Uses 0–10/category because the [official page](https://www.citygov.com/hackathon) lists that scale for A–J, while its introductory scoring prose is inconsistent. Observed October 26, 2026. Equity (E), then feasibility (D), are published tie-breakers.
+Subjective AI-assisted self-review, not an official rating or independent evaluation. Point estimates have judgment uncertainty, not statistical confidence. Official rubric: https://www.citygov.com/hackathon (A–J list 0–10; introductory scoring prose differs). E then D are tie-breakers.
 
-| Criterion | Mock /10 | Completed evidence | Material missing evidence |
+| Category | Mock /10 | Verified improvement | Remaining weakness |
 | --- | ---: | --- | --- |
-| A Barrier clarity | 8 | Specific requirement/skill/network barrier; explicit learner/advisor workflow | Interviews or research validating prevalence |
-| B Usefulness | 8 | Working explorer, current facts, two exports; browser flow | Unfamiliar learner/advisor usability |
-| C Creativity and originality | 9 | Experience → skill → criterion → artifact → question; original civic handoff | External differentiation review |
-| D Pilot feasibility | 9 | 60-day gates; 112 staff hours, $6,240 economic budget; consent and stewardship | Named willing hosts and confirmed rates |
-| E Career impact and equity | 7 | No fee/account; unknown discipline; paper/advisor alternative and equal-access study design | Actual outcomes, reach and accessibility users |
-| F Civic relevance | 8 | Two official Maryland sources plus DC/Philadelphia search routes, civic examples | Municipal reviewer; real content pilot |
-| G Sustainability | 8 | No paid runtime; bounded curation SOP, named proposed owners and monthly estimate | Actual host funding/maintenance commitment |
-| H Measurable outcomes | 8 | Four objective primary measures, thresholds, frozen tasks, 12/12 internal judgments | Independently reviewed gold and manual comparison |
-| I Accessibility | 7 | Labels, keyboard focus, no overflow in observed layouts, simpler explanations, reduced motion, privacy | Screen-reader, translation and independent audit |
-| J Presentation | 8 | Distinctive interface, judge guide, 594-word solution, 276-word equity, demo script | Owner-reviewed story and optional genuine video |
-| **Total** | **80/100** | **Inspectable software and proposal** | **90+ cannot yet be justified by independent evidence** |
+| A Barrier clarity | 8 | Specific source/skills/advising barrier; concrete workflow | No independent problem interviews |
+| B Usefulness | 9 | Real records, filters, shortlist, evidence and two exports; actual download verified | Unfamiliar user benefit not measured |
+| C Creativity | 9 | Actual requirement → draft evidence → historical analogy → advisor preparation | External originality review absent |
+| D Pilot feasibility | 9 | 60-day plan, 112 staff hours, consent and operational kit; $6,240 economic cost | No willing named hosts or rate validation |
+| E Impact and equity | 7 | Free/no account, unknown discipline, equal-information study and paper route | No observed career/equity outcomes |
+| F Civic relevance | 9 | Official government vacancies/intakes and sourced municipal/NIH work | Independent HR approval absent |
+| G Sustainability | 8 | Static runtime, source SOP, expiry gates and open source | Actual maintenance commitment absent |
+| H Outcomes | 8 | Eight real-source task checks, manual worksheet, blinded rubric and null comparison fields | No independent gold/human comparison |
+| I Accessibility | 8 | Labels, focus, responsive/reduced-motion/print and browser checks | No screen-reader study, translation or independent audit |
+| J Presentation | 9 | Real-first UI, source distinctions, updated guide/copy and authentic captioned captures | User understanding and narration not independently assessed |
+| **Total** | **84/100** | **Improved from internal v0.2 baseline 80** | **95–100 not justified without human evidence** |
 
-A polished build cannot substitute for people, partner consent or observed career benefit. The highest-value next work is unfamiliar advisor/learner testing and a willing host, particularly for tie-breakers E and D. Do not relabel targets as completed results.
+Treat category estimates as provisional; a different reviewer could score materially differently. Test results verify software behavior, not usefulness or employment outcomes. Next work should prioritize independent learners/advisors, source adjudication, accessibility and a willing host, especially E/D. Do not replace evidence gaps with optimistic ratings.
