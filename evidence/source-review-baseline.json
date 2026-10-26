@@ -1,0 +1,44 @@
+{
+  "md-admin": {
+    "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "reviewedAt": "2026-10-26T22:29:16.846Z"
+  },
+  "md-vendor": {
+    "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+    "reviewedAt": "2026-10-26T22:29:16.848Z"
+  },
+  "nih-sip": {
+    "semanticHash": null,
+    "manualEvidenceHash": "9a40f124c58f730c62ceff3575cf604c6deaa7e02ecf99bda261c42dac1efdec",
+    "retrievalMethod": "official web reader; automated retrieval still failed",
+    "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+    "reviewedAt": "2026-10-26T22:29:16.848Z"
+  },
+  "doe-suli": {
+    "semanticHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://science.osti.gov/wdts/suli",
+    "reviewedAt": "2026-10-26T22:29:16.848Z"
+  },
+  "mpt-motorweek": {
+    "semanticHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+    "reviewedAt": "2026-10-26T22:29:16.848Z"
+  },
+  "mpt-media": {
+    "semanticHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+    "reviewedAt": "2026-10-26T22:29:16.848Z"
+  }
+}

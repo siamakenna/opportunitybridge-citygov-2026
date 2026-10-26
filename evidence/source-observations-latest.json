@@ -1,0 +1,200 @@
+{
+  "observations": [
+    {
+      "id": "md-admin",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "recruitment": "26-001755-0041",
+      "fetchedAt": "2026-10-26T22:26:59.018813+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+      "rawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
+      "excerptChecks": [
+        {
+          "id": "education",
+          "found": true
+        },
+        {
+          "id": "experience",
+          "found": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "md-vendor",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "recruitment": "26-004518-0015",
+      "fetchedAt": "2026-10-26T22:26:59.019516+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+      "rawHash": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142",
+      "excerptChecks": [
+        {
+          "id": "education",
+          "found": true
+        },
+        {
+          "id": "experience",
+          "found": true
+        },
+        {
+          "id": "office",
+          "found": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "nih-sip",
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.021697+00:00",
+      "retrieved": false,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": null,
+      "rawHash": null,
+      "excerptChecks": [
+        {
+          "id": "inperson",
+          "found": false
+        }
+      ],
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "id": "nih-postbac",
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/pb/",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.025122+00:00",
+      "retrieved": false,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": null,
+      "rawHash": null,
+      "excerptChecks": [
+        {
+          "id": "credential-window",
+          "found": false
+        }
+      ],
+      "error": "curl: (56) The requested URL returned error: 403\n"
+    },
+    {
+      "id": "federal-student",
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/students/",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.160524+00:00",
+      "retrieved": false,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": null,
+      "rawHash": null,
+      "excerptChecks": [
+        {
+          "id": "enrolled",
+          "found": false
+        }
+      ],
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "id": "federal-grad",
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/recentgraduates/",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.172594+00:00",
+      "retrieved": false,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": null,
+      "rawHash": null,
+      "excerptChecks": [
+        {
+          "id": "graduation-window",
+          "found": false
+        }
+      ],
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "id": "federal-entry",
+      "sourceUrl": "https://earlycareer.usajobs.gov/search/results",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.272586+00:00",
+      "retrieved": false,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": null,
+      "rawHash": null,
+      "excerptChecks": [],
+      "error": "curl: (22) The requested URL returned error: 403\n"
+    },
+    {
+      "id": "cif-winter",
+      "sourceUrl": "https://codingitforward.com/apply",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.279329+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "d3c4e2459ccfb6af8561515e6a367823204f87bcbaa2d04b9e6f16db7d870241",
+      "rawHash": "b4e531d141bd074bee5c15371243a6b2619e26ae0c9fc52d5e66fe00392ce770",
+      "excerptChecks": [],
+      "error": null
+    },
+    {
+      "id": "doe-suli",
+      "sourceUrl": "https://science.osti.gov/wdts/suli",
+      "recruitment": null,
+      "fetchedAt": "2026-10-26T22:26:59.391269+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
+      "rawHash": "490904ed81f8d3dbe1fc1b021513d349f6bf8daa8d8cf7f35c2f4405cb8eae17",
+      "excerptChecks": [],
+      "error": null
+    },
+    {
+      "id": "mpt-motorweek",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+      "recruitment": "26-008996-0006",
+      "fetchedAt": "2026-10-26T22:26:59.424363+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
+      "rawHash": "72e4d9b5d12f4bf7b4b6ae2ce6acae1a0d6872a79f68155de9a60440d0271f4b",
+      "excerptChecks": [
+        {
+          "id": "student-route",
+          "found": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "mpt-media",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "recruitment": "26-008996-0007",
+      "fetchedAt": "2026-10-26T22:26:59.692802+00:00",
+      "retrieved": true,
+      "identityConfirmed": true,
+      "withdrawn": false,
+      "semanticHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+      "rawHash": "100a43ad86e50a953ef282b2437ff3e0ed04c581913f19a9f65e8f670a117f25",
+      "excerptChecks": [
+        {
+          "id": "student-route",
+          "found": true
+        }
+      ],
+      "error": null
+    }
+  ],
+  "policy": "Observations are candidates only; no dates, rules or claims renewed."
+}

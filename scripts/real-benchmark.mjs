@@ -1,4 +1,5 @@
-import {readFile,writeFile} from 'node:fs/promises';import {catalog} from '../src/catalog.js';import {outcomes} from '../src/outcomes.js';import {reviewRecord,lifecycle,careerExport} from '../src/real-core.js';
+import {readFile,writeFile} from 'node:fs/promises';import {outcomes} from '../src/outcomes.js';import {reviewRecord,lifecycle,careerExport} from '../src/real-core.js';
+const catalog=JSON.parse(await readFile('evidence/v04/catalog-snapshot.json','utf8'));
 const fixture=JSON.parse(await readFile('evidence/real-benchmark-cases.json','utf8')),now=new Date(fixture.evaluationTime),worksheet=['# Real-source manual / assisted worksheet','Frozen task text, same facts, same source excerpts and summaries for both conditions. Full official links are available equally. Independent source validation and human comparison not yet done.','Do not use the gold fixture file while completing tasks.'];
 const cases=fixture.cases.map(c=>{const r=catalog.find(x=>x.id===c.record),o=outcomes.find(x=>x.id===c.person);let observed;
 if(c.criterion){const x=reviewRecord(r,c.facts,now).find(x=>x.id===c.criterion);observed=x.value;if(c.required!==undefined&&x.required!==c.required)observed='wrong requirement type';}

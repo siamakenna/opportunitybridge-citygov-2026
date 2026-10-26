@@ -1,6 +1,6 @@
 {
   "name": "opportunitybridge-citygov",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "type": "module",
   "description": "Evidence-linked civic workforce pathway prototype for CityGov Hackathon 2026",
@@ -9,7 +9,9 @@
     "start": "python3 -m http.server 5173",
     "benchmark": "node scripts/benchmark.mjs && node scripts/real-benchmark.mjs",
     "build": "node scripts/build.mjs",
-    "sources": "node scripts/catalog-check.mjs"
+    "sources": "node scripts/catalog-check.mjs",
+    "sources:scan": "python3 scripts/source-scan.py",
+    "sources:report": "node scripts/source-maintenance.mjs"
   },
   "license": "MIT"
 }

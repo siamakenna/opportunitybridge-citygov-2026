@@ -19,3 +19,6 @@ Codex assisted v0.4 real-first information architecture, source-backed catalog, 
 The original v0.2 engine is preserved in Practice Mode and baseline-v0.2. No private FundPilot, Perturb-LM or biomedical-audit code/data was accessed or copied. The optional v0.3 Impact Lab zip was not found or integrated. No independent participants were recruited.
 
 Media: a 150-second English-captioned screenshot walkthrough assembled from genuine v0.4 browser captures using Python/Pillow and FFmpeg (temporary imageio-ffmpeg package). It is a sequence of captured views, not a continuous live screen recording. No synthetic testimonials, generated artwork, voices, music or simulated interactions. The browser download shown in the workflow was actually performed and its fictional sample file inspected. FFmpeg/Pillow are development tools, not runtime dependencies; consult their distribution licenses before redistributing those tools. The app distributes no encoder binary.
+
+
+v0.5: Codex also authored source-monitoring/approval scripts, new MPT summaries, matched-source evaluation code and protocol, the ReportLab pilot PDF, tests and updated entry copy. All are AI-assisted. The PDF is a proposal; local evaluation exports are unverified self-declarations. No unavailable Impact Lab code or tests were imported.

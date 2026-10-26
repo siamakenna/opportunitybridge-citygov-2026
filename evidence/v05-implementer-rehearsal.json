@@ -1,0 +1,48 @@
+{
+  "protocol": "v05-source-matched-instrument",
+  "sessionCode": "IMPLEMENTER-QA",
+  "participantLabel": "implementer_rehearsal",
+  "sequence": 0,
+  "consentedLocally": true,
+  "tasks": [
+    {
+      "task": "admin",
+      "condition": "manual",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "sourceReviewedAt": "2026-10-26T22:29:16.846Z",
+      "sourceMappingSnapshot": "{\"id\":\"md-admin\",\"sourceUrl\":\"https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=\",\"recruitment\":\"26-001755-0041\",\"requirements\":[{\"id\":\"education\",\"label\":\"High-school credential or equivalency\",\"exact\":\"high school equivalency certificate\",\"context\":\"Minimum Qualifications · education (short exact fragment)\",\"summary\":\"Accredited high-school graduation or equivalency; a generic certificate does not establish this.\",\"required\":true,\"rule\":\"md-education\"},{\"id\":\"experience\",\"label\":\"Administrative experience or a published substitution\",\"exact\":\"Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.\",\"context\":\"Minimum Qualifications · experience\",\"summary\":\"Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.\",\"required\":true,\"rule\":\"md-admin-experience\"},{\"id\":\"authorization\",\"label\":\"Work authorization and other conditions\",\"exact\":\"\",\"context\":\"Selection Process / Licenses\",\"summary\":\"Legal work authorization, possible driving duties and foreign-credential review need checking with HR.\",\"required\":true,\"rule\":\"human\"}],\"preferred\":[\"Office tools, customer service, regulatory explanations, financial-data tracking and careful information handling (summary).\"],\"substitutions\":[\"30 accredited college credits replace the required administrative experience.\",\"Qualifying military staff experience can substitute under the bulletin’s stated equivalence; ask HR.\"],\"restrictions\":\"Work authorization required; driving and credential evaluation may apply. Do not enter sensitive records here.\",\"qualificationSummary\":\"Six qualifying administrative months OR 30 accredited college credits; military substitution has published conditions. No eligibility certification.\"}",
+      "startedAt": "2026-10-26T22:38:45.194Z",
+      "answers": {
+        "source": "Implementer rehearsal: source recruitment 26-001755-0041; official JobAps application route.",
+        "requirements": "Fictional 30 accredited credits may substitute for six qualifying administrative months; full eligibility unknown."
+      },
+      "observerActions": null,
+      "elapsedSeconds": 0.3,
+      "rubric": null,
+      "finishedAt": "2026-10-26T22:38:45.518Z",
+      "completedFields": 2,
+      "expectedFields": 5
+    },
+    {
+      "task": "fiscal",
+      "condition": "assisted",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "sourceReviewedAt": "2026-10-26T22:29:16.848Z",
+      "sourceMappingSnapshot": "{\"id\":\"md-vendor\",\"sourceUrl\":\"https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=\",\"recruitment\":\"26-004518-0015\",\"requirements\":[{\"id\":\"education\",\"label\":\"High-school education or permitted equivalent\",\"exact\":\"high school equivalency certificate\",\"context\":\"Minimum Qualifications · education (fragment)\",\"summary\":\"High-school credential, or permitted numerical-work substitution; HR must verify equivalency.\",\"required\":true,\"rule\":\"vendor-education\"},{\"id\":\"experience\",\"label\":\"Financial-transaction experience\",\"exact\":\"Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.\",\"context\":\"Minimum Qualifications · experience\",\"summary\":\"24 qualifying months. Six accounting credits replace one year, not automatically both years.\",\"required\":true,\"rule\":\"md-finance-experience\"},{\"id\":\"conditions\",\"label\":\"Age, authorization and screening conditions\",\"exact\":\"\",\"context\":\"Selection Process\",\"summary\":\"18+, work authorization without current/future sponsorship and fingerprinting/screening; verify all with employer.\",\"required\":true,\"rule\":\"human\"},{\"id\":\"office\",\"label\":\"Office software familiarity\",\"exact\":\"Microsoft Office Products\",\"context\":\"Desired or Preferred Qualifications (fragment)\",\"summary\":\"Preferred software skill; not a substitute for the mandatory experience condition.\",\"required\":false,\"rule\":\"office\"}],\"preferred\":[\"Office software, attention to detail, communication and vendor-record/accounts-payable experience (summary).\"],\"substitutions\":[\"Six accredited accounting credits may replace one year of financial experience.\",\"Five specified vocational accounting courses or six months of qualifying training may replace one year.\",\"Qualifying military financial experience substitutes year-for-year; ask HR.\",\"Numerical-data work may substitute for required high-school education; verify equivalency.\"],\"restrictions\":\"18+, no current/future sponsorship and employer screening apply; source has additional conditions.\",\"qualificationSummary\":\"Two years of qualifying financial work. Six accounting credits replace one year only; vocational/military routes need review. Stacking is not assumed.\"}",
+      "startedAt": "2026-10-26T22:38:50.392Z",
+      "answers": {
+        "unknowns": "Implementer software rehearsal; other conditions remain unknown. Missing fields deliberately retained."
+      },
+      "observerActions": null,
+      "elapsedSeconds": 0.3,
+      "rubric": null,
+      "finishedAt": "2026-10-26T22:38:50.700Z",
+      "completedFields": 1,
+      "expectedFields": 5
+    }
+  ],
+  "reflection": {},
+  "independentParticipantsVerifiedByProject": 0,
+  "recordType": "Local self-declared evaluation record, not verified participant evidence",
+  "limitations": "No independent result or causal advantage is established by this file. Task elapsed time includes reading, external browsing and interruptions; outside interactions require observer counting."
+}

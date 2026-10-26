@@ -1,10 +1,12 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {catalog} from '../src/catalog.js';import {outcomes} from '../src/outcomes.js';
+import {catalog as liveCatalog} from '../src/catalog.js';
+// Engine unit fixtures freeze verification time independently of live curation dates.
+const catalog=liveCatalog.map(r=>({...r,verifiedAt:'2026-10-26T18:03:34Z'}));import {outcomes} from '../src/outcomes.js';
 import {lifecycle,filterCatalog,reviewRecord,reviewRequirement,careerExport,discoveryLinks,catalogIssues} from '../src/real-core.js';
 const now=new Date('2026-10-26T20:00:00Z'),admin=catalog.find(x=>x.id==='md-admin'),vendor=catalog.find(x=>x.id==='md-vendor');
 const criterion=(r,id,facts,date=now)=>reviewRecord(r,facts,date).find(c=>c.id===id);
-test('nine distinct official records have required provenance fields',()=>{assert.equal(catalog.length,9);assert.deepEqual(catalogIssues(catalog),[]);});
-test('default catalog removes closed intake and preserves it in history',()=>{assert.equal(filterCatalog(catalog,{},now).length,8);assert.deepEqual(filterCatalog(catalog,{view:'expired'},now).map(r=>r.id),['cif-winter']);});
+test('eleven distinct official records have required provenance fields',()=>{assert.equal(catalog.length,11);assert.deepEqual(catalogIssues(catalog),[]);});
+test('default catalog removes closed intake and preserves it in history',()=>{assert.equal(filterCatalog(catalog,{},now).length,10);assert.deepEqual(filterCatalog(catalog,{view:'expired'},now).map(r=>r.id),['cif-winter']);});
 test('explicit deadline overrides stale open wording',()=>assert.equal(lifecycle(catalog.find(r=>r.id==='cif-winter'),now).state,'expired'));
 test('expiry begins at exact deadline',()=>{assert.equal(lifecycle(admin,new Date(admin.deadline)).state,'expired');assert.equal(lifecycle(admin,new Date(Date.parse(admin.deadline)-1)).state,'stale');});
 test('48-hour-old source becomes previously observed',()=>assert.equal(lifecycle(admin,new Date('2026-10-29T20:00:00Z')).label,'Previously observed — recheck'));

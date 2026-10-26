@@ -1,33 +1,29 @@
-# Source inventory · real opportunities first · v0.4
+# v0.5 official-source inventory
 
-Canonical records: [src/catalog.js](../src/catalog.js). Nine records: two government vacancies, two dated research intakes, four ongoing pathways and one expired fellowship intake. The default view shows eight; portal/discovery links are separate. These counts are not nine open jobs. Records contain source/application URLs, timestamps, employer, type, stage, pay, dates, selected source text, required/preferred distinction, substitutions, materials, restrictions, reviewer and limits.
+Actual inspection October 26, 2026; dates below are UTC. Eleven records, ten visible by default at observation: four specific vacancies, two dated intakes, four ongoing pathways and one expired intake. This is not eleven open jobs.
 
-| ID / official source | Type and observed state | Deadline |
-| --- | --- | --- |
-| [md-admin](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=) | MDE Administrative Specialist I · vacancy | Nov 3, 2026, 5 PM; Maryland time assumed |
-| [md-vendor](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=) | Comptroller Vendor Table Technician · vacancy | Nov 5, 2026, 11:59 PM; Maryland time assumed |
-| [nih-sip](https://www.training.nih.gov/research-training/pb/sip/) | NIH 2027 summer research intake | Jan 26, 2027, noon ET; references have separate due date |
-| [nih-postbac](https://www.training.nih.gov/research-training/pb/pb/) | NIH year-round postbac application pathway | No individual placement verified |
-| [federal-student](https://www.usajobs.gov/hiringpath/students/) | Federal student internship pathway | Check each announcement |
-| [federal-grad](https://www.usajobs.gov/hiringpath/recentgraduates/) | Federal recent-graduate pathway | Check each announcement |
-| [federal-entry](https://earlycareer.usajobs.gov/search/results) | Federal entry-level search pathway | No individual vacancy verified |
-| [cif-winter](https://codingitforward.com/apply) | Coding it Forward Winter 2027 · expired intake | Oct 25, 2026, 11:59 PM PT; overrides stale open wording |
-| [doe-suli](https://science.osti.gov/wdts/suli) | DOE SULI Summer 2027 intake | Jan 6, 2027, 5 PM ET |
+| Record | Original identity | Kind / deadline | Last source-backed review | Official source |
+| --- | --- | --- | --- | --- |
+| Administrative Specialist I | 26-001755-0041 | posting; 2026-11-03T17:00:00-05:00 | 2026-10-26T22:29:16.846Z | [Announcement](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=) |
+| Vendor Table Technician / Fiscal Accounts Clerk II | 26-004518-0015 | posting; 2026-11-05T23:59:00-05:00 | 2026-10-26T22:29:16.848Z | [Announcement](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=) |
+| NIH Summer Internship Program · 2027 | nih-sip | intake; 2027-01-26T12:00:00-05:00 | 2026-10-26T22:29:16.848Z | [Announcement](https://www.training.nih.gov/research-training/pb/sip/) |
+| NIH Postbac Program | nih-postbac | program; No individual vacancy or deadline verified | 2026-10-26T18:03:34Z | [Announcement](https://www.training.nih.gov/research-training/pb/pb/) |
+| Federal Pathways internships | federal-student | program; No individual vacancy or deadline verified | 2026-10-26T18:03:34Z | [Announcement](https://www.usajobs.gov/hiringpath/students/) |
+| Federal Pathways Recent Graduates | federal-grad | program; No individual vacancy or deadline verified | 2026-10-26T18:03:34Z | [Announcement](https://www.usajobs.gov/hiringpath/recentgraduates/) |
+| Federal entry-level opportunities | federal-entry | program; No individual vacancy or deadline verified | 2026-10-26T18:03:34Z | [Announcement](https://earlycareer.usajobs.gov/search/results) |
+| Coding it Forward · 2027 Winter Fellowship | cif-winter | program; 2026-10-25T23:59:00-07:00 | 2026-10-26T18:03:34Z | [Announcement](https://codingitforward.com/apply) |
+| DOE Science Undergraduate Laboratory Internships · Summer 2027 | doe-suli | intake; 2027-01-06T17:00:00-05:00 | 2026-10-26T22:29:16.848Z | [Announcement](https://science.osti.gov/wdts/suli) |
+| MotorWeek Student Fellow | 26-008996-0006 | posting; Open/continuous in official bulletin; no announced closing date | 2026-10-26T22:29:16.848Z | [Announcement](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=) |
+| MD Center for Media Literacy & Education Student Fellow | 26-008996-0007 | posting; Open/continuous in official bulletin; no announced closing date | 2026-10-26T22:29:16.848Z | [Announcement](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=) |
 
-Official-source inspection: October 26, 2026; per-record UTC timestamps and review provenance in catalog.js. Sources reviewed by Codex; no employer or independent human approval. The web tool could read USAJOBS pages; direct curl retrieval was blocked for some of those URLs. The DOE-linked application redirect returned 403 to automated access, so the direct provider destination and limitation are recorded; use the DOE page if access fails. NIH and Maryland destinations may lead to sign-in/terms; nothing is accepted or submitted by this app. A date is not a guarantee against early withdrawal.
+New specific recruitments: Maryland Public Television MotorWeek Student Fellow (26-008996-0006) and Maryland Center for Media Literacy & Education Student Fellow (26-008996-0007), each $15.50/hour, open/continuous, student/recent-graduate conditions and at least 16 hours/week. Full employer requirements and document instructions control; no remote placement or continued availability is promised. No qualification automation was invented for these roles.
 
-`evidence/source-http-observations.json` records actual public HTTPS retrieval hashes and short-excerpt checks, including failures. It does not independently validate employer rules. No full interviews or private records are redistributed. Old v0.2 resources.js is retained for original regression fixtures; the main application uses catalog.js.
+Four records have an announced deadline beyond November 6 or no announced closing date: NIH Summer Internship Program, DOE SULI Summer 2027 and the two MPT recruitments. This deadline-only capacity is not a verification that they will remain open or fresh on November 6. Reinspect near November 4–5. MD administrative closes November 3, fiscal November 5. Coding it Forward's stated October 25 cutoff has passed and remains in history even if its page says applications open.
 
-## Lifecycle
+## Maintenance operation
 
-Passed deadlines leave the default view and remain in history. After 48 hours, a previously checked source is visibly stale and selected-condition positive interpretations are suppressed pending recheck. Missing verification provenance remains unverified. Ongoing pathways never claim an individual vacancy. Static dates cannot detect early withdrawals; the steward must check. Do not automatically refresh observation timestamps without inspecting the source. Revalidate within 48 hours before competition submission. See PILOT_OPERATIONS.md for the two-reviewer pilot gate.
+Run `npm run sources:scan` to retrieve actual announcements and produce an observation/changed/withdrawn/identity/expiry report. This command does not renew dates or edit mappings. Read the complete official announcement, compare all required/preferred conditions, substitutions, deadline and recruitment identity, and document actual findings. Only then provide an explicit review JSON to `node scripts/approve-source-review.mjs <review.json>`, with source hash, current mapping digest, actual inspection time, method, named reviewer and findings. Use hold for uncertainty; do not relabel a failed fetch as unchanged. Re-run `npm run sources:report`, tests and deploy. Record the exact public source.json revision. This is a manual operating procedure, not an installed unattended monitor.
 
-## Historical work gallery
+Selected executable mappings are tied to the exact reviewed qualification snapshot. Unapproved edits return unknown. The app retains 48-hour freshness and deadline gates; builds and timers never renew verification. Review ledgers and baselines are in evidence/reviews and evidence/source-review-baseline.json. A source-backed Codex review is not independent HR endorsement.
 
-Canonical [outcomes.js](../src/outcomes.js) includes five short attributed records. [PITcases](https://pitcases.org/portfolio/coding-it-forward-civic-digital-fellowship-and-civic-innovation-corps/) publishes Andrade, Kurbonshoeva and Badri’s first-person accounts; do not treat them as independent impact measurements. [NIH’s interview](https://datascience.nih.gov/director/directors-blog-conversation-with-coding-it-forward-civic-digital-fellow-snipta-mallick) describes Mallick’s fellowship and later contractor-supported work. [NIH’s 2022 project report](https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows) documents Mahadeshwar’s deliverable. Year is left unestablished when the source does not resolve it. Offers are not accepted jobs; contractor work is not labeled federal civil service. No photos, contacts or substantial quotations are reproduced.
-
-Skills categories and portfolio exercises are OpportunityBridge interpretations/recommendations, not the fellows’ artifacts. None of these people endorse OpportunityBridge, held the cataloged Maryland roles, or demonstrate our outcomes.
-
-## External discovery
-
-Google general job search (not Google-company careers), LinkedIn Jobs, optional institutional Handshake, USAJOBS, Maryland, DC and Philadelphia portals are outbound routes. No login-wall scraping, API partnership or validation of individual search results. Official employer links remain primary. DC listing content was not readable in automated review; Philadelphia is a search resource, not a verified intake.
+Latest raw automated retrievals: 6 succeeded, 5 failed. NIH SIP was separately inspected through the official web reader; its failed curl result remains visible. The ongoing pathways were not renewed. See [full queue](SOURCE_REVIEW_REPORT.md). Program indexes remain search routes, not verified vacancies. Official application links can require sign-in, terms or later employer screening.

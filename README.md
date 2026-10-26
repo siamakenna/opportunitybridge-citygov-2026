@@ -1,6 +1,6 @@
 # OpportunityBridge — From Education to Real Civic Careers, With Evidence
 
-CityGov 2026 · Kenny! · v0.4 · October 26, 2026
+CityGov 2026 · Kenny! · v0.5 · October 26, 2026
 
 [Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Practice Mode](https://siamakenna.github.io/opportunitybridge-citygov-2026/practice.html)
 
@@ -8,17 +8,17 @@ Official opportunities are the first interaction. Inspect a real record, compare
 
 ## Run and verify
 
-`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 50 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
+`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 67 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
 
-Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. These load actual HTTP modules. `python3 scripts/source-observations.py` optionally records public HTTPS retrieval hashes and excerpt checks; failures remain explicit and dates are not silently refreshed.
+Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. `/tests/evaluation-browser.html` adds nine guided-instrument assertions. These load actual HTTP modules. `npm run sources:scan` records actual public HTTPS retrieval/content hashes, identity and withdrawal checks; `npm run sources:report` emits the queue; failures remain explicit and dates are not silently refreshed.
 
 ## What is real, historical and fictional
 
-Nine official-source records: two Maryland vacancies, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Eight appear by default on the observation date; none of these counts means nine open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
+Eleven official-source records: four specific Maryland recruitments, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Ten appear by default on the observation date; none of these counts means eleven open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
 
 Five historical accounts/reports retain published names, source type, deliverables and limited career outcomes. Portfolio exercises are OpportunityBridge recommendations, not fellow artifacts. Snipta Mallick’s later work is attributed to an outside contractor; Soma Badri’s account describes an offer, not an inferred accepted job. No one endorses this app.
 
-The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
+The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.4` preserves the last real-career release and `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
 
 ## Privacy and limits
 
@@ -29,3 +29,5 @@ Independent unfamiliar users n=0. Internal tests are not manual-comparison resul
 [Execution report](docs/EXECUTION_REPORT.md) · [Submission copy](docs/SUBMISSION_DRAFT.md) · [Benchmark](docs/BENCHMARK_PROTOCOL.md) · [QA](docs/BROWSER_QA_README.md) · [Mock judging](docs/CITYGOV_RUBRIC_MATRIX.md) · [Release receipt](docs/RELEASE.md) · [Owner actions](docs/OWNER_ACTIONS.md).
 
 Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.
+
+[Guided matched-source evaluation](evaluation.html) · [Two-page manager PDF](output/pdf/OpportunityBridge-Pilot-Packet.pdf) · [Source review queue](docs/SOURCE_REVIEW_REPORT.md). Six records re-inspected October26; raw automated retrievals six passed/five failed, retained in the ledger. NIH SIP was separately inspected using the official web reader. Review dates and rule mappings require explicit documented approval; no unattended renewal. Independent n=0, mock85/100.

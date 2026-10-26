@@ -1,0 +1,77 @@
+{
+  "id": "v05-20261026-source-inspection",
+  "decisions": [
+    {
+      "id": "md-admin",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "sourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+      "mappingSha256": "f047a9b036f08aeac0a6e9846518da7c1c76a4019641886776d49dbf6174b736",
+      "inspectedAt": "2026-10-26T22:29:16.846Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Full official announcement inspected with web reader and public HTTPS consistency/identity check",
+      "decision": "verify",
+      "notes": "Six administrative months and 30-credit alternative reconfirmed; military equivalence remains a question."
+    },
+    {
+      "id": "md-vendor",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "sourceHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+      "mappingSha256": "838e71d94f93daec1a6ece887d56a8d5bc8a68856bc5927127c87e915e060af2",
+      "inspectedAt": "2026-10-26T22:29:16.848Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Full official announcement inspected with web reader and public HTTPS consistency/identity check",
+      "decision": "verify",
+      "notes": "Two-year financial condition and one-year credit substitution reconfirmed; no stacking inferred."
+    },
+    {
+      "id": "nih-sip",
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+      "sourceHash": "9a40f124c58f730c62ceff3575cf604c6deaa7e02ecf99bda261c42dac1efdec",
+      "mappingSha256": "e11eeaa98022a97d3e6aa26b99b30825ef059fef1c7a76af9e9565c6fe173439",
+      "inspectedAt": "2026-10-26T22:29:16.848Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Official web-reader inspection; failed automated retrieval retained",
+      "manualEvidence": {
+        "method": "official web reader",
+        "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+        "observedAt": "2026-10-26T22:29:16.848Z",
+        "findings": "Official NIH source reviewed: 2027 intake, January 26 noon ET application deadline, February 2 noon ET references, in-person commitment, published eligibility exceptions and materials. Automated curl retrieval failed and remains recorded separately."
+      },
+      "decision": "verify",
+      "notes": "Dated intake and conditions inspected; selected conditions only, no placement guarantee."
+    },
+    {
+      "id": "doe-suli",
+      "sourceUrl": "https://science.osti.gov/wdts/suli",
+      "sourceHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
+      "mappingSha256": "16d097e3f9e6c56b9e4ce0526608ede56d4fa626c60e0528abb8fc775cc77839",
+      "inspectedAt": "2026-10-26T22:29:16.848Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Full official announcement inspected with web reader and public HTTPS consistency/identity check",
+      "decision": "verify",
+      "notes": "Dated intake and conditions inspected; selected conditions only, no placement guarantee."
+    },
+    {
+      "id": "mpt-motorweek",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+      "sourceHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
+      "mappingSha256": "24d4fdfa982b4ba6de98d92854573f68d3908c5369ed76cd0292a12cf1141ac6",
+      "inspectedAt": "2026-10-26T22:29:16.848Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Full official announcement inspected with web reader and public HTTPS consistency/identity check",
+      "decision": "verify",
+      "notes": "Continuous student recruitment, 16-hour commitment and college documents inspected; no executable eligibility rule."
+    },
+    {
+      "id": "mpt-media",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "sourceHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+      "mappingSha256": "cb08c988ddf327d4b97cccb4bfd620c8143dc5c181cded534473222ac49b4187",
+      "inspectedAt": "2026-10-26T22:29:16.848Z",
+      "reviewer": "Codex source-backed review; no independent HR endorsement",
+      "inspectionMethod": "Full official announcement inspected with web reader and public HTTPS consistency/identity check",
+      "decision": "verify",
+      "notes": "Continuous student recruitment, 16-hour commitment and college documents inspected; no executable eligibility rule."
+    }
+  ]
+}

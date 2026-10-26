@@ -1,12 +1,6 @@
-# Owner decisions · Kenny! · v0.4
+# Genuine owner decisions
 
-Already registered per owner and observed signed-in workspace: Kenny!, one member, captain Makenna Rodriguez. Existing project is a draft; do not register another team or alter eligibility/team metadata. The new sprint supersedes old instructions to register. No final judging submission is authorized.
-
-1. Review the real-source product, selected rule mappings, historical attributions and AI-assisted submission. Confirm that you understand and approve the claims; independent human/HR review is still absent.
-2. Review source completeness, equivalence and accessibility with unfamiliar consenting adults/advisors when available. Independent n remains 0 until actual records exist. Obtain willing pilot hosts; none are claimed.
-3. Recheck all time-sensitive sources within 48 hours before submitting, including expired or withdrawn records and reference-letter deadlines. Do not relabel search pathways as open jobs.
-4. Check the existing saved draft, public media and entry materials. Final personal eligibility, employer/school permissions, terms and any prize ethics remain yours. No eligibility declarations were changed.
-5. Give explicit final authorization or personally press Submit for Judging by Nov 6, 2026, 11:59 PM EST; target Nov 4–5. Keep the real receipt. Saving a draft is not submitting it.
-6. Keep public links active through the official winners announcement and check current Spotlights for changes. Optional live narration and independent accessibility testing remain useful additions.
-
-Draft save state and final release SHA are recorded in RELEASE.md and the execution report; trust an observed success state, not a filled form alone.
+1. Review the significant AI-assisted work and personal competition eligibility/permissions; authorize final judging submission or submit the existing Kenny! draft personally. No new legal declarations were accepted and no final submission is authorized. Target November 4–5; stated deadline November 6, 2026 11:59 PM EST.
+2. Assign an actual source steward and independently re-review official sources/mappings within 48 hours before submission. Four deadline-compatible options exist as of October 26; availability on submission day is unproven. Use the source-maintenance queue.
+3. Seek a willing campus/municipal host and one to three consenting unfamiliar adult reviewers; complete source-gold and assistive-technology review. Independent n=0 and no partner is committed. The instrument and PDF are ready.
+4. If the original v0.3 Impact Lab is desired, provide the missing archive. It was not found or integrated; its reported 17 tests are not ours. A continuous recording may replace the retained v0.4 screenshot video after genuine capture and playback QA.

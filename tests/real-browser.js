@@ -9,7 +9,7 @@ d.querySelector('[data-view="expired"]').click();check(d.querySelector('[data-id
 d.querySelector('#career-reset').click();
 const query=d.querySelector('#career-query');query.value='zz-no-such-record';query.dispatchEvent(new w.Event('input',{bubbles:true}));check(!!d.querySelector('.empty-catalog'),'No-result state is explained');
 d.querySelector('#career-reset').click();let card=d.querySelector('[data-id="md-admin"]');card.querySelector('.save-career').click();d.querySelector('[data-view="shortlist"]').click();check(d.querySelectorAll('.career-card').length===1,'Shortlist shows only saved record');
-d.querySelector('#career-reset').click();card=d.querySelector('[data-id="md-admin"]');card.querySelector('button').click();check(d.activeElement.id==='career-plan-title','Inspect moves focus to selected opportunity');
+d.querySelector('#career-reset').click();card=d.querySelector('[data-id="md-admin"]');card.querySelector('.card-actions button').click();check(d.activeElement.id==='career-plan-title','Inspect moves focus to selected opportunity');
 check(d.querySelector('[data-criterion="experience"] h4').textContent==='Administrative experience or a published substitution','Requirement title distinct from state');
 check(d.querySelector('[data-criterion="experience"]').textContent.includes('Insufficient information'),'Unknown declarations remain unknown');
 d.querySelector('.real-facts button').click();check(d.querySelector('#real-fact-collegeCredits').value==='30','Sample coursework declarations load');

@@ -1,8 +1,10 @@
+import {mappingApproved} from './source-review.js';
 import {outcomes} from './outcomes.js';
 export const DECLARATIONS = Object.freeze({yes:'Declared evidence appears consistent',no:'Possible conflict — verify',unknown:'Insufficient information'});
 export function lifecycle(record, now=new Date()) {
  const time=now.getTime(), checked=Date.parse(record.verifiedAt);
  if(record.deadline && time>=Date.parse(record.deadline))return {state:'expired',label:'Deadline passed',stale:time-checked>48*3600000};
+ if(record.sourceReviewPending)return {state:'unverified',label:'Source changed or unavailable — review needed',stale:true};
  if(record.verification!=='official'||!Number.isFinite(checked))return {state:'unverified',label:'External discovery link — not verified',stale:true};
  const stale=time-checked>48*3600000 || checked>time;
  if(stale)return {state:'stale',label:'Previously observed — recheck',stale:true};
@@ -36,6 +38,8 @@ function experience(f,kind){
 export function reviewRequirement(record, criterion, facts={}, now=new Date()) {
  const life=lifecycle(record,now);let value='unknown',reason='This condition needs a human review of the complete official source.';
  if(life.state==='expired'||life.stale||life.state==='unverified')reason='Source is expired, stale or unverified. Recheck before interpreting declarations.';
+ else if(!mappingApproved(record))reason='Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown.';
+ else if(!record.requirements.some(c=>JSON.stringify(c)===JSON.stringify(criterion)))reason='This criterion is outside the reviewed mapping.';
  else if(!criterion.context||(!criterion.exact&&!criterion.summary))reason='Incomplete source context; no automated interpretation.';
  else if(criterion.rule==='md-admin-experience'||criterion.rule==='md-finance-experience') [value,reason]=experience(facts,criterion.rule==='md-admin-experience'?'admin':'finance');
  else if(criterion.rule==='md-education'||criterion.rule==='vendor-education') {value=tri(facts.hs);if(value==='no'&&criterion.rule==='vendor-education')value='unknown';reason=value==='yes'?'Declared credential only; inspect supporting evidence.':'Credential or published education-equivalence route needs verification.';}

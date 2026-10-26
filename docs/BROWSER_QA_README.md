@@ -1,3 +1,7 @@
+# v0.5 QA extension
+
+67/67 Node, 23/23 retained real-workflow, 15/15 retained Practice Mode and 9/9 new guided-evaluation browser assertions passed. Evaluation was opened in a fresh page; consent gating, both conditions, actual local JSON download, missing values, null rubric and reset verified. Exported timing comes from an implementer automation rehearsal, not human performance. PDF both pages rendered and visually inspected. Public deployment/mobile/video/download checks are recorded in EXECUTION_REPORT.md after release.
+
 # Browser and software QA · v0.4 real-career integration
 
 Actual local HTTP app, not an inline bundle. The original engine is preserved at practice.html.
