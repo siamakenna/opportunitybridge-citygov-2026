@@ -1,3 +1,5 @@
+> Historical starter brief. Current rules were rechecked during v0.2: registration timeline and schedule now both state November 6. See docs/OWNER_ACTIONS.md and docs/RELEASE.md for current status; instructions below describe the starting task, not completed outcomes.
+
 # CODEX — CITYGOV OPPORTUNITYBRIDGE CONSTRUCTION SPRINT
 
 You are continuing a genuinely new civic tech hackathon project started October 26, 2026, not modifying the existing FundPilot submission. Use the attached `opportunitybridge_citygov_v0_1.zip` as the working starting point. Read README, core app and tests, pilot plan, submission draft, judging matrix and development roadmap before changing anything.
