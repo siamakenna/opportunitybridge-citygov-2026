@@ -7,6 +7,7 @@ export function maintenanceState(record,observation,baseline,now=new Date()){
  if(observation.withdrawn)return 'withdrawn';
  if(record.recruitment&&!observation.identityConfirmed)return 'identity_missing';
  if(!baseline)return 'unreviewed';
+ if(baseline.rawHash&&observation.rawHash!==baseline.rawHash)return 'changed_review_required';
  return observation.semanticHash===baseline.semanticHash?'unchanged':'changed_review_required';
 }
 export function capacityAt(records,when){return records.filter(r=>['posting','intake'].includes(r.kind)&&(!r.deadline||Date.parse(r.deadline)>Date.parse(when))).map(r=>r.id);}
