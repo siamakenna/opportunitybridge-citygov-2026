@@ -2,7 +2,7 @@
 
 Actual local HTTP app, not an inline bundle. The original engine is preserved at practice.html.
 
-- 49 Node tests pass, including all original 22 plus real-source state, expiry, substitutions, preferred conditions, incomplete evidence, shared titles, safe exports and historical attribution.
+- 50 Node tests pass, including all original 22 plus real-source state, expiry, substitutions, preferred conditions, incomplete evidence, shared titles, safe exports and historical attribution.
 - Actual HTTP browser harness: 23/23 real-workflow assertions. Preserved Practice Mode harness: 15/15. Both capture generated Blobs for repeatable export regression; separate real-file downloads were also performed.
 - Downloaded actual md-admin advisor packet and portfolio files through browser controls. Read the advisor file from disk: actual recruitment, current fictional 30-credit declaration, typed draft, unknown conditions, historical-source analogies and action plan present.
 - Default catalog excludes the Coding it Forward intake whose deadline passed. History shows it; query with no results explains the empty state. Shortlist has stable IDs, clears explicitly, and is tab-only. Selection moves focus to workspace. Save action retains keyboard focus.

@@ -31,3 +31,5 @@ test('actual-record exports retain source, facts, unknown conditions and bounded
 test('historical gallery separates reports, accounts, offers and contractor employment',()=>{assert.equal(outcomes.length,5);assert.match(outcomes.find(x=>x.id==='badri').career,/offer/);assert.match(outcomes.find(x=>x.id==='mallick').career,/contracting company/);assert.match(outcomes.find(x=>x.id==='mahadeshwar').sourceType,/institutional/);assert.ok(outcomes.every(o=>o.suggestion.startsWith('OpportunityBridge recommendation:')));});
 
 test('requirement title remains distinct from interpretation status',()=>{const x=criterion(admin,'experience',{});assert.equal(x.label,'Administrative experience or a published substitution');assert.equal(x.statusLabel,'Insufficient information');});
+
+test('multiple accounting-credit substitutions stay unknown rather than inventing a cap or stacking rule',()=>assert.equal(criterion(vendor,'experience',{accountingCredits:12,financeMonths:0,vocational:'no',military:'no'}).value,'unknown'));

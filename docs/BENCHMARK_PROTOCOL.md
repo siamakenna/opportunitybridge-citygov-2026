@@ -16,6 +16,6 @@ Record condition/order, source-version hash, task start/end, actual intentional 
 
 ## Actual current results and limits
 
-49 Node tests; real-source software task checks 8/8; practice fixture judgments 12/12; real-workflow HTTP browser harness 23 assertions and Practice Mode 15 assertions. No real manual participant run, elapsed-time comparison, independent gold review, unfamiliar usability participant or measured career gain. **Independent n=0.** Manual correctness, evidence completeness, interactions, time and handoff quality remain null in the result file. A useful product need not beat manual navigation on every task. No OpportunityBridge testimonial or employment outcome is inferred from a historical fellow.
+50 Node tests; real-source software task checks 8/8; practice fixture judgments 12/12; real-workflow HTTP browser harness 23 assertions and Practice Mode 15 assertions. No real manual participant run, elapsed-time comparison, independent gold review, unfamiliar usability participant or measured career gain. **Independent n=0.** Manual correctness, evidence completeness, interactions, time and handoff quality remain null in the result file. A useful product need not beat manual navigation on every task. No OpportunityBridge testimonial or employment outcome is inferred from a historical fellow.
 
 The optional Advisor Impact Lab v0.3 zip was not found in the provided attachment/download locations and was not integrated. Do not claim its tests or participant records.

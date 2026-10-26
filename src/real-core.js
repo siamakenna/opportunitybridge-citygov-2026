@@ -29,6 +29,7 @@ function experience(f,kind){
  }
  if(months!==null&&months>=24)return ['yes','Declared 24-month route; verify the financial duties.'];
  if(months!==null&&months>=12&&credits!==null&&credits>=6)return ['yes','Six accounting credits plus at least 12 qualifying months appear consistent with the published one-year substitution.'];
+ if(credits!==null&&credits>=12&&months!==null&&months<12)return ['unknown','Whether multiple accounting-credit substitutions can be combined is not established; ask HR.'];
  if(months!==null&&credits!==null&&months<12&&tri(f.vocational)==='no'&&tri(f.military)==='no')return ['no','Declared experience is short of the modeled routes; six credits alone do not establish 24 months.'];
  return ['unknown','Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review.'];
 }

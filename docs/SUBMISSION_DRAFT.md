@@ -36,7 +36,7 @@ PILOT AND COST: Proposed 60 days, 25 consenting adults and 25 independently revi
 
 PROPOSED SUCCESS METRICS: At least 90% criterion/source correctness and zero false definite eligibility statements; at least 80% actionable plans on a five-item blinded rubric; at least 60% reported 14-day next-step follow-through, separating self-report from advisor confirmation; zero unresolved blocking accessibility barriers and median advisor review at most 15 measured minutes. These are targets, not results.
 
-EVIDENCE AND LIMITS: 49 Node tests, 23 real-workflow and 15 Practice Mode browser assertions; eight internal real-source task checks and twelve retained practice judgments. Independent n=0. No manual comparison, efficiency gain, partner endorsement or employment outcome is claimed. The optional v0.3 Impact Lab was unavailable and not integrated.
+EVIDENCE AND LIMITS: 50 Node tests, 23 real-workflow and 15 Practice Mode browser assertions; eight internal real-source task checks and twelve retained practice judgments. Independent n=0. No manual comparison, efficiency gain, partner endorsement or employment outcome is claimed. The optional v0.3 Impact Lab was unavailable and not integrated.
 
 AI AND CREDITS: ChatGPT produced the starter; Codex assisted code, design, official-source research, historical summaries, evaluation, documentation, browser QA, media assembly and publication. Owner review remains necessary. MIT code; browser-native runtime, system fonts, Node tests and free GitHub Pages. Media uses genuine app captures with English captions, not simulated interactions or testimonials. Official publishers retain their source materials. Full sources and AI disclosure are linked in the public judge guide.
 

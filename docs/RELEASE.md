@@ -12,9 +12,13 @@ Baseline rollback: Git tag baseline-v0.2 points to c3c798fa85971324dc97f8b84262e
 
 Current registered team observed in signed-in workspace: Kenny!, captain Makenna Rodriguez, one member. Existing project is draft-only; final Submit for Judging is not authorized. Name/description/demo/repository/media fields may be saved; team, eligibility and registration metadata are preserved. Any save claim requires a confirmed state, recorded after the operation.
 
-Source inventory: nine official records with eight default active/pathway records on observation; five attributed historical records. 49 Node tests, 23 real-workflow and 15 Practice Mode browser assertions; eight real-source software checks plus twelve practice judgments. Independent users n=0; no manual performance or career benefit claim. v0.3 Impact Lab was not supplied/found and is not integrated.
+Source inventory: nine official records with eight default active/pathway records on observation; five attributed historical records. 50 Node tests, 23 real-workflow and 15 Practice Mode browser assertions; eight real-source software checks plus twelve practice judgments. Independent users n=0; no manual performance or career benefit claim. v0.3 Impact Lab was not supplied/found and is not integrated.
 
 Significant AI assistance and screenshot-walkthrough assembly are disclosed. The final submission text is 607 words; equity text 230 words. Internal mock review 84/100, not official. Human review, source revalidation within 48 hours of submission, independent testing, willing hosts and final owner submission remain necessary.
+
+## Draft save verified
+
+The existing Kenny! draft was saved and reloaded. New title, description and links persisted; description matched after trailing-newline trimming. The workspace still says Draft — not sent to judges. No team/eligibility metadata or final submission action changed. Full 17-deliverable report: EXECUTION_REPORT.md.
 
 ## Historical v0.2 receipt
 
