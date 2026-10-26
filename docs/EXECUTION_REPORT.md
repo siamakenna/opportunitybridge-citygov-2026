@@ -35,3 +35,7 @@ Implementation release 130d20abe59d505c9bd843b42649a82a54bde00f passed GitHub Pa
 ## Remaining owner decisions
 
 Review and approve the AI-assisted work and source/eligibility claims. Revalidate time-sensitive sources within 48 hours before submission. Obtain independent learner/advisor/source and actual assistive-technology review when feasible; willing pilot institutions are still needed. Optional continuous narrated recording can replace the clearly labeled screenshot walkthrough. The v0.3 Impact Lab zip was not available and was not integrated. Confirm personal competition eligibility/permissions and give explicit final authorization or personally submit the existing draft before the deadline; retain the real platform receipt. No competition submission has been performed.
+
+## Final cache-consistency repair
+
+A fresh public check found an older unversioned JavaScript module reused from browser/CDN cache even though direct revision-qualified asset requests matched the latest source. The build now adds the release SHA to entry scripts, styles, icons and transitive relative module imports. Source files stay unchanged for Node tests; deployed artifacts are compared with the revisioned build output. This preserves a coherent release rather than mixing an old rule function with new metadata. The twelve-credit/zero-month ambiguity case is rechecked in the public UI after publication.

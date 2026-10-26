@@ -8,7 +8,7 @@ Official opportunities are the first interaction. Inspect a real record, compare
 
 ## Run and verify
 
-`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 50 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/.
+`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 50 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
 
 Open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. These load actual HTTP modules. `python3 scripts/source-observations.py` optionally records public HTTPS retrieval hashes and excerpt checks; failures remain explicit and dates are not silently refreshed.
 
