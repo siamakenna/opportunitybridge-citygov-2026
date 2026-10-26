@@ -12,6 +12,7 @@ Locally: `npm start`, then open http://localhost:5173. Node 20+ is sufficient fo
 
 - `npm test`: 22 regression tests, including edited facts and current-skill export behavior.
 - `npm run benchmark`: internal 12-judgment software fixture dry run and equal-information manual worksheet; no participant comparison.
+- Browser export regression: serve the repository and open `/tests/browser.html` (15 assertions).
 - `npm run build`: copy public assets into `dist/` for free static hosting.
 
 Choose a fictional learner, edit declarations and inspect a fictional pathway. Build a sample evidence note; download the plan or advisor packet. Official Maryland postings and DC/Philadelphia search resources appear separately, with source dates and expiry warnings. Real requirements never enter the fictional engine.

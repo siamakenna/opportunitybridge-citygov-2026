@@ -1,0 +1,4 @@
+October 26, 2026 · actual HTTP-served tests/browser.html
+15 assertions passed
+Current edited facts in plan and handoff; current draft in handoff; no default data-proof leakage; selection focus; persona/reset/filter behavior.
+No independent human evaluation.

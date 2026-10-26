@@ -16,6 +16,10 @@ Served the actual HTML and ES modules from Python at `http://127.0.0.1:5173`, no
 
 Screenshots: `evidence/desktop-home.jpg` and `evidence/home.jpg` are actual local browser captures. Original `docs/QA_desktop.png` and `docs/QA_mobile.png` are historical v0.1 inline-module smoke evidence only. They must not be described as current release screenshots.
 
+## Reusable browser regression
+
+Serve the repository and open `/tests/browser.html`. The test-only iframe harness loads the actual application modules and checks 15 assertions, including changed declarations in generated plan/handoff Blobs, draft preservation, persona/reset cleanup and focus. It passed in the local HTTP browser. The harness captures download Blobs to avoid repeated file downloads; separate real download checks above and in RELEASE.md verify actual file delivery. No third-party browser package is required.
+
 ## Benchmark
 
 12/12 deterministic judgments against explicit internal fixtures; not a human study. `npm run benchmark` writes the raw results and equal-information manual worksheet. Independent unfamiliar users n=0; manual time, correctness and interaction results remain unmeasured. See BENCHMARK_PROTOCOL.md.
