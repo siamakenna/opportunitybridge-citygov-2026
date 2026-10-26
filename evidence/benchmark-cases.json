@@ -1,0 +1,62 @@
+[
+  {
+    "id": "T1",
+    "profile": "maya",
+    "role": "civic-data",
+    "facts": {
+      "graduated": "no",
+      "data": "unknown",
+      "writing": "yes"
+    },
+    "expected": [
+      "conflict",
+      "unknown",
+      "supported"
+    ]
+  },
+  {
+    "id": "T2",
+    "profile": "jordan",
+    "role": "climate",
+    "facts": {
+      "enrolled": "yes",
+      "local": "unknown",
+      "data": "no"
+    },
+    "expected": [
+      "supported",
+      "unknown",
+      "conflict"
+    ]
+  },
+  {
+    "id": "T3",
+    "profile": "alex",
+    "role": "public-health",
+    "facts": {
+      "graduated": "yes",
+      "data": "no",
+      "outreach": "unknown"
+    },
+    "expected": [
+      "supported",
+      "conflict",
+      "unknown"
+    ]
+  },
+  {
+    "id": "T4",
+    "profile": "jordan",
+    "role": "engagement",
+    "facts": {
+      "writing": "unknown",
+      "outreach": "yes",
+      "local": "no"
+    },
+    "expected": [
+      "unknown",
+      "supported",
+      "conflict"
+    ]
+  }
+]

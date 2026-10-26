@@ -1,0 +1,28 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {sampleOpportunities,sampleProfiles,evaluateCriterion,evaluateOpportunity,evaluateAll,matchedProofs,createPlan} from '../src/core.js';
+test('four distinct fictional civic pathways',()=>assert.equal(sampleOpportunities.length,4));
+test('declared states remain three-valued',()=>{for (let s of ['yes','no','unknown'])assert.doesNotThrow(()=>evaluateCriterion({key:'local',required:true},{local:s}));});
+test('unknown is never inferred as no',()=>assert.equal(evaluateCriterion({key:'local',required:true},{local:'unknown'}).state,'unknown'));
+test('missing input stays unknown',()=>assert.equal(evaluateCriterion({key:'local',required:true},{}).state,'unknown'));
+test('conflict does not label person ineligible',()=>assert.match(evaluateOpportunity(sampleOpportunities[3],sampleProfiles[0].facts).state,/Potential requirement conflict/));
+test('unknown required blocks positive qualification statement',()=>assert.match(evaluateOpportunity(sampleOpportunities[1],sampleProfiles[0].facts).state,/unknown/i));
+test('all matching checks preserve exact evidence excerpts',()=>{for (const a of evaluateAll(sampleProfiles[1].facts))for(const c of a.checks)assert.ok(c.excerpt.length>15);});
+test('sample source status is always disclosed',()=>assert.ok(evaluateAll(sampleProfiles[0].facts).every(a=>a.checks.every(c=>c.source_type==='fictional_sample'))));
+test('rankings are stable and ordered',()=>{const a=evaluateAll(sampleProfiles[2].facts);assert.deepEqual(a.map(x=>x.rankingWeight),a.map(x=>x.rankingWeight).sort((x,y)=>x-y));});
+test('rankings do not mutate source opportunities',()=>{evaluateAll(sampleProfiles[0].facts);assert.equal(sampleOpportunities[0].criteria[0].excerpt,'Applicants have completed a qualifying postsecondary credential.');});
+test('proof translation is curated and does not hallucinate',()=>assert.equal(matchedProofs(['fake-skill']).length,0));
+test('export is explicit about no guaranteed eligibility',()=>assert.match(createPlan(sampleProfiles[0],evaluateAll(sampleProfiles[0].facts)[0]),/not an advertised job, confirmed eligibility/i));
+test('export labels imaginary source',()=>assert.match(createPlan(sampleProfiles[0],evaluateAll(sampleProfiles[0].facts)[0]),/Fictional example/));
+test('export includes actionable timeline',()=>assert.match(createPlan(sampleProfiles[0],evaluateAll(sampleProfiles[0].facts)[0]),/Days 11–14/));
+test('cannot create plan without selection',()=>assert.throws(()=>createPlan(null,null)));
+
+import {currentProfile,createHandoff} from '../src/core.js';
+import {publicResources,resourceStatus} from '../src/resources.js';
+test('edited learner facts reach plan export without default-state leakage',()=>{const facts={...sampleProfiles[0].facts,graduated:'no',data:'unknown'};const a=evaluateOpportunity(sampleOpportunities[0],facts);const plan=createPlan(currentProfile(sampleProfiles[0],facts),a);assert.match(plan,/Completed a degree or certificate\*\* — Potential conflict/);assert.match(plan,/Experience working with data\*\* — Unknown/);});
+test('contradicted data skill is removed from translated proof suggestions',()=>{for(const state of ['no','unknown'])assert.ok(!currentProfile(sampleProfiles[0],{...sampleProfiles[0].facts,data:state}).skills.includes('data'));});
+test('newly declared skill can be translated without changing persona source',()=>{assert.ok(currentProfile(sampleProfiles[2],{...sampleProfiles[2].facts,data:'yes'}).skills.includes('data'));assert.ok(!sampleProfiles[2].skills.includes('data'));});
+test('advisor packet includes current facts, exact criterion, draft note and uncertainty',()=>{const p=currentProfile(sampleProfiles[0],{...sampleProfiles[0].facts,data:'unknown'});const a=evaluateOpportunity(sampleOpportunities[0],p.facts);const packet=createHandoff(p,a,{data:'Class project draft'});for(const value of ['data: unknown','Class project draft',a.checks[1].excerpt,'unverified','Not entered','Days 11–14'])assert.ok(packet.includes(value));});
+test('draft evidence is bounded and never treated as verified proof',()=>{const p=sampleProfiles[0],a=evaluateOpportunity(sampleOpportunities[0],p.facts);const packet=createHandoff(p,a,{data:'<script>'+ 'x'.repeat(1000)});assert.ok(!packet.includes('<script>'));assert.ok(!packet.includes('x'.repeat(801)));assert.match(packet,/Learner draft \(unverified\)/);});
+test('live resources are separate from fictional assessments',()=>{assert.equal(publicResources.filter(x=>x.kind==='posting').length,2);assert.ok(publicResources.every(x=>!sampleOpportunities.some(y=>y.id===x.id)));});
+test('expired listings never retain an open label',()=>{for(const r of publicResources.filter(x=>x.kind==='posting')){assert.match(resourceStatus(r,new Date('2026-10-26T18:00:00Z')),/Observed open/);assert.match(resourceStatus(r,new Date(r.deadline)),/Deadline passed/);}});
