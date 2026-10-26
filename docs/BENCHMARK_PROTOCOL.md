@@ -6,6 +6,12 @@
 
 **Internal software dry run only.** The fixture author and implementation assistant are the same AI-assisted development process. Expected answers are inspectable but not independently certified. Independent unfamiliar users: n=0. No manual participant runs, human timing, user performance gains or career outcomes have been measured.
 
+## Official-source task set (frozen, not executed)
+
+`evidence/source-tasks.json` adds four real-source interpretation tasks: missing credential/experience evidence, a partial accounting-credit substitution, portal-versus-vacancy classification, and expired-deadline handling. Every task has the exact official URL, observation date, equal fictional starting facts, a proposed answer and a separate source-review instruction. The app intentionally offers no eligibility evaluation for these real postings. Assisted participants must use the official-resource links and the same manual source-check worksheet; extra browsing/steps count against the assisted workflow rather than being hidden.
+
+Before running either condition, a reviewer must verify and privately freeze the complete official bulletins (hash and retrieval date recorded for both arms), check gold answers, and confirm current reuse permissions. Do not publish entire bulletins or imply these unexecuted cases are successful app predictions. The selected summaries in `src/resources.js` are not substitutes for complete employer criteria. This official-source comparison has not been run; correctness, interactions and completion are unmeasured in both arms.
+
 ## Equal-starting-information study
 
 Give both conditions the same fictional learner facts, full exact brief, task question and worksheet. If future tasks use real vacancies, freeze full approved snapshots with retrieval dates, URLs and hashes for both arms; never give the assisted arm extra qualifications. Manual condition uses the source document, browser find and a blank evidence table; allow normal notes. Assisted condition uses the app with the same case and source. Neither may browse additional resources during scoring. Separately assess free-search discovery with equal starting URLs as a different task; do not conflate discovery and interpretation.

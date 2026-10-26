@@ -1,0 +1,42 @@
+[
+  {
+    "id": "R1",
+    "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "observed": "2026-10-26",
+    "learner": "Fictional learner has a certificate, writing skills, and unspecified administrative experience and college credit hours.",
+    "task": "Can these declarations establish the minimum education/experience requirements? Identify the missing evidence and the published college-credit alternative.",
+    "expected": "Unknown: verify high-school credential/equivalency and six months qualifying administrative experience or the stated 30-credit substitution. A generic postsecondary certificate does not establish all conditions. Full bulletin review required.",
+    "independentCheck": "Second reviewer checks Minimum Qualifications and Notes against the official bulletin.",
+    "executed": false
+  },
+  {
+    "id": "R2",
+    "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+    "observed": "2026-10-26",
+    "learner": "Fictional learner reports six college accounting credits but no financial-transaction work history; high-school credential is declared.",
+    "task": "Does the education substitution alone establish the two-year experience condition? Name the next question without deciding employment eligibility.",
+    "expected": "No supported conclusion of full qualification: six accounting credits substitute for one year, not the entire two-year experience condition. Ask about the remaining experience or other permitted substitutions; review all other conditions.",
+    "independentCheck": "Second reviewer checks experience and Note 2; does not infer age, work authorization or screening from credentials.",
+    "executed": false
+  },
+  {
+    "id": "R3",
+    "source": "https://www.phila.gov/jobs/",
+    "observed": "2026-10-26",
+    "learner": "Fictional learner sees the municipal jobs page.",
+    "task": "Classify this resource and say whether it verifies a particular open vacancy or training intake.",
+    "expected": "Official search resource; no particular vacancy, requirement set or program intake verified by this page observation. Follow the employer job board for an actual posting.",
+    "independentCheck": "Second reviewer confirms page type and absence of a cited individual vacancy in this inventory.",
+    "executed": false
+  },
+  {
+    "id": "R4",
+    "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "observed": "2026-10-26",
+    "learner": "Fictional learner is viewing a saved October 26 summary on November 4, 2026.",
+    "task": "Is the observed opening still supported as open? What must happen next?",
+    "expected": "The displayed November 3 deadline has passed. Do not label currently open; search and verify a fresh official posting. Availability could have changed before the deadline, too.",
+    "independentCheck": "Second reviewer checks Filing Deadline; timezone is not stated and must not be certified.",
+    "executed": false
+  }
+]
