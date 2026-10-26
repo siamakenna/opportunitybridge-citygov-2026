@@ -10,7 +10,7 @@ Official opportunities are the first interaction. Inspect a real record, compare
 
 `npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 50 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
 
-Open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. These load actual HTTP modules. `python3 scripts/source-observations.py` optionally records public HTTPS retrieval hashes and excerpt checks; failures remain explicit and dates are not silently refreshed.
+Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. These load actual HTTP modules. `python3 scripts/source-observations.py` optionally records public HTTPS retrieval hashes and excerpt checks; failures remain explicit and dates are not silently refreshed.
 
 ## What is real, historical and fictional
 
@@ -27,3 +27,5 @@ No runtime model, backend, account, uploaded résumé, private learner records, 
 Independent unfamiliar users n=0. Internal tests are not manual-comparison results, certified accessibility or career impact. No partner has committed. [Pilot](docs/PILOT_PLAN.md) and [operations kit](docs/PILOT_OPERATIONS.md) propose 25 adults/25 double-reviewed sources over 60 days; $6,240 illustrative economic cost, $500 cash if staff labor donated. MIT code; [AI-use and third-party credits](docs/AI_DISCLOSURE.md).
 
 [Execution report](docs/EXECUTION_REPORT.md) · [Submission copy](docs/SUBMISSION_DRAFT.md) · [Benchmark](docs/BENCHMARK_PROTOCOL.md) · [QA](docs/BROWSER_QA_README.md) · [Mock judging](docs/CITYGOV_RUBRIC_MATRIX.md) · [Release receipt](docs/RELEASE.md) · [Owner actions](docs/OWNER_ACTIONS.md).
+
+Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.

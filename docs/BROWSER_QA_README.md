@@ -47,3 +47,5 @@ Serve the repository and open `/tests/browser.html`. The test-only iframe harnes
 ## Limits
 
 No independent WCAG audit, screen-reader session, physical-device test, participant study, partner review or measured career benefit. Public anonymous verification is recorded in RELEASE.md after successful publication. Do not infer those from a local test.
+
+Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.
