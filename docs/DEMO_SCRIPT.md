@@ -23,3 +23,5 @@ Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkth
 “What has been measured?” Software behavior and actual browser downloads. Independent learner benefit, manual comparison and hiring effects are unmeasured.
 “Who runs it?” Proposed campus/municipal owners with backups and budgeted time; no host agreement yet.
 “What would you do next?” Independent HR/source adjudication, unfamiliar consenting usability sessions and actual assistive-technology testing.
+
+The retained video player now supplies synchronized large captions beneath the video for small screens, with transcript/fullscreen alternatives. This does not turn the screenshot sequence into continuous capture.

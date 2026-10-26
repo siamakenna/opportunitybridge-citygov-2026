@@ -21,3 +21,13 @@ Repository: https://github.com/siamakenna/opportunitybridge-citygov-2026
 Current exact deployed SHA: source.json, verified against GitHub Pages after publication; see final receipt below.
 
 Remaining genuine owner work: review AI-assisted entry/eligibility and authorize final submission; appoint source steward/reinspect within48hours near November4–5; obtain independent adults, HR/access review and willing hosts; supply missing archive if desired. No final judging submission is authorized.
+
+## Verified draft save and public QA
+
+Saved the existing Kenny! draft only, then reloaded. Project title, demo, code and walkthrough links persisted. Description exactly matches PORTAL_COPY.txt after the server trimmed its final newline: 9,912 saved characters. The attached OpportunityBridge-Pilot-Packet.pdf link persisted. Workspace still displayed **Draft — not sent to judges**. No new entry, terms acceptance, eligibility edit, team message or Submit for Judging action.
+
+Initial v0.5 implementation edfeda444bfa497329f62076934eda4ddd6c3219 passed build/deploy run40414459586. Anonymous public app showed v0.5 and ten default cards; the 30-credit shortcut focused the numeric input. Edited zero months/30credits and fictional evidence were retained in the genuinely downloaded advisor packet along with recruitment26-001755-0041 and remaining unknowns. New MPT media source opened without sign-in and displayed the exact recruitment identity, Open/Continuous, $15.50/hour and official Apply route; no application/terms were accepted. Later safeguards and final source revision are verified through source.json after the receipt commit.
+
+Retained video browser metadata:150seconds,1280x800,readyState4, one caption track, no media error. Playback actually advanced. At390CSSpx the public player was339px wide with375px document client/scroll width (no horizontal overflow). Added synchronized large caption text beneath the player and hid default overlapping native captions; original burned-in captions, VTT, transcript and video are preserved. Local mobile caption view and live cue text visually inspected. Public final app, evaluation, PDF and versioned asset consistency were checked after publication; final exact SHA is reported in the final execution response and public source.json.
+
+The source-monitor also compares original raw announcement hashes, so a changed header/deadline cannot pass as unchanged merely because the qualification section is identical. Its test passed within the67-test suite. Conservative raw-page differences may create extra review work; they never authorize automatic renewal.

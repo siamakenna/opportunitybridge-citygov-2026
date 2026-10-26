@@ -16,3 +16,5 @@ Source observations: 6 raw automated retrievals succeeded, 5 failed; NIH SIP rev
 The new two-page pilot PDF was generated and both rendered pages visually inspected. The original 150-second captioned screenshot video remains labeled v0.4. Continuous capture is not available in the supported browser API. No false replacement or narration claim. v0.3 Impact Lab archive unavailable; no integration/17-test claim. Mock85/100, not official.
 
 Draft status is recorded only after the saved CityGov workspace is reloaded and checked; no Submit for Judging action is authorized. See EXECUTION_REPORT.md and OWNER_ACTIONS.md.
+
+Existing Kenny! draft save/reload verified: exact9,912-character description, title/three links and pilot PDF persisted; still draft-only. Mobile video caption readability improved through synchronized large text beneath the preserved video.
