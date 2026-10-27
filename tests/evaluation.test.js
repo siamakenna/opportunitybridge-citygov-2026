@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {assignedTasks,evaluationTasks,measuredSeconds,evaluationExport} from '../src/evaluation-core.js';
 test('four counterbalanced sequences contain both conditions and both sources',()=>{for(let n=0;n<4;n++){const a=assignedTasks(n);assert.deepEqual(new Set(a.map(t=>t.condition)),new Set(['manual','assisted']));assert.deepEqual(new Set(a.map(t=>t.recordId)),new Set(['md-admin','md-vendor']));}});
-test('each case has identical facts and question across conditions',()=>{for(const key of Object.keys(evaluationTasks)){const tasks=[0,1,2,3].flatMap(assignedTasks).filter(t=>t.task===key);assert.equal(new Set(tasks.map(t=>t.facts)).size,1);assert.equal(new Set(tasks.map(t=>t.question)).size,1);}});
+test('each case has identical facts and question across conditions',()=>{for(const key of Object.keys(evaluationTasks)){const tasks=[0,1,2,3].flatMap(n=>assignedTasks(n)).filter(t=>t.task===key);assert.equal(new Set(tasks.map(t=>t.facts)).size,1);assert.equal(new Set(tasks.map(t=>t.question)).size,1);}});
 test('invalid sequence cannot silently select a task',()=>{for(const n of [-1,4,0.5,'invalid'])assert.throws(()=>assignedTasks(n));});
 test('elapsed timer uses actual positive interval',()=>{assert.equal(measuredSeconds(1000,2234),1.2);assert.equal(measuredSeconds(500,500),0);});
 test('invalid timing remains unknown',()=>{for(const [s,e] of [[5,2],[NaN,3],[0,Infinity],[null,4]])assert.equal(measuredSeconds(s,e),null);});

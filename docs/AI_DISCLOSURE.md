@@ -22,3 +22,6 @@ Media: a 150-second English-captioned screenshot walkthrough assembled from genu
 
 
 v0.5: Codex also authored source-monitoring/approval scripts, new MPT summaries, matched-source evaluation code and protocol, the ReportLab pilot PDF, tests and updated entry copy. All are AI-assisted. The PDF is a proposal; local evaluation exports are unverified self-declarations. No unavailable Impact Lab code or tests were imported.
+
+
+v0.6: Codex significantly assisted staged workspace/tour, editable evidence connections, document preparation and printing, the alternative MPT evaluation pair and optional adjudication fields, partner operating templates, source priority/candidate/daily GitHub observation workflow, tests, research and compliant submission copy. Deterministic assistance is explicitly not live AI inference. No recruitment messages or independent participants were invented.

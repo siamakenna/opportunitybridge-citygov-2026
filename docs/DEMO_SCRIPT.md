@@ -1,10 +1,10 @@
-# v0.5 demonstration and finalist pitch
+# v0.6 demonstration and finalist pitch
 
 Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkthrough.html / media/walkthrough.mp4. Six genuine captured views: problem/home (20s), actual catalog (25s), selected requirement (30s), NIH historical deliverable (30s), generated handoff (25s), proposed pilot (20s). It is explicitly a still-capture sequence, not a continuous live recording. Actual source-file download was executed and inspected. Captions are burned in and supplied as VTT/SRT plus transcript. No narration or synthetic testimonials.
 
 ## Optional continuous narrated recording
 
-0:00–0:20 explain the requirement/network translation barrier. 0:20–0:55 open an actual Maryland record, source and deadline. 0:55–1:30 load the fictional coursework example; show the 30-credit route and unknown conditions. 1:30–2:00 inspect NIH’s documented deliverable and distinguish our proposed portfolio exercise. 2:00–2:30 download and open the genuine advisor packet. 2:30–2:55 summarize the proposed pilot and independent n=0. Record actual UI and use English captions; do not claim this optional recording already exists.
+0:00–0:20 explain the requirement/network translation barrier. 0:20–0:55 open an featured MPT Media Literacy record,16-hour commitment, four documents and source. 0:55–1:30 edit fictional MPT availability and a proposed HTML-accessibility worksheet; retain human-review unknowns. 1:30–2:00 inspect NIH’s documented deliverable and distinguish our proposed portfolio exercise. 2:00–2:30 download and open the genuine advisor packet. 2:30–2:55 summarize the proposed pilot and independent n=0. Record actual UI and use English captions; do not claim this optional recording already exists.
 
 ## Finalist pitch: 5–7 minutes
 
@@ -25,3 +25,6 @@ Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkth
 “What would you do next?” Independent HR/source adjudication, unfamiliar consenting usability sessions and actual assistive-technology testing.
 
 The retained video player now supplies synchronized large captions beneath the video for small screens, with transcript/fullscreen alternatives. This does not turn the screenshot sequence into continuous capture.
+
+
+v0.6 finalist cues:0:45–2:15 use the featured MPT source, four-step tour, source/duties distinction and edited worksheet;3:15–4:15 download/read the actual handoff and reset;4:15–5:30 demonstrate College advisor→HR→Learner→Evaluator in pilot.html and the blank tracking CSV. Explain source-check artifacts need a steward’s explicit approval. In Q&A:80Node/72browser checks are software evidence; independent n=0. No eligibility certification, independent accessibility approval or employment effect. Solution572words/equity178words. Rehearse5–7minutes with an actual clock; this written timing is a plan, not a recorded performance.

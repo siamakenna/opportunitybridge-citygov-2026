@@ -1,3 +1,7 @@
+# v0.6 acceptance extension
+
+80/80 Node;47/47 retained browser assertions;25/25 new workflow/tour/card/worksheet/print/evaluation/partner assertions. Original8/8real-source and12/12practice fixtures retained. Initial two test-adaptation failures were corrected and rerun. Actual MPT download inspected with18-hour edit and proposed artifact; source and unknowns preserved. Accessibility observations:ACCESSIBILITY_v06.md. Full user journey/public release receipt:EXECUTION_REPORT.md. These are implementer software checks, not independent human evidence.
+
 # v0.5 QA extension
 
 67/67 Node, 23/23 retained real-workflow, 15/15 retained Practice Mode and 9/9 new guided-evaluation browser assertions passed. Evaluation was opened in a fresh page; consent gating, both conditions, actual local JSON download, missing values, null rubric and reset verified. Exported timing comes from an implementer automation rehearsal, not human performance. PDF both pages rendered and visually inspected. Public deployment/mobile/video/download checks are recorded in EXECUTION_REPORT.md after release.

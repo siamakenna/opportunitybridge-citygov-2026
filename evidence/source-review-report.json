@@ -1,15 +1,176 @@
 {
-  "generatedAt": "2026-10-26T22:43:19.182Z",
+  "generatedAt": "2026-10-27T00:34:40.576Z",
   "rows": [
+    {
+      "id": "cif-winter",
+      "recruitment": null,
+      "sourceUrl": "https://codingitforward.com/apply",
+      "verifiedAt": "2026-10-26T18:03:34Z",
+      "state": "expired",
+      "stale": false,
+      "priority": 1,
+      "deadline": "2026-10-25T23:59:00-07:00",
+      "sourceRawHash": "b4e531d141bd074bee5c15371243a6b2619e26ae0c9fc52d5e66fe00392ce770",
+      "approvedReviewMethod": "No renewed approval",
+      "fetchedAt": "2026-10-27T00:18:05.097661+00:00",
+      "semanticHash": "d3c4e2459ccfb6af8561515e6a367823204f87bcbaa2d04b9e6f16db7d870241",
+      "excerptChecks": [],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "federal-entry",
+      "recruitment": null,
+      "sourceUrl": "https://earlycareer.usajobs.gov/search/results",
+      "verifiedAt": "2026-10-26T18:03:34Z",
+      "state": "unavailable",
+      "stale": false,
+      "priority": 2,
+      "deadline": null,
+      "sourceRawHash": null,
+      "approvedReviewMethod": "No renewed approval",
+      "fetchedAt": "2026-10-27T00:18:04.936256+00:00",
+      "semanticHash": null,
+      "excerptChecks": [],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "federal-grad",
+      "recruitment": null,
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/recentgraduates/",
+      "verifiedAt": "2026-10-26T18:03:34Z",
+      "state": "unavailable",
+      "stale": false,
+      "priority": 2,
+      "deadline": null,
+      "sourceRawHash": null,
+      "approvedReviewMethod": "No renewed approval",
+      "fetchedAt": "2026-10-27T00:18:04.847569+00:00",
+      "semanticHash": null,
+      "excerptChecks": [
+        {
+          "id": "graduation-window",
+          "found": false
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "federal-student",
+      "recruitment": null,
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/students/",
+      "verifiedAt": "2026-10-26T18:03:34Z",
+      "state": "unavailable",
+      "stale": false,
+      "priority": 2,
+      "deadline": null,
+      "sourceRawHash": null,
+      "approvedReviewMethod": "No renewed approval",
+      "fetchedAt": "2026-10-27T00:18:04.777975+00:00",
+      "semanticHash": null,
+      "excerptChecks": [
+        {
+          "id": "enrolled",
+          "found": false
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "nih-postbac",
+      "recruitment": null,
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/pb/",
+      "verifiedAt": "2026-10-26T18:03:34Z",
+      "state": "unavailable",
+      "stale": false,
+      "priority": 2,
+      "deadline": null,
+      "sourceRawHash": null,
+      "approvedReviewMethod": "No renewed approval",
+      "fetchedAt": "2026-10-27T00:18:04.672923+00:00",
+      "semanticHash": null,
+      "excerptChecks": [
+        {
+          "id": "credential-window",
+          "found": false
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "nih-sip",
+      "recruitment": null,
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
+      "state": "unavailable",
+      "stale": false,
+      "priority": 2,
+      "deadline": "2027-01-26T12:00:00-05:00",
+      "sourceRawHash": null,
+      "approvedReviewMethod": "official web reader; automated retrieval still failed",
+      "fetchedAt": "2026-10-27T00:18:04.669306+00:00",
+      "semanticHash": null,
+      "excerptChecks": [
+        {
+          "id": "inperson",
+          "found": false
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "doe-suli",
+      "recruitment": null,
+      "sourceUrl": "https://science.osti.gov/wdts/suli",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
+      "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": "2027-01-06T17:00:00-05:00",
+      "sourceRawHash": "490904ed81f8d3dbe1fc1b021513d349f6bf8daa8d8cf7f35c2f4405cb8eae17",
+      "approvedReviewMethod": "public HTTPS consistency check",
+      "fetchedAt": "2026-10-27T00:18:05.100000+00:00",
+      "semanticHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
+      "excerptChecks": [],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
     {
       "id": "md-admin",
       "recruitment": "26-001755-0041",
       "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
-      "verifiedAt": "2026-10-26T22:29:16.846Z",
+      "verifiedAt": "2026-10-27T00:22:27.535Z",
       "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": "2026-11-03T17:00:00-05:00",
+      "sourceRawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
       "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-26T22:26:59.018813+00:00",
+      "fetchedAt": "2026-10-27T00:18:04.665520+00:00",
       "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+      "excerptChecks": [
+        {
+          "id": "education",
+          "found": true
+        },
+        {
+          "id": "experience",
+          "found": true
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "md-admin3",
+      "recruitment": "26-002043-0037",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
+      "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": "2026-11-09T17:00:00-05:00",
+      "sourceRawHash": "5b322385ca0149787f7538e8af2db94f378e05a13fa53c9e1f2b4c08a9459a4d",
+      "approvedReviewMethod": "public HTTPS consistency check",
+      "fetchedAt": "2026-10-27T00:18:05.670949+00:00",
+      "semanticHash": "2feeafdbac63b93a1ab818315f8f25b3c439338f93f9ff3280cec614ad9c0fe4",
       "excerptChecks": [
         {
           "id": "education",
@@ -26,10 +187,14 @@
       "id": "md-vendor",
       "recruitment": "26-004518-0015",
       "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
-      "verifiedAt": "2026-10-26T22:29:16.848Z",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
       "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": "2026-11-05T23:59:00-05:00",
+      "sourceRawHash": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142",
       "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-26T22:26:59.019516+00:00",
+      "fetchedAt": "2026-10-27T00:18:04.668589+00:00",
       "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
       "excerptChecks": [
         {
@@ -48,118 +213,18 @@
       "action": "Independent source inspection required before any renewal or mapping change."
     },
     {
-      "id": "nih-sip",
-      "recruitment": null,
-      "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
-      "verifiedAt": "2026-10-26T22:29:16.848Z",
-      "state": "unavailable",
-      "approvedReviewMethod": "official web reader; automated retrieval still failed",
-      "fetchedAt": "2026-10-26T22:26:59.021697+00:00",
-      "semanticHash": null,
-      "excerptChecks": [
-        {
-          "id": "inperson",
-          "found": false
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "nih-postbac",
-      "recruitment": null,
-      "sourceUrl": "https://www.training.nih.gov/research-training/pb/pb/",
-      "verifiedAt": "2026-10-26T18:03:34Z",
-      "state": "unavailable",
-      "approvedReviewMethod": "No renewed approval",
-      "fetchedAt": "2026-10-26T22:26:59.025122+00:00",
-      "semanticHash": null,
-      "excerptChecks": [
-        {
-          "id": "credential-window",
-          "found": false
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "federal-student",
-      "recruitment": null,
-      "sourceUrl": "https://www.usajobs.gov/hiringpath/students/",
-      "verifiedAt": "2026-10-26T18:03:34Z",
-      "state": "unavailable",
-      "approvedReviewMethod": "No renewed approval",
-      "fetchedAt": "2026-10-26T22:26:59.160524+00:00",
-      "semanticHash": null,
-      "excerptChecks": [
-        {
-          "id": "enrolled",
-          "found": false
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "federal-grad",
-      "recruitment": null,
-      "sourceUrl": "https://www.usajobs.gov/hiringpath/recentgraduates/",
-      "verifiedAt": "2026-10-26T18:03:34Z",
-      "state": "unavailable",
-      "approvedReviewMethod": "No renewed approval",
-      "fetchedAt": "2026-10-26T22:26:59.172594+00:00",
-      "semanticHash": null,
-      "excerptChecks": [
-        {
-          "id": "graduation-window",
-          "found": false
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "federal-entry",
-      "recruitment": null,
-      "sourceUrl": "https://earlycareer.usajobs.gov/search/results",
-      "verifiedAt": "2026-10-26T18:03:34Z",
-      "state": "unavailable",
-      "approvedReviewMethod": "No renewed approval",
-      "fetchedAt": "2026-10-26T22:26:59.272586+00:00",
-      "semanticHash": null,
-      "excerptChecks": [],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "cif-winter",
-      "recruitment": null,
-      "sourceUrl": "https://codingitforward.com/apply",
-      "verifiedAt": "2026-10-26T18:03:34Z",
-      "state": "expired",
-      "approvedReviewMethod": "No renewed approval",
-      "fetchedAt": "2026-10-26T22:26:59.279329+00:00",
-      "semanticHash": "d3c4e2459ccfb6af8561515e6a367823204f87bcbaa2d04b9e6f16db7d870241",
-      "excerptChecks": [],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "doe-suli",
-      "recruitment": null,
-      "sourceUrl": "https://science.osti.gov/wdts/suli",
-      "verifiedAt": "2026-10-26T22:29:16.848Z",
+      "id": "mpt-media",
+      "recruitment": "26-008996-0007",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
       "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": null,
+      "sourceRawHash": "100a43ad86e50a953ef282b2437ff3e0ed04c581913f19a9f65e8f670a117f25",
       "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-26T22:26:59.391269+00:00",
-      "semanticHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
-      "excerptChecks": [],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "mpt-motorweek",
-      "recruitment": "26-008996-0006",
-      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
-      "verifiedAt": "2026-10-26T22:29:16.848Z",
-      "state": "unchanged",
-      "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-26T22:26:59.424363+00:00",
-      "semanticHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
+      "fetchedAt": "2026-10-27T00:18:05.642929+00:00",
+      "semanticHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
       "excerptChecks": [
         {
           "id": "student-route",
@@ -169,14 +234,18 @@
       "action": "Independent source inspection required before any renewal or mapping change."
     },
     {
-      "id": "mpt-media",
-      "recruitment": "26-008996-0007",
-      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
-      "verifiedAt": "2026-10-26T22:29:16.848Z",
+      "id": "mpt-motorweek",
+      "recruitment": "26-008996-0006",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+      "verifiedAt": "2026-10-27T00:22:27.538Z",
       "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": null,
+      "sourceRawHash": "72e4d9b5d12f4bf7b4b6ae2ce6acae1a0d6872a79f68155de9a60440d0271f4b",
       "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-26T22:26:59.692802+00:00",
-      "semanticHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+      "fetchedAt": "2026-10-27T00:18:05.613669+00:00",
+      "semanticHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
       "excerptChecks": [
         {
           "id": "student-route",
@@ -187,14 +256,15 @@
     }
   ],
   "retrievalCounts": {
-    "passed": 6,
+    "passed": 7,
     "failed": 5
   },
   "nov6DeadlineCapacity": [
     "nih-sip",
     "doe-suli",
     "mpt-motorweek",
-    "mpt-media"
+    "mpt-media",
+    "md-admin3"
   ],
   "capacityMeaning": "Records with no announced deadline before that date, not a promise they will remain open or fresh. Reinspect near submission.",
   "renewedDates": false

@@ -1,6 +1,6 @@
 # OpportunityBridge — From Education to Real Civic Careers, With Evidence
 
-CityGov 2026 · Kenny! · v0.5 · October 26, 2026
+CityGov 2026 · Kenny! · v0.6 · October 26, 2026
 
 [Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Practice Mode](https://siamakenna.github.io/opportunitybridge-citygov-2026/practice.html)
 
@@ -8,13 +8,13 @@ Official opportunities are the first interaction. Inspect a real record, compare
 
 ## Run and verify
 
-`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 67 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
+`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 80 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
 
-Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. `/tests/evaluation-browser.html` adds nine guided-instrument assertions. These load actual HTTP modules. `npm run sources:scan` records actual public HTTPS retrieval/content hashes, identity and withdrawal checks; `npm run sources:report` emits the queue; failures remain explicit and dates are not silently refreshed.
+Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. `/tests/evaluation-browser.html` adds nine guided-instrument assertions; `/tests/v06-browser.html` adds25 workflow/print/evaluation/partner assertions. These load actual HTTP modules. `npm run sources:scan` records actual public HTTPS retrieval/content hashes, identity and withdrawal checks; `npm run sources:report` emits the queue; failures remain explicit and dates are not silently refreshed.
 
 ## What is real, historical and fictional
 
-Eleven official-source records: four specific Maryland recruitments, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Ten appear by default on the observation date; none of these counts means eleven open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
+Twelve official-source records: five specific Maryland recruitments, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Eleven appear by default on the observation date; none of these counts means twelve open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
 
 Five historical accounts/reports retain published names, source type, deliverables and limited career outcomes. Portfolio exercises are OpportunityBridge recommendations, not fellow artifacts. Snipta Mallick’s later work is attributed to an outside contractor; Soma Badri’s account describes an offer, not an inferred accepted job. No one endorses this app.
 
@@ -30,4 +30,6 @@ Independent unfamiliar users n=0. Internal tests are not manual-comparison resul
 
 Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.
 
-[Guided matched-source evaluation](evaluation.html) · [Two-page manager PDF](output/pdf/OpportunityBridge-Pilot-Packet.pdf) · [Source review queue](docs/SOURCE_REVIEW_REPORT.md). Six records re-inspected October26; raw automated retrievals six passed/five failed, retained in the ledger. NIH SIP was separately inspected using the official web reader. Review dates and rule mappings require explicit documented approval; no unattended renewal. Independent n=0, mock85/100.
+[Guided matched-source evaluation](evaluation.html) · [Two-page manager PDF](output/pdf/OpportunityBridge-Pilot-Packet.pdf) · [Source review queue](docs/SOURCE_REVIEW_REPORT.md). Seven records re-inspected lateOctober26 Eastern/October27 UTC; raw automated retrievals seven passed/five failed, retained in the ledger. NIH SIP was separately inspected using the official web reader. Review dates and rule mappings require explicit documented approval; no unattended renewal. Independent n=0, mock87/100.
+
+Featured MPT guided tour and five-stage workspace, editable multi-connection evidence worksheet, self-declared document progress, bounded preparation dates and full-text printing. [Proposed partner handoffs and downloadable kit](pilot.html). Daily source-check workflow emits observation artifacts only; no automatic date renewal, mapping approval or publication. Use `npm run sources:prepare -- <id>` for an unapproved source-specific review candidate.

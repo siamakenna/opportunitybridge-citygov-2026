@@ -1,20 +1,15 @@
-# v0.5 release
+# OpportunityBridge v0.6 — feature freeze
 
-App: https://siamakenna.github.io/opportunitybridge-citygov-2026/
-Guide: https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html
-Guided evaluation: https://siamakenna.github.io/opportunitybridge-citygov-2026/evaluation.html
-Pilot PDF: https://siamakenna.github.io/opportunitybridge-citygov-2026/output/pdf/OpportunityBridge-Pilot-Packet.pdf
-Retained v0.4 video: https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html
-Public revision: https://siamakenna.github.io/opportunitybridge-citygov-2026/source.json
+Rollback:baseline-v0.5→2c66d579df85bde24104d6fd44472dbd832a3106. Prior tags/history preserved. Build versions entry modules, transitive imports and styles with GITHUB_SHA; source.json records version0.6.0 and exact deployed SHA.
 
-Rollback tag baseline-v0.4 preserves d8a7d140369202fc343f6d63b4b13ece533a941d. Existing repository/team preserved. The exact current revision is injected from GitHub Actions into source.json and every module/style URL. A commit is not proof of publication; compare the public JSON and successful Pages run.
+80Node/72browser assertions,8real-source fixtures/12practice judgments passed. Twelve records, seven newly inspected source reviews, five deadline-compatible options beyondNov6 as-ofinspection. Local raw retrievals7passed/5failed; alternate official NIH review recorded. Independent n=0; mock87/100, not official.
 
-67 Node tests; 23 original real-workflow, 15 original Practice Mode and nine new evaluation browser assertions. Internal fixture checks remain eight real-source and twelve fictional judgments; v0.4 real fixtures are frozen in evidence/v04/catalog-snapshot.json, not silently redefined by new review times. Independent n=0. Downloaded implementer JSON is explicitly a software rehearsal.
+Featured MPT tour; staged preparation; editable source-linked evidence connections; document progress; real export/print; alternative continuous-source evaluation; interactive partner handoffs and blank operating templates. Original pilot PDF/video retained. Every scheduled source observation requires a steward's explicit review before renewal/publication.
 
-Source observations: 6 raw automated retrievals succeeded, 5 failed; NIH SIP reviewed by alternate official web reader with evidence. Failed checks are retained. Six source-backed reviews renewed only after inspection. Eleven records include two newly observed open/continuous MPT recruitments; one expired CIF record stays in history. No date is automatically renewed.
+App:https://siamakenna.github.io/opportunitybridge-citygov-2026/
+Guide:https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html
+Partner kit:https://siamakenna.github.io/opportunitybridge-citygov-2026/pilot.html
+Evaluation:https://siamakenna.github.io/opportunitybridge-citygov-2026/evaluation.html
+Video:https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html
 
-The new two-page pilot PDF was generated and both rendered pages visually inspected. The original 150-second captioned screenshot video remains labeled v0.4. Continuous capture is not available in the supported browser API. No false replacement or narration claim. v0.3 Impact Lab archive unavailable; no integration/17-test claim. Mock85/100, not official.
-
-Draft status is recorded only after the saved CityGov workspace is reloaded and checked; no Submit for Judging action is authorized. See EXECUTION_REPORT.md and OWNER_ACTIONS.md.
-
-Existing Kenny! draft save/reload verified: exact9,912-character description, title/three links and pilot PDF persisted; still draft-only. Mobile video caption readability improved through synchronized large text beneath the preserved video.
+Solution572words/equity178words. Full owner-ready ZIP includes source inventory, copy, protocol, pitch, checklists, templates and original PDF. Existing Kenny! entry remains draft-only unless the owner explicitly authorizes final submission. Save/reload and exact release verification are recorded in EXECUTION_REPORT.md after the actual operations.

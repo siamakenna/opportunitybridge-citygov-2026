@@ -1,17 +1,18 @@
 # Source review queue
-Generated 2026-10-26T22:43:19.182Z. Observation does not authorize renewal.
-- md-admin (26-001755-0041): **unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=). Fetched 2026-10-26T22:26:59.018813+00:00; last approved 2026-10-26T22:29:16.846Z via public HTTPS consistency check.
-- md-vendor (26-004518-0015): **unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=). Fetched 2026-10-26T22:26:59.019516+00:00; last approved 2026-10-26T22:29:16.848Z via public HTTPS consistency check.
-- nih-sip (program): **unavailable**. [Official source](https://www.training.nih.gov/research-training/pb/sip/). Fetched 2026-10-26T22:26:59.021697+00:00; last approved 2026-10-26T22:29:16.848Z via official web reader; automated retrieval still failed.
-- nih-postbac (program): **unavailable**. [Official source](https://www.training.nih.gov/research-training/pb/pb/). Fetched 2026-10-26T22:26:59.025122+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
-- federal-student (program): **unavailable**. [Official source](https://www.usajobs.gov/hiringpath/students/). Fetched 2026-10-26T22:26:59.160524+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
-- federal-grad (program): **unavailable**. [Official source](https://www.usajobs.gov/hiringpath/recentgraduates/). Fetched 2026-10-26T22:26:59.172594+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
-- federal-entry (program): **unavailable**. [Official source](https://earlycareer.usajobs.gov/search/results). Fetched 2026-10-26T22:26:59.272586+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
-- cif-winter (program): **expired**. [Official source](https://codingitforward.com/apply). Fetched 2026-10-26T22:26:59.279329+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
-- doe-suli (program): **unchanged**. [Official source](https://science.osti.gov/wdts/suli). Fetched 2026-10-26T22:26:59.391269+00:00; last approved 2026-10-26T22:29:16.848Z via public HTTPS consistency check.
-- mpt-motorweek (26-008996-0006): **unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=). Fetched 2026-10-26T22:26:59.424363+00:00; last approved 2026-10-26T22:29:16.848Z via public HTTPS consistency check.
-- mpt-media (26-008996-0007): **unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=). Fetched 2026-10-26T22:26:59.692802+00:00; last approved 2026-10-26T22:29:16.848Z via public HTTPS consistency check.
+Generated 2026-10-27T00:34:40.576Z. Observation does not authorize renewal.
+- cif-winter (program): **P1 · expired**. [Official source](https://codingitforward.com/apply). Fetched 2026-10-27T00:18:05.097661+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
+- federal-entry (program): **P2 · unavailable**. [Official source](https://earlycareer.usajobs.gov/search/results). Fetched 2026-10-27T00:18:04.936256+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
+- federal-grad (program): **P2 · unavailable**. [Official source](https://www.usajobs.gov/hiringpath/recentgraduates/). Fetched 2026-10-27T00:18:04.847569+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
+- federal-student (program): **P2 · unavailable**. [Official source](https://www.usajobs.gov/hiringpath/students/). Fetched 2026-10-27T00:18:04.777975+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
+- nih-postbac (program): **P2 · unavailable**. [Official source](https://www.training.nih.gov/research-training/pb/pb/). Fetched 2026-10-27T00:18:04.672923+00:00; last approved 2026-10-26T18:03:34Z via No renewed approval.
+- nih-sip (program): **P2 · unavailable**. [Official source](https://www.training.nih.gov/research-training/pb/sip/). Fetched 2026-10-27T00:18:04.669306+00:00; last approved 2026-10-27T00:22:27.538Z via official web reader; automated retrieval still failed.
+- doe-suli (program): **P3 · unchanged**. [Official source](https://science.osti.gov/wdts/suli). Fetched 2026-10-27T00:18:05.100000+00:00; last approved 2026-10-27T00:22:27.538Z via public HTTPS consistency check.
+- md-admin (26-001755-0041): **P3 · unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=). Fetched 2026-10-27T00:18:04.665520+00:00; last approved 2026-10-27T00:22:27.535Z via public HTTPS consistency check.
+- md-admin3 (26-002043-0037): **P3 · unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=). Fetched 2026-10-27T00:18:05.670949+00:00; last approved 2026-10-27T00:22:27.538Z via public HTTPS consistency check.
+- md-vendor (26-004518-0015): **P3 · unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=). Fetched 2026-10-27T00:18:04.668589+00:00; last approved 2026-10-27T00:22:27.538Z via public HTTPS consistency check.
+- mpt-media (26-008996-0007): **P3 · unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=). Fetched 2026-10-27T00:18:05.642929+00:00; last approved 2026-10-27T00:22:27.538Z via public HTTPS consistency check.
+- mpt-motorweek (26-008996-0006): **P3 · unchanged**. [Official source](https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=). Fetched 2026-10-27T00:18:05.613669+00:00; last approved 2026-10-27T00:22:27.538Z via public HTTPS consistency check.
 
 Records with no announced deadline before that date, not a promise they will remain open or fresh. Reinspect near submission.
-Deadline-only capacity at Nov 6: nih-sip, doe-suli, mpt-motorweek, mpt-media
-Run an actual official-source inspection, then submit an explicit approval file to scripts/approve-source-review.mjs. Failed retrievals and changes remain in the queue; do not silently renew.
+Deadline-only capacity at Nov 6: nih-sip, doe-suli, mpt-motorweek, mpt-media, md-admin3
+Priority 0: changed/withdrawn/identity errors. Priority 1: expired or closing within72hours. Priority 2: unavailable/unreviewed/stale. Run npm run sources:prepare -- <id> to create an unapproved candidate; inspect the full source, fill actual findings/time/reviewer, then submit the explicit file to scripts/approve-source-review.mjs. Failed retrievals and changes remain in the queue; do not silently renew.

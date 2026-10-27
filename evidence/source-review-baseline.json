@@ -1,50 +1,58 @@
 {
   "md-admin": {
+    "rawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
     "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
     "manualEvidenceHash": null,
     "retrievalMethod": "public HTTPS consistency check",
     "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
-    "reviewedAt": "2026-10-26T22:29:16.846Z",
-    "rawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6"
+    "reviewedAt": "2026-10-27T00:22:27.535Z"
   },
   "md-vendor": {
+    "rawHash": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142",
     "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
     "manualEvidenceHash": null,
     "retrievalMethod": "public HTTPS consistency check",
     "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
-    "reviewedAt": "2026-10-26T22:29:16.848Z",
-    "rawHash": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142"
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
   },
   "nih-sip": {
+    "rawHash": null,
     "semanticHash": null,
-    "manualEvidenceHash": "9a40f124c58f730c62ceff3575cf604c6deaa7e02ecf99bda261c42dac1efdec",
+    "manualEvidenceHash": "98881e12f39b8841af54dcba2448eb9c85244bb4130acbddc7541fcaf5c052e5",
     "retrievalMethod": "official web reader; automated retrieval still failed",
     "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
-    "reviewedAt": "2026-10-26T22:29:16.848Z",
-    "rawHash": null
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
   },
   "doe-suli": {
+    "rawHash": "490904ed81f8d3dbe1fc1b021513d349f6bf8daa8d8cf7f35c2f4405cb8eae17",
     "semanticHash": "e39a9f3812a9b09ed23b08dbc5333db414e9e9db9af3cf4d007b903361f566cb",
     "manualEvidenceHash": null,
     "retrievalMethod": "public HTTPS consistency check",
     "sourceUrl": "https://science.osti.gov/wdts/suli",
-    "reviewedAt": "2026-10-26T22:29:16.848Z",
-    "rawHash": "490904ed81f8d3dbe1fc1b021513d349f6bf8daa8d8cf7f35c2f4405cb8eae17"
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
   },
   "mpt-motorweek": {
+    "rawHash": "72e4d9b5d12f4bf7b4b6ae2ce6acae1a0d6872a79f68155de9a60440d0271f4b",
     "semanticHash": "296ff9b232fafb8b4f1179c04fdadd7ae17f66b620d39379a4a5fe5f7e037aae",
     "manualEvidenceHash": null,
     "retrievalMethod": "public HTTPS consistency check",
     "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
-    "reviewedAt": "2026-10-26T22:29:16.848Z",
-    "rawHash": "72e4d9b5d12f4bf7b4b6ae2ce6acae1a0d6872a79f68155de9a60440d0271f4b"
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
   },
   "mpt-media": {
+    "rawHash": "100a43ad86e50a953ef282b2437ff3e0ed04c581913f19a9f65e8f670a117f25",
     "semanticHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
     "manualEvidenceHash": null,
     "retrievalMethod": "public HTTPS consistency check",
     "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
-    "reviewedAt": "2026-10-26T22:29:16.848Z",
-    "rawHash": "100a43ad86e50a953ef282b2437ff3e0ed04c581913f19a9f65e8f670a117f25"
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
+  },
+  "md-admin3": {
+    "rawHash": "5b322385ca0149787f7538e8af2db94f378e05a13fa53c9e1f2b4c08a9459a4d",
+    "semanticHash": "2feeafdbac63b93a1ab818315f8f25b3c439338f93f9ff3280cec614ad9c0fe4",
+    "manualEvidenceHash": null,
+    "retrievalMethod": "public HTTPS consistency check",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+    "reviewedAt": "2026-10-27T00:22:27.538Z"
   }
 }
