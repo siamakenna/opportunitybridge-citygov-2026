@@ -1,6 +1,6 @@
 # v0.6 demonstration and finalist pitch
 
-Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkthrough.html / media/walkthrough.mp4. Six genuine captured views: problem/home (20s), actual catalog (25s), selected requirement (30s), NIH historical deliverable (30s), generated handoff (25s), proposed pilot (20s). It is explicitly a still-capture sequence, not a continuous live recording. Actual source-file download was executed and inspected. Captions are burned in and supplied as VTT/SRT plus transcript. No narration or synthetic testimonials.
+Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkthrough.html / media/walkthrough.mp 4. Six genuine captured views: problem/home (20 s), actual catalog (25 s), selected requirement (30 s), NIH historical deliverable (30 s), generated handoff (25 s), proposed pilot (20 s). It is explicitly a still-capture sequence, not a continuous live recording. Actual source-file download was executed and inspected. Captions are burned in and supplied as VTT/SRT plus transcript. No narration or synthetic testimonials.
 
 ## Optional continuous narrated recording
 
@@ -27,4 +27,4 @@ Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkth
 The retained video player now supplies synchronized large captions beneath the video for small screens, with transcript/fullscreen alternatives. This does not turn the screenshot sequence into continuous capture.
 
 
-v0.6 finalist cues:0:45–2:15 use the featured MPT source, four-step tour, source/duties distinction and edited worksheet;3:15–4:15 download/read the actual handoff and reset;4:15–5:30 demonstrate College advisor→HR→Learner→Evaluator in pilot.html and the blank tracking CSV. Explain source-check artifacts need a steward’s explicit approval. In Q&A:80Node/72browser checks are software evidence; independent n=0. No eligibility certification, independent accessibility approval or employment effect. Solution572words/equity178words. Rehearse5–7minutes with an actual clock; this written timing is a plan, not a recorded performance.
+v0.6 finalist cues:0:45–2:15 use the featured MPT source, four-step tour, source/duties distinction and edited worksheet;3:15–4:15 download/read the actual handoff and reset;4:15–5:30 demonstrate College advisor→HR→Learner→Evaluator in pilot.html and the blank tracking CSV. Explain source-check artifacts need a steward’s explicit approval. In Q&A:80 Node/72 browser checks are software evidence; independent n=0. No eligibility certification, independent accessibility approval or employment effect. Solution 572 words/equity 178 words. Rehearse 5–7 minutes with an actual clock; this written timing is a plan, not a recorded performance.

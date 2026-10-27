@@ -7,7 +7,7 @@ export function maintenanceState(record,observation,baseline,now=new Date()){
  if(observation.withdrawn)return 'withdrawn';
  if(record.recruitment&&!observation.identityConfirmed)return 'identity_missing';
  if(observation.excerptChecks?.some(x=>!x.found))return 'excerpt_mismatch';
- if(!baseline)return 'unreviewed';
+ if(!baseline?.semanticHash)return 'unreviewed';
  if(baseline.rawHash&&observation.rawHash!==baseline.rawHash)return 'changed_review_required';
  return observation.semanticHash===baseline.semanticHash?'unchanged':'changed_review_required';
 }

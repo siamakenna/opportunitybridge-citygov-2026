@@ -6,7 +6,7 @@ Open [the instrument](../evaluation.html). This newly authored instrument is sep
 
 Invite one to three unfamiliar adults or career advisors through an authorized host. No invitations have been sent, no participants enrolled and no partner committed. Explain that the software is AI-assisted, participation is voluntary, services/grades/hiring are unaffected, and they can skip, stop or withdraw before anonymized aggregation. Explain the host's withdrawal contact, approved retention and any compensation before consent. Offer paper/telephone assistance, devices, breaks and actual assistive technology. No recording by default. Never enter real student, patient, education or job-seeker records.
 
-Use P01-style codes. Contact/consent linkage stays in the host's approved system, separate from task JSON. Delete linkage and raw feedback within 90 days unless approved policy requires otherwise. The public app sends nothing; downloaded files remain on the device and must be shared deliberately. Clear the local session after export. Hosting and external application sites have their own logs/policies.
+Use P 01-style codes. Contact/consent linkage stays in the host's approved system, separate from task JSON. Delete linkage and raw feedback within 90 days unless approved policy requires otherwise. The public app sends nothing; downloaded files remain on the device and must be shared deliberately. Clear the local session after export. Hosting and external application sites have their own logs/policies.
 
 ## Freeze and counterbalance
 
@@ -29,6 +29,6 @@ Current evidence: implementer/software rehearsal only. Independent participants 
 
 ## v0.6 alternative continuous source pair and collection
 
-The selector adds MPT Media Literacy/MotorWeek tasks. Both conditions receive identical facts/packets per case; four sequences rotate case and order. Media case:fictional enrollment/16hours; MotorWeek:recent graduation/12hours. No substitution is invented. Role duties differ from minimum requirements; full source and college document applicability need MPT review. Choose the pair before assignment and do not mix pairs silently. Recent source/mapping guards apply to the selected pair. Continuous recruitment can still close early.
+The selector adds MPT Media Literacy/MotorWeek tasks. Both conditions receive identical facts/packets per case; four sequences rotate case and order. Media case:fictional enrollment/16 hours; MotorWeek:recent graduation/12 hours. No substitution is invented. Role duties differ from minimum requirements; full source and college document applicability need MPT review. Choose the pair before assignment and do not mix pairs silently. Recent source/mapping guards apply to the selected pair. Continuous recruitment can still close early.
 
 Active sessions cannot be silently restarted. A source transition before Begin blocks the task. Reflection adds perceived clarity and optional first-rater correctness/missed-condition/unsupported-conclusion/plan-quality fields; blanks or invalid values remain unknown. These are self-declared observations, not automatically verified project evidence. Use the blank CSV in pilot.html for both raters, reconciliation, assistance, withdrawals, consent and follow-up denominators. No invitation has been sent; owner-ready invitation in the kit. Independent n=0.

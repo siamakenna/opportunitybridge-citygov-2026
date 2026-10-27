@@ -28,13 +28,13 @@ Proposed: sixty days, twenty-five consenting adults, twenty-five double-reviewed
 
 Illustrative cost:112 staff hours/$5,740 plus $375 compensation and $125 materials/access reserve; $6,240 total economic cost. Cash can be $500 only if all labor is contributed; validate rates, overhead and accommodations. Delete contact linkage/raw feedback within ninety days unless approved policy requires otherwise.
 
-Proposed targets: at least90% criterion/source correctness and zero false definite eligibility claims; at least80% actionable plans scoring4/5; at least60% reported fourteen-day follow-through, separating self-report from advisor confirmation; zero unresolved blocking barriers and median advisor review at most15 measured minutes. Targets are not results.
+Proposed targets: at least 90% criterion/source correctness and zero false definite eligibility claims; at least 80% actionable plans scoring 4/5; at least 60% reported fourteen-day follow-through, separating self-report from advisor confirmation; zero unresolved blocking barriers and median advisor review at most 15 measured minutes. Targets are not results.
 
 EVIDENCE, PRESENTATION AND DISCLOSURE
 
-Executed software checks:80 Node tests;47 preserved and25 added browser assertions;8 frozen real-source fixtures and12 fictional judgments. Independent unfamiliar participants n=0. Source-backed AI-assisted reviews are not independent HR validation. Five automated source fetch failures remain reported; NIH SIP was separately read through its official page. The unavailable v0.3 Impact Lab was not integrated and its reported17 tests are not claimed.
+Executed software checks:80 Node tests;47 preserved and 25 added browser assertions;8 frozen real-source fixtures and 12 fictional judgments. Independent unfamiliar participants n=0. Source-backed AI-assisted reviews are not independent HR validation. Five automated source fetch failures remain reported; NIH SIP was separately read through its official page. The unavailable v0.3 Impact Lab was not integrated and its reported 17 tests are not claimed.
 
-The retained150-second captioned video is an authentic v0.4 screenshot sequence, not continuous footage. Synchronized large captions and a current live MPT walkthrough complement it. Supported capture tools do not provide continuous recording. The5–7-minute finalist pitch/Q&A is prepared. Internal mock87/100 is subjective, not an official score.
+The retained 150-second captioned video is an authentic v0.4 screenshot sequence, not continuous footage. Synchronized large captions and a current live MPT walkthrough complement it. Supported capture tools do not provide continuous recording. The 5–7-minute finalist pitch/Q&A is prepared. Internal mock 87/100 is subjective, not an official score.
 
 ChatGPT supplied the starter; Codex significantly assisted code, design, official-source research, historical summaries, evaluation, documents, browser QA, media assembly and publication. Owner review remains necessary. MIT source; browser-native runtime, system fonts, Node tests and GitHub Pages. Official publishers retain their materials. No invented participants, credentials, testimonials or employment results.
 

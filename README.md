@@ -18,7 +18,7 @@ Twelve official-source records: five specific Maryland recruitments, two researc
 
 Five historical accounts/reports retain published names, source type, deliverables and limited career outcomes. Portfolio exercises are OpportunityBridge recommendations, not fellow artifacts. Snipta Mallick’s later work is attributed to an outside contractor; Soma Badri’s account describes an offer, not an inferred accepted job. No one endorses this app.
 
-The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.4` preserves the last real-career release and `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
+The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.5` preserves the prior release and `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
 
 ## Privacy and limits
 
