@@ -43,3 +43,32 @@ Both public Constellation trials passed **25/25** checks, with all semantic comp
 Synthetic public metrics, unthrottled Chromium156/Macintosh with shared cache and an embedded app viewport recorded in each report: initial load75.7–380.9ms; searchable catalog150.8–483ms; Constellation interest DOM49.3–52.5ms; source search DOM71.3–143.3ms; quest check0.4–0.9ms; Passport JSON generation1.2–2.2ms. Encoded subresources107,132bytes over23 resources, excluding the main HTML document. Timings include synchronous render work, not independent usability or hiring benefit.
 
 During preserved public testing, a cached iframe could finish before an older harness attached its initial load listener. Some pages stayed Running despite loaded application content. Their initial readiness guards now handle already-complete app documents; no assertions were changed or removed. All96 checks pass locally with the cache-safe startup. Final public results follow below; incomplete early attempts are not counted as passes.
+
+## Accepted cache-safe public release and CityGov draft
+
+Accepted tested revision: **81d15b205d13bcd299e59082e4ea61c1fb55c0b4**. [Pages workflow](https://github.com/siamakenna/opportunitybridge-citygov-2026/actions/runs/40480687392) succeeded. All **65** checked published static assets matched the SHA-built distribution; current source.json and both discovery/fixture digests matched. Reviewed qualification catalog remains byte-identical to v0.8.0.
+
+All **96/96** preserved public assertions pass after the harness startup fix. Both original public v0.8 trials pass **24/24** each; both current Constellation trials pass **25/25** each and every semantic comparison is equal. Actual four files from this accepted revision were downloaded again, read from disk and matched exactly. See public-trials-cache-safe.json, preserved-browser-public.json, preserved-v08-trials-public.json and public-cache-safe-trial-{1,2}-{journey,passport}.json in evidence/v081.
+
+Separate public file-chooser import and closed-tab/new-tab return retain unverified status and zero XP. Replaying the imported Source Detective checks earns 30 XP once; a repeated check stays at 30. Opt-out/reload and full reset/reload return zero records, sources and drafts. Unsafe-object import is rejected without replacing the working journey. Native Back returns to #constellation. Fresh normal-app test logs no browser errors. One initial tab during the publication transition had uninitialized controls and required reload; a subsequent genuinely new tab returned correctly without reload. That failed initial attempt is not counted as a pass. The exact UI receipt is public-return-delete-import.json.
+
+Public reflow at 320, 390, 768 and 1366px shows no horizontal overflow. Desktop and mobile actual-release screenshots are retained. Local keyboard and sampled contrast results remain as reported; actual zoom, screen-reader and physical-device testing remain UNTESTED.
+
+Accepted-revision synthetic metrics (two unthrottled runs; shared cache):
+- domContentLoadedMs: 49.1–52.0 ms
+- initialLoadMs: 72.5–80.7 ms
+- searchableMs: 194.7–216.4 ms
+- constellationSelectMs: 100.3–100.9 ms
+- searchFilterMs: 141.4–154.1 ms
+- questCheckMs: 0.6–0.7 ms
+- passportExportMs: 1.5–1.6 ms
+- encodedResourcesBytes: 107,110.0–107,110.0
+- resourceCount: 23.0–23.0
+
+Source observations: six unchanged, three unavailable, two unreviewed, one expired. These states are not new mapping approvals or qualification dates. RSS is a scheduled metadata snapshot, not a live availability guarantee.
+
+**Existing Kenny! draft saved and reloaded.** All 8,966 saved description characters match after trailing-newline normalization. Solution **529 words**, equity **187 words**. Original project title, demo/repository/video URLs and original pilot PDF are unchanged. Visible status: **Draft — not sent to judges**. No final submission, new declaration, eligibility/team change or outreach. Receipt: citygov-draft-save.json and privacy-safe screenshot.
+
+The receipt-only final publication freezes application code. Final current SHA is read from source.json and the GitHub release; the post-publication trial/download receipt is attached to v0.8.1 as v081-final-trials.json to avoid a self-referential commit hash. Owner packet contains the accepted revision’s full records. Independent n=0, mock87/100, no host or outcome claim.
+
+Public walkthrough: duration180 seconds, playback advanced to38.7 seconds and the synchronized English caption changed to the Constellation scene; no media error. Full local decode of the byte-matched H.264 file completed with exit0. It remains a seven-capture screenshot sequence, not continuous footage.

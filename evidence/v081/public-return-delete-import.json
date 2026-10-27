@@ -1,0 +1,11 @@
+{
+  "return": "Welcome back. You have 0 checked learning records and 2 saved opportunities. Pick up where you left off. 1 imported learning record is unverified; replay the exercise to check it here.",
+  "status": "Journey saved on this device. Fictional Passport changes require the explicit draft-save button.",
+  "ledger": "0/3 activities completed · 0 learning XP. Product progress only; no employer-recognized credential.\n\nImported / unverified · replay: Source Detective",
+  "replayedLedger": "1/3 activities completed · 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source Detective",
+  "afterOptOutReload": "Working journey · 0 checked learning records · 0 saved sources · 0 explicitly captured fictional Passport drafts.",
+  "invalidImport": "Import rejected; current journey preserved. Unsafe object key.",
+  "backNavigation": "#constellation",
+  "afterResetReload": "Working journey · 0 checked learning records · 0 saved sources · 0 explicitly captured fictional Passport drafts.",
+  "browserErrors": []
+}

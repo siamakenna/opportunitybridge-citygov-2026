@@ -9,3 +9,8 @@ Local: 133 Node /6 Python;96 preserved browser assertions; original two24-check 
 Seven authentic app stills form the current 180-second captioned screenshot walkthrough, with transcript and actual example Passport. No continuous-footage claim. Proposed 15-minute adult study materials are blank; no outreach. Independent n=0; internal mock87/100; no committed host, outcome or accessibility certification.
 
 Save Draft only in the existing Kenny! entry. Preserve original title, three URLs and pilot PDF; reload/compare. No final judging submission, binding declaration, team or personal eligibility changes. Owner packet: output/OpportunityBridge-v081-Owner-Submission-Packet.zip. Target owner decision November5 before the stated November6 deadline, subject to the competition’s actual portal rules.
+
+
+## Executed acceptance
+
+Accepted code/harness revision 81d15b205d13bcd299e59082e4ea61c1fb55c0b4 passed 133 Node/6 Python tests, 96 public browser assertions, two original 24-check trials and two new 25-check trials. All65 published assets and source digests matched. Actual Journey/Passport downloads, unverified import, new-tab return, replay, deletion/reset and four-width public reflow verified. Existing Kenny! draft saved/reloaded:529 solution words,187 equity words,8,966 saved characters; original title/three links/PDF preserved; Draft—not sent to judges. Full receipts and known limits are in EXECUTION_REPORT.md. Final publication changes receipts/documentation/owner ZIP only; final SHA and post-publication trial downloads are verified in the release handoff.

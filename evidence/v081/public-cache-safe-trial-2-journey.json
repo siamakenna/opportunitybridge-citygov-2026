@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "opportunitybridge-journey-1",
+  "productVersion": "0.8.1",
+  "viewedNodes": [
+    "civic-maker:learn",
+    "civic-research:discover",
+    "civic-research:learn",
+    "civic-research:practice",
+    "civic-research:build",
+    "civic-research:prepare",
+    "civic-research:connect"
+  ],
+  "handoffIds": [],
+  "progressOrigin": "device-record",
+  "savedAt": "2026-10-27T12:28:09.885Z",
+  "sourceCatalogRevision": "81d15b205d13bcd299e59082e4ea61c1fb55c0b4",
+  "questVersion": "0.8.1",
+  "interest": "tech",
+  "route": "civic-research",
+  "savedOpportunities": [
+    "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037",
+    "https://science.osti.gov/wdts/suli"
+  ],
+  "questLedger": [
+    {
+      "key": "source@0.8.1",
+      "questId": "source",
+      "questVersion": "0.8.1",
+      "checks": {
+        "credits": true,
+        "months": true,
+        "evidence": true,
+        "applicant": true,
+        "assumption": true
+      },
+      "sourceSnapshot": {
+        "id": "26-001755-0041",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+      },
+      "completedAt": "2026-10-27T12:28:09.371Z",
+      "notes": "",
+      "xp": 30,
+      "type": "In-app learning progress — not a credential or employer endorsement",
+      "origin": "restored-local"
+    }
+  ],
+  "passportDrafts": [
+    {
+      "opportunityId": "md-admin",
+      "source": {
+        "id": "26-001755-0041",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+        "catalogRevision": "81d15b205d13bcd299e59082e4ea61c1fb55c0b4"
+      },
+      "rows": [
+        {
+          "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+          "skill": "research",
+          "requirement": "experience",
+          "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+          "verification": "Which records and other full-source conditions must HR verify?",
+          "questReceipt": {
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "simulation": true
+          },
+          "savedSource": {
+            "id": "26-001755-0041",
+            "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "reviewedAt": "2026-10-27T00:22:27.535Z",
+            "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+            "catalogRevision": "81d15b205d13bcd299e59082e4ea61c1fb55c0b4",
+            "origin": "saved-device-draft"
+          }
+        }
+      ]
+    }
+  ],
+  "selectedOpportunityId": "md-admin"
+}
