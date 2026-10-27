@@ -1,0 +1,12 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import os from 'node:os';
+import {inputOnly,evaluateInput} from '../src/cceb-adapters.js';
+const hash=x=>createHash('sha256').update(x).digest('hex');
+const bytes=await readFile('data/cceb/v1.json'),d=JSON.parse(bytes),manifest=JSON.parse(await readFile('output/evidence-v09/BENCHMARK_MANIFEST.json','utf8'));
+if(hash(bytes)!==manifest.datasetSha256)throw Error('Frozen dataset digest differs');
+const start=performance.now(),rows=d.cases.map(c=>({id:c.id,stratum:c.stratum,partition:c.partition,task:c.input.task,cluster:c.input.recordId,reference:c.reference,outputs:Object.fromEntries(['A','B','C'].map(m=>[m,evaluateInput(inputOnly(c,d),m)]))}));
+const stable={datasetSha256:hash(bytes),clock:d.clock,seed:d.seed,rows};
+const result={...stable,resultSha256:hash(JSON.stringify(stable)),generatedAt:new Date().toISOString(),environment:{node:process.version,platform:os.platform(),architecture:os.arch(),revision:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),adapterSha256:hash(await readFile('src/cceb-adapters.js'))},elapsedMilliseconds:performance.now()-start};
+const out=process.argv[process.argv.indexOf('--out')+1]||'output/evidence-v09/run-1.json';await mkdir(out.slice(0,out.lastIndexOf('/')),{recursive:true});await writeFile(out,JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({out,resultSha256:result.resultSha256,cases:rows.length,revision:result.environment.revision}));
