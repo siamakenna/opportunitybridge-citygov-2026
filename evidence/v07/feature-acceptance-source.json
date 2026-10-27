@@ -1,0 +1,13 @@
+{
+  "revision": "1b1405feffa39bbcb5962b648cdfcc56ed905901",
+  "version": "0.7.0",
+  "assetPolicy": "entry modules, relative imports and styles use the release revision",
+  "discovery": {
+    "lastSuccessAt": "2026-10-27T01:52:11.445205+00:00",
+    "lastAttemptAt": "2026-10-27T01:52:11.445205+00:00",
+    "status": "ok",
+    "sha256": "b9cd5034b8a8ecd1908d6c4e9056a2f4d68d7c37e45d2bee4fe5fcd4766ac33d",
+    "records": 320
+  },
+  "sourceObservationAt": "2026-10-27T01:52:11.309Z"
+}
