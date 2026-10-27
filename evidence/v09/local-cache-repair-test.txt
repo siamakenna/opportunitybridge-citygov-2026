@@ -1,0 +1,75 @@
+74 assertions passed
+PASS All60 frozen cases load
+PASS Displayed source revision equals actual release module (cached metadata regression)
+PASS UI replay equals retained production output Q01
+PASS UI replay equals retained production output Q02
+PASS UI replay equals retained production output Q03
+PASS UI replay equals retained production output Q04
+PASS UI replay equals retained production output Q05
+PASS UI replay equals retained production output Q06
+PASS UI replay equals retained production output Q07
+PASS UI replay equals retained production output Q08
+PASS UI replay equals retained production output Q09
+PASS UI replay equals retained production output Q10
+PASS UI replay equals retained production output Q11
+PASS UI replay equals retained production output Q12
+PASS UI replay equals retained production output C01
+PASS UI replay equals retained production output C02
+PASS UI replay equals retained production output C03
+PASS UI replay equals retained production output C04
+PASS UI replay equals retained production output C05
+PASS UI replay equals retained production output C06
+PASS UI replay equals retained production output C07
+PASS UI replay equals retained production output C08
+PASS UI replay equals retained production output C09
+PASS UI replay equals retained production output C10
+PASS UI replay equals retained production output C11
+PASS UI replay equals retained production output C12
+PASS UI replay equals retained production output D01
+PASS UI replay equals retained production output D02
+PASS UI replay equals retained production output D03
+PASS UI replay equals retained production output D04
+PASS UI replay equals retained production output D05
+PASS UI replay equals retained production output D06
+PASS UI replay equals retained production output D07
+PASS UI replay equals retained production output D08
+PASS UI replay equals retained production output D09
+PASS UI replay equals retained production output D10
+PASS UI replay equals retained production output U01
+PASS UI replay equals retained production output U02
+PASS UI replay equals retained production output U03
+PASS UI replay equals retained production output U04
+PASS UI replay equals retained production output U05
+PASS UI replay equals retained production output U06
+PASS UI replay equals retained production output U07
+PASS UI replay equals retained production output U08
+PASS UI replay equals retained production output U09
+PASS UI replay equals retained production output U10
+PASS UI replay equals retained production output P01
+PASS UI replay equals retained production output P02
+PASS UI replay equals retained production output P03
+PASS UI replay equals retained production output P04
+PASS UI replay equals retained production output P05
+PASS UI replay equals retained production output P06
+PASS UI replay equals retained production output P07
+PASS UI replay equals retained production output P08
+PASS UI replay equals retained production output A01
+PASS UI replay equals retained production output A02
+PASS UI replay equals retained production output A03
+PASS UI replay equals retained production output A04
+PASS UI replay equals retained production output A05
+PASS UI replay equals retained production output A06
+PASS UI replay equals retained production output A07
+PASS UI replay equals retained production output A08
+PASS One fact changes selected route and retains other unknowns
+PASS Reset restores unknown selected state
+PASS Evaluation partition48
+PASS Development partition12
+PASS All60 comparison rows restored
+PASS Reviewer absence holds all source versions
+PASS Double review time computes cost and backlog
+PASS Base staffing and economic cost reconcile
+PASS Zero modeled plans has no invented unit cost
+PASS All Evidence Room controls have labels
+PASS Live result semantics present (actual AT untested)
+PASS No-script plain reports available

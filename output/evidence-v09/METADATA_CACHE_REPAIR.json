@@ -1,0 +1,17 @@
+{
+  "severity": "medium provenance metadata discrepancy",
+  "trigger": "Existing browser had cached source.json from 3cd21fd, then loaded Evidence Room module from 7d60057",
+  "before": {
+    "entryModuleRevision": "7d60057c43b044b083d04f301ee3f4590a6527e3",
+    "displayedRevision": "3cd21fd7d1e9379ea8350016bead426ea977900e"
+  },
+  "expected": "Displayed/source receipt revision matches actual release module",
+  "rootCause": "JSON metadata fetch lacked the release cache identity already used by modules/styles",
+  "repair": "Import actual build releaseRevision and request source.json?rev=that-revision; a mismatched revision now prevents replay instead of being labeled exact.",
+  "regression": "Evidence Room browser harness now compares displayed revision to imported release module",
+  "retest": {
+    "local": "74/74 Evidence Room browser assertions passed, including exact release-module/display comparison",
+    "finalPublic": "Recorded in v0.9.0 final release verification assets after deployment"
+  },
+  "residual": "Frozen source observation and mapping review dates remain separate; correct release metadata is not current availability"
+}

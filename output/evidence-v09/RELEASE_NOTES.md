@@ -9,3 +9,5 @@
 The editable 60-day pilot model preserves 112 hours/$6,240 economic cost; cash $500 requires all labor donated. Eight sensitivities, operations/SOP, independent-review workflow, blank 15-minute matched-study materials, finalist slides and Q&A are included. Host uncommitted. Kenny! draft saved and reloaded exactly: 9,289 characters, 529 solution/180 equity words; title, links and PDF retained. No judging submission or binding permission attestation. Internal mock remains 87/100.
 
 The evidence ZIP is a substantive report/source archive. Clone the repository for the full app and build/test commands; the archive is not a separate hosted application. Publisher materials retain their rights.
+
+Final cache repair adds release-keyed source metadata and a mismatch hold. Local Evidence Room now passes74 assertions (the earlier73 remain historical receipts). Decision-engine code and frozen benchmark outputs are unchanged. Final exact-tag repeated benchmark, public browser and integrity receipts are separate release assets; the archive retains all earlier before/after evidence.

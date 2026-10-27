@@ -18,3 +18,5 @@ Reproduce original observations from protocol-freeze e977a95; current code repro
 
 
 Additional post-freeze R09 diagnostic explicitly tested a fellowship plan claiming a guaranteed internship, rather than relying on the adjacent guaranteed-job fixture. It exposed a third literal-screen miss; R09_DIAGNOSTIC_BEFORE/AFTER.json preserves the complete row and directed repair. The shared Passport/Quest screen now includes internship/placement guarantees. This is a known-case repair, not independent evidence of general claim safety.
+
+A final cross-release browser check exposed cached source.json displaying an older release SHA while the entry module was current. METADATA_CACHE_REPAIR.json preserves actual before values. Metadata now uses the build releaseRevision in its request URL, and a new browser assertion checks displayed revision against the actual release module. This is a provenance-display repair; qualification approvals and benchmark references are unchanged.
