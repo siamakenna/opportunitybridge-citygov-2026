@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "savedAt": "2026-10-27T22:57:35.037Z",
+  "descriptionCharacters": 9289,
+  "descriptionSha256": "040571709949de091ce4d19870e9ad12001f23cf1080f18c5e8798e6dfbdb575",
+  "solutionWords": 529,
+  "equityWords": 180,
+  "withinPriorAuditedLimits": true,
+  "unchangedFields": {
+    "demoUrl": "https://siamakenna.github.io/opportunitybridge-citygov-2026/",
+    "repoUrl": "https://github.com/siamakenna/opportunitybridge-citygov-2026",
+    "title": "OpportunityBridge — From Education to Real Civic Careers, With Evidence",
+    "videoUrl": "https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html"
+  },
+  "pdfRetained": true,
+  "draftNotSubmitted": true,
+  "finalJudgingSubmission": "NOT PERFORMED",
+  "permissions": "No personal/institutional/IP/prize attestations performed",
+  "publicProfile": "No shareable own-profile route exposed in authorized account menu, dashboard or Find Connections; owner/organizer clarification remains."
+}

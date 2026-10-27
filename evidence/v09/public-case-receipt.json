@@ -1,0 +1,121 @@
+{
+  "case": {
+    "id": "Q02",
+    "stratum": "qualification",
+    "partition": "development",
+    "source": {
+      "identity": "26-001755-0041",
+      "originalURL": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.535Z",
+      "observedAt": "2026-10-27T19:23:14.067970+00:00",
+      "versionDigest": "1ec4222b42d662668ecbdda3866291f3360b89bc6a7b3ca8e4313b2ef8931742",
+      "license": "Publisher retains rights. URL, paraphrase and version digests only; no full employer page redistributed."
+    },
+    "input": {
+      "task": "condition",
+      "recordId": "md-admin",
+      "question": {
+        "text": "Are the declared facts consistent with this selected published condition?",
+        "criterion": "experience"
+      },
+      "facts": {
+        "adminMonths": 0,
+        "collegeCredits": 30
+      }
+    },
+    "reference": {
+      "state": "supported",
+      "rationale": "Thirty accredited credits meet the published selected substitution, not the full vacancy.",
+      "author": "Codex — AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "ambiguityNotes": "Selected source/task only; fictional declarations are not verified applicant evidence. No overall eligibility prediction.",
+    "sourceLimitation": "A frozen reviewed version is not current availability or independently adjudicated gold.",
+    "versionHash": "1d6745898ecdb1be3066cd4ab278873240706030460b5902f3738a206f871db1"
+  },
+  "originalOutputs": {
+    "A": {
+      "method": "A",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+    },
+    "B": {
+      "method": "B",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+    },
+    "C": {
+      "method": "C",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "raw": {
+        "id": "experience",
+        "label": "Administrative experience or a published substitution",
+        "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+        "context": "Minimum Qualifications · experience",
+        "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+        "required": true,
+        "rule": "md-admin-experience",
+        "value": "yes",
+        "statusLabel": "Declared evidence appears consistent",
+        "reason": "Declared 30-credit substitution route; verify accreditation and records.",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "sourceContext": "Minimum Qualifications · experience",
+        "limited": true
+      },
+      "unknowns": [
+        "High-school credential or equivalency",
+        "Work authorization and other conditions"
+      ],
+      "reason": "Declared 30-credit substitution route; verify accreditation and records."
+    }
+  },
+  "currentProduction": {
+    "method": "C",
+    "task": "condition",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "overallEligibility": null,
+    "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+    "supported": true,
+    "state": "supported",
+    "raw": {
+      "id": "experience",
+      "label": "Administrative experience or a published substitution",
+      "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+      "context": "Minimum Qualifications · experience",
+      "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+      "required": true,
+      "rule": "md-admin-experience",
+      "value": "yes",
+      "statusLabel": "Declared evidence appears consistent",
+      "reason": "Declared 30-credit substitution route; verify accreditation and records.",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "sourceContext": "Minimum Qualifications · experience",
+      "limited": true
+    },
+    "unknowns": [
+      "High-school credential or equivalency",
+      "Work authorization and other conditions"
+    ],
+    "reason": "Declared 30-credit substitution route; verify accreditation and records."
+  },
+  "clock": "2026-10-27T18:00:00Z",
+  "datasetSha256": "ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51",
+  "release": "3cd21fd7d1e9379ea8350016bead426ea977900e",
+  "interpretation": "Internal authored reference; pending adjudication. Current output is a directed retest after repairs."
+}

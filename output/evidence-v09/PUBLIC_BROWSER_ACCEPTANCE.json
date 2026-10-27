@@ -1,0 +1,339 @@
+{
+  "source": {
+    "revision": "3cd21fd7d1e9379ea8350016bead426ea977900e",
+    "version": "0.9.0",
+    "assetPolicy": "entry modules, relative imports and styles use the release revision",
+    "discovery": {
+      "lastSuccessAt": "2026-10-27T22:54:58.652681+00:00",
+      "lastAttemptAt": "2026-10-27T22:54:58.652681+00:00",
+      "status": "ok",
+      "sha256": "9762d9f6812bfd2439df284b98c0dde728cb25754a45c9d290ea73886e7645fa",
+      "records": 335
+    },
+    "sourceObservationAt": "2026-10-27T19:23:15.922Z",
+    "journeySchema": "opportunitybridge-journey-1",
+    "quest": {
+      "version": "0.8.1",
+      "frozenDiscoverySha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366"
+    },
+    "cceb": {
+      "version": "1.0",
+      "datasetSha256": "ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51",
+      "protocolFreeze": "e977a95d1750073a6c56160e6cbd4fb7cd0f7302",
+      "independentReviewers": 0
+    }
+  },
+  "legacyAndEvidenceHarness": [
+    {
+      "page": "browser.html",
+      "result": "15 assertions passed\nPASS Actual modules initialize four roles\nPASS No-selection export disabled\nPASS Role selection focuses plan heading\nPASS Edited unknown fact reaches requirement display\nPASS Contradicted skill no longer offered as supported\nPASS Downloaded plan uses edited credential\nPASS Downloaded plan uses edited unknown\nPASS Handoff includes current draft\nPASS Handoff includes current declarations\nPASS Simpler explanation preserves draft\nPASS Persona switch clears selection\nPASS Technology filter returns one sample\nPASS Reset restores all roles\nPASS Reset clears sample draft\nPASS Reset clears simpler-explanation state"
+    },
+    {
+      "page": "real-browser.html",
+      "result": "23 assertions passed\nPASS Actual real-opportunity modules load\nPASS Fictional engine is absent from primary page\nPASS Five attributed historical records load\nPASS Expired intake excluded from default\nPASS History preserves expired status\nPASS No-result state is explained\nPASS Shortlist shows only saved record\nPASS Inspect moves focus to selected opportunity\nPASS Requirement title distinct from state\nPASS Unknown declarations remain unknown\nPASS Sample coursework declarations load\nPASS Fact editing preserves the selected record draft\nPASS Untrusted draft is never inserted as HTML\nPASS Export preserves actual recruitment ID\nPASS Export uses numeric edits before blur/change\nPASS Export includes selected draft\nPASS Export keeps missing conditions\nPASS Export includes action plan\nPASS Export strips HTML delimiters\nPASS Clear session deletes shortlist\nPASS Clear session deletes selection and facts\nPASS Historical skills distinguish recommended portfolio work\nPASS Practice Mode remains reachable"
+    },
+    {
+      "page": "v06-browser.html",
+      "result": "25 assertions passed\nPASS MPT commitment visible on card\nPASS Four college document items available on card\nPASS Card application preserves original recruitment identity\nPASS Tour selects genuine featured source\nPASS Tour sample declares fictional16-hour availability\nPASS MPT source condition remains human-reviewed\nPASS Tour can be skipped without Practice Mode detour\nPASS Fact editing preserves worksheet\nPASS Document progress uses actual four-item denominator\nPASS Additional connection preserves existing content\nPASS Real export includes source, worksheet and checklist\nPASS Printable snapshot preserves full edited evidence text\nPASS Export retains missing work and personal target limits\nPASS Invalid hours produce a labeled error\nPASS New app controls have associated labels\nPASS Worksheet reset clears connections\nPASS Session reset clears selected facts and worksheet\nPASS Active session cannot be silently restarted\nPASS MPT source pair uses current real employer case\nPASS Reflection separates perceived clarity and adjudicated observations\nPASS Out-of-range host rubric score flagged\nPASS Evaluation reflection and observer fields are labeled\nPASS Municipal handoff explains escalation and holds\nPASS Evaluator handoff preserves measurement limits\nPASS Pilot templates and complete kit are downloadable"
+    },
+    {
+      "page": "evaluation-browser.html",
+      "result": "9 assertions passed\nPASS Recently reviewed sources permit rehearsal\nPASS Consent and code gate the session\nPASS Manual condition has no assisted destination\nPASS Answers wait for actual task start\nPASS Measured start enables worksheet\nPASS Second case uses reviewed fiscal assisted destination\nPASS Fictional matched fiscal facts preserved\nPASS Reflection allows unfavorable findings and local export\nPASS Reset clears local session"
+    },
+    {
+      "page": "v07-browser.html",
+      "result": "24 assertions passed\nPASS Pulse names snapshot provenance without a live label\nPASS Pulse paginates the actual normalized feed\nPASS New discoveries and preparation-ready sources are distinct\nPASS Discovery lead has no qualification or Passport shortcut\nPASS Saved filter retains exactly the saved discovery\nPASS Accessible sort renders results\nPASS Pulse explains an empty result\nPASS Passport initially reveals one control stage per connection\nPASS Moving between stages preserves declarations\nPASS Same-page career navigation preserves the current Passport context\nPASS Readiness to discuss is not eligibility\nPASS Map node exposes source-bound target\nPASS Evidence map has a text equivalent\nPASS Historical exercise adds a separate proposed connection\nPASS Story connection preserves no-artifact/endorsement boundary\nPASS JSON receipt keeps original source and catalog revision\nPASS JSON includes the actual historical source\nPASS Incomplete connection and independent n remain explicit\nPASS Markdown Passport states its planning-document limit\nPASS Pulse and Passport controls have associated labels\nPASS No automated third-party requests from the learner interface\nPASS Second featured sector journey works\nPASS Reset clears Passport and Advisor Studio\nPASS Reset also clears saved discovery records"
+    },
+    {
+      "page": "evidence-browser.html",
+      "result": "73 assertions passed\nPASS All60 frozen cases load\nPASS UI replay equals retained production output Q01\nPASS UI replay equals retained production output Q02\nPASS UI replay equals retained production output Q03\nPASS UI replay equals retained production output Q04\nPASS UI replay equals retained production output Q05\nPASS UI replay equals retained production output Q06\nPASS UI replay equals retained production output Q07\nPASS UI replay equals retained production output Q08\nPASS UI replay equals retained production output Q09\nPASS UI replay equals retained production output Q10\nPASS UI replay equals retained production output Q11\nPASS UI replay equals retained production output Q12\nPASS UI replay equals retained production output C01\nPASS UI replay equals retained production output C02\nPASS UI replay equals retained production output C03\nPASS UI replay equals retained production output C04\nPASS UI replay equals retained production output C05\nPASS UI replay equals retained production output C06\nPASS UI replay equals retained production output C07\nPASS UI replay equals retained production output C08\nPASS UI replay equals retained production output C09\nPASS UI replay equals retained production output C10\nPASS UI replay equals retained production output C11\nPASS UI replay equals retained production output C12\nPASS UI replay equals retained production output D01\nPASS UI replay equals retained production output D02\nPASS UI replay equals retained production output D03\nPASS UI replay equals retained production output D04\nPASS UI replay equals retained production output D05\nPASS UI replay equals retained production output D06\nPASS UI replay equals retained production output D07\nPASS UI replay equals retained production output D08\nPASS UI replay equals retained production output D09\nPASS UI replay equals retained production output D10\nPASS UI replay equals retained production output U01\nPASS UI replay equals retained production output U02\nPASS UI replay equals retained production output U03\nPASS UI replay equals retained production output U04\nPASS UI replay equals retained production output U05\nPASS UI replay equals retained production output U06\nPASS UI replay equals retained production output U07\nPASS UI replay equals retained production output U08\nPASS UI replay equals retained production output U09\nPASS UI replay equals retained production output U10\nPASS UI replay equals retained production output P01\nPASS UI replay equals retained production output P02\nPASS UI replay equals retained production output P03\nPASS UI replay equals retained production output P04\nPASS UI replay equals retained production output P05\nPASS UI replay equals retained production output P06\nPASS UI replay equals retained production output P07\nPASS UI replay equals retained production output P08\nPASS UI replay equals retained production output A01\nPASS UI replay equals retained production output A02\nPASS UI replay equals retained production output A03\nPASS UI replay equals retained production output A04\nPASS UI replay equals retained production output A05\nPASS UI replay equals retained production output A06\nPASS UI replay equals retained production output A07\nPASS UI replay equals retained production output A08\nPASS One fact changes selected route and retains other unknowns\nPASS Reset restores unknown selected state\nPASS Evaluation partition48\nPASS Development partition12\nPASS All60 comparison rows restored\nPASS Reviewer absence holds all source versions\nPASS Double review time computes cost and backlog\nPASS Base staffing and economic cost reconcile\nPASS Zero modeled plans has no invented unit cost\nPASS All Evidence Room controls have labels\nPASS Live result semantics present (actual AT untested)\nPASS No-script plain reports available"
+    }
+  ],
+  "native": {
+    "phase": "public",
+    "release": {
+      "revision": "3cd21fd7d1e9379ea8350016bead426ea977900e",
+      "version": "0.9.0",
+      "assetPolicy": "entry modules, relative imports and styles use the release revision",
+      "discovery": {
+        "lastSuccessAt": "2026-10-27T22:54:58.652681+00:00",
+        "lastAttemptAt": "2026-10-27T22:54:58.652681+00:00",
+        "status": "ok",
+        "sha256": "9762d9f6812bfd2439df284b98c0dde728cb25754a45c9d290ea73886e7645fa",
+        "records": 335
+      },
+      "sourceObservationAt": "2026-10-27T19:23:15.922Z",
+      "journeySchema": "opportunitybridge-journey-1",
+      "quest": {
+        "version": "0.8.1",
+        "frozenDiscoverySha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366"
+      },
+      "cceb": {
+        "version": "1.0",
+        "datasetSha256": "ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51",
+        "protocolFreeze": "e977a95d1750073a6c56160e6cbd4fb7cd0f7302",
+        "independentReviewers": 0
+      }
+    },
+    "fixture": "trial-v08.json",
+    "clock": "2026-10-27T12:00:00Z",
+    "viewport": {
+      "width": 1366,
+      "height": 900
+    },
+    "tests": [
+      {
+        "id": "T01",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Current release metadata, frozen clock and not-live disclosure",
+        "observed": {
+          "sha": "3cd21fd7d1e9379ea8350016bead426ea977900e",
+          "version": "0.9.0",
+          "status": "FROZEN REPRODUCIBILITY TRIAL · not current discovery. Latest observed snapshot · 10/26/2026, 9:52:11 PM ET. Scheduled snapshot, not live. Latest attempt: 10/26/2026, 9:52:11 PM ET."
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T02",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Free navigation and plain view without login",
+        "observed": true,
+        "status": "PASS"
+      },
+      {
+        "id": "T03",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Both INTERNAL false positives excluded",
+        "observed": "0 matching records · 0 individual listings / learning resources · 0 directories. 320 normalized RSS records before expiry filtering · 0 saved in this tab. Categories describe sources, not eligibility. Courses and directories are not jobs.",
+        "status": "PASS"
+      },
+      {
+        "id": "T04",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Two MPT fellowship recruitment identities",
+        "observed": [
+          {
+            "id": "mpt-media",
+            "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b="
+          },
+          {
+            "id": "mpt-motorweek",
+            "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b="
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "id": "T05",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "W3C2 + OpenLearn2 + Forage1, training labels",
+        "observed": [
+          {
+            "id": "wai-easy-checks",
+            "training": true
+          },
+          {
+            "id": "wai-tutorials",
+            "training": true
+          },
+          {
+            "id": "forage-data",
+            "training": true
+          },
+          {
+            "id": "openlearn-cyber",
+            "training": true
+          },
+          {
+            "id": "openlearn-it",
+            "training": true
+          }
+        ],
+        "status": "PASS"
+      },
+      {
+        "id": "T06",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Honest empty project filter with directory fallback",
+        "observed": "No individually verified short paid project is connected.\n\nParker Dewey offers account-based discovery. This outbound directory is not an open project or a connected feed.\n\nExplore Parker Dewey’s directory ↗",
+        "status": "PASS"
+      },
+      {
+        "id": "T07",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Two alternatives; all six nodes expose source/action",
+        "observed": {
+          "routes": [
+            "Make civic information accessible",
+            "Translate public-service evidence"
+          ],
+          "nodes": [
+            {
+              "node": "discover",
+              "text": "Discover a real source\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nMD Center for Media Literacy & Education Student Fellow\n\nDigital learning resources, accessible web content and outreach at Maryland Public Television. Students/recent graduates; minimum 16-hour weekly commitment.\n\nVerified from official source · Open/continuous in official bulletin; no announced closing date\n\nShow this source in discoveryOpen original official source ↗\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            },
+            {
+              "node": "learn",
+              "text": "Learn from a public resource\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nWAI Web Accessibility Tutorials\n\nSelf-guided implementation tutorials for accessible images, forms, page structure and tables.\n\nFree public tutorials, not a formal certificate or verified course completion. Study duration is not stated. Reading or following examples does not establish WCAG conformance or employer eligibility.\n\nMetadata reviewed 2026-10-27T08:45:02Z. No course completion is claimed.\n\nOpen the public learning resource ↗\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            },
+            {
+              "node": "practice",
+              "text": "Try a related exercise\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nThe exercise retains its own frozen source and checks. An analogous skill is not an employer qualification.\n\nPlay the related quest\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            },
+            {
+              "node": "build",
+              "text": "Build source-linked evidence\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nPassport source: MD Center for Media Literacy & Education Student Fellow. Use fictional experience. Source holds and unknowns remain visible.\n\nOpen this source’s Passport\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            },
+            {
+              "node": "prepare",
+              "text": "Prepare the human conversation\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nSource: MD Center for Media Literacy & Education Student Fellow. Check documents, actual announced deadlines and unresolved conditions; no advising appointment exists.\n\nPrepare this advisor handoff\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            },
+            {
+              "node": "connect",
+              "text": "Use the official route\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nMD Center for Media Literacy & Education Student Fellow\n\nOfficial application/program route. This may require an employer account and its terms. No application, message or agreement is sent by OpportunityBridge.\n\nOpen the official application or program ↗Reinspect the official announcement ↗\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+            }
+          ]
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T08",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Two chips OR; pay AND; exact reset",
+        "observed": {
+          "combined": [
+            "doe-suli",
+            "nih-sip",
+            "mpt-media",
+            "mpt-motorweek"
+          ],
+          "pressed": [
+            "internships",
+            "fellowships"
+          ],
+          "resetMatches": true
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T09",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Captured fictional Passport/route/learning restored",
+        "observed": {
+          "return": "Welcome back. You have 1 checked learning record and 0 saved opportunities. Pick up where you left off.",
+          "ledger": "1/3 activities completed · 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source Detective",
+          "capture": "Saving enabled. Current route, saved sources and learning progress are saved. Passport: current fictional draft explicitly captured and saved on this device."
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T10",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Real Journey JSON; deletion persists across reload",
+        "observed": {
+          "file": "public-journey.json",
+          "empty": "Working journey · 0 checked learning records · 0 saved sources · 0 explicitly captured fictional Passport drafts."
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T11",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Native real-file import: unverified/zero trusted XP",
+        "observed": {
+          "status": "Journey imported into working memory. Imported learning records and milestones are unverified, earn no XP, and need replay. Saving remains off until you opt in.",
+          "ledger": "0/3 activities completed · 0 learning XP. Product progress only; no employer-recognized credential.\n\nImported / unverified · replay: Source Detective",
+          "source": "MD Center for Media Literacy & Education Student Fellow"
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "T12",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Actual MPT handoff source, four documents and unknown conditions",
+        "observed": {
+          "file": "public-mpt-handoff.md",
+          "source": true,
+          "transcript": true,
+          "unknown": true
+        },
+        "status": "PASS"
+      }
+    ],
+    "quests": [
+      {
+        "id": "Q1",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "All five checks; first30 XP",
+        "observed": "Exercise complete — the checked learning actions are recorded.\n\n✓ The frozen reviewed substitution uses 30 accredited college credits.\n\n✓ Those credits may replace the six-month administrative-experience requirement.\n\n✓ The official recruitment supports this substitution; a general job-board title does not.\n\n✓ Applicant records, high-school/equivalency and other source conditions are not established by the scenario.\n\n✓ A substitution is not proof of overall eligibility or a hiring guarantee.\n\nFirst completion recorded. Replays do not duplicate the learning record.",
+        "status": "PASS"
+      },
+      {
+        "id": "Q2",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Wrong input fails; replay has no duplicate reward",
+        "observed": {
+          "negative": "Keep exploring — these checks need attention.\n\n○ The frozen reviewed substitution uses 30 accredited college credits.\n\n○ Those credits may replace the six-month administrative-experience requirement.\n\n○ The official recruitment supports this substitution; a general job-board title does not.\n\n○ Applicant records, high-school/equivalency and other source conditions are not established by the scenario.\n\n○ A substitution is not proof of overall eligibility or a hiring guarantee.\n\nNo completion recorded. Every essential check must pass.",
+          "ledger": "1/3 activities completed · 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source Detective"
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "Q3",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Five actual repairs;40 new XP; safe generated HTML",
+        "observed": {
+          "file": "public-repaired.html",
+          "label": true,
+          "heading": true,
+          "noExternalScriptOrForm": true,
+          "ledger": "2/3 activities completed · 70 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source DetectiveSkill Builder · Build an Accessibility Artifact"
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "Q4",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "Empty/unsupported eligibility claim reject completion",
+        "observed": {
+          "empty": "Keep exploring — these checks need attention.\n\n○ Describe the fictional learner’s concrete classroom, mentoring or research activity (at least 20 characters).\n\n○ Choose a skill associated with the reviewed MPT source.\n\n○ Choose an actual reviewed MPT condition or role duty; a duty is not a minimum qualification.\n\n○ Describe a proposed sample and what it would show (at least 20 characters).\n\n○ Write a specific human-verification question (at least 15 characters).\n\n✓ Unsupported hiring or certified-eligibility phrases must be absent. This limited check cannot verify every claim.\n\nNo completion recorded. Every essential check must pass.",
+          "unsupported": "Keep exploring — these checks need attention.\n\n✓ Describe the fictional learner’s concrete classroom, mentoring or research activity (at least 20 characters).\n\n✓ Choose a skill associated with the reviewed MPT source.\n\n✓ Choose an actual reviewed MPT condition or role duty; a duty is not a minimum qualification.\n\n✓ Describe a proposed sample and what it would show (at least 20 characters).\n\n✓ Write a specific human-verification question (at least 15 characters).\n\n○ Unsupported hiring or certified-eligibility phrases must be absent. This limited check cannot verify every claim.\n\nNo completion recorded. Every essential check must pass.",
+          "ledger": "2/3 activities completed · 70 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source DetectiveSkill Builder · Build an Accessibility Artifact"
+        },
+        "status": "PASS"
+      },
+      {
+        "id": "Q5",
+        "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
+        "expected": "110XP/3 records; accurate populated fictional Passport; unknown employer condition",
+        "observed": {
+          "ledgerFile": "public-ledger.json",
+          "passportFile": "public-passport.json",
+          "records": 3,
+          "xp": 110,
+          "experience": "Created an HTML guide for a classroom project teaching accessible headings and alternative text.",
+          "unknown": true
+        },
+        "status": "PASS"
+      }
+    ],
+    "artifacts": [
+      "public-journey.json",
+      "public-repaired.html",
+      "public-ledger.json",
+      "public-passport.json",
+      "public-mpt-handoff.md"
+    ],
+    "status": "PASS"
+  },
+  "evidenceRoom": {
+    "revision": "Exact deployed release: 3cd21fd7d1e9379ea8350016bead426ea977900e",
+    "status": "60 frozen cases loaded. Independent adjudication pending. Local replay ready.",
+    "factResult": "Selected experience condition: supported. Declared 30-credit substitution route; verify accreditation and records. Other unresolved conditions: High-school credential or equivalency; Work authorization and other conditions. Overall eligibility: unknown. Military equivalence, records and accreditation are unverified.",
+    "receiptMatches": true
+  },
+  "console": [],
+  "testedAt": "2026-10-27T22:56:58.367Z",
+  "screenReader": "UNTESTED",
+  "actual200PercentZoom": "UNTESTED"
+}

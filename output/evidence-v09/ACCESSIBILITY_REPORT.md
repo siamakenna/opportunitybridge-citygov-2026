@@ -7,3 +7,5 @@ New actual browser checks and environment are recorded in BROWSER_ACCEPTANCE.jso
 Any blockingaccessbarrier pauses affectedpilotworkflow; provide equivalent human/paperroute immediately. Accesslead validateswithactualAT/consenteduser, maintainerrepairs, independentretestbeforeresume. Do not increase rubric I from automatedchecks alone. English-onlycontent, terminologyandcognitiveload require humanstudy.
 
 Actual local checks: 138 JavaScript/six Python, 96 preserved browser assertions, 73 Evidence Room assertions, 12 native functional and five quest checks pass. Evidence Room keyboard fact editing and 320/390/768/1366 reflow passed; actual downloads inspected. BROWSER_ACCEPTANCE.json and evidence/v09/local-acceptance.json retain details. No actual AT/zoom conclusion follows.
+
+The same public 96 preserved browser +73 Evidence Room assertions and 17 native checks passed on the deployed release. Public receipt download carries correct release SHA and preserves unknown eligibility. These are software/DOM/keyboard checks, not a screen-reader session.

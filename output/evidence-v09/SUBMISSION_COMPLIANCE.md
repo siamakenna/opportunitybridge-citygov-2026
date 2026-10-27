@@ -7,3 +7,5 @@ Do not click Submit for Judging, accept binding declarations, alter team/eligibi
 Official deadline retained from prior audit: November 6, 2026, 11:59 PM EST. Preferred owner review window November 4–5. Final judging submission requires explicit owner approval. Portal save/reload receipt is recorded only when completed; prepared text alone is not a successful saved update.
 
 Additional authorized profile investigation: account menu exposes an account Profile editor, Dashboard exposes no shareable own-profile link, and the visible Find Connections directory search for the captain (including Enter) exposed no own public route. This is a UI limitation, not proof that no public profile exists. No URL was guessed, no profile visibility changed and no messages sent. Owner/organizer clarification remains required.
+
+Completed save/reload: 9289 characters; solution 529 words; equity 180 words. Exact description digest 040571709949de091ce4d19870e9ad12001f23cf1080f18c5e8798e6dfbdb575. Title/links/PDF retained; draft not submitted. PORTAL_VERIFICATION.json is the actual persistence receipt.
