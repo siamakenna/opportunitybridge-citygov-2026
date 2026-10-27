@@ -7,3 +7,6 @@
 
 
 v0.7:daily RSS discovery publication does not renew reviewed qualification dates. Assign a steward to inspect snapshots/holds and explicitly approve source mappings before final submission. USAJOBS is optional/disabled; do not expose credentials in public files. The new video is an honest screenshot sequence. No further feature sprint is needed absent a critical defect.
+
+
+v0.8.1 freeze: output/study-v081 contains the unsent 15-minute invitation/protocol and blank receipts. Keep independent n=0 until actual consenting adults participate. Current media is a genuine screenshot sequence. Optional saving is for fictional/non-sensitive content on a shared device; do not import actual private records. Final judging submission remains the owner’s action.

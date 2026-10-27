@@ -1,0 +1,20 @@
+{
+  "status": "blank — no participant observation",
+  "participantCode": null,
+  "adultConsentObservedAt": null,
+  "consentForAnonymousNotes": null,
+  "sourcePacketVersion": null,
+  "releaseRevision": null,
+  "conditionOrder": null,
+  "denominators": {"invited": null, "consented": null, "started": null, "completed": null},
+  "tasks": [
+    {"task": "Discover", "startedAt": null, "endedAt": null, "completion": null, "errors": null, "assistance": null, "sourceCorrectness": null},
+    {"task": "Understand", "startedAt": null, "endedAt": null, "completion": null, "errors": null, "assistance": null, "sourceCorrectness": null},
+    {"task": "Practice", "startedAt": null, "endedAt": null, "completion": null, "errors": null, "assistance": null, "sourceCorrectness": null},
+    {"task": "Act", "startedAt": null, "endedAt": null, "completion": null, "errors": null, "assistance": null, "sourceCorrectness": null}
+  ],
+  "confusingLanguage": null, "unclearControls": null, "negativeFeedback": null,
+  "accessibilityBarriers": null, "selfReportedUsefulness1to5": null,
+  "selfReportedReturnIntention": null, "manualBaselineObservedSeconds": null,
+  "limitations": null
+}

@@ -37,3 +37,6 @@ Approved catalog and qualification-review dates above are unchanged. Opportunity
 ## v0.8 supplementary coverage
 
 See SUPPLEMENTARY_SOURCES.md for actual October 26 ET public-page observations. Three additional individual learning resources (OpenLearn IT, OpenLearn cyber security, Forage Deloitte data simulation), plus three outbound directory routes (Parker Dewey, Apprenticeship.gov, AmeriCorps). Direct AmeriCorps retrieval returned 403 and remains recheck-needed. No individual short paid project or additional public feed verified. USAJOBS credentials unavailable. Courses/directories are never counted as jobs/openings. Twelve qualification-review dates and mappings unchanged.
+
+
+Current v0.8.1 adds Career Constellation, optional local journey storage, strict unverified import and two reviewed W3C learning guides. See CAREER_CONSTELLATION_METHOD.md and EXECUTION_REPORT.md for actual tests, privacy boundaries and limits. No source date renewal, independent participant finding, credential or accessibility certification is implied.

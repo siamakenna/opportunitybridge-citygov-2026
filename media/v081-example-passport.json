@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "opportunitybridge-passport-0.8",
+  "productVersion": "0.8.1",
+  "type": "Evidence planning document — not a credential or eligibility decision",
+  "generatedAt": "2026-10-27T09:09:30.921Z",
+  "sourceCatalogRevision": "local",
+  "source": {
+    "id": "26-001755-0041",
+    "title": "Administrative Specialist I",
+    "employer": "Maryland Department of the Environment",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+    "reviewedAt": "2026-10-27T00:22:27.535Z",
+    "status": "Verified from official source",
+    "mappingApproved": true,
+    "mappingSourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+  },
+  "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+  "declarations": {},
+  "connections": [
+    {
+      "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+      "skill": "research",
+      "target": "Administrative experience or a published substitution",
+      "roleTask": false,
+      "reviewedExcerpt": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+      "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+      "humanQuestion": "Which records and other full-source conditions must HR verify?",
+      "interpretation": "Draft connection complete — human verification still required",
+      "unknowns": [],
+      "savedJourneySource": {
+        "id": "26-001755-0041",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+        "catalogRevision": "local",
+        "origin": "saved-device-draft"
+      },
+      "questReceipt": {
+        "questId": "source",
+        "questVersion": "0.8.1",
+        "sourceSnapshot": {
+          "id": "26-001755-0041",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "reviewedAt": "2026-10-27T00:22:27.535Z",
+          "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+        },
+        "simulation": true
+      },
+      "story": null
+    }
+  ],
+  "conditionReview": [
+    {
+      "label": "High-school credential or equivalency",
+      "required": true,
+      "state": "unknown",
+      "reason": "Credential or published education-equivalence route needs verification."
+    },
+    {
+      "label": "Administrative experience or a published substitution",
+      "required": true,
+      "state": "unknown",
+      "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+    },
+    {
+      "label": "Work authorization and other conditions",
+      "required": true,
+      "state": "unknown",
+      "reason": "This condition needs a human review of the complete official source."
+    }
+  ],
+  "documents": [
+    {
+      "text": "Complete state application and supplemental questionnaire; a résumé alone is insufficient.",
+      "preparedSelfDeclared": false
+    }
+  ],
+  "nextSteps": [
+    {
+      "action": "Recheck the full official source, identity, deadline and all conditions.",
+      "due": "2026-10-27T09:09:30.921Z",
+      "kind": "no later than the official deadline"
+    },
+    {
+      "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+      "due": "2026-10-28T09:09:30.921Z",
+      "kind": "no later than the official deadline"
+    },
+    {
+      "action": "Draft a truthful work sample and assemble the required documents.",
+      "due": "2026-10-30T09:09:30.921Z",
+      "kind": "no later than the official deadline"
+    },
+    {
+      "action": "Have a human review the packet, accessibility needs and remaining questions.",
+      "due": "2026-11-03T09:09:30.921Z",
+      "kind": "no later than the official deadline"
+    },
+    {
+      "action": "Use the official application only if appropriate; no application is sent by this tool.",
+      "due": "2026-11-03T22:00:00.000Z",
+      "kind": "no later than the official deadline"
+    }
+  ],
+  "unknowns": [
+    "High-school credential or equivalency: Credential or published education-equivalence route needs verification.",
+    "Administrative experience or a published substitution: Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+    "Work authorization and other conditions: This condition needs a human review of the complete official source."
+  ],
+  "humanReviewRequired": true,
+  "independentParticipants": 0
+}

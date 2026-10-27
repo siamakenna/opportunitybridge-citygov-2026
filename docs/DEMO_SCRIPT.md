@@ -1,3 +1,11 @@
+# Current v0.8.1 demonstration
+
+180 seconds from seven actual working-app captures: problem/home20s, two-route Constellation25s, real discovery25s, Source Detective30s, Passport25s, genuine save/reload return25s, actual advisor handoff and honest pilot limits30s. Captioned screenshot sequence, not continuous footage. No exposed continuous recording capability; no fake participant, narration or outcome. Current captions/transcript and actual downloaded Passport are linked on walkthrough.html. Preserve older media.
+
+For a 5–7-minute finalist pitch, lead with Constellation and its two real alternatives, demonstrate Source Detective and a source-bound Passport, then genuine opt-in return/import boundaries. Keep the existing proposed pilot’s host/consent/cost/measurement details and n=0; invite independent evaluation rather than claiming impact.
+
+The earlier pitch and Q&A remain useful below; their old video references are historical.
+
 # v0.6 demonstration and finalist pitch
 
 Retained v0.4 public 150-second English-captioned screenshot walkthrough: walkthrough.html / media/walkthrough.mp 4. Six genuine captured views: problem/home (20 s), actual catalog (25 s), selected requirement (30 s), NIH historical deliverable (30 s), generated handoff (25 s), proposed pilot (20 s). It is explicitly a still-capture sequence, not a continuous live recording. Actual source-file download was executed and inspected. Captions are burned in and supplied as VTT/SRT plus transcript. No narration or synthetic testimonials.

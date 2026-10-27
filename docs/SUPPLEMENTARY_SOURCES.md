@@ -14,3 +14,10 @@ Public program metadata inspected October 26, 2026 ET (2026-10-27T02:21:30Z). Ma
 | Maryland, NIH, DOE, DC and municipal sources | Existing source inventory retained | RSS is metadata discovery only. Previously reviewed sources retain dates and observation holds. DC/other portals remain outgoing links where APIs are unverified. |
 
 Coverage: three additional individual learning resources, three directory routes. The catalog supports many types; it does not claim active supply for every type. Short paid projects, unpaid internships, contracts, competitions and scholarships have no connected individually verified supplementary listings. These gaps are disclosed rather than filled with synthetic postings.
+
+
+## v0.8.1 additions — reviewed October 27, 2026
+
+Two additional individual, free self-guided learning guides were read at their official W3C provider sources: [WAI Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/) and [WAI Easy Checks](https://www.w3.org/WAI/test-evaluate/preliminary/). Recorded review: 2026-10-27T08:45:02Z. They teach accessible content patterns and an initial accessibility review. Duration is unknown; neither is a paid internship, verified vacancy, formal certificate or exhaustive compliance assessment. Five individual learning resources and three separate directory routes now supplement the existing twelve catalog records.
+
+No additional paid individual project was admitted: Parker Dewey retains its directory fallback. A current MPT spring RSS lead remains publisher-metadata-only with unknown compensation; the inaccessible full source was not promoted to qualification-reviewed. The OpenLearn simple-coding candidate’s embedded exercises could not be verified, and a Microsoft module resolved to a broader browse route, so neither was admitted. Existing dated opportunities, pay and qualification review dates were not renewed by this research.

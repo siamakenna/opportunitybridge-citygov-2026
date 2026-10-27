@@ -1,0 +1,50 @@
+{
+  "reflow": [
+    {
+      "documentWidth": 305,
+      "height": 900,
+      "horizontalOverflow": false,
+      "unlabeledControls": [],
+      "width": 320
+    },
+    {
+      "documentWidth": 375,
+      "height": 900,
+      "horizontalOverflow": false,
+      "unlabeledControls": [],
+      "width": 390
+    },
+    {
+      "documentWidth": 753,
+      "height": 900,
+      "horizontalOverflow": false,
+      "unlabeledControls": [],
+      "width": 768
+    },
+    {
+      "documentWidth": 1351,
+      "height": 900,
+      "horizontalOverflow": false,
+      "unlabeledControls": [],
+      "width": 1366
+    }
+  ],
+  "keyboard": {
+    "focus1": "constellation-list",
+    "focus2": {
+      "outline": "solid",
+      "text": "Make civic information accessible"
+    },
+    "focus3": {
+      "tag": "H3",
+      "text": "Discover a real source"
+    }
+  },
+  "contrast": {
+    "bad": [],
+    "tested": 1005
+  },
+  "zoom": "UNTESTED — no browser zoom control exposed",
+  "screenReader": "UNTESTED — no actual assistive-technology session",
+  "reducedMotion": "CSS prefers-reduced-motion rules inspected; runtime preference emulation unavailable"
+}

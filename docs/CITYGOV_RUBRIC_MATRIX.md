@@ -16,3 +16,10 @@ Internal, subjective assessment: **87/100**, unchanged from v0.7. The owner supp
 | J Presentation | 9 → 9 | Current captioned 180-second authentic screenshot walkthrough, source guides and downloads | No continuous recording or independent judge rehearsal | Unfamiliar-judge comprehension and live finalist rehearsal |
 
 Tie-breaker priorities remain E (Career Impact and Equity), then D (Pilot Feasibility). The strongest next evidence is real consenting learners and willing institutional hosts, not a higher internal score. No outreach, legal declaration or final judging submission is authorized by this mock assessment.
+
+
+## v0.8.1 reassessment — unchanged 87/100
+
+A8 B9 C9 D9 E7 F9 G9 H9 I9 J9. Career Constellation makes two routes and six source-linked actions concrete; opt-in return, strict portable import and explicit fictional draft capture improve practical continuity. These support B/C without independently proving a new benefit or earning an automatic increase. D remains constrained by absent host/staff/budget commitments; E remains 7 because n=0 and no career/access/return outcome is observed. New study materials are prepared, not participant evidence. H gains reproducible storage/delete/import coverage but authored tests do not become independent adjudication. I/J retain assistive-technology, zoom and genuine screenshot-media limitations. Tie-breaker priorities remain E then D.
+
+A skeptical judge could prefer Handshake’s established institutional/employer network, Forage’s broader provider-authored simulations, or Parker Dewey’s actual paid project marketplace. OpportunityBridge does not demonstrate superior placement, breadth, employer recognition or participant outcomes. Its inspectable contribution is the freely navigable source→exercise→fictional evidence→human question chain, explicit unknowns, import provenance and no-account local return workflow. That combination works in software; comparative usefulness still needs unfamiliar adults and hosts. See the existing source-supported alternatives matrix; no partnership or endorsement is claimed.
