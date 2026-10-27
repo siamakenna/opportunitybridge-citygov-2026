@@ -1,6 +1,6 @@
 # OpportunityBridge v0.8.1 execution report
 
-Current status: Career Constellation implemented and local release gates passed; public acceptance and existing Kenny! draft receipts are appended after execution. This report distinguishes authored software checks from independent user evidence. Independent unfamiliar adults **n=0**; no invitations sent. Internal official ten-category mock **87/100**, unchanged (A8 B9 C9 D9 E7 F9 G9 H9 I9 J9). No career, hiring, equity, learning or return-engagement outcome is measured.
+Current status: Career Constellation implemented; local and initial public feature acceptance passed. Final cache-safe harness publication and existing Kenny! draft receipts are appended after execution. This report distinguishes authored software checks from independent user evidence. Independent unfamiliar adults **n=0**; no invitations sent. Internal official ten-category mock **87/100**, unchanged (A8 B9 C9 D9 E7 F9 G9 H9 I9 J9). No career, hiring, equity, learning or return-engagement outcome is measured.
 
 ## Implemented
 
@@ -32,3 +32,14 @@ Metrics are synthetic unthrottled browser observations with shared cache. Each f
 ## Remaining owner-only evidence and submission
 
 Independent consenting-adult observation, qualified HR source adjudication, willing campus/municipal hosts, approved staffing/budget and actual accessibility review remain absent. The study kit is ready, not executed. Reinspect relevant full announcements November4–5; AdminI’s recorded deadline is November3 and fiscal November5, so an exercise snapshot must never imply future availability. Daily observations publish metadata/holds only. The owner reviews eligibility/declarations and chooses final submission of the existing Kenny! draft; no final judging submission is authorized here.
+
+
+## Executed initial public feature acceptance
+
+Feature revision **260c6695603038f4ca912348cd63d35f9051aa45**. [Verify and publish](https://github.com/siamakenna/opportunitybridge-citygov-2026/actions/runs/40479905390) and manually dispatched [Observe sources and publish discovery](https://github.com/siamakenna/opportunitybridge-citygov-2026/actions/runs/40479941590) both succeeded, including classification and journey gates. No future scheduled run is claimed. Fifty-five static assets matched the SHA-built distribution byte for byte. source.json matched product0.8.1, Journey schema, exact revision, actual Pulse digest and frozen fixture digest. The source scan/artifact is retained without approving mappings. Current observation2026-10-27T09:20:06.988Z; successful RSS321 records at2026-10-27T09:20:07.161840+00:00; digest927513d666b2ab02fb282405fd3e5796fabbc91b2c0f5d03c8bdc4b28a41e2c7. Frozen fixture320 records / SHA256786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366. Later metadata may be newer and is always identified in source.json.
+
+Both public Constellation trials passed **25/25** checks, with all semantic comparisons equal. Their actual four downloaded Journey/Passport files were read from disk and exactly matched the generated trial outputs. Journey schema opportunitybridge-journey-1; Passport schema opportunitybridge-passport-0.8, product0.8.1; exact feature revision; source quest0.8.1/frozen snapshot; recruitment26-001755-0041; all three employer conditions remain unknown. Receipts: evidence/v081/public-trials.json and public-trial-{1,2}-{journey,passport}.json. They cover all15 required tasks; nested checks make25 assertions, not25 independent users.
+
+Synthetic public metrics, unthrottled Chromium156/Macintosh with shared cache and an embedded app viewport recorded in each report: initial load75.7–380.9ms; searchable catalog150.8–483ms; Constellation interest DOM49.3–52.5ms; source search DOM71.3–143.3ms; quest check0.4–0.9ms; Passport JSON generation1.2–2.2ms. Encoded subresources107,132bytes over23 resources, excluding the main HTML document. Timings include synchronous render work, not independent usability or hiring benefit.
+
+During preserved public testing, a cached iframe could finish before an older harness attached its initial load listener. Some pages stayed Running despite loaded application content. Their initial readiness guards now handle already-complete app documents; no assertions were changed or removed. All96 checks pass locally with the cache-safe startup. Final public results follow below; incomplete early attempts are not counted as passes.

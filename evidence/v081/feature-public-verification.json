@@ -1,0 +1,362 @@
+{
+  "status": "PASS",
+  "expectedRevision": "260c6695603038f4ca912348cd63d35f9051aa45",
+  "checks": {
+    "revision": true,
+    "product": true,
+    "journeySchema": true,
+    "pulseDigest": true,
+    "fixtureDigest": true,
+    "allStaticAssets": true
+  },
+  "source": {
+    "revision": "260c6695603038f4ca912348cd63d35f9051aa45",
+    "version": "0.8.1",
+    "assetPolicy": "entry modules, relative imports and styles use the release revision",
+    "discovery": {
+      "lastSuccessAt": "2026-10-27T09:20:07.161840+00:00",
+      "lastAttemptAt": "2026-10-27T09:20:07.161840+00:00",
+      "status": "ok",
+      "sha256": "927513d666b2ab02fb282405fd3e5796fabbc91b2c0f5d03c8bdc4b28a41e2c7",
+      "records": 321
+    },
+    "sourceObservationAt": "2026-10-27T09:20:06.988Z",
+    "journeySchema": "opportunitybridge-journey-1",
+    "quest": {
+      "version": "0.8.1",
+      "frozenDiscoverySha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366"
+    }
+  },
+  "assets": [
+    {
+      "path": "index.html",
+      "bytes": 19182,
+      "sha256": "1fb0a4da8099b5e366227ef0a5a54611a7e5a6f1aece387eda976dc760c35fbf",
+      "matches": true
+    },
+    {
+      "path": "practice.html",
+      "bytes": 10066,
+      "sha256": "e9fdc2f33c4cda633a6b83a02b04794916a8f00bf978352a1ebfdcc3e10555d1",
+      "matches": true
+    },
+    {
+      "path": "judge.html",
+      "bytes": 6528,
+      "sha256": "439e9db41f9dac08b0fcc86c9cbd1fa94aef7770f4a98c148b73c3d5a7153725",
+      "matches": true
+    },
+    {
+      "path": "walkthrough.html",
+      "bytes": 3730,
+      "sha256": "f3c99f5e048ecaf53c43425f60e69f242ae16a45f2034ce228d8d1f048b063f8",
+      "matches": true
+    },
+    {
+      "path": "evaluation.html",
+      "bytes": 4462,
+      "sha256": "7619fe4532748d1e65b8fc2144d03216d50fddbb8d2f82ca9bfe0acd933b56be",
+      "matches": true
+    },
+    {
+      "path": "pilot.html",
+      "bytes": 3745,
+      "sha256": "46822eefe6283b1bb31dc3d4a6266beee3bc7f0a09aa83ede76fabb148855e8a",
+      "matches": true
+    },
+    {
+      "path": "tests/v081-trial.html",
+      "bytes": 979,
+      "sha256": "9ef9317ddbecdd41873ec72eb416e3be9725311b55833afbd9b75cafe517d351",
+      "matches": true
+    },
+    {
+      "path": "tests/v081-trial.js",
+      "bytes": 10684,
+      "sha256": "0b62407fa45df316beada0e7333aa1ebdc7a0a6d8046f19a5ab695e8c33c792a",
+      "matches": true
+    },
+    {
+      "path": "tests/v08-trial.html",
+      "bytes": 867,
+      "sha256": "297df0ad8488b051d744f070ae9c9536a1d0c41d391b97997821a53ead297991",
+      "matches": true
+    },
+    {
+      "path": "tests/v08-trial.js",
+      "bytes": 11172,
+      "sha256": "f91de7b2528baa0c66781bfe11448b65ee0372bcbe41acd808781d26085d98a2",
+      "matches": true
+    },
+    {
+      "path": "docs/CAREER_CONSTELLATION_METHOD.md",
+      "bytes": 5753,
+      "sha256": "eac540103229c031de75b7a8ddca842ef640bcd84c37b03fb2aa319383f0c7f7",
+      "matches": true
+    },
+    {
+      "path": "docs/EXECUTION_REPORT.md",
+      "bytes": 6686,
+      "sha256": "e6eedf006e077d63c97fdef5b24cf8a7dea4fb1a459214cae360cb6b87115ade",
+      "matches": true
+    },
+    {
+      "path": "docs/PORTAL_COPY.txt",
+      "bytes": 8971,
+      "sha256": "8b8689bb98be77fa081b25fddc5f30df40286596f47e267aebd76edefcc9d058",
+      "matches": true
+    },
+    {
+      "path": "docs/CITYGOV_RUBRIC_MATRIX.md",
+      "bytes": 4934,
+      "sha256": "11e4cda5c1b0be446d20d5a3d06ce7acba54cb13113461633dfaa360428cb6d9",
+      "matches": true
+    },
+    {
+      "path": "output/OpportunityBridge-v081-Owner-Submission-Packet.zip",
+      "bytes": 88215,
+      "sha256": "fab6e24130fed75ea0f3e569378897c47387bac91bd0d0013620792ced42840e",
+      "matches": true
+    },
+    {
+      "path": "output/pdf/OpportunityBridge-Pilot-Packet.pdf",
+      "bytes": 6867,
+      "sha256": "f1da541c63aff7f776f0daffb9cecbb8bf1989bef67db58800f583ccc6a991f9",
+      "matches": true
+    },
+    {
+      "path": "media/v081-walkthrough.mp4",
+      "bytes": 1083696,
+      "sha256": "113defe73366ec0c95ac9e7e88412e82306b560d897d39d23ccc662218b59112",
+      "matches": true
+    },
+    {
+      "path": "media/v081-walkthrough.vtt",
+      "bytes": 1143,
+      "sha256": "be3d3a75f8196b066c563b68512e51e88d38f8e7058b518c08e66bcefe5c5d5a",
+      "matches": true
+    },
+    {
+      "path": "media/v081-walkthrough-transcript.txt",
+      "bytes": 2846,
+      "sha256": "7d805d5cdd98cf72df23ab9b07ec548f3b8b7a7684e51e8004b27b6d0246b353",
+      "matches": true
+    },
+    {
+      "path": "media/v081-example-passport.json",
+      "bytes": 4970,
+      "sha256": "8f55a1281e3ddd402f8408b704667fcbbaa197678d772d901df777c345b97409",
+      "matches": true
+    },
+    {
+      "path": "src/constellation-core.js",
+      "bytes": 7396,
+      "sha256": "9fbfc065da6a78177012678c7e79793063157698211dcbba8e0599e117632ff2",
+      "matches": true
+    },
+    {
+      "path": "src/real.css",
+      "bytes": 13756,
+      "sha256": "e2a10f2fa89b5a10d7d3647ea1e5166b03e65dcbe7aabbbb69d7e66d85f6dfd8",
+      "matches": true
+    },
+    {
+      "path": "src/pulse-core.js",
+      "bytes": 6551,
+      "sha256": "150c862ea7616b98d79e04bf108c51024138325956411856a0565948ae2366c9",
+      "matches": true
+    },
+    {
+      "path": "src/evaluation-app.js",
+      "bytes": 9484,
+      "sha256": "51f1e6edd706f603494f5073c67b562379e32b064c2b5a045933d49355548e9a",
+      "matches": true
+    },
+    {
+      "path": "src/real-core.js",
+      "bytes": 10837,
+      "sha256": "de412760f25d14071b8a05ed73d91b369595d56b59fb4d53eaf7c75bddc37151",
+      "matches": true
+    },
+    {
+      "path": "src/core.js",
+      "bytes": 12768,
+      "sha256": "46a55c2366f2f0700abbf156560917be142fe1a26f9ab4d0fd87fdb4f7d2441e",
+      "matches": true
+    },
+    {
+      "path": "src/pulse-app.js",
+      "bytes": 14886,
+      "sha256": "5b92c72b60f3f413ea6d28d6d6f0918ce6eccdcf589e6220f43d7762c8e4d02a",
+      "matches": true
+    },
+    {
+      "path": "src/studio.css",
+      "bytes": 13466,
+      "sha256": "914482b330742da6a8b005b44e624bd278eae48e05ab59bfa0ac5c96a8e703dd",
+      "matches": true
+    },
+    {
+      "path": "src/walkthrough.js",
+      "bytes": 486,
+      "sha256": "da61c484e8adf9f0443d424a198cdd9db76db1c4755f0719a803ca495f7d942b",
+      "matches": true
+    },
+    {
+      "path": "src/supplementary.js",
+      "bytes": 6535,
+      "sha256": "0c9d6b07dcc8d3c29888998acea9a7f230f00eceb001c643766cd1ce7157aef4",
+      "matches": true
+    },
+    {
+      "path": "src/quest.css",
+      "bytes": 9200,
+      "sha256": "9b073d24b7f06b67dd6c38e54715d184bde10f041feb70b59641012879d15996",
+      "matches": true
+    },
+    {
+      "path": "src/pilot.js",
+      "bytes": 2277,
+      "sha256": "23ab0d9bbb88f0ea18b7987fb6b0afff5ab9c41322542e1fe48fd637e8e9afb8",
+      "matches": true
+    },
+    {
+      "path": "src/catalog.js",
+      "bytes": 45787,
+      "sha256": "8b6e4d9268ef87e7e30fb5175acca5a28216fe73978b98633dcbe8ab999a023f",
+      "matches": true
+    },
+    {
+      "path": "src/passport.js",
+      "bytes": 6455,
+      "sha256": "3cea0aa9713e64e945059f08918ff34b301d3161cd63a0e304642fa2b65a4b2f",
+      "matches": true
+    },
+    {
+      "path": "src/icon.svg",
+      "bytes": 283,
+      "sha256": "4d2d0fcd15b039a2ecc729977c898a593909a8347ad70697a04ac15c6c9edc5e",
+      "matches": true
+    },
+    {
+      "path": "src/release.js",
+      "bytes": 73,
+      "sha256": "3f22d5582103bb139edfeb18b57b59d03c9a89793bf2ead320c949d678b43198",
+      "matches": true
+    },
+    {
+      "path": "src/real-app.js",
+      "bytes": 36342,
+      "sha256": "098bd8da8f85491fbeeda71b04278c3f61b37e6bba697787d49a32009676a301",
+      "matches": true
+    },
+    {
+      "path": "src/preparation.js",
+      "bytes": 4488,
+      "sha256": "ac201c5985eea7fc0893eaf428ac02154e749c7edd3fbb7befa1e4f5ff597044",
+      "matches": true
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 15510,
+      "sha256": "61b0da58dcfba5b63cf8a63a398cb73f774b04a33d0d3337cea242f6d8ffafef",
+      "matches": true
+    },
+    {
+      "path": "src/library-map.svg",
+      "bytes": 596,
+      "sha256": "471034ffe67cf3df7f4f972809356a62b69ec116d15e2af3587cbcf8abdd743f",
+      "matches": true
+    },
+    {
+      "path": "src/constellation.css",
+      "bytes": 6611,
+      "sha256": "466d1c26b665c298af730b5ce337e76267a0f8233cc22a5e394f9dd0d5a22e50",
+      "matches": true
+    },
+    {
+      "path": "src/outcomes.js",
+      "bytes": 4916,
+      "sha256": "4b52b8048aab278e782845e70fff12ea5793e2d3247cab88f3b83f39977df7b7",
+      "matches": true
+    },
+    {
+      "path": "src/taxonomy.js",
+      "bytes": 6565,
+      "sha256": "621cb417d7556012aa82e056fa764749ef98fb113bccd52802daea81cb8e73dd",
+      "matches": true
+    },
+    {
+      "path": "src/quest-app.js",
+      "bytes": 15410,
+      "sha256": "252f737a1bdefe12b4855f50db387b73bc97722f3027302b989179f3d19adfdb",
+      "matches": true
+    },
+    {
+      "path": "src/quest-core.js",
+      "bytes": 5834,
+      "sha256": "ce1375983df85db059172db61283d0d4022e4c5d1f95f2e78b2a45ae3a750434",
+      "matches": true
+    },
+    {
+      "path": "src/evaluation-core.js",
+      "bytes": 3842,
+      "sha256": "91e354c4a9b75e37c4caeeb79dedd66a04f6ca29d1740aff80ca0df949998a6c",
+      "matches": true
+    },
+    {
+      "path": "src/journey-core.js",
+      "bytes": 11383,
+      "sha256": "d1b2e192d705872de612e4a1f91be54d250be453b2eb26fd75a802aa1a233915",
+      "matches": true
+    },
+    {
+      "path": "src/resources.js",
+      "bytes": 2622,
+      "sha256": "545c8efa656071195e69bdd62f81a2ea5096ae2d2e2ab5e2299c88ed24ae41e8",
+      "matches": true
+    },
+    {
+      "path": "src/journey-app.js",
+      "bytes": 12652,
+      "sha256": "bcb0861ac749a2dbc4eb49c7223ab59c3fe7ab8ac9783c75b997d1ed927fe2d7",
+      "matches": true
+    },
+    {
+      "path": "src/app.js",
+      "bytes": 8106,
+      "sha256": "87f0eb6735d853dcccffa864a136b7d06cd3e301a3f303fa1c36d48952f5610c",
+      "matches": true
+    },
+    {
+      "path": "src/source-review.js",
+      "bytes": 1911,
+      "sha256": "6f90f2603f0bc8f503f48ff0e05c1ef3ad357d3ae613cbe8c69f1609452bd846",
+      "matches": true
+    },
+    {
+      "path": "output/study-v081/blank-evaluation-receipt.json",
+      "bytes": 1172,
+      "sha256": "1843cc07056f905885a82f9837f4b05c9f6432d475e773dcb6760050e06fe3ce",
+      "matches": true
+    },
+    {
+      "path": "output/study-v081/blank-observations.csv",
+      "bytes": 293,
+      "sha256": "55aa82478cb6e4f245039b71de60f1b8cd4ee5707c5b4bce8c31521a0cf151bd",
+      "matches": true
+    },
+    {
+      "path": "output/study-v081/15-minute-study.md",
+      "bytes": 4020,
+      "sha256": "6ae981d7bafecaedd31ac42485721aa6ba62f694dd9e104ea20a1984ca55673b",
+      "matches": true
+    },
+    {
+      "path": "output/study-v081/owner-invitation.txt",
+      "bytes": 686,
+      "sha256": "76b5d696f5b91728c78ee5fff3dc5451fc96e257e1520bf0895f133b3280a346",
+      "matches": true
+    }
+  ]
+}

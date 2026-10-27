@@ -4,7 +4,7 @@ const frame=document.querySelector('iframe'),output=document.querySelector('#res
 let passed=0;const lines=[];
 function check(value,label){if(!value)throw Error(label);passed++;lines.push('PASS '+label);output.textContent=lines.join('\n');}
 try{
- await new Promise(resolve=>frame.addEventListener('load',resolve,{once:true}));
+ await new Promise(resolve=>{if(frame.contentDocument?.readyState==='complete'&&frame.contentDocument.querySelector('script[type="module"]'))resolve();else frame.addEventListener('load',resolve,{once:true});});
  const w=frame.contentWindow,d=frame.contentDocument;
  check(d.querySelectorAll('.role').length===4,'Actual modules initialize four roles');
  check(d.querySelector('#download').disabled,'No-selection export disabled');

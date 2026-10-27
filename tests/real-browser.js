@@ -1,6 +1,6 @@
 const frame=document.querySelector('iframe'),out=document.querySelector('#results');let passed=0;const lines=[];
 const check=(value,label)=>{if(!value)throw Error(label);passed++;lines.push('PASS '+label);out.textContent=lines.join('\n');};
-try{await new Promise(resolve=>frame.addEventListener('load',resolve,{once:true}));const w=frame.contentWindow,d=frame.contentDocument;
+try{await new Promise(resolve=>{if(frame.contentDocument?.readyState==='complete'&&frame.contentDocument.querySelector('script[type="module"]'))resolve();else frame.addEventListener('load',resolve,{once:true});});const w=frame.contentWindow,d=frame.contentDocument;
 check(d.querySelector('.career-card')!==null,'Actual real-opportunity modules load');
 check(!d.querySelector('#profiles'),'Fictional engine is absent from primary page');
 check(d.querySelectorAll('.outcome-card').length===5,'Five attributed historical records load');
