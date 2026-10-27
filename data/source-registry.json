@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {"id":"maryland-rss","enabled":true,"url":"https://www.jobapscloud.com/MD/rss.asp","permissionBasis":"RSS feed explicitly advertised by the public State of Maryland recruitment index","mode":"public syndication metadata","cadence":"daily snapshot","qualificationApproval":"never automatic"},
+    {"id":"usajobs-search","enabled":false,"url":"https://developer.usajobs.gov/api-reference/get-api-search","reason":"No owner-approved API key or registered email supplied; terms acceptance and credential setup remain owner-controlled","requiredHeaders":["Host: data.usajobs.gov","User-Agent: registered email","Authorization-Key: owner-approved API key"]},
+    {"id":"dc-careers","enabled":false,"url":"https://careers.dc.gov/","reason":"Official discovery link only; no documented permitted vacancy API verified in this sprint"},
+    {"id":"nih-doe-intakes","enabled":false,"reason":"Curated reviewed program announcements remain in the catalog; no autonomous nationwide intake crawler is claimed"}
+  ]
+}

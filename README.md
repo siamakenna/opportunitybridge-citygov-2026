@@ -1,35 +1,15 @@
-# OpportunityBridge — From Education to Real Civic Careers, With Evidence
+# OpportunityBridge — Pulse, Evidence Passport & Career Studio
 
-CityGov 2026 · Kenny! · v0.6 · October 26, 2026
+CityGov2026 · Kenny! · v0.7. Existing repository and GitHub Pages hosting preserved. [Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Current captioned screenshot walkthrough](https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html).
 
-[Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Practice Mode](https://siamakenna.github.io/opportunitybridge-citygov-2026/practice.html)
+Opportunity Pulse uses the advertised public Maryland RSS feed, with discovery/source-reviewed/preparation-ready levels. Initial331RSS items normalized to320 valid recruitment identities. A dated snapshot is not a live or comprehensive job search; unreviewed leads never receive qualification rules. The approved12-record catalog remains separate and its review dates are unchanged. Read [sources, permissions and failure behavior](docs/PULSE_SOURCES.md).
 
-Official opportunities are the first interaction. Inspect a real record, compare fictional declarations to selected source-grounded criteria, draft evidence, prepare an application checklist and download an advisor handoff. Historical civic work shows what other programs produced, with institutional versus first-person provenance. No certification, rejection, hiring guarantee or endorsement.
+Evidence Passport connects declared experience→skill→source target→proposed artifact→human question with a staged editor, interactive map/text equivalent, JSON/Markdown/print and source-bound receipts. Career Stories add attributed proposed exercises; Advisor Studio prepares questions without certifying eligibility. No runtime model, private profile database, automatic application or message. Drafts/saves stay in memory and reset on reload; exports are learner-controlled. One credential-free same-origin GET loads public snapshot metadata. Hosting/external-site policies still apply.
 
-## Run and verify
+Run `npm start` at port5173; no install or API key needed. `npm test`:102Node and6Python tests. `npm run benchmark`:8real-source frozen fixtures and12practice judgments. `npm run sources`:schema/provenance only. `npm run sources:scan`:actual official observations; `npm run sources:prepare -- <id>` creates an unapproved candidate. Only explicit source-backed decisions authorize mapping/date changes. `npm run pulse:refresh` collects public RSS metadata; `npm run build` packages a versioned static site and binds the Pulse hash/date to source.json.
 
-`npm start` serves http://localhost:5173. No package install, paid API or account is needed for the app. `npm test` runs 80 Node tests. `npm run benchmark` runs eight real-source task checks plus the retained twelve practice judgments. `npm run sources` checks catalog schema/provenance and dates without refreshing sources. `npm run build` copies the public distribution to dist/ and versions entry modules, imports and styles with the release SHA to avoid mixed cached releases.
+After build, open tests/real-browser.html(23),tests/browser.html(15),tests/evaluation-browser.html(9),tests/v06-browser.html(25),tests/v07-browser.html(24):96executed browser assertions. The daily workflow tests and publishes discovery snapshots only; no repository edits or automatic qualification approvals. A current-main guard prevents scheduled old-code deployment. USAJOBS is disabled without owner-approved credentials.
 
-Run `npm run build`, then open `/tests/real-browser.html` for 23 real-workflow browser assertions and `/tests/browser.html` for the preserved 15 Practice Mode assertions. `/tests/evaluation-browser.html` adds nine guided-instrument assertions; `/tests/v06-browser.html` adds25 workflow/print/evaluation/partner assertions. These load actual HTTP modules. `npm run sources:scan` records actual public HTTPS retrieval/content hashes, identity and withdrawal checks; `npm run sources:report` emits the queue; failures remain explicit and dates are not silently refreshed.
+Rollback:baseline-v0.6→6eae9654eb35669ba39787da914c828844514aae. Earlier tags/history remain. Independent unfamiliar participants n=0; internal mock87/100. No career/equity/efficiency outcome, independent accessibility approval or partner commitment. Proposed25adults/25sources/60days,$6,240economic/$500cash only with contributed labor. Existing pilot PDF/kit and Practice Mode retained.
 
-## What is real, historical and fictional
-
-Twelve official-source records: five specific Maryland recruitments, two research intakes, four ongoing career/search pathways and one expired fellowship intake. Eleven appear by default on the observation date; none of these counts means twelve open vacancies. [Source inventory](docs/SOURCE_INVENTORY.md) links original pages and limitations. After 48 hours sources become previously observed and positive selected-condition interpretations stop until recheck. Passed deadlines leave default results.
-
-Five historical accounts/reports retain published names, source type, deliverables and limited career outcomes. Portfolio exercises are OpportunityBridge recommendations, not fellow artifacts. Snipta Mallick’s later work is attributed to an outside contractor; Soma Badri’s account describes an offer, not an inferred accepted job. No one endorses this app.
-
-The original three fictional personas/four roles and engine remain in practice.html. `baseline-v0.5` preserves the prior release and `baseline-v0.2` preserves the published baseline for rollback; old resources.js and fixture documents are retained as historical evidence. The optional v0.3 Impact Lab was unavailable and not integrated.
-
-## Privacy and limits
-
-No runtime model, backend, account, uploaded résumé, private learner records, demographic scoring, automatic email or application. Notes/shortlist live in memory, reset on reload, and clear with the session button. Downloads remain on the device. Hosting receives ordinary request logs; outbound sites have separate policies and may require accounts. Google general job search, LinkedIn and Handshake are optional discovery, not validated results or platform partnerships.
-
-Independent unfamiliar users n=0. Internal tests are not manual-comparison results, certified accessibility or career impact. No partner has committed. [Pilot](docs/PILOT_PLAN.md) and [operations kit](docs/PILOT_OPERATIONS.md) propose 25 adults/25 double-reviewed sources over 60 days; $6,240 illustrative economic cost, $500 cash if staff labor donated. MIT code; [AI-use and third-party credits](docs/AI_DISCLOSURE.md).
-
-[Execution report](docs/EXECUTION_REPORT.md) · [Submission copy](docs/SUBMISSION_DRAFT.md) · [Benchmark](docs/BENCHMARK_PROTOCOL.md) · [QA](docs/BROWSER_QA_README.md) · [Mock judging](docs/CITYGOV_RUBRIC_MATRIX.md) · [Release receipt](docs/RELEASE.md) · [Owner actions](docs/OWNER_ACTIONS.md).
-
-Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.
-
-[Guided matched-source evaluation](evaluation.html) · [Two-page manager PDF](output/pdf/OpportunityBridge-Pilot-Packet.pdf) · [Source review queue](docs/SOURCE_REVIEW_REPORT.md). Seven records re-inspected lateOctober26 Eastern/October27 UTC; raw automated retrievals seven passed/five failed, retained in the ledger. NIH SIP was separately inspected using the official web reader. Review dates and rule mappings require explicit documented approval; no unattended renewal. Independent n=0, mock87/100.
-
-Featured MPT guided tour and five-stage workspace, editable multi-connection evidence worksheet, self-declared document progress, bounded preparation dates and full-text printing. [Proposed partner handoffs and downloadable kit](pilot.html). Daily source-check workflow emits observation artifacts only; no automatic date renewal, mapping approval or publication. Use `npm run sources:prepare -- <id>` for an unapproved source-specific review candidate.
+[Execution report](docs/EXECUTION_REPORT.md) · [Design tokens](docs/DESIGN_SYSTEM.md) · [Source inventory](docs/SOURCE_INVENTORY.md) · [Evaluation](evaluation.html) · [Partner kit](pilot.html) · [Disclosure](docs/AI_DISCLOSURE.md) · [Mock rubric](docs/CITYGOV_RUBRIC_MATRIX.md) · [Owner decisions](docs/OWNER_ACTIONS.md).

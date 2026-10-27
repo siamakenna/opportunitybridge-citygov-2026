@@ -1,3 +1,7 @@
+# v0.7 verified extension
+
+102Node/6Python tests and96browser assertions (72preserved+24new) passed. Actual Passport JSON and historical attribution inspected.709rendered text/background pairs in selected MPT view passed after correcting inherited contrast defects.390pxreflow/no unlabeled controls observed; no independent accessibility certification. Full limits/public receipt:EXECUTION_REPORT.md.
+
 # v0.6 acceptance extension
 
 80/80 Node;47/47 retained browser assertions;25/25 new workflow/tour/card/worksheet/print/evaluation/partner assertions. Original8/8real-source and12/12practice fixtures retained. Initial two test-adaptation failures were corrected and rerun. Actual MPT download inspected with18-hour edit and proposed artifact; source and unknowns preserved. Accessibility observations:ACCESSIBILITY_v06.md. Full user journey/public release receipt:EXECUTION_REPORT.md. These are implementer software checks, not independent human evidence.

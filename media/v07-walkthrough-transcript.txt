@@ -1,0 +1,27 @@
+OpportunityBridge v0.7 — 150-second screenshot walkthrough
+Six genuine local working-app captures, assembled as stills. No continuous footage, voice, testimonials or participant findings. Captures show the source dates recorded in the app; they do not renew them.
+
+00:00:00.000–00:00:20.000 — Find your opening. Bring the evidence.
+Opportunity Pulse, Evidence Passport and Advisor Studio connect a real source to a concrete human conversation.
+Working v0.7 app captures. This is a screenshot walkthrough, not continuous footage.
+
+00:00:20.000–00:00:50.000 — Opportunity Pulse
+Advertised Maryland RSS provides discovery metadata. Review levels distinguish leads from approved preparation sources. Dates are snapshots, never a live-status promise.
+Discovery does not approve qualifications. Changed or unavailable sources require review.
+
+00:00:50.000–00:01:20.000 — Evidence Passport
+A fictional classroom project connects to a skill, an MPT role task, a proposed artifact and an advisor question. Every field stays editable and local.
+A proposed work sample is not completed work, an official credential or eligibility proof.
+
+00:01:20.000–00:01:45.000 — A historical story, with boundaries
+NIH documents Gargi Mahadeshwar’s checklist-to-source reporting tool. Our comparable exercise is a recommendation, not her artifact or endorsement.
+Institutional deliverables, first-person accounts and unknown career outcomes stay distinct.
+
+00:01:45.000–00:02:15.000 — Prepare the human conversation
+An actual JSON Passport was downloaded and inspected. It retains the real recruitment identity, source review, story attribution and unresolved employer condition.
+Ready for human discussion means eligibility remains unknown. No application is sent.
+
+00:02:15.000–00:02:30.000 — Test the public benefit honestly
+Proposed: 25 adults, 25 reviewed opportunities, 60 days. Economic budget $6,240; no partner is committed. Independent participants n=0.
+Software works today. Career benefit, equitable access and faster advising remain hypotheses.
+

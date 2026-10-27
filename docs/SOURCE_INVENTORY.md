@@ -28,3 +28,8 @@ Raw automated retrievals: 7 success / 5 failure. NIH SIP separately inspected vi
 Run npm run sources:scan → inspect prioritized queue → npm run sources:prepare -- <id> → inspect full source and fill actual findings/time/reviewer → explicit approve-source-review.mjs <file> → tests/build/publish → public source.json comparison. Candidate files never approve anything. Full announcement/raw, semantic and selected mapping hashes guard changes. Changed/withdrawn/identity/excerpt errors have priority 0; deadline urgency priority 1; stale/unavailable/unreviewed priority 2.
 
 Daily 14:17 UTC GitHub workflow source-check.yml creates a step summary and seven-day artifacts only, with read-only repository permission. It neither changes dates/rules nor commits/deploys. Schedules may be delayed. A steward must inspect the artifact, approve supported updates and publish. The public report is a release snapshot, not a live monitor. Manual commands remain sufficient without scheduling.
+
+
+## v0.7 discovery boundary
+
+Approved catalog and qualification-review dates above are unchanged. Opportunity Pulse separately observes the advertised Maryland RSS metadata; initial331items yielded320 strict normalized recruitment identities. Those leads are not individually reviewed jobs. See PULSE_SOURCES.md and the dated/hash-bound public data/pulse.json. Runtime holds can suppress interpretation on a newer changed/unavailable/unreviewed observation without editing the approved source artifact.

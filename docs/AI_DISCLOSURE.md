@@ -25,3 +25,5 @@ v0.5: Codex also authored source-monitoring/approval scripts, new MPT summaries,
 
 
 v0.6: Codex significantly assisted staged workspace/tour, editable evidence connections, document preparation and printing, the alternative MPT evaluation pair and optional adjudication fields, partner operating templates, source priority/candidate/daily GitHub observation workflow, tests, research and compliant submission copy. Deterministic assistance is explicitly not live AI inference. No recruitment messages or independent participants were invented.
+
+v0.7: Codex significantly assisted the public-RSS discovery parser, normalization/difference/failure guards, scheduled metadata publication, design tokens and layouts, Passport/map/receipts, story-derived exercises, Advisor Studio, evaluation prompts, tests and media/documentation. Rules-based operations are explicitly not a live language-model agent. Prior-project methods were adapted from the user's brief; no private FundPilot, BenchSloth or research-project code/data/branding was copied. The new video uses six actual local-app screenshots with captions; no continuous-recording or human-testimonial claim.

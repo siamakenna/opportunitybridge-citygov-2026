@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "opportunitybridge-passport-0.7",
+  "type": "Evidence planning document — not a credential or eligibility decision",
+  "generatedAt": "2026-10-27T01:34:29.960Z",
+  "sourceCatalogRevision": "local",
+  "source": {
+    "id": "26-008996-0007",
+    "title": "MD Center for Media Literacy & Education Student Fellow",
+    "employer": "Maryland Public Television",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+    "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=008996&RecruitNum3=0007",
+    "reviewedAt": "2026-10-27T00:22:27.538Z",
+    "status": "Verified from official source",
+    "mappingApproved": true,
+    "mappingSourceHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+  },
+  "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+  "declarations": {
+    "weeklyHours": "18"
+  },
+  "connections": [
+    {
+      "experience": "Fictional classroom project: built an HTML resource guide and documented a keyboard check.",
+      "skill": "software",
+      "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+      "roleTask": true,
+      "reviewedExcerpt": null,
+      "artifact": "Proposed checklist-to-source HTML report with accessible headings, a keyboard checklist and PDF reading-order notes. Not completed work.",
+      "humanQuestion": "Ask a career advisor and MPT to verify the student route and whether this proposed work sample fits the role.",
+      "interpretation": "Draft connection complete — human verification still required",
+      "unknowns": [],
+      "story": {
+        "name": "Gargi Mahadeshwar",
+        "source": "https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows",
+        "sourceType": "NIH institutional project report",
+        "documentedWork": "NIH documents her desktop application generating PDF checklist reports with hyperlinked supporting passages.",
+        "recommendedExercise": "OpportunityBridge recommendation: build a fictional checklist-to-source report using public documents, with traceable citations.",
+        "career": "This source establishes a deliverable, not a subsequent job outcome.",
+        "unknown": "No hiring outcome or independent user-impact measurement is documented here.",
+        "relationship": "Historical analogy only. This proposed exercise is not the fellow’s artifact. It is not the current vacancy, an endorsement or a learner accomplishment."
+      }
+    }
+  ],
+  "conditionReview": [
+    {
+      "label": "Student / recent-graduate route and weekly commitment",
+      "required": true,
+      "state": "unknown",
+      "reason": "This condition needs a human review of the complete official source."
+    }
+  ],
+  "documents": [
+    {
+      "text": "College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: résumé.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: academic or professional recommendation.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: unofficial transcript.",
+      "preparedSelfDeclared": false
+    }
+  ],
+  "nextSteps": [
+    {
+      "action": "Recheck the full official source, identity, deadline and all conditions.",
+      "due": "2026-10-27T01:34:29.960Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+      "due": "2026-10-28T01:34:29.960Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Draft a truthful work sample and assemble the required documents.",
+      "due": "2026-10-30T01:34:29.960Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Have a human review the packet, accessibility needs and remaining questions.",
+      "due": "2026-11-03T01:34:29.960Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Use the official application only if appropriate; no application is sent by this tool.",
+      "due": "2026-11-10T01:34:29.960Z",
+      "kind": "personal target — not an employer deadline"
+    }
+  ],
+  "unknowns": [
+    "Student / recent-graduate route and weekly commitment: This condition needs a human review of the complete official source."
+  ],
+  "humanReviewRequired": true,
+  "independentParticipants": 0
+}

@@ -28,3 +28,11 @@ The retained video player now supplies synchronized large captions beneath the v
 
 
 v0.6 finalist cues:0:45–2:15 use the featured MPT source, four-step tour, source/duties distinction and edited worksheet;3:15–4:15 download/read the actual handoff and reset;4:15–5:30 demonstrate College advisor→HR→Learner→Evaluator in pilot.html and the blank tracking CSV. Explain source-check artifacts need a steward’s explicit approval. In Q&A:80 Node/72 browser checks are software evidence; independent n=0. No eligibility certification, independent accessibility approval or employment effect. Solution 572 words/equity 178 words. Rehearse 5–7 minutes with an actual clock; this written timing is a plan, not a recorded performance.
+
+## v0.7 current demonstration and finalist cues
+
+The 150-second v0.7 video is six authentic local-app captures, assembled as a screenshot sequence. Captions/transcript state this explicitly. No voice, simulated participant, endorsement or career gain. The retained v0.4 video remains available.
+
+For a 5–7-minute finalist presentation: spend 45 seconds on the network/qualification interpretation barrier; 75 seconds on dated Pulse, discovery versus approved mappings and “What changed?”; 90 seconds building a Passport and inspecting one map node/text equivalent; 45 seconds on NIH's actual deliverable and the separately labeled proposed exercise; 60 seconds on Advisor Studio, the real download and an insufficient-information handoff; 60 seconds on the 60-day pilot, $6,240 budget and independent n=0. Close with steward/source review and actual unfamiliar-user/partner evidence still needed. Rehearse with a clock; these written timings are not a measured performance.
+
+Q&A: Pulse is a scheduled public-RSS snapshot, not live or comprehensive. USAJOBS is disabled pending owner-approved credentials. A recent feed date never renews a source qualification review. Passport is a local planning document, not a credential. Ready for discussion never means eligible. The software sends no application or advising message. A page hash difference is not a verified requirement change. Independent participant count remains zero.
