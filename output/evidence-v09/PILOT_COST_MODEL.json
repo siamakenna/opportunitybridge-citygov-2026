@@ -1,0 +1,1407 @@
+{
+  "editableAssumptions": {
+    "days": 60,
+    "participants": 25,
+    "initialSources": 25,
+    "activeWeeks": 6,
+    "changesPerWeek": 2,
+    "reviewHours": 0.4,
+    "reviewers": 2,
+    "availableReviewers": 2,
+    "sourceCapacityHours": 29.6,
+    "participantSupportHours": 0.75,
+    "followupHours": 0.25,
+    "accommodationReserve": 125,
+    "donatedLaborShare": 1,
+    "planCompletionShare": 0.8,
+    "followThroughShare": 0.6
+  },
+  "scenarios": {
+    "Base": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 112,
+      "staffEconomicCost": 5740,
+      "compensation": 375,
+      "economicCost": 6240,
+      "cashCost": 500,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 249.6,
+      "costPerModeledPlan": 312,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Best": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 1,
+        "reviewHours": 0.3,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.9,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 10.499999999999998,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 14.5,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 14,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 95,
+      "staffEconomicCost": 4857.5,
+      "compensation": 375,
+      "economicCost": 5357.5,
+      "cashCost": 500,
+      "sourceVersionEvents": 31,
+      "doubleReviewHours": 18.599999999999998,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 1,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 22.5,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 214.3,
+      "costPerModeledPlan": 238.11111111111111,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Stress": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 5,
+        "reviewHours": 0.8,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 1.5,
+        "followupHours": 0.25,
+        "accommodationReserve": 625,
+        "donatedLaborShare": 0,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 45.2,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 49.2,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 50.75,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 38,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 207.15,
+      "staffEconomicCost": 10531.5,
+      "compensation": 375,
+      "economicCost": 11531.5,
+      "cashCost": 11531.5,
+      "sourceVersionEvents": 55,
+      "doubleReviewHours": 88,
+      "reviewBacklog": 37,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 7,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 13,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 17,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 21,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 25,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 29,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 33,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 37,
+          "participantHours": 7.291666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 461.26,
+      "costPerModeledPlan": 576.575,
+      "replacementReviewerCash": 0,
+      "stop": true,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Double source-review time": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.8,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 30.8,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 34.800000000000004,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 141.60000000000002,
+      "staffEconomicCost": 7146,
+      "compensation": 375,
+      "economicCost": 7646,
+      "cashCost": 500,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 59.2,
+      "reviewBacklog": 19,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 7,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 13,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 14,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 15,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 16,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 17,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 18,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 19,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 305.84,
+      "costPerModeledPlan": 382.3,
+      "replacementReviewerCash": 0,
+      "stop": true,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Double participant support": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 1.5,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 50.75,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 130.75,
+      "staffEconomicCost": 6677.5,
+      "compensation": 375,
+      "economicCost": 7177.5,
+      "cashCost": 500,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 7.291666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 287.1,
+      "costPerModeledPlan": 358.875,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "One reviewer unavailable": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 1,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 112,
+      "staffEconomicCost": 5740,
+      "compensation": 375,
+      "economicCost": 6240,
+      "cashCost": 500,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 37,
+      "reviewHeld": true,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 13,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 25,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 27,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 29,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 31,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 33,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 35,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 37,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 249.6,
+      "costPerModeledPlan": 312,
+      "replacementReviewerCash": 960,
+      "stop": true,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Half recruitment (12 adults)": {
+      "assumptions": {
+        "days": 60,
+        "participants": 12,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 19,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 9.5,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 5.92,
+          "rate": 60
+        }
+      ],
+      "staffHours": 90.42,
+      "staffEconomicCost": 4640.2,
+      "compensation": 180,
+      "economicCost": 4945.2,
+      "cashCost": 305,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 2
+        }
+      ],
+      "modeledPlans": 9.600000000000001,
+      "modeledFollowThrough": 7.199999999999999,
+      "costPerRecruited": 412.09999999999997,
+      "costPerModeledPlan": 515.1249999999999,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Higher accommodation expense": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 625,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 112,
+      "staffEconomicCost": 5740,
+      "compensation": 375,
+      "economicCost": 6740,
+      "cashCost": 1000,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 269.6,
+      "costPerModeledPlan": 337,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Five changed versions/week": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 5,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 23.2,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 27.2,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 38,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 144.4,
+      "staffEconomicCost": 7504,
+      "compensation": 375,
+      "economicCost": 8004,
+      "cashCost": 500,
+      "sourceVersionEvents": 55,
+      "doubleReviewHours": 44,
+      "reviewBacklog": 18,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 3,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 6,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 9,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 12,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 15,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 5,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 18,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 320.16,
+      "costPerModeledPlan": 400.2,
+      "replacementReviewerCash": 0,
+      "stop": true,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Lower follow-through": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 1,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.3
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 112,
+      "staffEconomicCost": 5740,
+      "compensation": 375,
+      "economicCost": 6240,
+      "cashCost": 500,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 7.5,
+      "costPerRecruited": 249.6,
+      "costPerModeledPlan": 312,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    },
+    "Loss of donated labor": {
+      "assumptions": {
+        "days": 60,
+        "participants": 25,
+        "initialSources": 25,
+        "activeWeeks": 6,
+        "changesPerWeek": 2,
+        "reviewHours": 0.4,
+        "reviewers": 2,
+        "availableReviewers": 2,
+        "sourceCapacityHours": 29.6,
+        "participantSupportHours": 0.75,
+        "followupHours": 0.25,
+        "accommodationReserve": 125,
+        "donatedLaborShare": 0,
+        "planCompletionShare": 0.8,
+        "followThroughShare": 0.6
+      },
+      "roleHours": [
+        {
+          "role": "Municipal HR reviewer",
+          "hours": 16,
+          "rate": 60
+        },
+        {
+          "role": "Content steward",
+          "hours": 20,
+          "rate": 35
+        },
+        {
+          "role": "Campus advisor",
+          "hours": 32,
+          "rate": 50
+        },
+        {
+          "role": "Technical maintainer",
+          "hours": 20,
+          "rate": 60
+        },
+        {
+          "role": "Evaluator",
+          "hours": 16,
+          "rate": 50
+        },
+        {
+          "role": "Accessibility reviewer",
+          "hours": 8,
+          "rate": 60
+        }
+      ],
+      "staffHours": 112,
+      "staffEconomicCost": 5740,
+      "compensation": 375,
+      "economicCost": 6240,
+      "cashCost": 6240,
+      "sourceVersionEvents": 37,
+      "doubleReviewHours": 29.6,
+      "reviewBacklog": 0,
+      "reviewHeld": false,
+      "weekly": [
+        {
+          "week": 1,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 2,
+          "newSourceVersions": 12.5,
+          "reviewCapacityHours": 10,
+          "modeledBacklog": 0,
+          "participantHours": 0
+        },
+        {
+          "week": 3,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 4,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 5,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 6,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 7,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        },
+        {
+          "week": 8,
+          "newSourceVersions": 2,
+          "reviewCapacityHours": 1.5999999999999999,
+          "modeledBacklog": 0,
+          "participantHours": 4.166666666666667
+        }
+      ],
+      "modeledPlans": 20,
+      "modeledFollowThrough": 15,
+      "costPerRecruited": 249.6,
+      "costPerModeledPlan": 312,
+      "replacementReviewerCash": 0,
+      "stop": false,
+      "hostStatus": "Prospective partner — no commitment obtained.",
+      "evidence": "Planning assumptions only. No participants, observed outcomes, expenditure or host commitments."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# Proposed 60-day pilot feasibility
+
+Host Status: Prospective partner — no commitment obtained. No funding, staffing, recruits or independent outcomes. Base assumptions retain 25 consenting adults, 25 initial opportunities, 112 hours/$5,740 labor plus $375 compensation and $125 reserve = $6,240 economic cost. Cash $500 requires all labor contributed; it is not the service's economic cost. Rates are illustrative loaded planning values, not quotes.
+
+Editable browser calculator: evidence.html#reality. One active model uses src/pilot-model.js; assumptions CSV and JSON are provided. Edit a JSON assumptions object and `node scripts/pilot-model.mjs path/to/assumptions.json` to calculate base/best/stress and eight sensitivities. PILOT_SCENARIOS.csv holds reproducible modeled outputs. No participant value has been measured.
+
+Base: 25 initial source versions + 2 changed versions/week ×6 active weeks =37 reviews, each independently reviewed twice at0.4h/reviewer =29.6h. HR adds1.2h adjudication, steward5.2h monitoring:16h×$60 and20h×$35. Campus7h fixed +25×(.75h support+.25h follow-up)=32h×$50. Technical8h fixed+12changed versions×1h=20h×$60. Evaluation3.5h+25×.5=16h×$50. Access4h+25×.16=8h×$60. All sum to112h/$5,740. Adjudication/monitor overhead is a coarse allowance, not a measured rate; replace it from pilot logs.
+
+Weekly source capacity:10h each initial-curation week;1.6h each of6 active weeks =29.6h total. Within-week arrivals are modeled, not actual schedules. Base has no end backlog. Initial fractional weekly arrivals are workload averages, not half source records. Judge capacity at end of each week and before interpretation. Model reports source backlog, participant workload, role hours and unit costs. Modeled completion80%=20plans, so $312/model plan;25recruited => $249.60/recruit. These are modeled unit costs, not cost-effectiveness.
+
+Before recruitment, named host leads must confirm review availability, accessible consent/alternative routes, institutional governance determination and retention plan. No ethics approval is claimed. Keep advisor help available without study participation. Stop rules and response owners appear in PARTNER_OPERATIONS.md. Do not run a single-review shortcut when a reviewer is absent.

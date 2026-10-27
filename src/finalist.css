@@ -1,0 +1,1 @@
+.slide{min-height:90vh;display:flex;flex-direction:column;justify-content:center;max-width:1050px}.slide nav{margin-top:30px}.slide h2{color:#005b60}.slide .lead{font-size:1.45rem;max-width:950px}@media print{.slide{min-height:0;break-after:page}.slide nav{display:none}}

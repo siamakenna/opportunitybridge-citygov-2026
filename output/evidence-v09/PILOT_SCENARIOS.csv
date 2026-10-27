@@ -1,0 +1,12 @@
+scenario,staff_hours,economic_cost,cash_cost,source_review_hours,backlog,modeled_plans,cost_per_modeled_plan,stop
+Base,112,6240,500,29.6,0,20,312,false
+Best,95,5357.5,500,18.599999999999998,0,22.5,238.11111111111111,false
+Stress,207.15,11531.5,11531.5,88,37,20,576.575,true
+Double source-review time,141.60000000000002,7646,500,59.2,19,20,382.3,true
+Double participant support,130.75,7177.5,500,29.6,0,20,358.875,false
+One reviewer unavailable,112,6240,500,29.6,37,20,312,true
+Half recruitment (12 adults),90.42,4945.2,305,29.6,0,9.600000000000001,515.1249999999999,false
+Higher accommodation expense,112,6740,1000,29.6,0,20,337,false
+Five changed versions/week,144.4,8004,500,44,18,20,400.2,true
+Lower follow-through,112,6240,500,29.6,0,20,312,false
+Loss of donated labor,112,6240,6240,29.6,0,20,312,false

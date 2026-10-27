@@ -1,0 +1,5 @@
+// Post-freeze diagnostic correction, explicitly not independent evaluation.
+import {readFile,writeFile} from 'node:fs/promises';import {inputOnly,evaluateInput} from '../src/cceb-adapters.js';
+const d=JSON.parse(await readFile('data/cceb/v1.json','utf8')),base=d.cases.find(c=>c.id==='A05').input.row;
+const cases=d.cases.filter(c=>c.input.task==='plan').map(c=>{const full=structuredClone(c);full.input.row={...base,...c.input.row};return {id:c.id+'-complete-row',originalId:c.id,amendment:'Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.',input:full.input,expected:c.reference,actual:evaluateInput(inputOnly(full,d),'C')};});
+const out=process.argv[2]||'output/evidence-v09/DIAGNOSTICS_BEFORE.json';await writeFile(out,JSON.stringify({independent:false,reason:'Authoring merge-order defect discovered after first score. Original plan score is confounded and not claim-screen accuracy.',cases},null,2)+'\n');console.log(cases.map(c=>({id:c.id,expected:c.expected.state,actual:c.actual.state,unknowns:c.actual.unknowns})));

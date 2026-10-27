@@ -1,0 +1,61 @@
+case_id,partition,method,task,implemented,state,primary,deadline,missing_documents,overall_eligibility,reason
+Q01,development,C,condition,True,supported,,,,unknown,Declared six-month route; verify duties and duration.
+Q02,development,C,condition,True,supported,,,,unknown,Declared 30-credit substitution route; verify accreditation and records.
+Q03,evaluation,C,condition,True,conflict,,,,unknown,Neither declared numeric route reaches the threshold; ask HR about equivalence.
+Q04,evaluation,C,condition,True,insufficient,,,,unknown,Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.
+Q05,evaluation,C,condition,True,supported,,,,unknown,Declared 24-month route; verify the financial duties.
+Q06,evaluation,C,condition,True,supported,,,,unknown,Six accounting credits plus at least 12 qualifying months appear consistent with the published one-year substitution.
+Q07,evaluation,C,condition,True,conflict,,,,unknown,Declared experience is short of the modeled routes; six credits alone do not establish 24 months.
+Q08,evaluation,C,condition,True,insufficient,,,,unknown,Whether multiple accounting-credit substitutions can be combined is not established; ask HR.
+Q09,evaluation,C,condition,True,insufficient,,,,unknown,Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review.
+Q10,evaluation,C,condition,True,supported,,,,unknown,Declared credential only; inspect supporting evidence.
+Q11,evaluation,C,condition,True,insufficient,,,,unknown,Credential or published education-equivalence route needs verification.
+Q12,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+C01,development,C,classification,True,,unknown,,,unknown,See raw output
+C02,development,C,classification,True,,unknown,,,unknown,See raw output
+C03,evaluation,C,classification,True,,unknown,,,unknown,See raw output
+C04,evaluation,C,classification,True,,unknown,,,unknown,See raw output
+C05,evaluation,C,classification,True,,internship,,,unknown,See raw output
+C06,evaluation,C,classification,True,,fellowship,,,unknown,See raw output
+C07,evaluation,C,classification,True,,internship,,,unknown,See raw output
+C08,evaluation,C,classification,True,,course,,,unknown,See raw output
+C09,evaluation,C,classification,True,,fellowship,,,unknown,See raw output
+C10,evaluation,C,classification,True,,fellowship,,,unknown,See raw output
+C11,evaluation,C,classification,True,,directory,,,unknown,See raw output
+C12,evaluation,C,classification,True,,unknown,,,unknown,See raw output
+D01,development,C,deadline,True,,,expired,,unknown,Production lifecycle and catalog validity guards.
+D02,development,C,deadline,True,,,announced,,unknown,Production lifecycle and catalog validity guards.
+D03,evaluation,C,deadline,True,,,expired,,unknown,Production lifecycle and catalog validity guards.
+D04,evaluation,C,deadline,True,,,continuous,,unknown,Production lifecycle and catalog validity guards.
+D05,evaluation,C,deadline,True,,,hold,,unknown,Production lifecycle and catalog validity guards.
+D06,evaluation,C,deadline,True,,,hold,,unknown,Production lifecycle and catalog validity guards.
+D07,evaluation,C,deadline,True,,,hold,,unknown,Production lifecycle and catalog validity guards.
+D08,evaluation,C,deadline,True,,,hold,,unknown,Production lifecycle and catalog validity guards.
+D09,evaluation,C,deadline,True,,,hold,,unknown,Production lifecycle and catalog validity guards.
+D10,evaluation,C,deadline,True,,,announced,,unknown,Production lifecycle and catalog validity guards.
+U01,development,C,condition,True,insufficient,,,,unknown,Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.
+U02,development,C,condition,True,insufficient,,,,unknown,"Source is expired, stale or unverified. Recheck before interpreting declarations."
+U03,evaluation,C,condition,True,insufficient,,,,unknown,Credential or published education-equivalence route needs verification.
+U04,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+U05,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+U06,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+U07,evaluation,C,pay,True,insufficient,,,,unknown,"Exact compensation amount requires an explicit amount, not a paid label."
+U08,evaluation,C,condition,True,insufficient,,,,unknown,Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.
+U09,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+U10,evaluation,C,condition,True,insufficient,,,,unknown,This condition needs a human review of the complete official source.
+P01,development,C,mapping,True,insufficient,,,,unknown,Production exact approved mapping snapshot.
+P02,development,C,condition,True,insufficient,,,,unknown,Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown.
+P03,evaluation,C,condition,True,insufficient,,,,unknown,Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown.
+P04,evaluation,C,import,True,insufficient,,,,unknown,Completion receipt lacks actual successful checks.
+P05,evaluation,C,condition,True,insufficient,,,,unknown,"Source is expired, stale or unverified. Recheck before interpreting declarations."
+P06,evaluation,C,documents,True,insufficient,,,4,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P07,evaluation,C,documents,True,insufficient,,,3,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P08,evaluation,C,documents,True,supported,,,0,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+A01,development,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A02,development,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A03,evaluation,C,condition,True,insufficient,,,,unknown,"Source is expired, stale or unverified. Recheck before interpreting declarations."
+A04,evaluation,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A05,evaluation,C,plan,True,supported,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A06,evaluation,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A07,evaluation,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."
+A08,evaluation,C,plan,True,insufficient,,,,unknown,"Production field completeness and limited claim screen, not semantic truth verification."

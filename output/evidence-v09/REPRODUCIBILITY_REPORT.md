@@ -1,0 +1,11 @@
+# Reproducibility
+
+Protocol/dataset/adapters/scoring committed before first score: e977a95d1750073a6c56160e6cbd4fb7cd0f7302. Dataset sha256: ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51. Source snapshot digest is in BENCHMARK_MANIFEST.json; individual case hashes and partitions are fixed.
+
+Original run-1/run-2 normalized result digest: c79685f8c0289381529e08e6f80d1784fc96816bbefeddde1659e8848dd525d7. Identical IDs/order, decisions, reasons, unknowns, plan fields and source links. Current directed retest-1/retest-2 digest: ee54e881a8cbbe5eb1cc53b58c01cbdb02fd8a8d1406b8d90e550a53fd22be90, also identical. Original code and repaired code differ as documented; repeats are not additional independent samples. Dynamic generatedAt, environment/revision and elapsedMilliseconds are recorded outside decision digest, never used to change results. Environment is in every run; Python 3.12.5, OS Darwin 25.6.0. Browser details are in BROWSER_ACCEPTANCE.json when actual QA completes.
+
+Commands: `node scripts/cceb-run.mjs --out output/evidence-v09/reproduce-1.json` and repeat to reproduce-2.json. Compare resultSha256; `node scripts/cceb-diagnostics.mjs /tmp/diagnostics.json`; `node scripts/pilot-model.mjs`. No network, credentials or paid dependency required for CCEB/model. Original reports are generated from preserved run-1/run-2 with `node scripts/cceb-report.mjs`; this regenerates failure-log initial entries, so archive outputs first. Public full software suite: `npm test`, `npm run sources`, `npm run benchmark`, `npm run build`.
+
+Network conditions: local frozen benchmark runs perform no external retrieval; real source scan is separate and time-stamped. No claim that a hash proves current availability. Runtime timings are machine times, never a manual-reading comparison.
+
+The preliminary retest-working-tree-1/2 files preserve pre-commit directed runs whose revision field alone does not identify their modified production tree. They are not exact-SHA claims. Final retest-1/2 records add actual committed production file digests and dirtyProduction state. Original first-run code is the pre-score freeze commit; no original run was overwritten. JSON serialization omits undefined properties, while all defined decision fields remain in the digest.

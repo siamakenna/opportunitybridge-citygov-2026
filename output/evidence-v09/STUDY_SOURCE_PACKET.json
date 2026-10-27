@@ -1,0 +1,119 @@
+{
+  "status": "Prepared source-only, not current availability",
+  "source": {
+    "record": {
+      "id": "md-admin",
+      "title": "Administrative Specialist I",
+      "employer": "Maryland Department of the Environment",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+      "kind": "posting",
+      "type": "Full-time vacancy",
+      "region": "Maryland",
+      "remote": "Not stated",
+      "stages": [
+        "student",
+        "recent",
+        "changer"
+      ],
+      "sector": "Environment",
+      "pay": "$46,279\u2013$72,989/year",
+      "opened": "2026-10-20",
+      "deadline": "2026-11-03T17:00:00-05:00",
+      "deadlineLabel": "Nov 3, 2026 \u00b7 5 PM \u00b7 Maryland local time assumed",
+      "observedAt": "2026-10-26T18:03:34Z",
+      "verifiedAt": "2026-10-27T00:22:27.535Z",
+      "reviewer": "Codex source-backed review; not independent HR validation \u00b7 Full official announcement and HTTPS identity/excerpts inspected",
+      "verification": "official",
+      "requirements": [
+        {
+          "id": "education",
+          "label": "High-school credential or equivalency",
+          "exact": "high school equivalency certificate",
+          "context": "Minimum Qualifications \u00b7 education (short exact fragment)",
+          "summary": "Accredited high-school graduation or equivalency; a generic certificate does not establish this.",
+          "required": true,
+          "rule": "md-education"
+        },
+        {
+          "id": "experience",
+          "label": "Administrative experience or a published substitution",
+          "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+          "context": "Minimum Qualifications \u00b7 experience",
+          "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+          "required": true,
+          "rule": "md-admin-experience"
+        },
+        {
+          "id": "authorization",
+          "label": "Work authorization and other conditions",
+          "exact": "",
+          "context": "Selection Process / Licenses",
+          "summary": "Legal work authorization, possible driving duties and foreign-credential review need checking with HR.",
+          "required": true,
+          "rule": "human"
+        }
+      ],
+      "preferred": [
+        "Office tools, customer service, regulatory explanations, financial-data tracking and careful information handling (summary)."
+      ],
+      "substitutions": [
+        "30 accredited college credits replace the required administrative experience.",
+        "Qualifying military staff experience can substitute under the bulletin\u2019s stated equivalence; ask HR."
+      ],
+      "restrictions": "Work authorization required; driving and credential evaluation may apply. Do not enter sensitive records here.",
+      "materials": [
+        "Complete state application and supplemental questionnaire; a r\u00e9sum\u00e9 alone is insufficient."
+      ],
+      "limitations": "Selected criteria only, checked against the full bulletin. Timezone assumed. Employer may withdraw early. No independent HR review.",
+      "summary": "Baltimore environmental registration support and public inquiries. Check the experience or college-credit route.",
+      "skills": [
+        "communication",
+        "data",
+        "research"
+      ],
+      "outcomes": [
+        "andrade",
+        "mahadeshwar"
+      ],
+      "recruitment": "26-001755-0041",
+      "qualificationSummary": "Six qualifying administrative months OR 30 accredited college credits; military substitution has published conditions. No eligibility certification.",
+      "sourceReviewPending": false,
+      "mappingReview": {
+        "snapshot": "{\"id\":\"md-admin\",\"sourceUrl\":\"https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=\",\"recruitment\":\"26-001755-0041\",\"requirements\":[{\"id\":\"education\",\"label\":\"High-school credential or equivalency\",\"exact\":\"high school equivalency certificate\",\"context\":\"Minimum Qualifications \u00b7 education (short exact fragment)\",\"summary\":\"Accredited high-school graduation or equivalency; a generic certificate does not establish this.\",\"required\":true,\"rule\":\"md-education\"},{\"id\":\"experience\",\"label\":\"Administrative experience or a published substitution\",\"exact\":\"Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.\",\"context\":\"Minimum Qualifications \u00b7 experience\",\"summary\":\"Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.\",\"required\":true,\"rule\":\"md-admin-experience\"},{\"id\":\"authorization\",\"label\":\"Work authorization and other conditions\",\"exact\":\"\",\"context\":\"Selection Process / Licenses\",\"summary\":\"Legal work authorization, possible driving duties and foreign-credential review need checking with HR.\",\"required\":true,\"rule\":\"human\"}],\"preferred\":[\"Office tools, customer service, regulatory explanations, financial-data tracking and careful information handling (summary).\"],\"substitutions\":[\"30 accredited college credits replace the required administrative experience.\",\"Qualifying military staff experience can substitute under the bulletin\u2019s stated equivalence; ask HR.\"],\"restrictions\":\"Work authorization required; driving and credential evaluation may apply. Do not enter sensitive records here.\",\"qualificationSummary\":\"Six qualifying administrative months OR 30 accredited college credits; military substitution has published conditions. No eligibility certification.\"}",
+        "sourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "reviewer": "Codex source-backed review; not independent HR validation",
+        "notes": "Full bulletin re-read: Nov3 5PM, high-school/equivalent, six qualifying administrative months, 30 accredited credits alternative and conditional military route. Additional driving/authorization/credential conditions remain unknown."
+      }
+    },
+    "id": "md-admin",
+    "identity": "26-001755-0041",
+    "originalURL": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+    "originalReviewedAt": "2026-10-27T00:22:27.535Z",
+    "observedAt": "2026-10-27T19:23:14.067970+00:00",
+    "rawDigest": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
+    "mappingDigest": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+    "snapshotDigest": "1ec4222b42d662668ecbdda3866291f3360b89bc6a7b3ca8e4313b2ef8931742",
+    "referenceStatus": "developer source-backed reference; independent adjudication pending",
+    "license": "Publisher retains rights. URL, paraphrase and version digests only; no full employer page redistributed."
+  },
+  "profiles": {
+    "A": {
+      "collegeCredits": 30,
+      "adminMonths": 0
+    },
+    "B": {
+      "collegeCredits": 0,
+      "adminMonths": 6
+    }
+  },
+  "allOtherFacts": "unknown",
+  "questions": [
+    "Identify the official source and opportunity type",
+    "Interpret the selected experience/substitution condition",
+    "List missing full conditions/evidence",
+    "Propose an artifact and human question",
+    "Does preparation establish eligibility?"
+  ]
+}

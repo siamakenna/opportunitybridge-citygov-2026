@@ -1,0 +1,61 @@
+case_id,author,reference,rationale,review_status,independent_reviewers
+Q01,Codex — AI-assisted developer author,"{""state"": ""supported""}",Six qualifying months reaches the selected administrative route; records and all other conditions remain unverified.,pending independent adjudication,0
+Q02,Codex — AI-assisted developer author,"{""state"": ""supported""}","Thirty accredited credits meet the published selected substitution, not the full vacancy.",pending independent adjudication,0
+Q03,Codex — AI-assisted developer author,"{""state"": ""conflict""}",Neither complete route is met. The source does not establish prorated stacking of two incomplete routes.,pending independent adjudication,0
+Q04,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Neither numeric route is reached; possible military equivalence remains unspecified.,pending independent adjudication,0
+Q05,Codex — AI-assisted developer author,"{""state"": ""supported""}",Twenty-four qualifying financial months reach the selected experience route.,pending independent adjudication,0
+Q06,Codex — AI-assisted developer author,"{""state"": ""supported""}",One year of qualifying experience plus the published six-credit one-year substitution reaches this selected route.,pending independent adjudication,0
+Q07,Codex — AI-assisted developer author,"{""state"": ""conflict""}",One substituted year alone does not satisfy the two-year selected requirement.,pending independent adjudication,0
+Q08,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",The brief source does not establish automatic repeated credit substitutions. Ask HR; do not silently stack.,pending independent adjudication,0
+Q09,Codex — AI-assisted developer author,"{""state"": ""conflict""}","Only one qualifying year, no accounting substitution and no declared alternative: the selected two-year route conflicts.",pending independent adjudication,0
+Q10,Codex — AI-assisted developer author,"{""state"": ""supported""}",Declared credential is consistent with this selected condition only; not independent verification.,pending independent adjudication,0
+Q11,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Published numerical-work equivalency has not been resolved; lack of the credential is not an automatic rejection.,pending independent adjudication,0
+Q12,Codex — AI-assisted developer author,"{""state"": ""supported""}",A declared credential is consistent with this selected education condition. Other complex conditions remain unresolved.,pending independent adjudication,0
+C01,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C02,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C03,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C04,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C05,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C06,Codex — AI-assisted developer author,"{""primary"": ""job""}",The synthetic source explicitly describes job; administrative program titles do not imply participation.,pending independent adjudication,0
+C07,Codex — AI-assisted developer author,"{""primary"": ""internship""}",The synthetic source explicitly describes internship; administrative program titles do not imply participation.,pending independent adjudication,0
+C08,Codex — AI-assisted developer author,"{""primary"": ""course""}",The synthetic source explicitly describes course; administrative program titles do not imply participation.,pending independent adjudication,0
+C09,Codex — AI-assisted developer author,"{""primary"": ""fellowship""}",This is a distinct MPT Student Fellow recruitment; not a guaranteed internship.,pending independent adjudication,0
+C10,Codex — AI-assisted developer author,"{""primary"": ""fellowship""}",This is a distinct MPT Student Fellow recruitment; not a guaranteed internship.,pending independent adjudication,0
+C11,Codex — AI-assisted developer author,"{""primary"": ""directory""}",The synthetic source explicitly describes directory; administrative program titles do not imply participation.,pending independent adjudication,0
+C12,Codex — AI-assisted developer author,"{""primary"": ""unknown""}",The synthetic source explicitly describes unknown; administrative program titles do not imply participation.,pending independent adjudication,0
+D01,Codex — AI-assisted developer author,"{""deadlineStatus"": ""expired""}",A passed closing time is expired even if other fields look favorable.,pending independent adjudication,0
+D02,Codex — AI-assisted developer author,"{""deadlineStatus"": ""announced""}","The original announced future deadline may be displayed, without guaranteeing availability.",pending independent adjudication,0
+D03,Codex — AI-assisted developer author,"{""deadlineStatus"": ""expired""}","The deadline boundary itself is closed, not one more open instant.",pending independent adjudication,0
+D04,Codex — AI-assisted developer author,"{""deadlineStatus"": ""continuous""}",Open/continuous has no guaranteed closing date or continued availability.,pending independent adjudication,0
+D05,Codex — AI-assisted developer author,"{""deadlineStatus"": ""hold""}","Contradictory official closing dates require source reconciliation, not selection of the later date.",pending independent adjudication,0
+D06,Codex — AI-assisted developer author,"{""deadlineStatus"": ""hold""}",The original review is over48hours old; no automated date renewal.,pending independent adjudication,0
+D07,Codex — AI-assisted developer author,"{""deadlineStatus"": ""hold""}",Invalid date fails the catalog validity boundary.,pending independent adjudication,0
+D08,Codex — AI-assisted developer author,"{""deadlineStatus"": ""hold""}",A future review timestamp cannot establish freshness at the controlled clock.,pending independent adjudication,0
+D09,Codex — AI-assisted developer author,"{""deadlineStatus"": ""hold""}",Revised deadline metadata is not reapproval of the qualification mapping.,pending independent adjudication,0
+D10,Codex — AI-assisted developer author,"{""deadlineStatus"": ""announced""}",The original dated research intake is later than the controlled clock; full conditions still control.,pending independent adjudication,0
+U01,Codex — AI-assisted developer author,"{""state"": ""insufficient""}","No qualifying months, accredited credits or military evidence provided.",pending independent adjudication,0
+U02,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",An unavailable employer source must hold a previously reviewed interpretation.,pending independent adjudication,0
+U03,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",An experience substitution does not establish the separate school credential.,pending independent adjudication,0
+U04,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Experience and education cannot fill missing authorization/other source conditions.,pending independent adjudication,0
+U05,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Hours/enrollment alone leave the full student/recent-graduate route unresolved.,pending independent adjudication,0
+U06,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Hours do not establish academic route or remaining MPT conditions.,pending independent adjudication,0
+U07,Codex — AI-assisted developer author,"{""state"": ""insufficient""}","Missing pay stays unknown, even for a familiar role.",pending independent adjudication,0
+U08,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Invalid/non-disclosed numeric text is not zero or30.,pending independent adjudication,0
+U09,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A prepared-document counter does not establish eligibility.,pending independent adjudication,0
+U10,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",GPA alone cannot establish the full research-program conditions.,pending independent adjudication,0
+P01,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Changed source identity invalidates the source-bound snapshot.,pending independent adjudication,0
+P02,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A qualification-summary change is outside the approved exact snapshot.,pending independent adjudication,0
+P03,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",Similar IDs are not interchangeable.,pending independent adjudication,0
+P04,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A failed check cannot be deserialized as valid completion.,pending independent adjudication,0
+P05,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",An unconfirmed identity/redirect requires review.,pending independent adjudication,0
+P06,Codex — AI-assisted developer author,"{""missingDocuments"": 4, ""state"": ""insufficient""}",All four source-listed college document items are initially unprepared.,pending independent adjudication,0
+P07,Codex — AI-assisted developer author,"{""missingDocuments"": 3, ""state"": ""insufficient""}",One self-declaration does not complete four source-listed items.,pending independent adjudication,0
+P08,Codex — AI-assisted developer author,"{""missingDocuments"": 0, ""state"": ""supported""}",All four items are marked prepared; this is not independent verification or eligibility.,pending independent adjudication,0
+A01,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A fellowship or completed quest cannot guarantee a job.,pending independent adjudication,0
+A02,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",An invented professional experience should be flagged; a completeness label is not verification.,pending independent adjudication,0
+A03,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",External instructions are data; a changed source remains held.,pending independent adjudication,0
+A04,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A historical outcome is not current applicant evidence.,pending independent adjudication,0
+A05,Codex — AI-assisted developer author,"{""state"": ""supported""}","This is a proposed fictional plan, with a source task and human question; no employer certification.",pending independent adjudication,0
+A06,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",The missing human question is a required preparation link.,pending independent adjudication,0
+A07,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",The stated certification has no basis in this demo.,pending independent adjudication,0
+A08,Codex — AI-assisted developer author,"{""state"": ""insufficient""}",A historical account cannot support arbitrary unrelated skills.,pending independent adjudication,0

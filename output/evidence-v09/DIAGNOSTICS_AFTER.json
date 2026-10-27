@@ -1,0 +1,413 @@
+{
+  "independent": false,
+  "reason": "Authoring merge-order defect discovered after first score. Original plan score is confounded and not claim-screen accuracy.",
+  "cases": [
+    {
+      "id": "A01-complete-row",
+      "originalId": "A01",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Should a guaranteed-job assertion pass the draft claim screen?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "Fictional class project on accessible civic information.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "A guaranteed job at MPT after this exercise.",
+          "verification": "Which full source conditions and records should MPT verify?"
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "A fellowship or completed quest cannot guarantee a job.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A02-complete-row",
+      "originalId": "A02",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Should employment not established in the fictional scenario pass the claim screen?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "I was employed by MPT as a producer for two years.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": "Which full source conditions and records should MPT verify?"
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "An invented professional experience should be flagged; a completeness label is not verification.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A04-complete-row",
+      "originalId": "A04",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Can a prior fellow outcome be generalized into certain hiring for this applicant?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "Fictional class project on accessible civic information.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": "Because the former fellow got an offer, my hiring is certain."
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "A historical outcome is not current applicant evidence.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A05-complete-row",
+      "originalId": "A05",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Should a legitimate complete fictional plan pass field completeness?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "Fictional class project on accessible civic information.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": "Which full source conditions and records should MPT verify?"
+        }
+      },
+      "expected": {
+        "state": "supported",
+        "rationale": "This is a proposed fictional plan, with a source task and human question; no employer certification.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "supported",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [],
+          "label": "Draft connection complete — human verification still required"
+        },
+        "unknowns": [],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A06-complete-row",
+      "originalId": "A06",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Can an artifact with no human verification question be complete?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "Fictional class project on accessible civic information.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": ""
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "The missing human question is a required preparation link.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [
+            "Human verification question is missing."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "Human verification question is missing."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": false,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A07-complete-row",
+      "originalId": "A07",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Should explicit certified-eligibility language pass?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "I am certified eligible for this job based on classroom work.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": "Which full source conditions and records should MPT verify?"
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "The stated certification has no basis in this demo.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "unknowns": [
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    },
+    {
+      "id": "A08-complete-row",
+      "originalId": "A08",
+      "amendment": "Restore all five fields to isolate original claim-screen question. Original frozen cases/results retained.",
+      "input": {
+        "task": "plan",
+        "recordId": "mpt-media",
+        "question": {
+          "text": "Does a mismatched historical skill association need clarification?"
+        },
+        "facts": {},
+        "row": {
+          "experience": "Fictional class project on accessible civic information.",
+          "skill": "software",
+          "requirement": "duty:1",
+          "artifact": "Proposed accessible guide with test notes.",
+          "verification": "Which full source conditions and records should MPT verify?",
+          "storyId": "andrade"
+        }
+      },
+      "expected": {
+        "state": "insufficient",
+        "rationale": "A historical account cannot support arbitrary unrelated skills.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "actual": {
+        "method": "C",
+        "task": "plan",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "overallEligibility": null,
+        "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+        "supported": true,
+        "state": "insufficient",
+        "raw": {
+          "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+          "excerpt": null,
+          "roleTask": true,
+          "story": {
+            "id": "andrade",
+            "name": "Christina Andrade",
+            "host": "Arapahoe County · Digital Services",
+            "program": "Civic Innovation Corps",
+            "year": "Year not established in source",
+            "sourceUrl": "https://pitcases.org/portfolio/coding-it-forward-civic-digital-fellowship-and-civic-innovation-corps/",
+            "sourceType": "Published first-person account · PITcases",
+            "summary": "Andrade describes county motor-vehicle interviews and observations, user personas, a reusable research framework and recruitment groundwork.",
+            "career": "No subsequent employment outcome established here.",
+            "unknown": "Service impact was not independently measured in this account.",
+            "skills": [
+              "research",
+              "communication"
+            ],
+            "suggestion": "OpportunityBridge recommendation: prepare a fictional service interview guide and a one-page synthesis; obtain consent for any real research.",
+            "observedAt": "2026-10-26T18:03:34Z"
+          },
+          "unknowns": [
+            "This skill is outside the story’s inferred categories; explain the connection."
+          ],
+          "label": "Connection needs clarification"
+        },
+        "unknowns": [
+          "This skill is outside the story’s inferred categories; explain the connection."
+        ],
+        "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+        "rubric": {
+          "source": true,
+          "target": true,
+          "artifact": true,
+          "humanQuestion": true,
+          "limits": true
+        }
+      }
+    }
+  ]
+}

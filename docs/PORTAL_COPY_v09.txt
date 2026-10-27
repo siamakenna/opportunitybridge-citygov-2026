@@ -1,0 +1,50 @@
+SOLUTION DESCRIPTION
+
+OpportunityBridge helps learners turn unfamiliar public-service opportunities into a learning action, source-linked evidence and a concrete human conversation. Public career information can still contain difficult qualification language and substitutions. The account-free prototype makes selected interpretations inspectable while preserving missing facts and employer authority. It does not predict hiring or certify eligibility.
+
+Career Constellation offers alternative interest-based routes through Discover, Learn, Practice, Build, Prepare and Connect. Nodes open actual sources, public learning resources, working quests, Evidence Passport, Advisor Studio or an official application route. A text/list equivalent provides the same actions. Learners can skip gameplay and use neutral discovery ordering.
+
+Three playable quests remain central. Source Detective uses a frozen Maryland Administrative Specialist I announcement to explore the thirty-credit substitution for six qualifying administrative months while recognizing missing full conditions. Accessibility Artifact Builder repairs five concrete issues in a fictional library preview and downloads actual HTML. Career Evidence Builder links fictional experience to a valid MPT task/condition, proposed artifact and human-verification question. Versioned learning records retain successful checks and source snapshots; replays cannot duplicate rewards. These are learning exercises, not credentials or professional accomplishments.
+
+The new Judge Evidence Room invites scrutiny: https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html . Select any of sixty frozen internal cases, inspect the official source receipt, change one fictional fact without filling other unknowns, compare simple methods and download reproduction materials. The default shows a documented failure. References, case IDs, adapters and scoring rules were committed before the first scored run. Twelve development and forty-eight evaluation cases are developer-authored, not blind or independently adjudicated; external reviewers remain n=0.
+
+Actual original results: production matched authored references on 23/25 selected-condition cases and 10/10 deadline-state cases, but only 6/12 type-classification cases. Keyword and structured baselines achieved 12/12 classification; simpler methods win there. Structured type fixtures include explicit supplied metadata, so their result depends on that metadata's correctness. Unlike tasks have no combined accuracy score. Both original runs matched exactly; counts, confusion matrices, uncertainty and failures are public.
+
+The sprint exposed program-administration titles incorrectly treated as participant openings. A narrow repair returns unknown for those titles; it does not count unknown as a correct job classification. A benchmark authoring defect also confounded several original plan cases with missing fields. Corrected complete-row diagnostics exposed two claim-screen misses; original failures and directed repairs are retained. A separate explicit guaranteed-internship diagnostic exposed another miss and directed repair. Literal rules cannot verify every employment claim; known-case retests are not independent evaluation.
+
+Discovery uses Maryland's public RSS, curated records, reviewed learning resources and separately labeled directories. Unknown pay stays unknown; INTERNAL is not an internship, graduate alone is not entry-level, and contractual does not establish a short project. Changed/unavailable sources hold interpretation; observations never renew mapping approval. Historical NIH deliverables and former Civic Innovation Corps accounts illustrate other programs' work, not OpportunityBridge testimonials.
+
+Optional device saving is off by default. Explicitly captured fictional drafts, safe Journey import, unverified imported progress and deletion controls preserve learner choice. No resumes, private applicant records, automatic applications or messages. Local exports support human advising. Independent unfamiliar participants remain n=0; career benefit and equity effects are unproven. A matched fifteen-minute study is prepared and unsent; the proposed sixty-day pilot has no committed host or funding.
+
+EQUITY STATEMENT
+
+OpportunityBridge makes source explanations available without learner fees, login or professional referrals. This is an access hypothesis, not evidence that an employment gap has closed. Discovery categories describe opportunities; preferences and skill similarity never become certified eligibility or hiring scores.
+
+Saving is optional. Fictional drafts require capture; shared-device risks, deletion and unverified imports are visible. Private resumes and applicant records do not belong in this public demo. The proposed pilot gives both manual and assisted conditions equivalent source information, human support, compensation and accommodations. Adult consent is voluntary, separate from services, grades and hiring. A prospective host must offer paper, telephone/in-person support and devices where needed; contact linkage stays in approved institutional systems.
+
+Semantic controls, visible focus, text/list alternatives, reduced motion, narrow-screen reflow and readable exports support access. Actual keyboard/reflow checks are documented; actual 200% zoom and screen-reader use remain untested where native permissions/tools are unavailable. No WCAG certification is claimed. English-only content, cognitive load and unfamiliar-user usability need study. Negative reactions, incomplete tasks and barriers will be retained. A small pilot cannot establish subgroup parity or causal career effects.
+
+PILOT AND MEASURES
+
+Proposed: sixty days, twenty-five consenting adults and twenty-five initial double-reviewed opportunities. Editable workload model preserves 112 staff hours/$5,740 labor plus $375 compensation and $125 materials/access reserve: $6,240 economic total. Cash $500 requires all labor donated. Rates, overhead and accommodations need host validation. No institution, funds or staff contributions are committed.
+
+The model includes independent review, source changes, adjudication, advisor support/follow-up, maintenance, evaluation, accessibility and weekly backlog. Eight sensitivities plus best/base/stress are calculated. Doubling source-review duration creates a modeled nineteen-version backlog and stop at existing capacity; replacing an absent reviewer is necessary before approvals resume. These are planning assumptions, not observed cost-effectiveness.
+
+Prepared operations include manager brief, advisor onboarding, source SOP, consent/withdrawal, weekly calendar, retention/access, accessibility remediation and escalation. Hold unsafe eligibility claims, privacy incidents, blocking access barriers, stale interpretations and excessive backlog. Host governance determination precedes recruitment; no institutional ethics approval is claimed. Blank actual study outcomes remain n=0. Future career follow-up requires separate consent and an appropriate comparison.
+
+EVIDENCE, MEDIA AND DISCLOSURE
+
+Engineering checks: 138 JavaScript and 6 Python tests; 96 preserved browser assertions; 12 native functional and 5 quest checks with actual Journey, Passport, repaired HTML, ledger and handoff contents inspected. These are software/source simulations, not participant outcomes. Public reports retain failures, fixture limitations and exact release receipts. Internal ten-criterion mock remains 87/100; a 93–96 stretch is not justified by absent human, accessibility and partner evidence.
+
+The retained 180-second v0.8.1 walkthrough is an honestly labeled captioned screenshot sequence of the working app, not continuous live footage. Existing source dates remain visible. Separate evidence demo script, six-minute finalist presentation and three-minute Q&A are available. No fabricated participants, endorsements or narrated success stories.
+
+ChatGPT supplied the starter. Codex significantly assisted research, code, design, deterministic workflows, evaluation, documents, testing, media and publication; owner review remains necessary. MIT code, system fonts, public RSS, Node/Python and GitHub Pages; no paid API or live language-model runtime. Prior-project methods inspired evaluation discipline without importing private code, data or branding. Official publishers retain their materials. Personal/institutional, IP and prize permissions require owner confirmation; no attestation is made here.
+
+TEAM: Kenny!; captain Makenna Rodriguez; one existing registered member. Registration and eligibility metadata preserved. Saved draft only, not submitted for judging. A shareable member profile URL has not been verified in the authorized interface; owner/organizer clarification remains required.
+
+DEMO: https://siamakenna.github.io/opportunitybridge-citygov-2026/
+EVIDENCE ROOM: https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html
+GUIDE: https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html
+WALKTHROUGH: https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html
+FINALIST: https://siamakenna.github.io/opportunitybridge-citygov-2026/finalist.html
+SOURCE: https://github.com/siamakenna/opportunitybridge-citygov-2026

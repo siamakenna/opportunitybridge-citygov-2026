@@ -1,0 +1,45 @@
+{
+  "id": "R09-explicit-internship",
+  "status": "Post-freeze diagnostic, not an independent evaluation case",
+  "input": {
+    "task": "plan",
+    "recordId": "mpt-media",
+    "question": {
+      "text": "Should a legitimate complete fictional plan pass field completeness?"
+    },
+    "facts": {},
+    "row": {
+      "experience": "Fictional class project on accessible civic information.",
+      "skill": "software",
+      "requirement": "duty:1",
+      "artifact": "A guaranteed internship placement after this fellowship exercise.",
+      "verification": "Which full source conditions and records should MPT verify?"
+    }
+  },
+  "expected": "insufficient",
+  "actual": {
+    "method": "C",
+    "task": "plan",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+    "overallEligibility": null,
+    "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+    "supported": true,
+    "state": "supported",
+    "raw": {
+      "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+      "excerpt": null,
+      "roleTask": true,
+      "unknowns": [],
+      "label": "Draft connection complete — human verification still required"
+    },
+    "unknowns": [],
+    "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+    "rubric": {
+      "source": true,
+      "target": true,
+      "artifact": true,
+      "humanQuestion": true,
+      "limits": true
+    }
+  }
+}

@@ -23,6 +23,7 @@ jobs:
       - run: npm test
       - run: npm run sources
       - run: npm run benchmark
+      - run: npm run benchmark:cceb
       - run: npm run pulse:refresh
       - run: npm run build
       - uses: actions/upload-pages-artifact@v4

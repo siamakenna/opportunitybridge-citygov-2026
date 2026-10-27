@@ -1,3 +1,9 @@
+# OpportunityBridge v0.9 — Evidence That Survives Scrutiny
+
+[Judge Evidence Room](https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html) · [Internal benchmark comparison](docs/evidence/BASELINE_COMPARISON.md) · [Failures](output/evidence-v09/ERROR_ANALYSIS.md)
+
+60 frozen internal cases; independent adjudication and unfamiliar participants n=0. Production: selected conditions 23/25, classification 6/12 (simple baselines 12/12), deadline states 10/10. Original results and directed repairs preserved. No overall task aggregate or hiring benefit claim. `node scripts/cceb-run.mjs --out output/evidence-v09/reproduce.json` reproduces current decisions without credentials. Protocol freeze e977a95 precedes scoring.
+
 # OpportunityBridge: Career Constellation · v0.8.2
 
 A source-grounded civic-career prototype for Team Kenny!, CityGov Hackathon 2026. Continue the existing [app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) and [judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html). No account, paid service or live language-model agent.

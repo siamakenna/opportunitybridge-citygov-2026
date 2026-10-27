@@ -1,4 +1,4 @@
-import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import os from 'node:os';
@@ -8,5 +8,6 @@ const bytes=await readFile('data/cceb/v1.json'),d=JSON.parse(bytes),manifest=JSO
 if(hash(bytes)!==manifest.datasetSha256)throw Error('Frozen dataset digest differs');
 const start=performance.now(),rows=d.cases.map(c=>({id:c.id,stratum:c.stratum,partition:c.partition,task:c.input.task,cluster:c.input.recordId,reference:c.reference,outputs:Object.fromEntries(['A','B','C'].map(m=>[m,evaluateInput(inputOnly(c,d),m)]))}));
 const stable={datasetSha256:hash(bytes),clock:d.clock,seed:d.seed,rows};
-const result={...stable,resultSha256:hash(JSON.stringify(stable)),generatedAt:new Date().toISOString(),environment:{node:process.version,platform:os.platform(),architecture:os.arch(),revision:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),adapterSha256:hash(await readFile('src/cceb-adapters.js'))},elapsedMilliseconds:performance.now()-start};
+const productionDigests=Object.fromEntries(await Promise.all((await readdir('src')).filter(f=>f.endsWith('.js')).map(async f=>[f,hash(await readFile('src/'+f))])));
+const result={...stable,resultSha256:hash(JSON.stringify(stable)),generatedAt:new Date().toISOString(),environment:{node:process.version,platform:os.platform(),architecture:os.arch(),revision:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),dirtyProduction:!!execFileSync('git',['status','--porcelain','--','src','data/cceb','scripts/cceb-run.mjs'],{encoding:'utf8'}).trim(),productionDigests,adapterSha256:hash(await readFile('src/cceb-adapters.js'))},elapsedMilliseconds:performance.now()-start};
 const out=process.argv[process.argv.indexOf('--out')+1]||'output/evidence-v09/run-1.json';await mkdir(out.slice(0,out.lastIndexOf('/')),{recursive:true});await writeFile(out,JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({out,resultSha256:result.resultSha256,cases:rows.length,revision:result.environment.revision}));

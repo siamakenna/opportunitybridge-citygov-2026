@@ -1,0 +1,121 @@
+case_id,partition,method,task,implemented,state,primary,deadline,missing_documents,overall_eligibility,reason
+Q01,development,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q01,development,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q02,development,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q02,development,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q03,evaluation,A,condition,True,conflict,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q03,evaluation,B,condition,True,conflict,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q04,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q04,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q05,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q05,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q06,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q06,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q07,evaluation,A,condition,True,conflict,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q07,evaluation,B,condition,True,conflict,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q08,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q08,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q09,evaluation,A,condition,True,conflict,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q09,evaluation,B,condition,True,conflict,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q10,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q10,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q11,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q11,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+Q12,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+Q12,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+C01,development,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C01,development,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C02,development,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C02,development,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C03,evaluation,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C03,evaluation,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C04,evaluation,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C04,evaluation,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C05,evaluation,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C05,evaluation,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C06,evaluation,A,classification,True,,job,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C06,evaluation,B,classification,True,,job,,,unknown,Explicit source type metadata only.
+C07,evaluation,A,classification,True,,internship,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C07,evaluation,B,classification,True,,internship,,,unknown,Explicit source type metadata only.
+C08,evaluation,A,classification,True,,course,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C08,evaluation,B,classification,True,,course,,,unknown,Explicit source type metadata only.
+C09,evaluation,A,classification,True,,fellowship,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C09,evaluation,B,classification,True,,fellowship,,,unknown,Explicit source type metadata only.
+C10,evaluation,A,classification,True,,fellowship,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C10,evaluation,B,classification,True,,fellowship,,,unknown,Explicit source type metadata only.
+C11,evaluation,A,classification,True,,directory,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C11,evaluation,B,classification,True,,directory,,,unknown,Explicit source type metadata only.
+C12,evaluation,A,classification,True,,unknown,,,unknown,"Normalized word boundaries, explicit negation and full-time wording."
+C12,evaluation,B,classification,True,,unknown,,,unknown,Explicit source type metadata only.
+D01,development,A,deadline,True,,,expired,,unknown,Date parsing only; no review gate.
+D01,development,B,deadline,True,,,expired,,unknown,Dates and review timestamp; no source observation gate.
+D02,development,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D02,development,B,deadline,True,,,announced,,unknown,Dates and review timestamp; no source observation gate.
+D03,evaluation,A,deadline,True,,,expired,,unknown,Date parsing only; no review gate.
+D03,evaluation,B,deadline,True,,,expired,,unknown,Dates and review timestamp; no source observation gate.
+D04,evaluation,A,deadline,True,,,continuous,,unknown,Date parsing only; no review gate.
+D04,evaluation,B,deadline,True,,,continuous,,unknown,Dates and review timestamp; no source observation gate.
+D05,evaluation,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D05,evaluation,B,deadline,True,,,announced,,unknown,Dates and review timestamp; no source observation gate.
+D06,evaluation,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D06,evaluation,B,deadline,True,,,hold,,unknown,Dates and review timestamp; no source observation gate.
+D07,evaluation,A,deadline,True,,,hold,,unknown,Date parsing only; no review gate.
+D07,evaluation,B,deadline,True,,,hold,,unknown,Dates and review timestamp; no source observation gate.
+D08,evaluation,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D08,evaluation,B,deadline,True,,,hold,,unknown,Dates and review timestamp; no source observation gate.
+D09,evaluation,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D09,evaluation,B,deadline,True,,,announced,,unknown,Dates and review timestamp; no source observation gate.
+D10,evaluation,A,deadline,True,,,announced,,unknown,Date parsing only; no review gate.
+D10,evaluation,B,deadline,True,,,announced,,unknown,Dates and review timestamp; no source observation gate.
+U01,development,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U01,development,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U02,development,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U02,development,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U03,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U03,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U04,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U04,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U05,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U05,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U06,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U06,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U07,evaluation,A,pay,True,insufficient,,,,unknown,"Exact compensation amount requires an explicit amount, not a paid label."
+U07,evaluation,B,pay,True,insufficient,,,,unknown,"Exact compensation amount requires an explicit amount, not a paid label."
+U08,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U08,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U09,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U09,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+U10,evaluation,A,condition,True,insufficient,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+U10,evaluation,B,condition,True,insufficient,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+P01,development,A,mapping,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+P01,development,B,mapping,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+P02,development,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+P02,development,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+P03,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+P03,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+P04,evaluation,A,import,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+P04,evaluation,B,import,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+P05,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+P05,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+P06,evaluation,A,documents,True,insufficient,,,4,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P06,evaluation,B,documents,True,insufficient,,,4,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P07,evaluation,A,documents,True,insufficient,,,3,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P07,evaluation,B,documents,True,insufficient,,,3,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P08,evaluation,A,documents,True,supported,,,0,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+P08,evaluation,B,documents,True,supported,,,0,unknown,Self-marked document checklist only; not verified evidence or eligibility.
+A01,development,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A01,development,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A02,development,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A02,development,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A03,evaluation,A,condition,True,supported,,,,unknown,Minimal normalized source-keyword thresholds; no full provenance gate.
+A03,evaluation,B,condition,True,supported,,,,unknown,Minimal selected structured threshold formulas; no full provenance gate.
+A04,evaluation,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A04,evaluation,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A05,evaluation,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A05,evaluation,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A06,evaluation,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A06,evaluation,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A07,evaluation,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A07,evaluation,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A08,evaluation,A,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.
+A08,evaluation,B,plan,False,,,,,unknown,Task not implemented by this baseline; excluded from its denominator.

@@ -1,0 +1,3610 @@
+{
+  "datasetSha256": "ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51",
+  "clock": "2026-10-27T18:00:00Z",
+  "seed": 20261027,
+  "rows": [
+    {
+      "id": "Q01",
+      "stratum": "qualification",
+      "partition": "development",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "supported",
+        "rationale": "Six qualifying months reaches the selected administrative route; records and all other conditions remain unverified.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "yes",
+            "statusLabel": "Declared evidence appears consistent",
+            "reason": "Declared six-month route; verify duties and duration.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Declared six-month route; verify duties and duration."
+        }
+      }
+    },
+    {
+      "id": "Q02",
+      "stratum": "qualification",
+      "partition": "development",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "supported",
+        "rationale": "Thirty accredited credits meet the published selected substitution, not the full vacancy.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "yes",
+            "statusLabel": "Declared evidence appears consistent",
+            "reason": "Declared 30-credit substitution route; verify accreditation and records.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Declared 30-credit substitution route; verify accreditation and records."
+        }
+      }
+    },
+    {
+      "id": "Q03",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "conflict",
+        "rationale": "Neither complete route is met. The source does not establish prorated stacking of two incomplete routes.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "no",
+            "statusLabel": "Possible conflict — verify",
+            "reason": "Neither declared numeric route reaches the threshold; ask HR about equivalence.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Neither declared numeric route reaches the threshold; ask HR about equivalence."
+        }
+      }
+    },
+    {
+      "id": "Q04",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Neither numeric route is reached; possible military equivalence remains unspecified.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+        }
+      }
+    },
+    {
+      "id": "Q05",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "supported",
+        "rationale": "Twenty-four qualifying financial months reach the selected experience route.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "id": "experience",
+            "label": "Financial-transaction experience",
+            "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+            "required": true,
+            "rule": "md-finance-experience",
+            "value": "yes",
+            "statusLabel": "Declared evidence appears consistent",
+            "reason": "Declared 24-month route; verify the financial duties.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Declared 24-month route; verify the financial duties."
+        }
+      }
+    },
+    {
+      "id": "Q06",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "supported",
+        "rationale": "One year of qualifying experience plus the published six-credit one-year substitution reaches this selected route.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "id": "experience",
+            "label": "Financial-transaction experience",
+            "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+            "required": true,
+            "rule": "md-finance-experience",
+            "value": "yes",
+            "statusLabel": "Declared evidence appears consistent",
+            "reason": "Six accounting credits plus at least 12 qualifying months appear consistent with the published one-year substitution.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Six accounting credits plus at least 12 qualifying months appear consistent with the published one-year substitution."
+        }
+      }
+    },
+    {
+      "id": "Q07",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "conflict",
+        "rationale": "One substituted year alone does not satisfy the two-year selected requirement.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "raw": {
+            "id": "experience",
+            "label": "Financial-transaction experience",
+            "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+            "required": true,
+            "rule": "md-finance-experience",
+            "value": "no",
+            "statusLabel": "Possible conflict — verify",
+            "reason": "Declared experience is short of the modeled routes; six credits alone do not establish 24 months.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Financial-transaction experience",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Declared experience is short of the modeled routes; six credits alone do not establish 24 months."
+        }
+      }
+    },
+    {
+      "id": "Q08",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "The brief source does not establish automatic repeated credit substitutions. Ask HR; do not silently stack.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Financial-transaction experience",
+            "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+            "required": true,
+            "rule": "md-finance-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Whether multiple accounting-credit substitutions can be combined is not established; ask HR.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Financial-transaction experience",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Whether multiple accounting-credit substitutions can be combined is not established; ask HR."
+        }
+      }
+    },
+    {
+      "id": "Q09",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "conflict",
+        "rationale": "Only one qualifying year, no accounting substitution and no declared alternative: the selected two-year route conflicts.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "conflict",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Financial-transaction experience",
+            "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+            "required": true,
+            "rule": "md-finance-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Financial-transaction experience",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review."
+        }
+      }
+    },
+    {
+      "id": "Q10",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "supported",
+        "rationale": "Declared credential is consistent with this selected condition only; not independent verification.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "id": "education",
+            "label": "High-school credential or equivalency",
+            "exact": "high school equivalency certificate",
+            "context": "Minimum Qualifications · education (short exact fragment)",
+            "summary": "Accredited high-school graduation or equivalency; a generic certificate does not establish this.",
+            "required": true,
+            "rule": "md-education",
+            "value": "yes",
+            "statusLabel": "Declared evidence appears consistent",
+            "reason": "Declared credential only; inspect supporting evidence.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · education (short exact fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Declared credential only; inspect supporting evidence."
+        }
+      }
+    },
+    {
+      "id": "Q11",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-vendor",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Published numerical-work equivalency has not been resolved; lack of the credential is not an automatic rejection.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "education",
+            "label": "High-school education or permitted equivalent",
+            "exact": "high school equivalency certificate",
+            "context": "Minimum Qualifications · education (fragment)",
+            "summary": "High-school credential, or permitted numerical-work substitution; HR must verify equivalency.",
+            "required": true,
+            "rule": "vendor-education",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Credential or published education-equivalence route needs verification.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+            "sourceContext": "Minimum Qualifications · education (fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school education or permitted equivalent",
+            "Financial-transaction experience",
+            "Age, authorization and screening conditions",
+            "Office software familiarity"
+          ],
+          "reason": "Credential or published education-equivalence route needs verification."
+        }
+      }
+    },
+    {
+      "id": "Q12",
+      "stratum": "qualification",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin3",
+      "reference": {
+        "state": "supported",
+        "rationale": "A declared credential is consistent with this selected education condition. Other complex conditions remain unresolved.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "education",
+            "label": "High-school credential or equivalency",
+            "exact": "high school equivalency certificate",
+            "context": "Minimum Qualifications · education (short fragment)",
+            "summary": "Verify an accredited high-school credential or equivalency.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+            "sourceContext": "Minimum Qualifications · education (short fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Two administrative years or reviewed alternatives",
+            "Authorization, credential and possible driving conditions"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "C01",
+      "stratum": "classification",
+      "partition": "development",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "stratum": "classification",
+      "partition": "development",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "internship",
+          "raw": [
+            {
+              "type": "internship",
+              "basis": "publisher-stated",
+              "explanation": "Internship is explicit in the publisher title; pay and learner eligibility remain unknown unless stated.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "job",
+        "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "job",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "raw": [
+            {
+              "type": "fellowship",
+              "basis": "publisher-stated",
+              "explanation": "Fellowship wording in the publisher title; full source not individually reviewed.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "internship",
+        "rationale": "The synthetic source explicitly describes internship; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "internship",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "internship",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "internship",
+          "raw": [
+            {
+              "type": "paid-internship",
+              "basis": "publisher-stated",
+              "explanation": "Internship is explicit in the publisher title; pay and learner eligibility remain unknown unless stated.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "course",
+        "rationale": "The synthetic source explicitly describes course; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "course",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "course",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "course",
+          "raw": [
+            {
+              "type": "course",
+              "basis": "source-reviewed",
+              "explanation": "Explicit synthetic training label"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C09",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "mpt-media",
+      "reference": {
+        "primary": "fellowship",
+        "rationale": "This is a distinct MPT Student Fellow recruitment; not a guaranteed internship.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "raw": [
+            {
+              "type": "fellowship",
+              "basis": "source-reviewed",
+              "explanation": "Type described in the individually inspected official announcement; full conditions control.",
+              "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z"
+            },
+            {
+              "type": "part-time",
+              "basis": "source-reviewed",
+              "explanation": "Type described in the individually inspected official announcement; full conditions control.",
+              "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C10",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "mpt-motorweek",
+      "reference": {
+        "primary": "fellowship",
+        "rationale": "This is a distinct MPT Student Fellow recruitment; not a guaranteed internship.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "fellowship",
+          "raw": [
+            {
+              "type": "fellowship",
+              "basis": "source-reviewed",
+              "explanation": "Type described in the individually inspected official announcement; full conditions control.",
+              "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z"
+            },
+            {
+              "type": "part-time",
+              "basis": "source-reviewed",
+              "explanation": "Type described in the individually inspected official announcement; full conditions control.",
+              "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C11",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "directory",
+        "rationale": "The synthetic source explicitly describes directory; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "directory",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "directory",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "directory",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "C12",
+      "stratum": "classification",
+      "partition": "evaluation",
+      "task": "classification",
+      "cluster": "synthetic",
+      "reference": {
+        "primary": "unknown",
+        "rationale": "The synthetic source explicitly describes unknown; administrative program titles do not imply participation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "reason": "Normalized word boundaries, explicit negation and full-time wording."
+        },
+        "B": {
+          "method": "B",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "reason": "Explicit source type metadata only."
+        },
+        "C": {
+          "method": "C",
+          "task": "classification",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "primary": "unknown",
+          "raw": [
+            {
+              "type": "unknown",
+              "basis": "unknown",
+              "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+              "sourceUrl": "https://example.invalid/synthetic-fixture",
+              "reviewedAt": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "D01",
+      "stratum": "deadline",
+      "partition": "development",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "expired",
+        "rationale": "A passed closing time is expired even if other fields look favorable.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "raw": {
+            "state": "expired",
+            "label": "Deadline passed",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D02",
+      "stratum": "deadline",
+      "partition": "development",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "announced",
+        "rationale": "The original announced future deadline may be displayed, without guaranteeing availability.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "raw": {
+            "state": "verified",
+            "label": "Verified from official source",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D03",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "expired",
+        "rationale": "The deadline boundary itself is closed, not one more open instant.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "expired",
+          "raw": {
+            "state": "expired",
+            "label": "Deadline passed",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D04",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "mpt-media",
+      "reference": {
+        "deadlineStatus": "continuous",
+        "rationale": "Open/continuous has no guaranteed closing date or continued availability.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "continuous",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "continuous",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "continuous",
+          "raw": {
+            "state": "verified",
+            "label": "Verified from official source",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D05",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "hold",
+        "rationale": "Contradictory official closing dates require source reconciliation, not selection of the later date.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "raw": {
+            "state": "unverified",
+            "label": "Source changed or unavailable — review needed",
+            "stale": true
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D06",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "hold",
+        "rationale": "The original review is over48hours old; no automated date renewal.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "raw": {
+            "state": "stale",
+            "label": "Previously observed — recheck",
+            "stale": true
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D07",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "hold",
+        "rationale": "Invalid date fails the catalog validity boundary.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "raw": {
+            "state": "verified",
+            "label": "Verified from official source",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D08",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "hold",
+        "rationale": "A future review timestamp cannot establish freshness at the controlled clock.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "raw": {
+            "state": "stale",
+            "label": "Previously observed — recheck",
+            "stale": true
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D09",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "md-admin",
+      "reference": {
+        "deadlineStatus": "hold",
+        "rationale": "Revised deadline metadata is not reapproval of the qualification mapping.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "hold",
+          "raw": {
+            "state": "unverified",
+            "label": "Source changed or unavailable — review needed",
+            "stale": true
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "D10",
+      "stratum": "deadline",
+      "partition": "evaluation",
+      "task": "deadline",
+      "cluster": "doe-suli",
+      "reference": {
+        "deadlineStatus": "announced",
+        "rationale": "The original dated research intake is later than the controlled clock; full conditions still control.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "deadline",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Date parsing only; no review gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "deadline",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "reason": "Dates and review timestamp; no source observation gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "deadline",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "deadlineStatus": "announced",
+          "raw": {
+            "state": "verified",
+            "label": "Verified from official source",
+            "stale": false
+          },
+          "reason": "Production lifecycle and catalog validity guards."
+        }
+      }
+    },
+    {
+      "id": "U01",
+      "stratum": "insufficient",
+      "partition": "development",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "No qualifying months, accredited credits or military evidence provided.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+        }
+      }
+    },
+    {
+      "id": "U02",
+      "stratum": "insufficient",
+      "partition": "development",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "An unavailable employer source must hold a previously reviewed interpretation.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations."
+        }
+      }
+    },
+    {
+      "id": "U03",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "An experience substitution does not establish the separate school credential.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "education",
+            "label": "High-school credential or equivalency",
+            "exact": "high school equivalency certificate",
+            "context": "Minimum Qualifications · education (short exact fragment)",
+            "summary": "Accredited high-school graduation or equivalency; a generic certificate does not establish this.",
+            "required": true,
+            "rule": "md-education",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Credential or published education-equivalence route needs verification.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · education (short exact fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Credential or published education-equivalence route needs verification."
+        }
+      }
+    },
+    {
+      "id": "U04",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Experience and education cannot fill missing authorization/other source conditions.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "authorization",
+            "label": "Work authorization and other conditions",
+            "exact": "",
+            "context": "Selection Process / Licenses",
+            "summary": "Legal work authorization, possible driving duties and foreign-credential review need checking with HR.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Selection Process / Licenses",
+            "limited": true
+          },
+          "unknowns": [
+            "Work authorization and other conditions"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "U05",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Hours/enrollment alone leave the full student/recent-graduate route unresolved.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "student-route",
+            "label": "Student / recent-graduate route and weekly commitment",
+            "exact": "minimum of 16 hours per week",
+            "context": "Minimum Qualifications (short exact fragment)",
+            "summary": "Accredited enrollment or recent graduation; high-school applicants have junior/senior conditions. Verify the complete route and weekly availability with MPT.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+            "sourceContext": "Minimum Qualifications (short exact fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "Student / recent-graduate route and weekly commitment"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "U06",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "mpt-motorweek",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Hours do not establish academic route or remaining MPT conditions.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "student-route",
+            "label": "Student / recent-graduate route and weekly commitment",
+            "exact": "minimum of 16 hours per week",
+            "context": "Minimum Qualifications (short exact fragment)",
+            "summary": "Accredited enrollment or recent graduation; high-school applicants have junior/senior conditions. Verify the complete route and weekly availability with MPT.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+            "sourceContext": "Minimum Qualifications (short exact fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "Student / recent-graduate route and weekly commitment"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "U07",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "pay",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Missing pay stays unknown, even for a familiar role.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "pay",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Exact compensation amount requires an explicit amount, not a paid label."
+        },
+        "B": {
+          "method": "B",
+          "task": "pay",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Exact compensation amount requires an explicit amount, not a paid label."
+        },
+        "C": {
+          "method": "C",
+          "task": "pay",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Exact compensation amount requires an explicit amount, not a paid label."
+        }
+      }
+    },
+    {
+      "id": "U08",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Invalid/non-disclosed numeric text is not zero or30.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+        }
+      }
+    },
+    {
+      "id": "U09",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A prepared-document counter does not establish eligibility.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "student-route",
+            "label": "Student / recent-graduate route and weekly commitment",
+            "exact": "minimum of 16 hours per week",
+            "context": "Minimum Qualifications (short exact fragment)",
+            "summary": "Accredited enrollment or recent graduation; high-school applicants have junior/senior conditions. Verify the complete route and weekly availability with MPT.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+            "sourceContext": "Minimum Qualifications (short exact fragment)",
+            "limited": true
+          },
+          "unknowns": [
+            "Student / recent-graduate route and weekly commitment"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "U10",
+      "stratum": "insufficient",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "doe-suli",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "GPA alone cannot establish the full research-program conditions.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://science.osti.gov/wdts/suli",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "eligibility",
+            "label": "Academic, age and status conditions",
+            "exact": "",
+            "context": "https://science.osti.gov/wdts/suli/Eligibility",
+            "summary": "Enrollment/recent-degree window, coursework, GPA, age, status and prior-participation limits apply; read complete eligibility page.",
+            "required": true,
+            "rule": "human",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "This condition needs a human review of the complete official source.",
+            "sourceUrl": "https://science.osti.gov/wdts/suli",
+            "sourceContext": "https://science.osti.gov/wdts/suli/Eligibility",
+            "limited": true
+          },
+          "unknowns": [
+            "Academic, age and status conditions"
+          ],
+          "reason": "This condition needs a human review of the complete official source."
+        }
+      }
+    },
+    {
+      "id": "P01",
+      "stratum": "provenance",
+      "partition": "development",
+      "task": "mapping",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Changed source identity invalidates the source-bound snapshot.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "mapping",
+          "sourceUrl": "https://example.invalid/jobboard",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "mapping",
+          "sourceUrl": "https://example.invalid/jobboard",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "mapping",
+          "sourceUrl": "https://example.invalid/jobboard",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Production exact approved mapping snapshot."
+        }
+      }
+    },
+    {
+      "id": "P02",
+      "stratum": "provenance",
+      "partition": "development",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A qualification-summary change is outside the approved exact snapshot.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown."
+        }
+      }
+    },
+    {
+      "id": "P03",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "Similar IDs are not interchangeable.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Qualification mapping has changed or lacks a recorded source review; keep interpretation unknown."
+        }
+      }
+    },
+    {
+      "id": "P04",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "import",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A failed check cannot be deserialized as valid completion.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "import",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "import",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "import",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "reason": "Completion receipt lacks actual successful checks."
+        }
+      }
+    },
+    {
+      "id": "P05",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "An unconfirmed identity/redirect requires review.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations."
+        }
+      }
+    },
+    {
+      "id": "P06",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "documents",
+      "cluster": "mpt-media",
+      "reference": {
+        "missingDocuments": 4,
+        "state": "insufficient",
+        "rationale": "All four source-listed college document items are initially unprepared.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 4,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "B": {
+          "method": "B",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 4,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "C": {
+          "method": "C",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 4,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        }
+      }
+    },
+    {
+      "id": "P07",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "documents",
+      "cluster": "mpt-media",
+      "reference": {
+        "missingDocuments": 3,
+        "state": "insufficient",
+        "rationale": "One self-declaration does not complete four source-listed items.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 3,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "B": {
+          "method": "B",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 3,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "C": {
+          "method": "C",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "missingDocuments": 3,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        }
+      }
+    },
+    {
+      "id": "P08",
+      "stratum": "provenance",
+      "partition": "evaluation",
+      "task": "documents",
+      "cluster": "mpt-media",
+      "reference": {
+        "missingDocuments": 0,
+        "state": "supported",
+        "rationale": "All four items are marked prepared; this is not independent verification or eligibility.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "missingDocuments": 0,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "B": {
+          "method": "B",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "missingDocuments": 0,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        },
+        "C": {
+          "method": "C",
+          "task": "documents",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "missingDocuments": 0,
+          "reason": "Self-marked document checklist only; not verified evidence or eligibility."
+        }
+      }
+    },
+    {
+      "id": "A01",
+      "stratum": "adversarial",
+      "partition": "development",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A fellowship or completed quest cannot guarantee a job.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "unknowns": [
+              "Experience has not been declared.",
+              "Choose a relevant skill category; similarity is not eligibility.",
+              "No valid source requirement or role task selected.",
+              "Human verification question is missing.",
+              "Remove unsupported hiring or certified-eligibility claims."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Experience has not been declared.",
+            "Choose a relevant skill category; similarity is not eligibility.",
+            "No valid source requirement or role task selected.",
+            "Human verification question is missing.",
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": true,
+            "humanQuestion": false,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A02",
+      "stratum": "adversarial",
+      "partition": "development",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "An invented professional experience should be flagged; a completeness label is not verification.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "unknowns": [
+              "Choose a relevant skill category; similarity is not eligibility.",
+              "No valid source requirement or role task selected.",
+              "Proposed work sample is missing.",
+              "Human verification question is missing."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Choose a relevant skill category; similarity is not eligibility.",
+            "No valid source requirement or role task selected.",
+            "Proposed work sample is missing.",
+            "Human verification question is missing."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": false,
+            "humanQuestion": false,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A03",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "condition",
+      "cluster": "md-admin",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "External instructions are data; a changed source remains held.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal normalized source-keyword thresholds; no full provenance gate."
+        },
+        "B": {
+          "method": "B",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "reason": "Minimal selected structured threshold formulas; no full provenance gate."
+        },
+        "C": {
+          "method": "C",
+          "task": "condition",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "id": "experience",
+            "label": "Administrative experience or a published substitution",
+            "exact": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "context": "Minimum Qualifications · experience",
+            "summary": "Six qualifying months; 30 accredited college credits may substitute. Military equivalence requires review.",
+            "required": true,
+            "rule": "md-admin-experience",
+            "value": "unknown",
+            "statusLabel": "Insufficient information",
+            "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations.",
+            "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+            "sourceContext": "Minimum Qualifications · experience",
+            "limited": true
+          },
+          "unknowns": [
+            "High-school credential or equivalency",
+            "Administrative experience or a published substitution",
+            "Work authorization and other conditions"
+          ],
+          "reason": "Source is expired, stale or unverified. Recheck before interpreting declarations."
+        }
+      }
+    },
+    {
+      "id": "A04",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A historical outcome is not current applicant evidence.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "unknowns": [
+              "Experience has not been declared.",
+              "Choose a relevant skill category; similarity is not eligibility.",
+              "No valid source requirement or role task selected.",
+              "Proposed work sample is missing."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Experience has not been declared.",
+            "Choose a relevant skill category; similarity is not eligibility.",
+            "No valid source requirement or role task selected.",
+            "Proposed work sample is missing."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": false,
+            "humanQuestion": true,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A05",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "supported",
+        "rationale": "This is a proposed fictional plan, with a source task and human question; no employer certification.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "supported",
+          "raw": {
+            "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+            "excerpt": null,
+            "roleTask": true,
+            "unknowns": [],
+            "label": "Draft connection complete — human verification still required"
+          },
+          "unknowns": [],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": true,
+            "artifact": true,
+            "humanQuestion": true,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A06",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "The missing human question is a required preparation link.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "unknowns": [
+              "Experience has not been declared.",
+              "Choose a relevant skill category; similarity is not eligibility.",
+              "No valid source requirement or role task selected.",
+              "Proposed work sample is missing.",
+              "Human verification question is missing."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Experience has not been declared.",
+            "Choose a relevant skill category; similarity is not eligibility.",
+            "No valid source requirement or role task selected.",
+            "Proposed work sample is missing.",
+            "Human verification question is missing."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": false,
+            "humanQuestion": false,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A07",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "The stated certification has no basis in this demo.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "unknowns": [
+              "Choose a relevant skill category; similarity is not eligibility.",
+              "No valid source requirement or role task selected.",
+              "Proposed work sample is missing.",
+              "Human verification question is missing.",
+              "Remove unsupported hiring or certified-eligibility claims."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Choose a relevant skill category; similarity is not eligibility.",
+            "No valid source requirement or role task selected.",
+            "Proposed work sample is missing.",
+            "Human verification question is missing.",
+            "Remove unsupported hiring or certified-eligibility claims."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": false,
+            "humanQuestion": false,
+            "limits": true
+          }
+        }
+      }
+    },
+    {
+      "id": "A08",
+      "stratum": "adversarial",
+      "partition": "evaluation",
+      "task": "plan",
+      "cluster": "mpt-media",
+      "reference": {
+        "state": "insufficient",
+        "rationale": "A historical account cannot support arbitrary unrelated skills.",
+        "author": "Codex — AI-assisted developer author",
+        "reviewStatus": "pending independent adjudication",
+        "independentReviewers": 0
+      },
+      "outputs": {
+        "A": {
+          "method": "A",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "B": {
+          "method": "B",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": false,
+          "reason": "Task not implemented by this baseline; excluded from its denominator."
+        },
+        "C": {
+          "method": "C",
+          "task": "plan",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "overallEligibility": null,
+          "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+          "supported": true,
+          "state": "insufficient",
+          "raw": {
+            "target": "Unselected / unknown",
+            "excerpt": null,
+            "roleTask": false,
+            "story": {
+              "id": "andrade",
+              "name": "Christina Andrade",
+              "host": "Arapahoe County · Digital Services",
+              "program": "Civic Innovation Corps",
+              "year": "Year not established in source",
+              "sourceUrl": "https://pitcases.org/portfolio/coding-it-forward-civic-digital-fellowship-and-civic-innovation-corps/",
+              "sourceType": "Published first-person account · PITcases",
+              "summary": "Andrade describes county motor-vehicle interviews and observations, user personas, a reusable research framework and recruitment groundwork.",
+              "career": "No subsequent employment outcome established here.",
+              "unknown": "Service impact was not independently measured in this account.",
+              "skills": [
+                "research",
+                "communication"
+              ],
+              "suggestion": "OpportunityBridge recommendation: prepare a fictional service interview guide and a one-page synthesis; obtain consent for any real research.",
+              "observedAt": "2026-10-26T18:03:34Z"
+            },
+            "unknowns": [
+              "Experience has not been declared.",
+              "No valid source requirement or role task selected.",
+              "Proposed work sample is missing.",
+              "Human verification question is missing.",
+              "This skill is outside the story’s inferred categories; explain the connection."
+            ],
+            "label": "Connection needs clarification"
+          },
+          "unknowns": [
+            "Experience has not been declared.",
+            "No valid source requirement or role task selected.",
+            "Proposed work sample is missing.",
+            "Human verification question is missing.",
+            "This skill is outside the story’s inferred categories; explain the connection."
+          ],
+          "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+          "rubric": {
+            "source": true,
+            "target": false,
+            "artifact": false,
+            "humanQuestion": false,
+            "limits": true
+          }
+        }
+      }
+    }
+  ],
+  "resultSha256": "c79685f8c0289381529e08e6f80d1784fc96816bbefeddde1659e8848dd525d7",
+  "generatedAt": "2026-10-27T19:35:38.418Z",
+  "environment": {
+    "node": "v26.4.0",
+    "platform": "darwin",
+    "architecture": "x64",
+    "revision": "e977a95d1750073a6c56160e6cbd4fb7cd0f7302",
+    "adapterSha256": "c7dba49ca91f31fd04dd4d2c01f0ae40bf37926c0c71441a9ef8df1a91056535"
+  },
+  "elapsedMilliseconds": 58.742495999999996
+}

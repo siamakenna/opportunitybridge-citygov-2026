@@ -1,0 +1,16 @@
+assumption,value,unit
+days,60,planning assumption
+participants,25,planning assumption
+initialSources,25,planning assumption
+activeWeeks,6,planning assumption
+changesPerWeek,2,planning assumption
+reviewHours,0.4,planning assumption
+reviewers,2,planning assumption
+availableReviewers,2,planning assumption
+sourceCapacityHours,29.6,planning assumption
+participantSupportHours,0.75,planning assumption
+followupHours,0.25,planning assumption
+accommodationReserve,125,planning assumption
+donatedLaborShare,1,planning assumption
+planCompletionShare,0.8,planning assumption
+followThroughShare,0.6,planning assumption

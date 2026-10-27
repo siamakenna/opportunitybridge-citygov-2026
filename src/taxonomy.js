@@ -7,6 +7,8 @@ export function classify(r){
  const receipt=(type,basis,explanation)=>({type,basis,explanation,sourceUrl:r.sourceUrl||r.originalSourceUrl,reviewedAt:basis==='source-reviewed'?r.verifiedAt||r.reviewedAt:null});
  if(r.requirements&&reviewed[r.id])return reviewed[r.id].map(t=>receipt(t,'source-reviewed','Type described in the individually inspected official announcement; full conditions control.'));
  const title=normalizeText(r.title),a=[];
+ // A staff role managing a program is not evidence of a participant opening.
+ if(/\b(internship|fellowship)\b/.test(title)&&/\b(coordinator|manager|director|administrator)\b/.test(title))return [receipt('unknown','unknown','Program staff title; do not infer an internship or fellowship participant opening. Inspect the full source.')];
  if(/\b(intern|interns|internship|internships)\b/.test(title)){let t=/\bunpaid\b/.test(title)?'unpaid-internship':/\bpaid\b/.test(title)?'paid-internship':'internship';a.push(receipt(t,'publisher-stated','Internship is explicit in the publisher title; pay and learner eligibility remain unknown unless stated.'));}
  if(/\b(fellow|fellows|fellowship|fellowships)\b/.test(title))a.push(receipt('fellowship','publisher-stated','Fellowship wording in the publisher title; full source not individually reviewed.'));
  if(/\bapprentice(ship)?s?\b/.test(title))a.push(receipt('apprenticeship','inferred-candidate','Title suggests apprenticeship; review the program and opening.'));

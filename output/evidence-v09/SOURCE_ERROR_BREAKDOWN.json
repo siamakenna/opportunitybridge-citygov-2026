@@ -1,0 +1,81 @@
+{
+  "md-admin/condition": {
+    "n": 14,
+    "failures": []
+  },
+  "md-vendor/condition": {
+    "n": 6,
+    "failures": [
+      "Q09"
+    ]
+  },
+  "md-admin3/condition": {
+    "n": 1,
+    "failures": [
+      "Q12"
+    ]
+  },
+  "synthetic/classification": {
+    "n": 10,
+    "failures": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06"
+    ]
+  },
+  "mpt-media/classification": {
+    "n": 1,
+    "failures": []
+  },
+  "mpt-motorweek/classification": {
+    "n": 1,
+    "failures": []
+  },
+  "md-admin/deadline": {
+    "n": 8,
+    "failures": []
+  },
+  "mpt-media/deadline": {
+    "n": 1,
+    "failures": []
+  },
+  "doe-suli/deadline": {
+    "n": 1,
+    "failures": []
+  },
+  "mpt-media/condition": {
+    "n": 2,
+    "failures": []
+  },
+  "mpt-motorweek/condition": {
+    "n": 1,
+    "failures": []
+  },
+  "mpt-media/pay": {
+    "n": 1,
+    "failures": []
+  },
+  "doe-suli/condition": {
+    "n": 1,
+    "failures": []
+  },
+  "md-admin/mapping": {
+    "n": 1,
+    "failures": []
+  },
+  "md-admin/import": {
+    "n": 1,
+    "failures": []
+  },
+  "mpt-media/documents": {
+    "n": 3,
+    "failures": []
+  },
+  "mpt-media/plan": {
+    "n": 7,
+    "failures": []
+  }
+}

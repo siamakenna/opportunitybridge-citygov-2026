@@ -1,0 +1,131 @@
+{
+  "checks": [
+    {
+      "id": "60 cases loaded",
+      "status": "PASS",
+      "detail": "60 frozen cases loaded. Independent adjudication pending. Local replay ready."
+    },
+    {
+      "id": "one fact supports selected route while other unknowns remain",
+      "status": "PASS",
+      "detail": "Selected experience condition: supported. Declared 30-credit substitution route; verify accreditation and records. Other unresolved conditions: High-school credential or equivalency; Work authorization and other conditions. Overall eligibility: unknown. Military equivalence, records and accreditation are unverified."
+    },
+    {
+      "id": "fact reset preserves unknown",
+      "status": "PASS"
+    },
+    {
+      "id": "48 evaluation rows",
+      "status": "PASS"
+    },
+    {
+      "id": "60 full rows",
+      "status": "PASS"
+    },
+    {
+      "id": "source-review stress stops",
+      "status": "PASS",
+      "detail": "Modeled economic cost: $7646.00. Required staff: 141.60 hours. Cash with stated donations: $500.00. Source versions: 37; double-review hours: 59.20; capacity backlog: 19. STOP / HOLD: capacity or reviewer coverage fails. Modeled plans: 20; economic cost per modeled plan: $382.30. These are not observed outcomes. Weekly backlog: W1 7 · W2 13 · W3 14 · W4 15 · W5 16 · W6 17 · W7 18 · W8 19"
+    },
+    {
+      "id": "base cost restored",
+      "status": "PASS"
+    },
+    {
+      "id": "changed mapping holds",
+      "status": "PASS"
+    },
+    {
+      "id": "actual case receipt contents",
+      "status": "PASS",
+      "detail": {
+        "identity": "26-001755-0041",
+        "originalURL": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "originalReviewedAt": "2026-10-27T00:22:27.535Z",
+        "observedAt": "2026-10-27T19:23:14.067970+00:00",
+        "versionDigest": "1ec4222b42d662668ecbdda3866291f3360b89bc6a7b3ca8e4313b2ef8931742",
+        "license": "Publisher retains rights. URL, paraphrase and version digests only; no full employer page redistributed."
+      }
+    },
+    {
+      "id": "keyboard changes fact and advances in order",
+      "status": "PASS",
+      "detail": {
+        "focused": "fact-months",
+        "result": "Selected experience condition: supported. Declared 30-credit substitution route; verify accreditation and records.\nOther unresolved conditions: High-school credential or equivalency; Work authorization and other conditions. Overall eligibility: unknown. Military equivalence, records and accreditation are unverified."
+      }
+    },
+    {
+      "id": "reviewer validation announces missing fields",
+      "status": "PASS"
+    },
+    {
+      "id": "real input-only reviewer packet",
+      "status": "PASS",
+      "detail": {
+        "cases": 60,
+        "reviewResults": 0
+      }
+    },
+    {
+      "id": "real model download reconciles",
+      "status": "PASS"
+    }
+  ],
+  "artifacts": [
+    "evidence/v09/local-case-receipt.json"
+  ],
+  "legacy": [
+    {
+      "page": "browser.html",
+      "result": "15 assertions passed\nPASS Actual modules initialize four roles\nPASS No-selection export disabled\nPASS Role selection focuses plan heading\nPASS Edited unknown fact reaches requirement display\nPASS Contradicted skill no longer offered as supported\nPASS Downloaded plan uses edited credential\nPASS Downloaded plan uses edited unknown\nPASS Handoff includes current draft\nPASS Handoff includes current declarations\nPASS Simpler explanation preserves draft\nPASS Persona switch clears selection\nPASS Technology filter returns one sample\nPASS Reset restores all roles\nPASS Reset clears sample draft\nPASS Reset clears simpler-explanation state"
+    },
+    {
+      "page": "real-browser.html",
+      "result": "23 assertions passed\nPASS Actual real-opportunity modules load\nPASS Fictional engine is absent from primary page\nPASS Five attributed historical records load\nPASS Expired intake excluded from default\nPASS History preserves expired status\nPASS No-result state is explained\nPASS Shortlist shows only saved record\nPASS Inspect moves focus to selected opportunity\nPASS Requirement title distinct from state\nPASS Unknown declarations remain unknown\nPASS Sample coursework declarations load\nPASS Fact editing preserves the selected record draft\nPASS Untrusted draft is never inserted as HTML\nPASS Export preserves actual recruitment ID\nPASS Export uses numeric edits before blur/change\nPASS Export includes selected draft\nPASS Export keeps missing conditions\nPASS Export includes action plan\nPASS Export strips HTML delimiters\nPASS Clear session deletes shortlist\nPASS Clear session deletes selection and facts\nPASS Historical skills distinguish recommended portfolio work\nPASS Practice Mode remains reachable"
+    },
+    {
+      "page": "v06-browser.html",
+      "result": "25 assertions passed\nPASS MPT commitment visible on card\nPASS Four college document items available on card\nPASS Card application preserves original recruitment identity\nPASS Tour selects genuine featured source\nPASS Tour sample declares fictional16-hour availability\nPASS MPT source condition remains human-reviewed\nPASS Tour can be skipped without Practice Mode detour\nPASS Fact editing preserves worksheet\nPASS Document progress uses actual four-item denominator\nPASS Additional connection preserves existing content\nPASS Real export includes source, worksheet and checklist\nPASS Printable snapshot preserves full edited evidence text\nPASS Export retains missing work and personal target limits\nPASS Invalid hours produce a labeled error\nPASS New app controls have associated labels\nPASS Worksheet reset clears connections\nPASS Session reset clears selected facts and worksheet\nPASS Active session cannot be silently restarted\nPASS MPT source pair uses current real employer case\nPASS Reflection separates perceived clarity and adjudicated observations\nPASS Out-of-range host rubric score flagged\nPASS Evaluation reflection and observer fields are labeled\nPASS Municipal handoff explains escalation and holds\nPASS Evaluator handoff preserves measurement limits\nPASS Pilot templates and complete kit are downloadable"
+    },
+    {
+      "page": "evaluation-browser.html",
+      "result": "9 assertions passed\nPASS Recently reviewed sources permit rehearsal\nPASS Consent and code gate the session\nPASS Manual condition has no assisted destination\nPASS Answers wait for actual task start\nPASS Measured start enables worksheet\nPASS Second case uses reviewed fiscal assisted destination\nPASS Fictional matched fiscal facts preserved\nPASS Reflection allows unfavorable findings and local export\nPASS Reset clears local session"
+    },
+    {
+      "page": "v07-browser.html",
+      "result": "24 assertions passed\nPASS Pulse names snapshot provenance without a live label\nPASS Pulse paginates the actual normalized feed\nPASS New discoveries and preparation-ready sources are distinct\nPASS Discovery lead has no qualification or Passport shortcut\nPASS Saved filter retains exactly the saved discovery\nPASS Accessible sort renders results\nPASS Pulse explains an empty result\nPASS Passport initially reveals one control stage per connection\nPASS Moving between stages preserves declarations\nPASS Same-page career navigation preserves the current Passport context\nPASS Readiness to discuss is not eligibility\nPASS Map node exposes source-bound target\nPASS Evidence map has a text equivalent\nPASS Historical exercise adds a separate proposed connection\nPASS Story connection preserves no-artifact/endorsement boundary\nPASS JSON receipt keeps original source and catalog revision\nPASS JSON includes the actual historical source\nPASS Incomplete connection and independent n remain explicit\nPASS Markdown Passport states its planning-document limit\nPASS Pulse and Passport controls have associated labels\nPASS No automated third-party requests from the learner interface\nPASS Second featured sector journey works\nPASS Reset clears Passport and Advisor Studio\nPASS Reset also clears saved discovery records"
+    }
+  ],
+  "evidenceHarness": "73 assertions passed\nPASS All60 frozen cases load\nPASS UI replay equals retained production output Q01\nPASS UI replay equals retained production output Q02\nPASS UI replay equals retained production output Q03\nPASS UI replay equals retained production output Q04\nPASS UI replay equals retained production output Q05\nPASS UI replay equals retained production output Q06\nPASS UI replay equals retained production output Q07\nPASS UI replay equals retained production output Q08\nPASS UI replay equals retained production output Q09\nPASS UI replay equals retained production output Q10\nPASS UI replay equals retained production output Q11\nPASS UI replay equals retained production output Q12\nPASS UI replay equals retained production output C01\nPASS UI replay equals retained production output C02\nPASS UI replay equals retained production output C03\nPASS UI replay equals retained production output C04\nPASS UI replay equals retained production output C05\nPASS UI replay equals retained production output C06\nPASS UI replay equals retained production output C07\nPASS UI replay equals retained production output C08\nPASS UI replay equals retained production output C09\nPASS UI replay equals retained production output C10\nPASS UI replay equals retained production output C11\nPASS UI replay equals retained production output C12\nPASS UI replay equals retained production output D01\nPASS UI replay equals retained production output D02\nPASS UI replay equals retained production output D03\nPASS UI replay equals retained production output D04\nPASS UI replay equals retained production output D05\nPASS UI replay equals retained production output D06\nPASS UI replay equals retained production output D07\nPASS UI replay equals retained production output D08\nPASS UI replay equals retained production output D09\nPASS UI replay equals retained production output D10\nPASS UI replay equals retained production output U01\nPASS UI replay equals retained production output U02\nPASS UI replay equals retained production output U03\nPASS UI replay equals retained production output U04\nPASS UI replay equals retained production output U05\nPASS UI replay equals retained production output U06\nPASS UI replay equals retained production output U07\nPASS UI replay equals retained production output U08\nPASS UI replay equals retained production output U09\nPASS UI replay equals retained production output U10\nPASS UI replay equals retained production output P01\nPASS UI replay equals retained production output P02\nPASS UI replay equals retained production output P03\nPASS UI replay equals retained production output P04\nPASS UI replay equals retained production output P05\nPASS UI replay equals retained production output P06\nPASS UI replay equals retained production output P07\nPASS UI replay equals retained production output P08\nPASS UI replay equals retained production output A01\nPASS UI replay equals retained production output A02\nPASS UI replay equals retained production output A03\nPASS UI replay equals retained production output A04\nPASS UI replay equals retained production output A05\nPASS UI replay equals retained production output A06\nPASS UI replay equals retained production output A07\nPASS UI replay equals retained production output A08\nPASS One fact changes selected route and retains other unknowns\nPASS Reset restores unknown selected state\nPASS Evaluation partition48\nPASS Development partition12\nPASS All60 comparison rows restored\nPASS Reviewer absence holds all source versions\nPASS Double review time computes cost and backlog\nPASS Base staffing and economic cost reconcile\nPASS Zero modeled plans has no invented unit cost\nPASS All Evidence Room controls have labels\nPASS Live result semantics present (actual AT untested)\nPASS No-script plain reports available",
+  "reflow": [
+    {
+      "documentWidth": 305,
+      "noPageOverflow": true,
+      "width": 320
+    },
+    {
+      "documentWidth": 375,
+      "noPageOverflow": true,
+      "width": 390
+    },
+    {
+      "documentWidth": 753,
+      "noPageOverflow": true,
+      "width": 768
+    },
+    {
+      "documentWidth": 1351,
+      "noPageOverflow": true,
+      "width": 1366
+    }
+  ],
+  "environment": {
+    "browser": "ChatGPT in-app browser (IAB)",
+    "version": "Not exposed by supported browser UI/API; navigator is unavailable in read-only DOM scope",
+    "actualZoom": "UNTESTED",
+    "screenReader": "UNTESTED"
+  },
+  "console": [],
+  "timestamp": "2026-10-27T22:49:07.648Z"
+}

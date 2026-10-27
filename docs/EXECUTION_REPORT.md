@@ -1,3 +1,7 @@
+# v0.9 evidence sprint
+
+Current evidence, measured comparisons, known failures and release receipts: [v0.9 execution report](../output/evidence-v09/EXECUTION_REPORT.md) · [Evidence Room](https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html). Independent adjudicators and unfamiliar participants n=0; internal mock87/100. Earlier release reports below are retained history.
+
 # Current release: v0.8.2 targeted repair
 
 See [current audit, actual pre/post trials and saved-draft receipt](V082_AUDIT_REPORT.md), [official compliance matrix](SUBMISSION_COMPLIANCE_v082.md), and [skeptical87/100 review](V082_JUDGING_REVIEW.md). Member-profile URL/permissions/final submission remain owner actions. All application changes are frozen; prior release history follows.

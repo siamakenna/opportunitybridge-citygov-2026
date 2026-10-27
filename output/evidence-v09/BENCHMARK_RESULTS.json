@@ -1,0 +1,4114 @@
+{
+  "schema": "cceb-results-1",
+  "referenceStatus": "Internal authored references, pending independent adjudication n=0",
+  "deterministic": true,
+  "resultSha256": "c79685f8c0289381529e08e6f80d1784fc96816bbefeddde1659e8848dd525d7",
+  "runFiles": [
+    "run-1.json",
+    "run-2.json"
+  ],
+  "partitions": {
+    "all": {
+      "condition": {
+        "methods": {
+          "A": {
+            "implemented": 25,
+            "unsupported": [],
+            "correctness": {
+              "n": 20,
+              "d": 25,
+              "rate": 0.8,
+              "wilson95": [
+                0.6086904963046025,
+                0.9113941531319725
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 6,
+              "d": 6,
+              "rate": 1,
+              "wilson95": [
+                0.6096657120978477,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 11,
+              "d": 16,
+              "rate": 0.6875,
+              "wilson95": [
+                0.44404355834741305,
+                0.8583535614521766
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 9,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.2991450484195325
+              ]
+            },
+            "unsupportedAffirmations": [
+              "U02",
+              "P02",
+              "P03",
+              "P05",
+              "A03"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 25,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.13319225093904213
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "U02",
+              "P02",
+              "P03",
+              "P05",
+              "A03"
+            ]
+          },
+          "B": {
+            "implemented": 25,
+            "unsupported": [],
+            "correctness": {
+              "n": 20,
+              "d": 25,
+              "rate": 0.8,
+              "wilson95": [
+                0.6086904963046025,
+                0.9113941531319725
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 6,
+              "d": 6,
+              "rate": 1,
+              "wilson95": [
+                0.6096657120978477,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 11,
+              "d": 16,
+              "rate": 0.6875,
+              "wilson95": [
+                0.44404355834741305,
+                0.8583535614521766
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 9,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.2991450484195325
+              ]
+            },
+            "unsupportedAffirmations": [
+              "U02",
+              "P02",
+              "P03",
+              "P05",
+              "A03"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 25,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.13319225093904213
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "U02",
+              "P02",
+              "P03",
+              "P05",
+              "A03"
+            ]
+          },
+          "C": {
+            "implemented": 25,
+            "unsupported": [],
+            "correctness": {
+              "n": 23,
+              "d": 25,
+              "rate": 0.92,
+              "wilson95": [
+                0.7503389104960532,
+                0.9777795987151519
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 5,
+              "d": 6,
+              "rate": 0.8333333333333334,
+              "wilson95": [
+                0.43649717781353975,
+                0.9699466302516921
+              ]
+            },
+            "requiredAbstention": {
+              "n": 16,
+              "d": 16,
+              "rate": 1,
+              "wilson95": [
+                0.8063923194655722,
+                1.0000000000000002
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 2,
+              "d": 9,
+              "rate": 0.2222222222222222,
+              "wilson95": [
+                0.06322510711784873,
+                0.5474110308930027
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 25,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.13319225093904213
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "Q09",
+              "Q12"
+            ]
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 25,
+            "clusters": 6,
+            "difference": 0.12,
+            "bootstrap95": [
+              -0.3333333333333333,
+              0.3111111111111111
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 25,
+            "clusters": 6,
+            "difference": 0.12,
+            "bootstrap95": [
+              -0.3333333333333333,
+              0.3111111111111111
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "classification": {
+        "methods": {
+          "A": {
+            "implemented": 12,
+            "unsupported": [],
+            "correctness": {
+              "n": 12,
+              "d": 12,
+              "rate": 1,
+              "wilson95": [
+                0.7575059933447693,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 12,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.24249400665523077
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 6,
+                  "unknown": 0
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "job": {
+                  "referenceCount": 6,
+                  "predictedCount": 6,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 12,
+            "unsupported": [],
+            "correctness": {
+              "n": 12,
+              "d": 12,
+              "rate": 1,
+              "wilson95": [
+                0.7575059933447693,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 12,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.24249400665523077
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 6,
+                  "unknown": 0
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "job": {
+                  "referenceCount": 6,
+                  "predictedCount": 6,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 12,
+            "unsupported": [],
+            "correctness": {
+              "n": 6,
+              "d": 12,
+              "rate": 0.5,
+              "wilson95": [
+                0.2537815976337112,
+                0.7462184023662888
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 12,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.24249400665523077
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 1,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 4
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 3,
+                  "precision": 0.6666666666666666,
+                  "recall": 1,
+                  "f1": 0.8
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 2,
+                  "precision": 0.5,
+                  "recall": 1,
+                  "f1": 0.6666666666666666
+                },
+                "job": {
+                  "referenceCount": 6,
+                  "predictedCount": 0,
+                  "precision": null,
+                  "recall": 0,
+                  "f1": 0
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 5,
+                  "precision": 0.2,
+                  "recall": 1,
+                  "f1": 0.33333333333333337
+                }
+              },
+              "macroF1": 0.6333333333333333
+            },
+            "planRubric": [],
+            "failures": [
+              "C01",
+              "C02",
+              "C03",
+              "C04",
+              "C05",
+              "C06"
+            ]
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 12,
+            "clusters": 3,
+            "difference": -0.5,
+            "bootstrap95": [
+              -0.6,
+              0
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 12,
+            "clusters": 3,
+            "difference": -0.5,
+            "bootstrap95": [
+              -0.6,
+              0
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "deadline": {
+        "methods": {
+          "A": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 6,
+              "d": 10,
+              "rate": 0.6,
+              "wilson95": [
+                0.31267376973366456,
+                0.8318196702937597
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "D05",
+              "D06",
+              "D08",
+              "D09"
+            ]
+          },
+          "B": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 8,
+              "d": 10,
+              "rate": 0.8,
+              "wilson95": [
+                0.49016247153665027,
+                0.943317848545623
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "D05",
+              "D09"
+            ]
+          },
+          "C": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 10,
+              "d": 10,
+              "rate": 1,
+              "wilson95": [
+                0.7224672001371218,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 10,
+            "clusters": 3,
+            "difference": 0.4,
+            "bootstrap95": [
+              0,
+              0.5
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 10,
+            "clusters": 3,
+            "difference": 0.2,
+            "bootstrap95": [
+              0,
+              0.25
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "pay": {
+        "methods": {
+          "A": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 1,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 1,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "mapping": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "P01"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "P01"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "import": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "P04"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "P04"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "documents": {
+        "methods": {
+          "A": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 3,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 3,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "plan": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "A01",
+              "A02",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "A01",
+              "A02",
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 7,
+            "unsupported": [],
+            "correctness": {
+              "n": 7,
+              "d": 7,
+              "rate": 1,
+              "wilson95": [
+                0.6456695649333253,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 6,
+              "d": 6,
+              "rate": 1,
+              "wilson95": [
+                0.6096657120978477,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 7,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.35433043506667483
+              ]
+            },
+            "classification": null,
+            "planRubric": [
+              {
+                "id": "A01",
+                "score": 3,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A02",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 4,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A04",
+                "score": 3,
+                "outOf": 5,
+                "unknowns": 4,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A05",
+                "score": 5,
+                "outOf": 5,
+                "unknowns": 0,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A06",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A07",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A08",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              }
+            ],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      }
+    },
+    "development": {
+      "condition": {
+        "methods": {
+          "A": {
+            "implemented": 5,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 5,
+              "rate": 0.6,
+              "wilson95": [
+                0.23072428127601946,
+                0.8823792257673482
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 3,
+              "rate": 0.3333333333333333,
+              "wilson95": [
+                0.061491944720398706,
+                0.7923403991979452
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "unsupportedAffirmations": [
+              "U02",
+              "P02"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 5,
+              "rate": 0,
+              "wilson95": [
+                5.551115123125783e-17,
+                0.4344824647831612
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "U02",
+              "P02"
+            ]
+          },
+          "B": {
+            "implemented": 5,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 5,
+              "rate": 0.6,
+              "wilson95": [
+                0.23072428127601946,
+                0.8823792257673482
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 3,
+              "rate": 0.3333333333333333,
+              "wilson95": [
+                0.061491944720398706,
+                0.7923403991979452
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "unsupportedAffirmations": [
+              "U02",
+              "P02"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 5,
+              "rate": 0,
+              "wilson95": [
+                5.551115123125783e-17,
+                0.4344824647831612
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "U02",
+              "P02"
+            ]
+          },
+          "C": {
+            "implemented": 5,
+            "unsupported": [],
+            "correctness": {
+              "n": 5,
+              "d": 5,
+              "rate": 1,
+              "wilson95": [
+                0.5655175352168389,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 5,
+              "rate": 0,
+              "wilson95": [
+                5.551115123125783e-17,
+                0.4344824647831612
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 5,
+            "clusters": 1,
+            "difference": 0.4,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 5,
+            "clusters": 1,
+            "difference": 0.4,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "classification": {
+        "methods": {
+          "A": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "job": {
+                  "job": 2
+                }
+              },
+              "perClass": {
+                "job": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "job": {
+                  "job": 2
+                }
+              },
+              "perClass": {
+                "job": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "job": {
+                  "job": 0,
+                  "unknown": 2
+                }
+              },
+              "perClass": {
+                "job": {
+                  "referenceCount": 2,
+                  "predictedCount": 0,
+                  "precision": null,
+                  "recall": 0,
+                  "f1": 0
+                }
+              },
+              "macroF1": 0
+            },
+            "planRubric": [],
+            "failures": [
+              "C01",
+              "C02"
+            ]
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 2,
+            "clusters": 1,
+            "difference": -1,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 2,
+            "clusters": 1,
+            "difference": -1,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "deadline": {
+        "methods": {
+          "A": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 2,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 2,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "mapping": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "P01"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "P01"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "plan": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "A01",
+              "A02"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "A01",
+              "A02"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 2,
+            "unsupported": [],
+            "correctness": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 2,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.6576197724933345
+              ]
+            },
+            "classification": null,
+            "planRubric": [
+              {
+                "id": "A01",
+                "score": 3,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A02",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 4,
+                "referenceScreenCorrect": true
+              }
+            ],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      }
+    },
+    "evaluation": {
+      "condition": {
+        "methods": {
+          "A": {
+            "implemented": 20,
+            "unsupported": [],
+            "correctness": {
+              "n": 17,
+              "d": 20,
+              "rate": 0.85,
+              "wilson95": [
+                0.6395811352592498,
+                0.9476312541037819
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 4,
+              "d": 4,
+              "rate": 1,
+              "wilson95": [
+                0.5101091635454165,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 10,
+              "d": 13,
+              "rate": 0.7692307692307693,
+              "wilson95": [
+                0.4974362405327324,
+                0.9182047128150121
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 7,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.35433043506667483
+              ]
+            },
+            "unsupportedAffirmations": [
+              "P03",
+              "P05",
+              "A03"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 20,
+              "rate": 0,
+              "wilson95": [
+                1.3877787807814457e-17,
+                0.1611251580528119
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "P03",
+              "P05",
+              "A03"
+            ]
+          },
+          "B": {
+            "implemented": 20,
+            "unsupported": [],
+            "correctness": {
+              "n": 17,
+              "d": 20,
+              "rate": 0.85,
+              "wilson95": [
+                0.6395811352592498,
+                0.9476312541037819
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 4,
+              "d": 4,
+              "rate": 1,
+              "wilson95": [
+                0.5101091635454165,
+                1
+              ]
+            },
+            "requiredAbstention": {
+              "n": 10,
+              "d": 13,
+              "rate": 0.7692307692307693,
+              "wilson95": [
+                0.4974362405327324,
+                0.9182047128150121
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 7,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.35433043506667483
+              ]
+            },
+            "unsupportedAffirmations": [
+              "P03",
+              "P05",
+              "A03"
+            ],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 20,
+              "rate": 0,
+              "wilson95": [
+                1.3877787807814457e-17,
+                0.1611251580528119
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "P03",
+              "P05",
+              "A03"
+            ]
+          },
+          "C": {
+            "implemented": 20,
+            "unsupported": [],
+            "correctness": {
+              "n": 18,
+              "d": 20,
+              "rate": 0.9,
+              "wilson95": [
+                0.6989663547715196,
+                0.9721335187862309
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 3,
+              "d": 4,
+              "rate": 0.75,
+              "wilson95": [
+                0.30064184258241056,
+                0.9544127391902976
+              ]
+            },
+            "requiredAbstention": {
+              "n": 13,
+              "d": 13,
+              "rate": 1,
+              "wilson95": [
+                0.7719046276458112,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 2,
+              "d": 7,
+              "rate": 0.2857142857142857,
+              "wilson95": [
+                0.08221892400405939,
+                0.6410655481673726
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 20,
+              "rate": 0,
+              "wilson95": [
+                1.3877787807814457e-17,
+                0.1611251580528119
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "Q09",
+              "Q12"
+            ]
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 20,
+            "clusters": 6,
+            "difference": 0.05,
+            "bootstrap95": [
+              -0.3333333333333333,
+              0.26666666666666666
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 20,
+            "clusters": 6,
+            "difference": 0.05,
+            "bootstrap95": [
+              -0.3333333333333333,
+              0.26666666666666666
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "classification": {
+        "methods": {
+          "A": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 10,
+              "d": 10,
+              "rate": 1,
+              "wilson95": [
+                0.7224672001371218,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 4,
+                  "unknown": 0
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "job": {
+                  "referenceCount": 4,
+                  "predictedCount": 4,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 10,
+              "d": 10,
+              "rate": 1,
+              "wilson95": [
+                0.7224672001371218,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 4,
+                  "unknown": 0
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 2,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "job": {
+                  "referenceCount": 4,
+                  "predictedCount": 4,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                }
+              },
+              "macroF1": 1
+            },
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 10,
+            "unsupported": [],
+            "correctness": {
+              "n": 6,
+              "d": 10,
+              "rate": 0.6,
+              "wilson95": [
+                0.31267376973366456,
+                0.8318196702937597
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 10,
+              "rate": 0,
+              "wilson95": [
+                2.7755575615628914e-17,
+                0.27753279986287815
+              ]
+            },
+            "classification": {
+              "confusion": {
+                "course": {
+                  "course": 1,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "directory": {
+                  "course": 0,
+                  "directory": 1,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "fellowship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 2,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "internship": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 0
+                },
+                "job": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 1,
+                  "internship": 1,
+                  "job": 0,
+                  "unknown": 2
+                },
+                "unknown": {
+                  "course": 0,
+                  "directory": 0,
+                  "fellowship": 0,
+                  "internship": 0,
+                  "job": 0,
+                  "unknown": 1
+                }
+              },
+              "perClass": {
+                "course": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "directory": {
+                  "referenceCount": 1,
+                  "predictedCount": 1,
+                  "precision": 1,
+                  "recall": 1,
+                  "f1": 1
+                },
+                "fellowship": {
+                  "referenceCount": 2,
+                  "predictedCount": 3,
+                  "precision": 0.6666666666666666,
+                  "recall": 1,
+                  "f1": 0.8
+                },
+                "internship": {
+                  "referenceCount": 1,
+                  "predictedCount": 2,
+                  "precision": 0.5,
+                  "recall": 1,
+                  "f1": 0.6666666666666666
+                },
+                "job": {
+                  "referenceCount": 4,
+                  "predictedCount": 0,
+                  "precision": null,
+                  "recall": 0,
+                  "f1": 0
+                },
+                "unknown": {
+                  "referenceCount": 1,
+                  "predictedCount": 3,
+                  "precision": 0.3333333333333333,
+                  "recall": 1,
+                  "f1": 0.5
+                }
+              },
+              "macroF1": 0.6611111111111111
+            },
+            "planRubric": [],
+            "failures": [
+              "C03",
+              "C04",
+              "C05",
+              "C06"
+            ]
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 10,
+            "clusters": 3,
+            "difference": -0.4,
+            "bootstrap95": [
+              -0.5,
+              0
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 10,
+            "clusters": 3,
+            "difference": -0.4,
+            "bootstrap95": [
+              -0.5,
+              0
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "deadline": {
+        "methods": {
+          "A": {
+            "implemented": 8,
+            "unsupported": [],
+            "correctness": {
+              "n": 4,
+              "d": 8,
+              "rate": 0.5,
+              "wilson95": [
+                0.2152160622138829,
+                0.7847839377861171
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 8,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.3244075648838681
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "D05",
+              "D06",
+              "D08",
+              "D09"
+            ]
+          },
+          "B": {
+            "implemented": 8,
+            "unsupported": [],
+            "correctness": {
+              "n": 6,
+              "d": 8,
+              "rate": 0.75,
+              "wilson95": [
+                0.40927543031017727,
+                0.9285207872478887
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 8,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.3244075648838681
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": [
+              "D05",
+              "D09"
+            ]
+          },
+          "C": {
+            "implemented": 8,
+            "unsupported": [],
+            "correctness": {
+              "n": 8,
+              "d": 8,
+              "rate": 1,
+              "wilson95": [
+                0.6755924351161318,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 8,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.3244075648838681
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 8,
+            "clusters": 3,
+            "difference": 0.5,
+            "bootstrap95": [
+              0,
+              0.6666666666666666
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          },
+          "CminusB": {
+            "n": 8,
+            "clusters": 3,
+            "difference": 0.25,
+            "bootstrap95": [
+              0,
+              0.3333333333333333
+            ],
+            "draws": 5000,
+            "seed": 20261027,
+            "limitation": "Few dependent source/family clusters; descriptive, not a significance test."
+          }
+        }
+      },
+      "pay": {
+        "methods": {
+          "A": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 1,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 1,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "import": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "P04"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "P04"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 1,
+            "unsupported": [],
+            "correctness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "documents": {
+        "methods": {
+          "A": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 3,
+            "unsupported": [],
+            "correctness": {
+              "n": 3,
+              "d": 3,
+              "rate": 1,
+              "wilson95": [
+                0.4385029682449681,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 2,
+              "d": 2,
+              "rate": 1,
+              "wilson95": [
+                0.34238022750666547,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 3,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.561497031755032
+              ]
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 3,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 3,
+            "clusters": 1,
+            "difference": 0,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      },
+      "plan": {
+        "methods": {
+          "A": {
+            "implemented": 0,
+            "unsupported": [
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "B": {
+            "implemented": 0,
+            "unsupported": [
+              "A04",
+              "A05",
+              "A06",
+              "A07",
+              "A08"
+            ],
+            "correctness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "supportedAnswerCorrectness": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "requiredAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 0,
+              "rate": null,
+              "wilson95": null
+            },
+            "classification": null,
+            "planRubric": [],
+            "failures": []
+          },
+          "C": {
+            "implemented": 5,
+            "unsupported": [],
+            "correctness": {
+              "n": 5,
+              "d": 5,
+              "rate": 1,
+              "wilson95": [
+                0.5655175352168389,
+                1
+              ]
+            },
+            "supportedAnswerCorrectness": {
+              "n": 1,
+              "d": 1,
+              "rate": 1,
+              "wilson95": [
+                0.20654931437724644,
+                0.9999999999999999
+              ]
+            },
+            "requiredAbstention": {
+              "n": 4,
+              "d": 4,
+              "rate": 1,
+              "wilson95": [
+                0.5101091635454165,
+                1
+              ]
+            },
+            "incorrectAbstention": {
+              "n": 0,
+              "d": 1,
+              "rate": 0,
+              "wilson95": [
+                0,
+                0.7934506856227534
+              ]
+            },
+            "unsupportedAffirmations": [],
+            "falseOverallEligibilityAssertions": {
+              "n": 0,
+              "d": 5,
+              "rate": 0,
+              "wilson95": [
+                5.551115123125783e-17,
+                0.4344824647831612
+              ]
+            },
+            "classification": null,
+            "planRubric": [
+              {
+                "id": "A04",
+                "score": 3,
+                "outOf": 5,
+                "unknowns": 4,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A05",
+                "score": 5,
+                "outOf": 5,
+                "unknowns": 0,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A06",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A07",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              },
+              {
+                "id": "A08",
+                "score": 2,
+                "outOf": 5,
+                "unknowns": 5,
+                "referenceScreenCorrect": true
+              }
+            ],
+            "failures": []
+          }
+        },
+        "paired": {
+          "CminusA": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          },
+          "CminusB": {
+            "n": 0,
+            "clusters": 0,
+            "difference": null,
+            "bootstrap95": null,
+            "reason": "Fewer than two source/family clusters."
+          }
+        }
+      }
+    }
+  },
+  "sourceLinkEquality": {
+    "A": {
+      "n": 49,
+      "d": 49,
+      "rate": 1,
+      "wilson95": [
+        0.9273021807795074,
+        1
+      ]
+    },
+    "B": {
+      "n": 49,
+      "d": 49,
+      "rate": 1,
+      "wilson95": [
+        0.9273021807795074,
+        1
+      ]
+    },
+    "C": {
+      "n": 49,
+      "d": 49,
+      "rate": 1,
+      "wilson95": [
+        0.9273021807795074,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,918 @@
+[
+  {
+    "caseId": "Q09",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "26-004518-0015",
+      "originalURL": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "observedAt": "2026-10-27T19:23:14.070237+00:00",
+      "versionDigest": "5356dabb0200df5dc4d54f59994c026e4972e79ceb5bffe4505fec72b85fd27c",
+      "license": "Publisher retains rights. URL, paraphrase and version digests only; no full employer page redistributed."
+    },
+    "trigger": {
+      "task": "condition",
+      "recordId": "md-vendor",
+      "question": {
+        "text": "Are the declared facts consistent with this selected published condition?",
+        "criterion": "experience"
+      },
+      "facts": {
+        "financeMonths": 12,
+        "accountingCredits": 0,
+        "military": "no",
+        "vocational": "no"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "id": "experience",
+        "label": "Financial-transaction experience",
+        "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+        "context": "Minimum Qualifications \u00b7 experience",
+        "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+        "required": true,
+        "rule": "md-finance-experience",
+        "value": "unknown",
+        "statusLabel": "Insufficient information",
+        "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review.",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+        "sourceContext": "Minimum Qualifications \u00b7 experience",
+        "limited": true
+      },
+      "unknowns": [
+        "High-school education or permitted equivalent",
+        "Financial-transaction experience",
+        "Age, authorization and screening conditions",
+        "Office software familiarity"
+      ],
+      "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review."
+    },
+    "expected": {
+      "state": "conflict",
+      "rationale": "Only one qualifying year, no accounting substitution and no declared alternative: the selected two-year route conflicts.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Conservative human-only mapping or narrower modeled numerical branch.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect Q09",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "id": "experience",
+        "label": "Financial-transaction experience",
+        "exact": "Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.",
+        "context": "Minimum Qualifications \u00b7 experience",
+        "summary": "24 qualifying months. Six accounting credits replace one year, not automatically both years.",
+        "required": true,
+        "rule": "md-finance-experience",
+        "value": "unknown",
+        "statusLabel": "Insufficient information",
+        "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review.",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+        "sourceContext": "Minimum Qualifications \u00b7 experience",
+        "limited": true
+      },
+      "unknowns": [
+        "High-school education or permitted equivalent",
+        "Financial-transaction experience",
+        "Age, authorization and screening conditions",
+        "Office software familiarity"
+      ],
+      "reason": "Six accounting credits replace one year only. Vocational/military equivalence or stacking needs HR review."
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "Q12",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "26-002043-0037",
+      "originalURL": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "observedAt": "2026-10-27T19:23:15.060204+00:00",
+      "versionDigest": "129f75c2d83f0d7c89b853931927e6684316ee8a5ac355979b88ec5103af6abe",
+      "license": "Publisher retains rights. URL, paraphrase and version digests only; no full employer page redistributed."
+    },
+    "trigger": {
+      "task": "condition",
+      "recordId": "md-admin3",
+      "question": {
+        "text": "Are the declared facts consistent with this selected published condition?",
+        "criterion": "education"
+      },
+      "facts": {
+        "hs": "yes"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "id": "education",
+        "label": "High-school credential or equivalency",
+        "exact": "high school equivalency certificate",
+        "context": "Minimum Qualifications \u00b7 education (short fragment)",
+        "summary": "Verify an accredited high-school credential or equivalency.",
+        "required": true,
+        "rule": "human",
+        "value": "unknown",
+        "statusLabel": "Insufficient information",
+        "reason": "This condition needs a human review of the complete official source.",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+        "sourceContext": "Minimum Qualifications \u00b7 education (short fragment)",
+        "limited": true
+      },
+      "unknowns": [
+        "High-school credential or equivalency",
+        "Two administrative years or reviewed alternatives",
+        "Authorization, credential and possible driving conditions"
+      ],
+      "reason": "This condition needs a human review of the complete official source."
+    },
+    "expected": {
+      "state": "supported",
+      "rationale": "A declared credential is consistent with this selected education condition. Other complex conditions remain unresolved.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Conservative human-only mapping or narrower modeled numerical branch.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect Q12",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "condition",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "id": "education",
+        "label": "High-school credential or equivalency",
+        "exact": "high school equivalency certificate",
+        "context": "Minimum Qualifications \u00b7 education (short fragment)",
+        "summary": "Verify an accredited high-school credential or equivalency.",
+        "required": true,
+        "rule": "human",
+        "value": "unknown",
+        "statusLabel": "Insufficient information",
+        "reason": "This condition needs a human review of the complete official source.",
+        "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+        "sourceContext": "Minimum Qualifications \u00b7 education (short fragment)",
+        "limited": true
+      },
+      "unknowns": [
+        "High-school credential or equivalency",
+        "Two administrative years or reviewed alternatives",
+        "Authorization, credential and possible driving conditions"
+      ],
+      "reason": "This condition needs a human review of the complete official source."
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C01",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "a434020221ad5dcc05684c995bd21723fd567bb3b4ca609dca882231c061f02b",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "INTERNAL AUDITOR II",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time staff job; not an internship.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C01",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C02",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "ad184eaee3fa2a8ecb5a34e3b1287b32f4745cf4aff9efa6c4c68945e417502b",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "INTERNAL INVESTIGATION DETECTIVE SERGEANT",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time staff job; not an internship.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C02",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C03",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "5b7ff624acbc533e74fe8207a1bf87e8e461a9ee9477d20269a2480fc66f186c",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "GRADUATE PROFESSIONAL ENGINEER",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time licensed engineering job; graduate is not an entry-level guarantee.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C03",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C04",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "fe075c8c5ac9e6eb7d1e2ff23199478c7500ef5b5c4f35fc2a49ae4072c4307e",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "CONTRACTUAL ACCOUNTANT",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time contractual staff job; no short duration or individual microproject is established.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C04",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Insufficient type metadata. Internal, graduate and contractual are not internship, entry-level or short-project evidence.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C05",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "163b1562e8c6d644d30f53ce88c4e42e8c8572f628a7182dbc8970277adb916f",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "Internship Coordinator",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time coordinator staff job. This is not an internship.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "internship",
+      "raw": [
+        {
+          "type": "internship",
+          "basis": "publisher-stated",
+          "explanation": "Internship is explicit in the publisher title; pay and learner eligibility remain unknown unless stated.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C05",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Program staff title; do not infer an internship or fellowship participant opening. Inspect the full source.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "C06",
+    "severity": "medium selected-task discrepancy",
+    "source": {
+      "identity": "Original synthetic fixture",
+      "originalURL": null,
+      "originalReviewedAt": null,
+      "observedAt": "2026-10-27T19:29:38.447Z",
+      "versionDigest": "048c8225a2f7c20c1a871aa32f92d0716f0111e7d11306932a8c8d33be95e3cc",
+      "license": "MIT synthetic test data; not an actual vacancy."
+    },
+    "trigger": {
+      "task": "classification",
+      "recordId": "synthetic",
+      "question": {
+        "text": "What primary opportunity category does the supplied source text describe?"
+      },
+      "facts": {},
+      "record": {
+        "id": "synthetic",
+        "title": "Fellowship Program Manager",
+        "employer": "Synthetic City (test only)",
+        "summary": "A full-time program-management staff job. This is not a fellowship participant opening.",
+        "sourceUrl": "https://example.invalid/synthetic-fixture",
+        "verification": "synthetic",
+        "pay": "Unknown"
+      },
+      "sourceFacts": {
+        "primary": "job"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "fellowship",
+      "raw": [
+        {
+          "type": "fellowship",
+          "basis": "publisher-stated",
+          "explanation": "Fellowship wording in the publisher title; full source not individually reviewed.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "expected": {
+      "primary": "job",
+      "rationale": "The synthetic source explicitly describes job; administrative program titles do not imply participation.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Title-only inference underuses explicit source text; abstention may be conservative but participant-title false positives need guard.",
+    "reproduce": "node scripts/cceb-run.mjs --out output/evidence-v09/retest.json; inspect C06",
+    "decision": "C05/C06 repaired to unknown participant type; all exact reference mismatches retained. Other cases held for human/source review; do not widen qualification automation merely to fit references.",
+    "retest": {
+      "method": "C",
+      "task": "classification",
+      "sourceUrl": "https://example.invalid/synthetic-fixture",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "primary": "unknown",
+      "raw": [
+        {
+          "type": "unknown",
+          "basis": "unknown",
+          "explanation": "Program staff title; do not infer an internship or fellowship participant opening. Inspect the full source.",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "reviewedAt": null
+        }
+      ]
+    },
+    "residual": "Authored reference awaits independent review; exact-answer correctness differs from unsafe overall eligibility certification."
+  },
+  {
+    "caseId": "A02-complete-row",
+    "severity": "medium false completeness under explicit claim",
+    "source": "Frozen MPT media source in data/cceb/v1.json",
+    "trigger": {
+      "task": "plan",
+      "recordId": "mpt-media",
+      "question": {
+        "text": "Should employment not established in the fictional scenario pass the claim screen?"
+      },
+      "facts": {},
+      "row": {
+        "experience": "I was employed by MPT as a producer for two years.",
+        "skill": "software",
+        "requirement": "duty:1",
+        "artifact": "Proposed accessible guide with test notes.",
+        "verification": "Which full source conditions and records should MPT verify?"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [],
+        "label": "Draft connection complete \u2014 human verification still required"
+      },
+      "unknowns": [],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "expected": {
+      "state": "insufficient",
+      "rationale": "An invented professional experience should be flagged; a completeness label is not verification.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Limited literal claim screen misses employment synonym or certainty phrasing; complete fields alone do not verify experience.",
+    "reproduce": "node scripts/cceb-diagnostics.mjs /tmp/diagnostics.json; use pre-repair src/passport.js from e977a95 for original output",
+    "decision": "Extend literal screen for these phrase families; retain mandatory human verification.",
+    "retest": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "label": "Connection needs clarification"
+      },
+      "unknowns": [
+        "Remove unsupported hiring or certified-eligibility claims."
+      ],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "residual": "Directed retest of known inputs; semantic truth and alternate phrasing not comprehensively verified."
+  },
+  {
+    "caseId": "A04-complete-row",
+    "severity": "medium false completeness under explicit claim",
+    "source": "Frozen MPT media source in data/cceb/v1.json",
+    "trigger": {
+      "task": "plan",
+      "recordId": "mpt-media",
+      "question": {
+        "text": "Can a prior fellow outcome be generalized into certain hiring for this applicant?"
+      },
+      "facts": {},
+      "row": {
+        "experience": "Fictional class project on accessible civic information.",
+        "skill": "software",
+        "requirement": "duty:1",
+        "artifact": "Proposed accessible guide with test notes.",
+        "verification": "Because the former fellow got an offer, my hiring is certain."
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [],
+        "label": "Draft connection complete \u2014 human verification still required"
+      },
+      "unknowns": [],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "expected": {
+      "state": "insufficient",
+      "rationale": "A historical outcome is not current applicant evidence.",
+      "author": "Codex \u2014 AI-assisted developer author",
+      "reviewStatus": "pending independent adjudication",
+      "independentReviewers": 0
+    },
+    "hypothesis": "Limited literal claim screen misses employment synonym or certainty phrasing; complete fields alone do not verify experience.",
+    "reproduce": "node scripts/cceb-diagnostics.mjs /tmp/diagnostics.json; use pre-repair src/passport.js from e977a95 for original output",
+    "decision": "Extend literal screen for these phrase families; retain mandatory human verification.",
+    "retest": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "label": "Connection needs clarification"
+      },
+      "unknowns": [
+        "Remove unsupported hiring or certified-eligibility claims."
+      ],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "residual": "Directed retest of known inputs; semantic truth and alternate phrasing not comprehensively verified."
+  },
+  {
+    "caseId": "R09-explicit-internship",
+    "severity": "medium unsupported guaranteed internship claim passes completeness",
+    "source": "Frozen MPT media record",
+    "trigger": {
+      "task": "plan",
+      "recordId": "mpt-media",
+      "question": {
+        "text": "Should a legitimate complete fictional plan pass field completeness?"
+      },
+      "facts": {},
+      "row": {
+        "experience": "Fictional class project on accessible civic information.",
+        "skill": "software",
+        "requirement": "duty:1",
+        "artifact": "A guaranteed internship placement after this fellowship exercise.",
+        "verification": "Which full source conditions and records should MPT verify?"
+      }
+    },
+    "actual": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "supported",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [],
+        "label": "Draft connection complete \u2014 human verification still required"
+      },
+      "unknowns": [],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "expected": "insufficient",
+    "hypothesis": "Original limited pattern did not include internship/placement guarantees.",
+    "reproduce": "Read R09_DIAGNOSTIC_BEFORE/AFTER.json; evaluate complete row with matching source version.",
+    "decision": "Add internship and placement guarantees to shared literal screen used by Passport and Career Evidence Quest.",
+    "retest": {
+      "method": "C",
+      "task": "plan",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "overallEligibility": null,
+      "limit": "Selected task only. Fictional declarations, unverified evidence; employer/human review required.",
+      "supported": true,
+      "state": "insufficient",
+      "raw": {
+        "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+        "excerpt": null,
+        "roleTask": true,
+        "unknowns": [
+          "Remove unsupported hiring or certified-eligibility claims."
+        ],
+        "label": "Connection needs clarification"
+      },
+      "unknowns": [
+        "Remove unsupported hiring or certified-eligibility claims."
+      ],
+      "reason": "Production field completeness and limited claim screen, not semantic truth verification.",
+      "rubric": {
+        "source": true,
+        "target": true,
+        "artifact": true,
+        "humanQuestion": true,
+        "limits": true
+      }
+    },
+    "residual": "Post-freeze developer-directed diagnostic, not independent evaluation or semantic truth verification."
+  }
+]
