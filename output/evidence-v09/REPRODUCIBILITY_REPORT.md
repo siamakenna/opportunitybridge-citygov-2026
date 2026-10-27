@@ -9,3 +9,5 @@ Commands: `node scripts/cceb-run.mjs --out output/evidence-v09/reproduce-1.json`
 Network conditions: local frozen benchmark runs perform no external retrieval; real source scan is separate and time-stamped. No claim that a hash proves current availability. Runtime timings are machine times, never a manual-reading comparison.
 
 The preliminary retest-working-tree-1/2 files preserve pre-commit directed runs whose revision field alone does not identify their modified production tree. They are not exact-SHA claims. Final retest-1/2 records add actual committed production file digests and dirtyProduction state. Original first-run code is the pre-score freeze commit; no original run was overwritten. JSON serialization omits undefined properties, while all defined decision fields remain in the digest.
+
+Final directed pair: code commit 6b39127158ff69eda41c2acc9308cb7071546747, dirtyProduction=false, 27 production module digests recorded, identical resultSha256 ee54e881a8cbbe5eb1cc53b58c01cbdb02fd8a8d1406b8d90e550a53fd22be90. These digests bind the actual committed source modules, independently of later documentation-only receipt commits.

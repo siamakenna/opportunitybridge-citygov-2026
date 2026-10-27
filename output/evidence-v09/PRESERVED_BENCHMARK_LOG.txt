@@ -1,0 +1,77 @@
+
+> opportunitybridge-citygov@0.9.0 benchmark
+> node scripts/benchmark.mjs && node scripts/real-benchmark.mjs
+
+{
+  "type": "internal software fixture dry run",
+  "independentUsers": 0,
+  "independentlyValidatedGold": false,
+  "correct": 12,
+  "total": 12,
+  "cases": [
+    {
+      "id": "T1",
+      "expected": [
+        "conflict",
+        "unknown",
+        "supported"
+      ],
+      "observed": [
+        "conflict",
+        "unknown",
+        "supported"
+      ],
+      "pass": true
+    },
+    {
+      "id": "T2",
+      "expected": [
+        "supported",
+        "unknown",
+        "conflict"
+      ],
+      "observed": [
+        "supported",
+        "unknown",
+        "conflict"
+      ],
+      "pass": true
+    },
+    {
+      "id": "T3",
+      "expected": [
+        "supported",
+        "conflict",
+        "unknown"
+      ],
+      "observed": [
+        "supported",
+        "conflict",
+        "unknown"
+      ],
+      "pass": true
+    },
+    {
+      "id": "T4",
+      "expected": [
+        "unknown",
+        "supported",
+        "conflict"
+      ],
+      "observed": [
+        "unknown",
+        "supported",
+        "conflict"
+      ],
+      "pass": true
+    }
+  ],
+  "manual": {
+    "correctness": null,
+    "interactions": null,
+    "time": null,
+    "completion": null
+  },
+  "limitations": "Same AI-assisted authoring process; no human comparison or career outcome measured."
+}
+Real-source benchmark: 8/8; independent n=0; manual comparison unmeasured.

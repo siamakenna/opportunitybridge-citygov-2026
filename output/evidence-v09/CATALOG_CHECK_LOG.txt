@@ -1,0 +1,17 @@
+
+> opportunitybridge-citygov@0.9.0 sources
+> node scripts/catalog-check.mjs
+
+md-admin: Verified from official source; checked 2026-10-27T00:22:27.535Z
+md-vendor: Verified from official source; checked 2026-10-27T00:22:27.538Z
+nih-sip: Verified from official source; checked 2026-10-27T00:22:27.538Z
+nih-postbac: Ongoing career program — no individual vacancy verified; checked 2026-10-26T18:03:34Z
+federal-student: Ongoing career program — no individual vacancy verified; checked 2026-10-26T18:03:34Z
+federal-grad: Ongoing career program — no individual vacancy verified; checked 2026-10-26T18:03:34Z
+federal-entry: Ongoing career program — no individual vacancy verified; checked 2026-10-26T18:03:34Z
+cif-winter: Deadline passed; checked 2026-10-26T18:03:34Z
+doe-suli: Verified from official source; checked 2026-10-27T00:22:27.538Z
+mpt-motorweek: Verified from official source; checked 2026-10-27T00:22:27.538Z
+mpt-media: Verified from official source; checked 2026-10-27T00:22:27.538Z
+md-admin3: Verified from official source; checked 2026-10-27T00:22:27.538Z
+Source schema/provenance checks passed. This command does not refresh official pages.

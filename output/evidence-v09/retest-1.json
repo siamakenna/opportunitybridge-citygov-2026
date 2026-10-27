@@ -3602,13 +3602,43 @@
     }
   ],
   "resultSha256": "ee54e881a8cbbe5eb1cc53b58c01cbdb02fd8a8d1406b8d90e550a53fd22be90",
-  "generatedAt": "2026-10-27T19:36:26.708Z",
+  "generatedAt": "2026-10-27T22:53:10.439Z",
   "environment": {
     "node": "v26.4.0",
     "platform": "darwin",
     "architecture": "x64",
-    "revision": "e977a95d1750073a6c56160e6cbd4fb7cd0f7302",
+    "revision": "6b39127158ff69eda41c2acc9308cb7071546747",
+    "dirtyProduction": false,
+    "productionDigests": {
+      "app.js": "71c3443b8ac25a61d9c98054fc14680dc256dbe8aa7f5347af6e1a705b1e9017",
+      "catalog.js": "8b6e4d9268ef87e7e30fb5175acca5a28216fe73978b98633dcbe8ab999a023f",
+      "cceb-adapters.js": "c7dba49ca91f31fd04dd4d2c01f0ae40bf37926c0c71441a9ef8df1a91056535",
+      "constellation-core.js": "f490fee2463dad8b74f1fc3a582d52338d120ec4810e9c9b789749da24587b56",
+      "core.js": "46a55c2366f2f0700abbf156560917be142fe1a26f9ab4d0fd87fdb4f7d2441e",
+      "evaluation-app.js": "80bb32f24410dee5eb5693e3153fd804a7c4274cd08ab5876da6d2f90bbc7969",
+      "evaluation-core.js": "91e354c4a9b75e37c4caeeb79dedd66a04f6ca29d1740aff80ca0df949998a6c",
+      "evidence-app.js": "dc83182f0e4eb573c0a3b7401527fb992602a9b102e52ccb798a069d27efe075",
+      "journey-app.js": "e7e78a0f5f65cd62c53addbfae2fb7ff3b0f3c3b2835a9362a146021fe3a5a7f",
+      "journey-core.js": "3c2f59dabbd4f9560543e3604db5deede99b9ab3ab27be929b4ec0f0ed9cf38b",
+      "outcomes.js": "4b52b8048aab278e782845e70fff12ea5793e2d3247cab88f3b83f39977df7b7",
+      "passport.js": "c026dc7ba27643d22a8cde1d69e48f511d45dc9683fdc68fa1eeb765345ad9a7",
+      "pilot-model.js": "380c54e3535cc745b103d2d4b79686dacbd68d5eb40bbd0e2cfc6b19dc6314c0",
+      "pilot.js": "23ab0d9bbb88f0ea18b7987fb6b0afff5ab9c41322542e1fe48fd637e8e9afb8",
+      "preparation.js": "846c3831f3312951eb929f370940b72df424dd53c2558838cf65ea1bbc6c6c60",
+      "pulse-app.js": "fd0ea8eb066e44dcd99e20b4ca239d0873bfdecbed47ffd168c405423a999a6f",
+      "pulse-core.js": "806e3d445991dc241ea9207fa0c5807e57e25e6dce251dd4eafb9197bb7d3f27",
+      "quest-app.js": "23e04c9dddaac1786d1c758f52da858167d0b1010e2eb5c656df85142070b7c1",
+      "quest-core.js": "606f4d028cca28e0859dfe84f5894356828a530f9e5cb21164238393b8c48f28",
+      "real-app.js": "22472215e1773564e525d558c0d8cfbc10306970735487c0817b3a89631fd9bd",
+      "real-core.js": "a728866d94ecb5b9542f40ae132d537471222fb3a087cae1cd2b0a802561c6f7",
+      "release.js": "e0256141070002eb1770c03f6e6e156513a777d85cf056427619ea6be2cfffe1",
+      "resources.js": "545c8efa656071195e69bdd62f81a2ea5096ae2d2e2ab5e2299c88ed24ae41e8",
+      "source-review.js": "6f90f2603f0bc8f503f48ff0e05c1ef3ad357d3ae613cbe8c69f1609452bd846",
+      "supplementary.js": "0c9d6b07dcc8d3c29888998acea9a7f230f00eceb001c643766cd1ce7157aef4",
+      "taxonomy.js": "fd8dd8a580f6375da669c703498cf87a982e149e2c2c74e7391db88df4b9d1cf",
+      "walkthrough.js": "da61c484e8adf9f0443d424a198cdd9db76db1c4755f0719a803ca495f7d942b"
+    },
     "adapterSha256": "c7dba49ca91f31fd04dd4d2c01f0ae40bf37926c0c71441a9ef8df1a91056535"
   },
-  "elapsedMilliseconds": 59.735512
+  "elapsedMilliseconds": 136.112999
 }
