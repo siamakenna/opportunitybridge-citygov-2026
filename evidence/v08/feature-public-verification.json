@@ -1,0 +1,26 @@
+{
+  "source": {
+    "revision": "f7d32273902388c71ebe9e771770582f41332dd3",
+    "version": "0.8.0",
+    "assetPolicy": "entry modules, relative imports and styles use the release revision",
+    "discovery": {
+      "lastSuccessAt": "2026-10-27T07:52:04.752533+00:00",
+      "lastAttemptAt": "2026-10-27T07:52:04.752533+00:00",
+      "status": "ok",
+      "sha256": "1179bce4cf003af9a93ad1d6b58c97fee4232707aeddfabea182349ba931b180",
+      "records": 321
+    },
+    "sourceObservationAt": "2026-10-27T07:52:04.593Z",
+    "quest": {
+      "version": "0.8.1",
+      "frozenDiscoverySha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366"
+    }
+  },
+  "staticAssetsMatched": 42,
+  "observationStates": {
+    "unavailable": 3,
+    "unreviewed": 2,
+    "unchanged": 6,
+    "expired": 1
+  }
+}
