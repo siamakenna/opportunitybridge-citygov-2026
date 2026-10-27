@@ -1,3 +1,9 @@
+# Current release: v0.8.2 targeted repair
+
+See [current audit, actual pre/post trials and saved-draft receipt](V082_AUDIT_REPORT.md), [official compliance matrix](SUBMISSION_COMPLIANCE_v082.md), and [skeptical87/100 review](V082_JUDGING_REVIEW.md). Member-profile URL/permissions/final submission remain owner actions. All application changes are frozen; prior release history follows.
+
+---
+
 # v0.8.1 release freeze — Career Constellation
 
 Existing repository and GitHub Pages only. Rollback `baseline-v0.8.0` and existing `v0.8.0` preserve e900e3acd1c48deec8f9e0ef43c2a2a8dcb13597. The reviewed qualification catalog is unchanged.

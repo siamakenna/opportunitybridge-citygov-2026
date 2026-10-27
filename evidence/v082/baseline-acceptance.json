@@ -136,7 +136,9 @@
         "summary": "Welcome back. You have 1 checked learning record and 0 saved opportunities. Pick up where you left off.",
         "ledger": "1/3 activities completed \u00b7 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source Detective",
         "source": "MD Center for Media Literacy & Education Student Fellow",
-        "interest": null
+        "interest": null,
+        "exportedInterest": "tech",
+        "exportedRoute": "civic-research"
       },
       "status": "PASS"
     },
@@ -226,7 +228,9 @@
       "observed": {
         "ledger": "3/3 activities completed \u00b7 110 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source DetectiveSkill Builder \u00b7 Build an Accessibility ArtifactEvidence Planner \u00b7 Career Evidence Builder",
         "visibleFields": 10,
-        "experience": "Fictional classroom HTML guide with test notes for peers."
+        "experience": "Fictional classroom HTML guide with test notes for peers.",
+        "actualHandoffContainsNewExercise": true,
+        "measurementNote": "DOM experience field shown was the pre-existing first connection. The actual handoff independently confirms the appended Q5 exercise."
       },
       "status": "PASS"
     }

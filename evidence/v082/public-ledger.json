@@ -1,6 +1,6 @@
 {
   "schemaVersion": "opportunitybridge-progress-0.8",
-  "sourceCatalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+  "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
   "records": [
     {
       "key": "source@0.8.1",
@@ -19,7 +19,7 @@
         "reviewedAt": "2026-10-27T00:22:27.535Z",
         "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
       },
-      "completedAt": "2026-10-27T18:21:09.663Z",
+      "completedAt": "2026-10-27T18:27:31.161Z",
       "notes": "",
       "xp": 30,
       "type": "In-app learning progress — not a credential or employer endorsement"
@@ -41,7 +41,7 @@
         "reviewedAt": "2026-10-27T00:22:27.538Z",
         "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
       },
-      "completedAt": "2026-10-27T18:21:10.376Z",
+      "completedAt": "2026-10-27T18:27:31.887Z",
       "notes": "",
       "xp": 40,
       "type": "In-app learning progress — not a credential or employer endorsement"
@@ -64,7 +64,7 @@
         "reviewedAt": "2026-10-27T00:22:27.538Z",
         "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
       },
-      "completedAt": "2026-10-27T18:21:12.348Z",
+      "completedAt": "2026-10-27T18:27:34.013Z",
       "notes": "",
       "xp": 40,
       "type": "In-app learning progress — not a credential or employer endorsement"

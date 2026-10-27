@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": {
+    "fellowshipIdsAndSources": true,
+    "trainingIdsAndOrder": true,
+    "combinedFilterIdsAndOrder": true,
+    "originalSourceReviewDate": true,
+    "originalMappingHash": true,
+    "frozenQuestSnapshot": true,
+    "repairedHTMLByteIdentical": true,
+    "noDuplicateTotal": true
+  },
+  "scope": "Frozen semantic source/classification/quest comparison. Product version and diagnostic UI copy intentionally changed. No timestamps were used in these comparisons."
+}

@@ -1,0 +1,1153 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "run": 1,
+      "releaseRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+      "fixtureSha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366",
+      "clock": "2026-10-27T12:00:00Z",
+      "fictionalLearner": "source-reading example; no private facts saved",
+      "interest": "tech",
+      "startingStorage": "journey key absent",
+      "steps": [
+        {
+          "task": "01 Homepage; fresh storage and saving off",
+          "status": "PASS"
+        },
+        {
+          "task": "02 Interest synchronizes two alternatives",
+          "status": "PASS"
+        },
+        {
+          "task": "03 discover node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 learn node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 practice node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 build node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 prepare node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 connect node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03b Accessible list and alternate source route",
+          "status": "PASS"
+        },
+        {
+          "task": "04 Route finds actual source in discovery",
+          "status": "PASS"
+        },
+        {
+          "task": "05a Student classification excludes INTERNAL",
+          "status": "PASS"
+        },
+        {
+          "task": "05b Five individual learning resources; no directory inflation",
+          "status": "PASS"
+        },
+        {
+          "task": "05c Directory distinctly labeled",
+          "status": "PASS"
+        },
+        {
+          "task": "05d Goal counts match actions and exclude the current goal when describing alternatives",
+          "status": "PASS"
+        },
+        {
+          "task": "06 Actual checks complete; repeat cannot farm XP",
+          "status": "PASS"
+        },
+        {
+          "task": "07 Passport links quest/source; eligibility stays unknown",
+          "status": "PASS"
+        },
+        {
+          "task": "08 Explicit opt-in writes validated local journey",
+          "status": "PASS"
+        },
+        {
+          "task": "09 Actual iframe page reload returns saved journey",
+          "status": "PASS"
+        },
+        {
+          "task": "10 Progress, route, sources and captured fictional draft restored",
+          "status": "PASS"
+        },
+        {
+          "task": "11 Actual generated Journey JSON schema and versions inspected",
+          "status": "PASS"
+        },
+        {
+          "task": "11b Restored Passport retains saved provenance and unknowns",
+          "status": "PASS"
+        },
+        {
+          "task": "12 One-click deletion and opt-out",
+          "status": "PASS"
+        },
+        {
+          "task": "13 File input imports working journey without consent/storage",
+          "status": "PASS"
+        },
+        {
+          "task": "14 Imported receipt remains unverified; no free achievement",
+          "status": "PASS"
+        },
+        {
+          "task": "15 Full reset removes memory/storage and restores initial order",
+          "status": "PASS"
+        }
+      ],
+      "filteredIds": {
+        "initial": [
+          "wai-easy-checks",
+          "wai-tutorials",
+          "service-directory",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it",
+          "parker-directory",
+          "apprenticeship-directory",
+          "md-admin3",
+          "26-002554-0006",
+          "doe-suli",
+          "nih-sip"
+        ],
+        "selectedIds": [
+          "md-admin3",
+          "26-001756-0045",
+          "26-001756-0046",
+          "26-001755-0040",
+          "md-admin",
+          "26-001756-0044",
+          "26-001755-0037",
+          "26-001755-0036",
+          "26-001755-0018"
+        ],
+        "courses": [
+          "wai-easy-checks",
+          "wai-tutorials",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it"
+        ]
+      },
+      "alternatives": [
+        "civic-maker",
+        "civic-research"
+      ],
+      "passport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:27:54.522Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "source": {
+          "id": "26-001755-0041",
+          "title": "Administrative Specialist I",
+          "employer": "Maryland Department of the Environment",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+          "reviewedAt": "2026-10-27T00:22:27.535Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+            "skill": "research",
+            "target": "Administrative experience or a published substitution",
+            "roleTask": false,
+            "reviewedExcerpt": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+            "humanQuestion": "Which records and other full-source conditions must HR verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": null,
+            "questReceipt": {
+              "questId": "source",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-001755-0041",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                "reviewedAt": "2026-10-27T00:22:27.535Z",
+                "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+              },
+              "simulation": true
+            },
+            "story": null
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "High-school credential or equivalency",
+            "required": true,
+            "state": "unknown",
+            "reason": "Credential or published education-equivalence route needs verification."
+          },
+          {
+            "label": "Administrative experience or a published substitution",
+            "required": true,
+            "state": "unknown",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+          },
+          {
+            "label": "Work authorization and other conditions",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "Complete state application and supplemental questionnaire; a résumé alone is insufficient.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:27:54.522Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:27:54.522Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:27:54.522Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:27:54.522Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-03T22:00:00.000Z",
+            "kind": "no later than the official deadline"
+          }
+        ],
+        "unknowns": [
+          "High-school credential or equivalency: Credential or published education-equivalence route needs verification.",
+          "Administrative experience or a published substitution: Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+          "Work authorization and other conditions: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "restoredPassport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:27:54.999Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "source": {
+          "id": "26-001755-0041",
+          "title": "Administrative Specialist I",
+          "employer": "Maryland Department of the Environment",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+          "reviewedAt": "2026-10-27T00:22:27.535Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+            "skill": "research",
+            "target": "Administrative experience or a published substitution",
+            "roleTask": false,
+            "reviewedExcerpt": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+            "humanQuestion": "Which records and other full-source conditions must HR verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+              "origin": "saved-device-draft"
+            },
+            "questReceipt": {
+              "questId": "source",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-001755-0041",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                "reviewedAt": "2026-10-27T00:22:27.535Z",
+                "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+              },
+              "simulation": true
+            },
+            "story": null
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "High-school credential or equivalency",
+            "required": true,
+            "state": "unknown",
+            "reason": "Credential or published education-equivalence route needs verification."
+          },
+          {
+            "label": "Administrative experience or a published substitution",
+            "required": true,
+            "state": "unknown",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+          },
+          {
+            "label": "Work authorization and other conditions",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "Complete state application and supplemental questionnaire; a résumé alone is insufficient.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:27:54.999Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:27:54.999Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:27:54.999Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:27:54.999Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-03T22:00:00.000Z",
+            "kind": "no later than the official deadline"
+          }
+        ],
+        "unknowns": [
+          "High-school credential or equivalency: Credential or published education-equivalence route needs verification.",
+          "Administrative experience or a published substitution: Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+          "Work authorization and other conditions: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "journey": {
+        "schemaVersion": "opportunitybridge-journey-1",
+        "productVersion": "0.8.2",
+        "viewedNodes": [
+          "civic-maker:learn",
+          "civic-research:discover",
+          "civic-research:learn",
+          "civic-research:practice",
+          "civic-research:build",
+          "civic-research:prepare",
+          "civic-research:connect"
+        ],
+        "handoffIds": [],
+        "progressOrigin": "device-record",
+        "savedAt": "2026-10-27T18:27:54.988Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "questVersion": "0.8.1",
+        "interest": "tech",
+        "route": "civic-research",
+        "savedOpportunities": [
+          "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037",
+          "https://science.osti.gov/wdts/suli"
+        ],
+        "questLedger": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:27:54.217Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement",
+            "origin": "restored-local"
+          }
+        ],
+        "passportDrafts": [
+          {
+            "opportunityId": "md-admin",
+            "source": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326"
+            },
+            "rows": [
+              {
+                "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+                "skill": "research",
+                "requirement": "experience",
+                "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+                "verification": "Which records and other full-source conditions must HR verify?",
+                "questReceipt": {
+                  "questId": "source",
+                  "questVersion": "0.8.1",
+                  "sourceSnapshot": {
+                    "id": "26-001755-0041",
+                    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                    "reviewedAt": "2026-10-27T00:22:27.535Z",
+                    "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+                  },
+                  "simulation": true
+                },
+                "savedSource": {
+                  "id": "26-001755-0041",
+                  "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                  "reviewedAt": "2026-10-27T00:22:27.535Z",
+                  "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+                  "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+                  "origin": "saved-device-draft"
+                }
+              }
+            ]
+          }
+        ],
+        "selectedOpportunityId": "md-admin"
+      },
+      "imported": {
+        "schemaVersion": "opportunitybridge-journey-1",
+        "productVersion": "0.8.2",
+        "viewedNodes": [
+          "civic-maker:learn",
+          "civic-research:discover",
+          "civic-research:learn",
+          "civic-research:practice",
+          "civic-research:build",
+          "civic-research:prepare",
+          "civic-research:connect"
+        ],
+        "handoffIds": [],
+        "progressOrigin": "imported-unverified",
+        "savedAt": "2026-10-27T18:27:55.311Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "questVersion": "0.8.1",
+        "interest": "tech",
+        "route": "civic-research",
+        "savedOpportunities": [
+          "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037",
+          "https://science.osti.gov/wdts/suli"
+        ],
+        "questLedger": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:27:54.217Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement",
+            "origin": "imported-unverified"
+          }
+        ],
+        "passportDrafts": [
+          {
+            "opportunityId": "md-admin",
+            "source": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326"
+            },
+            "rows": [
+              {
+                "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+                "skill": "research",
+                "requirement": "experience",
+                "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+                "verification": "Which records and other full-source conditions must HR verify?",
+                "questReceipt": {
+                  "questId": "source",
+                  "questVersion": "0.8.1",
+                  "sourceSnapshot": {
+                    "id": "26-001755-0041",
+                    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                    "reviewedAt": "2026-10-27T00:22:27.535Z",
+                    "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+                  },
+                  "simulation": true
+                },
+                "savedSource": {
+                  "id": "26-001755-0041",
+                  "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                  "reviewedAt": "2026-10-27T00:22:27.535Z",
+                  "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+                  "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+                  "origin": "saved-device-draft"
+                }
+              }
+            ]
+          }
+        ],
+        "selectedOpportunityId": "md-admin"
+      },
+      "metrics": {
+        "domContentLoadedMs": 111.60000000149012,
+        "initialLoadMs": 160.60000000149012,
+        "searchableMs": 323.3999999985099,
+        "constellationSelectMs": 118.5,
+        "searchFilterMs": 195.5,
+        "questCheckMs": 0.6999999955296516,
+        "passportExportMs": 1.5,
+        "encodedResourcesBytes": 108236,
+        "resourceCount": 23
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "viewport": {
+          "width": 1287,
+          "height": 780
+        },
+        "network": "unthrottled shared browser cache"
+      },
+      "independentParticipants": 0
+    },
+    {
+      "run": 2,
+      "releaseRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+      "fixtureSha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366",
+      "clock": "2026-10-27T12:00:00Z",
+      "fictionalLearner": "source-reading example; no private facts saved",
+      "interest": "tech",
+      "startingStorage": "journey key absent",
+      "steps": [
+        {
+          "task": "01 Homepage; fresh storage and saving off",
+          "status": "PASS"
+        },
+        {
+          "task": "02 Interest synchronizes two alternatives",
+          "status": "PASS"
+        },
+        {
+          "task": "03 discover node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 learn node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 practice node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 build node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 prepare node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03 connect node has a real source/action",
+          "status": "PASS"
+        },
+        {
+          "task": "03b Accessible list and alternate source route",
+          "status": "PASS"
+        },
+        {
+          "task": "04 Route finds actual source in discovery",
+          "status": "PASS"
+        },
+        {
+          "task": "05a Student classification excludes INTERNAL",
+          "status": "PASS"
+        },
+        {
+          "task": "05b Five individual learning resources; no directory inflation",
+          "status": "PASS"
+        },
+        {
+          "task": "05c Directory distinctly labeled",
+          "status": "PASS"
+        },
+        {
+          "task": "05d Goal counts match actions and exclude the current goal when describing alternatives",
+          "status": "PASS"
+        },
+        {
+          "task": "06 Actual checks complete; repeat cannot farm XP",
+          "status": "PASS"
+        },
+        {
+          "task": "07 Passport links quest/source; eligibility stays unknown",
+          "status": "PASS"
+        },
+        {
+          "task": "08 Explicit opt-in writes validated local journey",
+          "status": "PASS"
+        },
+        {
+          "task": "09 Actual iframe page reload returns saved journey",
+          "status": "PASS"
+        },
+        {
+          "task": "10 Progress, route, sources and captured fictional draft restored",
+          "status": "PASS"
+        },
+        {
+          "task": "11 Actual generated Journey JSON schema and versions inspected",
+          "status": "PASS"
+        },
+        {
+          "task": "11b Restored Passport retains saved provenance and unknowns",
+          "status": "PASS"
+        },
+        {
+          "task": "12 One-click deletion and opt-out",
+          "status": "PASS"
+        },
+        {
+          "task": "13 File input imports working journey without consent/storage",
+          "status": "PASS"
+        },
+        {
+          "task": "14 Imported receipt remains unverified; no free achievement",
+          "status": "PASS"
+        },
+        {
+          "task": "15 Full reset removes memory/storage and restores initial order",
+          "status": "PASS"
+        }
+      ],
+      "filteredIds": {
+        "initial": [
+          "wai-easy-checks",
+          "wai-tutorials",
+          "service-directory",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it",
+          "parker-directory",
+          "apprenticeship-directory",
+          "md-admin3",
+          "26-002554-0006",
+          "doe-suli",
+          "nih-sip"
+        ],
+        "selectedIds": [
+          "md-admin3",
+          "26-001756-0045",
+          "26-001756-0046",
+          "26-001755-0040",
+          "md-admin",
+          "26-001756-0044",
+          "26-001755-0037",
+          "26-001755-0036",
+          "26-001755-0018"
+        ],
+        "courses": [
+          "wai-easy-checks",
+          "wai-tutorials",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it"
+        ]
+      },
+      "alternatives": [
+        "civic-maker",
+        "civic-research"
+      ],
+      "passport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:27:57.723Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "source": {
+          "id": "26-001755-0041",
+          "title": "Administrative Specialist I",
+          "employer": "Maryland Department of the Environment",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+          "reviewedAt": "2026-10-27T00:22:27.535Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+            "skill": "research",
+            "target": "Administrative experience or a published substitution",
+            "roleTask": false,
+            "reviewedExcerpt": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+            "humanQuestion": "Which records and other full-source conditions must HR verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": null,
+            "questReceipt": {
+              "questId": "source",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-001755-0041",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                "reviewedAt": "2026-10-27T00:22:27.535Z",
+                "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+              },
+              "simulation": true
+            },
+            "story": null
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "High-school credential or equivalency",
+            "required": true,
+            "state": "unknown",
+            "reason": "Credential or published education-equivalence route needs verification."
+          },
+          {
+            "label": "Administrative experience or a published substitution",
+            "required": true,
+            "state": "unknown",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+          },
+          {
+            "label": "Work authorization and other conditions",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "Complete state application and supplemental questionnaire; a résumé alone is insufficient.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:27:57.723Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:27:57.723Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:27:57.723Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:27:57.723Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-03T22:00:00.000Z",
+            "kind": "no later than the official deadline"
+          }
+        ],
+        "unknowns": [
+          "High-school credential or equivalency: Credential or published education-equivalence route needs verification.",
+          "Administrative experience or a published substitution: Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+          "Work authorization and other conditions: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "restoredPassport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:27:58.058Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "source": {
+          "id": "26-001755-0041",
+          "title": "Administrative Specialist I",
+          "employer": "Maryland Department of the Environment",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=001755&RecruitNum3=0041",
+          "reviewedAt": "2026-10-27T00:22:27.535Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+            "skill": "research",
+            "target": "Administrative experience or a published substitution",
+            "roleTask": false,
+            "reviewedExcerpt": "Six months of experience performing administrative staff, clerical, clerical technical, or secretarial work.",
+            "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+            "humanQuestion": "Which records and other full-source conditions must HR verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+              "origin": "saved-device-draft"
+            },
+            "questReceipt": {
+              "questId": "source",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-001755-0041",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                "reviewedAt": "2026-10-27T00:22:27.535Z",
+                "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+              },
+              "simulation": true
+            },
+            "story": null
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "High-school credential or equivalency",
+            "required": true,
+            "state": "unknown",
+            "reason": "Credential or published education-equivalence route needs verification."
+          },
+          {
+            "label": "Administrative experience or a published substitution",
+            "required": true,
+            "state": "unknown",
+            "reason": "Need qualifying months or 30 accredited credits; military equivalence cannot be inferred."
+          },
+          {
+            "label": "Work authorization and other conditions",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "Complete state application and supplemental questionnaire; a résumé alone is insufficient.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:27:58.058Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:27:58.058Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:27:58.058Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:27:58.058Z",
+            "kind": "no later than the official deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-03T22:00:00.000Z",
+            "kind": "no later than the official deadline"
+          }
+        ],
+        "unknowns": [
+          "High-school credential or equivalency: Credential or published education-equivalence route needs verification.",
+          "Administrative experience or a published substitution: Need qualifying months or 30 accredited credits; military equivalence cannot be inferred.",
+          "Work authorization and other conditions: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "journey": {
+        "schemaVersion": "opportunitybridge-journey-1",
+        "productVersion": "0.8.2",
+        "viewedNodes": [
+          "civic-maker:learn",
+          "civic-research:discover",
+          "civic-research:learn",
+          "civic-research:practice",
+          "civic-research:build",
+          "civic-research:prepare",
+          "civic-research:connect"
+        ],
+        "handoffIds": [],
+        "progressOrigin": "device-record",
+        "savedAt": "2026-10-27T18:27:58.044Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "questVersion": "0.8.1",
+        "interest": "tech",
+        "route": "civic-research",
+        "savedOpportunities": [
+          "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037",
+          "https://science.osti.gov/wdts/suli"
+        ],
+        "questLedger": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:27:57.449Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement",
+            "origin": "restored-local"
+          }
+        ],
+        "passportDrafts": [
+          {
+            "opportunityId": "md-admin",
+            "source": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326"
+            },
+            "rows": [
+              {
+                "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+                "skill": "research",
+                "requirement": "experience",
+                "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+                "verification": "Which records and other full-source conditions must HR verify?",
+                "questReceipt": {
+                  "questId": "source",
+                  "questVersion": "0.8.1",
+                  "sourceSnapshot": {
+                    "id": "26-001755-0041",
+                    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                    "reviewedAt": "2026-10-27T00:22:27.535Z",
+                    "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+                  },
+                  "simulation": true
+                },
+                "savedSource": {
+                  "id": "26-001755-0041",
+                  "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                  "reviewedAt": "2026-10-27T00:22:27.535Z",
+                  "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+                  "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+                  "origin": "saved-device-draft"
+                }
+              }
+            ]
+          }
+        ],
+        "selectedOpportunityId": "md-admin"
+      },
+      "imported": {
+        "schemaVersion": "opportunitybridge-journey-1",
+        "productVersion": "0.8.2",
+        "viewedNodes": [
+          "civic-maker:learn",
+          "civic-research:discover",
+          "civic-research:learn",
+          "civic-research:practice",
+          "civic-research:build",
+          "civic-research:prepare",
+          "civic-research:connect"
+        ],
+        "handoffIds": [],
+        "progressOrigin": "imported-unverified",
+        "savedAt": "2026-10-27T18:27:58.366Z",
+        "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+        "questVersion": "0.8.1",
+        "interest": "tech",
+        "route": "civic-research",
+        "savedOpportunities": [
+          "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037",
+          "https://science.osti.gov/wdts/suli"
+        ],
+        "questLedger": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:27:57.449Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement",
+            "origin": "imported-unverified"
+          }
+        ],
+        "passportDrafts": [
+          {
+            "opportunityId": "md-admin",
+            "source": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+              "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326"
+            },
+            "rows": [
+              {
+                "experience": "Fictional source-reading exercise distinguishing a published substitution from missing applicant evidence.",
+                "skill": "research",
+                "requirement": "experience",
+                "artifact": "Proposed source-linked note explaining the 30-credit substitution and unresolved conditions.",
+                "verification": "Which records and other full-source conditions must HR verify?",
+                "questReceipt": {
+                  "questId": "source",
+                  "questVersion": "0.8.1",
+                  "sourceSnapshot": {
+                    "id": "26-001755-0041",
+                    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                    "reviewedAt": "2026-10-27T00:22:27.535Z",
+                    "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+                  },
+                  "simulation": true
+                },
+                "savedSource": {
+                  "id": "26-001755-0041",
+                  "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+                  "reviewedAt": "2026-10-27T00:22:27.535Z",
+                  "mappingHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+                  "catalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
+                  "origin": "saved-device-draft"
+                }
+              }
+            ]
+          }
+        ],
+        "selectedOpportunityId": "md-admin"
+      },
+      "metrics": {
+        "domContentLoadedMs": 219.70000000298023,
+        "initialLoadMs": 272.5,
+        "searchableMs": 648.8000000044703,
+        "constellationSelectMs": 141.09999999403954,
+        "searchFilterMs": 217.69999999552965,
+        "questCheckMs": 0.6000000014901161,
+        "passportExportMs": 1.5999999940395355,
+        "encodedResourcesBytes": 108236,
+        "resourceCount": 23
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "viewport": {
+          "width": 1287,
+          "height": 780
+        },
+        "network": "unthrottled shared browser cache"
+      },
+      "independentParticipants": 0
+    }
+  ],
+  "reproducibility": {
+    "filteredIds": true,
+    "alternatives": true,
+    "passport": true,
+    "restoredPassport": true,
+    "journey": true,
+    "imported": true,
+    "fixtureSha256": true,
+    "releaseRevision": true
+  },
+  "normalization": "Remove only generatedAt, completedAt, savedAt and due timestamps. Preserve source dates/hashes, checks, schemas, unknowns and all storage outcomes.",
+  "independentParticipants": 0
+}

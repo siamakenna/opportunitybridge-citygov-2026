@@ -1,3 +1,9 @@
+# Current release: v0.8.2 targeted repair
+
+See [current audit, actual pre/post trials and saved-draft receipt](V082_AUDIT_REPORT.md), [official compliance matrix](SUBMISSION_COMPLIANCE_v082.md), and [skeptical87/100 review](V082_JUDGING_REVIEW.md). Member-profile URL/permissions/final submission remain owner actions. All application changes are frozen; prior release history follows.
+
+---
+
 # OpportunityBridge v0.8.1 execution report
 
 Current status: Career Constellation implemented; local and initial public feature acceptance passed. Final cache-safe harness publication and existing Kenny! draft receipts are appended after execution. This report distinguishes authored software checks from independent user evidence. Independent unfamiliar adults **n=0**; no invitations sent. Internal official ten-category mock **87/100**, unchanged (A8 B9 C9 D9 E7 F9 G9 H9 I9 J9). No career, hiring, equity, learning or return-engagement outcome is measured.

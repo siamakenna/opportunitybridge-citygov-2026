@@ -1,0 +1,27 @@
+{
+  "method": "Save Draft; reload; read actual DOM value properties. Fresh authenticated tab verification is separately recorded; no direct DB or fresh-login claim.",
+  "title": "OpportunityBridge — From Education to Real Civic Careers, With Evidence",
+  "descriptionFirst100": "SOLUTION DESCRIPTION\n\nOpportunityBridge: Career Constellation helps learners turn unfamiliar public-",
+  "descriptionLast100": "ependent n=0; internal mock remains87/100. Current video is an honestly labeled screenshot sequence.",
+  "descriptionCharacters": 9762,
+  "descriptionMatches": true,
+  "demo": "https://siamakenna.github.io/opportunitybridge-citygov-2026/",
+  "repository": "https://github.com/siamakenna/opportunitybridge-citygov-2026",
+  "video": "https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html",
+  "pdf": "OpportunityBridge-Pilot-Packet.pdf",
+  "status": "Draft — not sent to judges",
+  "solutionWords": 534,
+  "equityWords": 187,
+  "captain": "Makenna Rodriguez",
+  "members": 1,
+  "shareableMemberProfileURL": null,
+  "profilePhoto": "Loaded; profile fields populated; visibility Public",
+  "teamOrEligibilityChanged": false,
+  "submittedForJudging": false,
+  "freshAuthenticatedTab": {
+    "matches": true,
+    "characters": 9762,
+    "status": "Draft — not sent to judges",
+    "sameBrowserCookies": true
+  }
+}

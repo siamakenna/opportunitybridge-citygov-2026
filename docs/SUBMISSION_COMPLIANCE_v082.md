@@ -14,11 +14,11 @@ Reviewed the [official rules](https://www.citygov.com/hackathon) and the two act
 | Equity | 6.2 | 187 words; access hypothesis, accommodations and limits | Complete; below400 |
 | Pilot | 6.2 /AppendixB | Actual attached PDF pp1–2: roles/timeline/staffing/budget/risks; proposal only | Complete as proposal |
 | Measurable outcomes | 6.2 | Source correctness, actionable plans and follow-through; access/workload guardrail; proposed targets | Complete as targets |
-| Functioning demo | 6.2 /6.3 | Public static app; no login/software install/payment for judges | Complete after public gate |
+| Functioning demo | 6.2 /6.3 | Public static app; no login/software install/payment for judges | Complete — public gate passed |
 | AI disclosure | 12.2–12.5 | ChatGPT/Codex significant code/research/design/testing/media assistance; owner review needed | Complete disclosure; owner understanding/rights confirmation needed |
 | Sources/licenses | 6.2 /11.5 | MIT source, official data/provider credits, attributed historical cases; prior-project inspiration distinguished | Complete disclosure; owner rights confirmation needed |
 | English/access | 6.3 | English public pages, captioned180s screenshot video/transcript; inspectable exports | Complete; AT/zoom limitations disclosed |
-| Links/files | 6.3 | Original3URLs/PDF, native downloads, exact asset/hash receipt after release | Complete after public gate |
+| Links/files | 6.3 | Original3URLs/PDF, native downloads, exact asset/hash receipt after release | Complete — public gate passed |
 | Eligibility/permissions | 3.3–3.6 /11.4 | Personal/school/employer permissions cannot be independently asserted; no declarations changed | Needs owner confirmation |
 | Status/deadline | 2 /6.1 /6.5 | Draft—not sent to judges; portal states Nov6,2026,11:59PMEST; owner target Nov5 | Needs owner final submission |
 

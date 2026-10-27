@@ -1,14 +1,14 @@
 {
   "phase": "public",
   "release": {
-    "revision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+    "revision": "b621c6f90805be4d22c573593a47e614891fa326",
     "version": "0.8.2",
     "assetPolicy": "entry modules, relative imports and styles use the release revision",
     "discovery": {
-      "lastSuccessAt": "2026-10-27T18:19:52.769541+00:00",
-      "lastAttemptAt": "2026-10-27T18:19:52.769541+00:00",
+      "lastSuccessAt": "2026-10-27T18:25:26.443015+00:00",
+      "lastAttemptAt": "2026-10-27T18:25:26.443015+00:00",
       "status": "ok",
-      "sha256": "a5f60cfe3699190862f8fbea5fc247e802f406ecf6e9f480ba4f1d769722f0f0",
+      "sha256": "4cd2680c060a4ebb75cf7c47c336367ccd862335cc281487dc5e41160bf69181",
       "records": 330
     },
     "sourceObservationAt": "2026-10-27T17:51:45.412Z",
@@ -30,7 +30,7 @@
       "actions": "Native public/local app controls and actual file downloads; no injected file-input values",
       "expected": "Current release metadata, frozen clock and not-live disclosure",
       "observed": {
-        "sha": "6614559726981bf6f419e340e68f835d2dc63eb1",
+        "sha": "b621c6f90805be4d22c573593a47e614891fa326",
         "version": "0.8.2",
         "status": "FROZEN REPRODUCIBILITY TRIAL · not current discovery. Latest observed snapshot · 10/26/2026, 9:52:11 PM ET. Scheduled snapshot, not live. Latest attempt: 10/26/2026, 9:52:11 PM ET."
       },
@@ -267,5 +267,6 @@
     "public-passport.json",
     "public-mpt-handoff.md"
   ],
-  "status": "PASS"
+  "status": "PASS",
+  "freshNormalAppConsoleErrors": []
 }

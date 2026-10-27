@@ -2,8 +2,8 @@
   "schemaVersion": "opportunitybridge-passport-0.8",
   "productVersion": "0.8.2",
   "type": "Evidence planning document — not a credential or eligibility decision",
-  "generatedAt": "2026-10-27T18:21:13.691Z",
-  "sourceCatalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+  "generatedAt": "2026-10-27T18:27:35.388Z",
+  "sourceCatalogRevision": "b621c6f90805be4d22c573593a47e614891fa326",
   "source": {
     "id": "26-008996-0007",
     "title": "MD Center for Media Literacy & Education Student Fellow",
@@ -93,27 +93,27 @@
   "nextSteps": [
     {
       "action": "Recheck the full official source, identity, deadline and all conditions.",
-      "due": "2026-10-27T18:21:13.691Z",
+      "due": "2026-10-27T18:27:35.388Z",
       "kind": "personal target — not an employer deadline"
     },
     {
       "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
-      "due": "2026-10-28T18:21:13.691Z",
+      "due": "2026-10-28T18:27:35.388Z",
       "kind": "personal target — not an employer deadline"
     },
     {
       "action": "Draft a truthful work sample and assemble the required documents.",
-      "due": "2026-10-30T18:21:13.691Z",
+      "due": "2026-10-30T18:27:35.388Z",
       "kind": "personal target — not an employer deadline"
     },
     {
       "action": "Have a human review the packet, accessibility needs and remaining questions.",
-      "due": "2026-11-03T18:21:13.691Z",
+      "due": "2026-11-03T18:27:35.388Z",
       "kind": "personal target — not an employer deadline"
     },
     {
       "action": "Use the official application only if appropriate; no application is sent by this tool.",
-      "due": "2026-11-10T18:21:13.691Z",
+      "due": "2026-11-10T18:27:35.388Z",
       "kind": "personal target — not an employer deadline"
     }
   ],
