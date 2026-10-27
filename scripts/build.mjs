@@ -8,7 +8,7 @@ for(const d of ['src','docs','evidence','media','output','data'])await cp(d,'dis
 // A release's entry modules, transitive imports and styles must share one cache identity.
 async function versionAssets(directory){for(const item of await readdir(directory,{withFileTypes:true})){const path=join(directory,item.name);if(item.isDirectory()){if(item.name==='src')await versionAssets(path);}else if(/\.(html|js)$/.test(item.name)){const text=await readFile(path,'utf8');const versioned=text.replace(/(['"])(\.{1,2}\/[^'"\s?]+\.(?:js|css|svg))\1/g,(_,quote,url)=>`${quote}${url}?rev=${revision}${quote}`);await writeFile(path,versioned);}}}
 await versionAssets('dist');
-await writeFile('dist/source.json',JSON.stringify({revision,version:'0.8.1',assetPolicy:'entry modules, relative imports and styles use the release revision'},null,2)+'\n');
+await writeFile('dist/source.json',JSON.stringify({revision,version:'0.8.2',assetPolicy:'entry modules, relative imports and styles use the release revision'},null,2)+'\n');
 console.log('Static distribution ready in dist/; assets versioned to '+revision);
 
 await writeFile('dist/src/release.js',`export const releaseRevision=${JSON.stringify(revision)};\n`);

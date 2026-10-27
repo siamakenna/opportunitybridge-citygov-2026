@@ -1,0 +1,77 @@
+{
+  "observedAt": "2026-10-27T18:16:55.517176+00:00",
+  "rows": [
+    {
+      "id": "openlearn-it",
+      "url": "https://www.open.edu/openlearn/science-maths-technology/it-everyday-life/content-section-0",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "403",
+      "retrieved": true,
+      "observedTitle": "Just a moment...",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "openlearn-cyber",
+      "url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "403",
+      "retrieved": true,
+      "observedTitle": "Just a moment...",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "forage-data",
+      "url": "https://www.theforage.com/simulations/deloitte-au/data-analytics-s5zy",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "200",
+      "retrieved": true,
+      "observedTitle": "Deloitte Australia Data Analytics - Forage",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "parker-directory",
+      "url": "https://www.parkerdewey.com/career-launchers",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "200",
+      "retrieved": true,
+      "observedTitle": "Paid Micro-Internships &amp; Short-Term Projects for College Students | Parker Dewey",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "apprenticeship-directory",
+      "url": "https://www.apprenticeship.gov/career-seekers",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "200",
+      "retrieved": true,
+      "observedTitle": "Career Seekers | Apprenticeship.gov",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "service-directory",
+      "url": "https://www.americorps.gov/join",
+      "reviewedAt": "2026-10-27T02:21:30Z",
+      "httpStatus": "403",
+      "retrieved": true,
+      "observedTitle": "Azure WAF",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "wai-tutorials",
+      "url": "https://www.w3.org/WAI/tutorials/",
+      "reviewedAt": "2026-10-27T08:45:02Z",
+      "httpStatus": "200",
+      "retrieved": true,
+      "observedTitle": " Tutorials | Web Accessibility Initiative (WAI) | W3C",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    },
+    {
+      "id": "wai-easy-checks",
+      "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+      "reviewedAt": "2026-10-27T08:45:02Z",
+      "httpStatus": "200",
+      "retrieved": true,
+      "observedTitle": " Easy Checks \u2013 A First Review of Web Accessibility | Web Accessibility Initiative (WAI) | W3C",
+      "interpretation": "HTTP observation only; original review date retained, no job or course availability guarantee"
+    }
+  ]
+}

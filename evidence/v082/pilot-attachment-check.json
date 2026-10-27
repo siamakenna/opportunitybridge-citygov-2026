@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "method": "Download of actual href exposed by the authorized saved-portal attachment link; no auth probing. Native click did not emit a download, so its attempt is not counted as pass.",
+  "attachment": "OpportunityBridge-Pilot-Packet.pdf",
+  "sha256": "f1da541c63aff7f776f0daffb9cecbb8bf1989bef67db58800f583ccc6a991f9",
+  "matchesInspectedOriginal": true,
+  "pagesReadAndRendered": 2
+}

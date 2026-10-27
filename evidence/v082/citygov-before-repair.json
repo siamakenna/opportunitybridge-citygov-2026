@@ -1,0 +1,52 @@
+{
+  "afterReload": {
+    "captain": "Makenna Rodriguez",
+    "fields": {
+      "demoUrl": {
+        "placeholder": "https://",
+        "value": "https://siamakenna.github.io/opportunitybridge-citygov-2026/"
+      },
+      "description": {
+        "placeholder": "What problem does it solve, who is it for, and how does it work?",
+        "value": {
+          "characters": 8966,
+          "first100": "SOLUTION DESCRIPTION\n\nOpportunityBridge: Career Constellation helps learners turn unfamiliar public-",
+          "last100": "ybridge-citygov-2026/pilot.html\nSOURCE: https://github.com/siamakenna/opportunitybridge-citygov-2026"
+        }
+      },
+      "repoUrl": {
+        "placeholder": "https://",
+        "value": "https://github.com/siamakenna/opportunitybridge-citygov-2026"
+      },
+      "title": {
+        "placeholder": null,
+        "value": "OpportunityBridge — From Education to Real Civic Careers, With Evidence"
+      },
+      "videoUrl": {
+        "placeholder": "https://",
+        "value": "https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html"
+      }
+    },
+    "members": 1,
+    "pilotAttachment": "OpportunityBridge-Pilot-Packet.pdf",
+    "profilePhotoLoaded": true,
+    "status": "Draft — not sent to judges"
+  },
+  "verification": "DOM value properties compared with placeholder attributes. Reloaded existing authenticated workspace. Fresh tab uses same authenticated browser cookies; no independent reauthentication claim.",
+  "freshAuthenticatedTab": {
+    "demo": "https://siamakenna.github.io/opportunitybridge-citygov-2026/",
+    "descriptionCharacters": 8966,
+    "descriptionFirst100": "SOLUTION DESCRIPTION\n\nOpportunityBridge: Career Constellation helps learners turn unfamiliar public-",
+    "descriptionLast100": "ybridge-citygov-2026/pilot.html\nSOURCE: https://github.com/siamakenna/opportunitybridge-citygov-2026",
+    "repo": "https://github.com/siamakenna/opportunitybridge-citygov-2026",
+    "status": "Draft — not sent to judges",
+    "title": "OpportunityBridge — From Education to Real Civic Careers, With Evidence",
+    "video": "https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html"
+  },
+  "profile": {
+    "requiredNamedFieldsPopulated": true,
+    "photoLoaded": true,
+    "publicMemberProfileURL": null,
+    "limitation": "Authorized /profile editor exposes no shareable member-profile link or copy-link control. Do not invent /profile as a public member URL. Owner must obtain the actual shareable link from CityGov if required."
+  }
+}

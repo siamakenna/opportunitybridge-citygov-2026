@@ -1,4 +1,4 @@
-# Existing Kenny! draft — v0.8.1
+# Existing Kenny! draft — v0.8.2
 
 Original title: OpportunityBridge — From Education to Real Civic Careers, With Evidence
 
@@ -12,7 +12,7 @@ Three playable quests remain central. Source Detective uses a frozen Maryland Ad
 
 Versioned learning records retain actual checks and source snapshots. Repeated clicks cannot farm rewards; plain learning view hides points. Successful exercises transfer into editable Passport fields. JSON/Markdown preserve source identity, review date, quest provenance, proposed work and unknowns. Historical NIH deliverables and former Civic Innovation Corps accounts are attributed examples from other programs, never product testimonials.
 
-Saving is explicitly optional and off by default. After consent, this browser can retain interests, saved source URLs, route, learning records and milestones. Fictional Passport drafts require a separate capture button; private applicant facts, contact details and document confirmations are excluded. Welcome-back summaries and remaining actions support return visits. Clear Saved Journey and opt-out remove saved app data; full reset also clears working drafts. Strict versioned JSON import rejects unsafe or incompatible content, marks imported progress unverified and grants no XP until replay. Nothing is silently uploaded or cloud-synced; shared-device and storage-loss limits are visible.
+Saving is explicitly optional and off by default. After consent, this browser can retain interests, saved source URLs, route, learning records and milestones. Fictional Passport drafts require a separate capture button; private applicant facts, contact details and document confirmations are excluded. Welcome-back summaries and remaining actions support return visits. Delete saved device copy keeps working edits. Reset working session preserves the device copy; Delete everything and reset removes both. Strict versioned JSON import rejects unsafe or incompatible content, marks imported progress unverified and grants no XP until replay. Nothing is silently uploaded or cloud-synced; shared-device and storage-loss limits are visible.
 
 Supporting discovery uses Maryland’s advertised RSS, twelve curated catalog records, five individually reviewed learning resources and three separately counted directory routes. Two new official W3C guides support accessibility practice. Earn, Learn, Build Experience and Explore groups show actual individual/directory counts. Explained interest/source ordering is deterministic, with neutral date/title options. INTERNAL is not an internship; graduate alone is not entry-level; contractual does not mean short-term. Unknown pay stays unknown. No individual short paid project was verified, so the empty state retains its Parker Dewey directory fallback.
 
@@ -38,9 +38,9 @@ EVIDENCE, MEDIA AND DISCLOSURE
 
 Executed checks and failures are linked in the release report. Independent n=0; no causal speed or hiring gain. Source-backed AI-assisted reviews are not independent HR validation. Daily metadata updates do not replace explicit source review near submission. The unavailable v0.3 Impact Lab was not integrated and its reported 17 tests are not claimed. Internal ten-criterion mock assessment remains 87/100; the owner-reported external automated estimate was approximately 85/100; additional features do not substitute for independent impact, accessibility or partner evidence.
 
-The current 180-second v0.8.1 walkthrough uses seven authentic working-app captures assembled as a captioned screenshot sequence, not continuous footage. It shows Career Constellation, genuine practice, Passport and optional save/return, and preserves capture-time source dates. English captions/transcript are provided; the earlier video is retained. No narration, fabricated participants or testimonials. The 5–7-minute finalist pitch and Q&A are prepared.
+The retained 180-second v0.8.1 walkthrough uses seven authentic working-app captures assembled as a captioned screenshot sequence, not continuous footage. It shows Career Constellation, genuine practice, Passport and optional save/return, and preserves capture-time source dates. English captions/transcript are provided; the earlier video is retained. No narration, fabricated participants or testimonials. The 5–7-minute finalist pitch and Q&A are prepared.
 
-ChatGPT supplied the starter; Codex significantly assisted research, code, design, deterministic workflows, evaluation, documents, testing, media and publication. Owner review remains necessary. MIT source; static browser runtime, system fonts, public RSS, Node/Python tests and GitHub Pages. No paid API or live language-model agent. Prior-project methods were adapted from the brief without copying private code, data or branding. Official publishers retain their source materials.
+Hackathon-period implementation is recorded in the October 26–27 repository history. Prior-project methods in the brief inspired evaluation discipline; private code, data and branding were not imported. Owner rights and permissions require review. ChatGPT supplied the starter; Codex significantly assisted research, code, design, deterministic workflows, evaluation, documents, testing, media and publication. Owner review remains necessary. MIT source; static browser runtime, system fonts, public RSS, Node/Python tests and GitHub Pages. No paid API or live language-model agent. Prior-project methods were adapted from the brief without copying private code, data or branding. Official publishers retain their source materials.
 
 TEAM: Kenny!; captain Makenna Rodriguez; one registered member. Existing team, registration and eligibility metadata preserved. Saved draft only; not submitted for judging.
 
@@ -51,5 +51,8 @@ EVALUATION: https://siamakenna.github.io/opportunitybridge-citygov-2026/evaluati
 PILOT: https://siamakenna.github.io/opportunitybridge-citygov-2026/pilot.html
 SOURCE: https://github.com/siamakenna/opportunitybridge-citygov-2026
 
+TARGETED v0.8.2 AUDIT
 
-Save Draft only. Original title, three URL fields, pilot PDF, team and eligibility metadata remain. No final submission or new agreement.
+Save, Export & Restore now distinguishes route/progress saving from captured fictional drafts and unsaved edits. Native Journey import retains unverified status and zero trusted XP until replay. Active-filter feedback and keyboard focus were repaired. Public pre/post functional and quest checks, actual artifact inspection and source holds are documented in the judge guide. Independent n=0; internal mock remains87/100. Current video is an honestly labeled screenshot sequence.
+
+Save Draft only; no final judging submission. Genuine member-profile URL and permissions remain owner confirmations.

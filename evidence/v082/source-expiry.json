@@ -1,0 +1,139 @@
+{
+  "observedAt": "2026-10-27T18:16:53.568Z",
+  "catalogSHA256": "8b6e4d9268ef87e7e30fb5175acca5a28216fe73978b98633dcbe8ab999a023f",
+  "records": [
+    {
+      "id": "md-admin",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.535Z",
+      "deadline": "2026-11-03T17:00:00-05:00",
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "md-vendor",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": "2026-11-05T23:59:00-05:00",
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "nih-sip",
+      "source": "https://www.training.nih.gov/research-training/pb/sip/",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": "2027-01-26T12:00:00-05:00",
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "nih-postbac",
+      "source": "https://www.training.nih.gov/research-training/pb/pb/",
+      "originalReviewedAt": "2026-10-26T18:03:34Z",
+      "deadline": null,
+      "state": {
+        "state": "program",
+        "label": "Ongoing career program — no individual vacancy verified",
+        "stale": false
+      }
+    },
+    {
+      "id": "federal-student",
+      "source": "https://www.usajobs.gov/hiringpath/students/",
+      "originalReviewedAt": "2026-10-26T18:03:34Z",
+      "deadline": null,
+      "state": {
+        "state": "program",
+        "label": "Ongoing career program — no individual vacancy verified",
+        "stale": false
+      }
+    },
+    {
+      "id": "federal-grad",
+      "source": "https://www.usajobs.gov/hiringpath/recentgraduates/",
+      "originalReviewedAt": "2026-10-26T18:03:34Z",
+      "deadline": null,
+      "state": {
+        "state": "program",
+        "label": "Ongoing career program — no individual vacancy verified",
+        "stale": false
+      }
+    },
+    {
+      "id": "federal-entry",
+      "source": "https://earlycareer.usajobs.gov/search/results",
+      "originalReviewedAt": "2026-10-26T18:03:34Z",
+      "deadline": null,
+      "state": {
+        "state": "program",
+        "label": "Ongoing career program — no individual vacancy verified",
+        "stale": false
+      }
+    },
+    {
+      "id": "cif-winter",
+      "source": "https://codingitforward.com/apply",
+      "originalReviewedAt": "2026-10-26T18:03:34Z",
+      "deadline": "2026-10-25T23:59:00-07:00",
+      "state": {
+        "state": "expired",
+        "label": "Deadline passed",
+        "stale": false
+      }
+    },
+    {
+      "id": "doe-suli",
+      "source": "https://science.osti.gov/wdts/suli",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": "2027-01-06T17:00:00-05:00",
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "mpt-motorweek",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": null,
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "mpt-media",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": null,
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    },
+    {
+      "id": "md-admin3",
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "originalReviewedAt": "2026-10-27T00:22:27.538Z",
+      "deadline": "2026-11-09T17:00:00-05:00",
+      "state": {
+        "state": "verified",
+        "label": "Verified from official source",
+        "stale": false
+      }
+    }
+  ],
+  "limitations": "Current lifecycle and source observation states, not renewed mapping approvals or future availability."
+}

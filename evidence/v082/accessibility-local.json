@@ -1,0 +1,86 @@
+{
+  "invalidImports": [
+    {
+      "file": "malformed",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Journey JSON could not be read."
+    },
+    {
+      "file": "schema",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Unsupported journey schema; reset or use a compatible export."
+    },
+    {
+      "file": "version",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Unsupported product version."
+    },
+    {
+      "file": "unsafe",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Unsafe object key."
+    },
+    {
+      "file": "source",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Unsupported saved source URL."
+    },
+    {
+      "file": "fields",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Unexpected journey field."
+    },
+    {
+      "file": "receipt",
+      "status": "PASS",
+      "observed": "Import rejected; current journey preserved. Completion receipt lacks actual successful checks."
+    }
+  ],
+  "zoom": {
+    "status": "UNTESTED",
+    "reason": "Safari native app access attempted; macOS Computer Use permission not granted. IAB capability inventory offers viewport only; no CSS/viewport simulation counted as actual200% zoom."
+  },
+  "screenReader": {
+    "status": "UNTESTED",
+    "reason": "No actual screen-reader interaction available."
+  },
+  "firstTab": "constellation-list",
+  "routeFocusAfterKeyboardActivation": "civic-research",
+  "nodeFocus": {
+    "tag": "H3",
+    "text": "Discover a real source"
+  },
+  "passportToggleFocus": "passport-show-all",
+  "reflow": [
+    {
+      "documentWidth": 305,
+      "overflow": false,
+      "unlabeled": [],
+      "width": 320
+    },
+    {
+      "documentWidth": 375,
+      "overflow": false,
+      "unlabeled": [],
+      "width": 390
+    },
+    {
+      "documentWidth": 753,
+      "overflow": false,
+      "unlabeled": [],
+      "width": 768
+    },
+    {
+      "documentWidth": 1351,
+      "overflow": false,
+      "unlabeled": [],
+      "width": 1366
+    }
+  ],
+  "feedback": {
+    "importLive": "polite",
+    "importRole": "status",
+    "inputDescription": "journey-status",
+    "saveRole": "status"
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "release": {
+    "revision": "e8ba988c3c6a186f434992fa751b2055300e4928",
+    "version": "0.8.1",
+    "assetPolicy": "entry modules, relative imports and styles use the release revision",
+    "discovery": {
+      "lastSuccessAt": "2026-10-27T12:31:43.769366+00:00",
+      "lastAttemptAt": "2026-10-27T12:31:43.769366+00:00",
+      "status": "ok",
+      "sha256": "e8441648ce15feb1a7c27b5ca70233b82935418522acd4797dbf19a1beaf6818",
+      "records": 322
+    },
+    "sourceObservationAt": "2026-10-27T09:20:06.988Z",
+    "journeySchema": "opportunitybridge-journey-1",
+    "quest": {
+      "version": "0.8.1",
+      "frozenDiscoverySha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366"
+    }
+  },
+  "fixture": "data/trial-v08.json",
+  "clock": "2026-10-27T12:00:00Z",
+  "browser": "IAB Chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 900
+  },
+  "tests": [
+    {
+      "id": "T01",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Expected current SHA/product and not-live disclosure",
+      "observed": {
+        "sha": "e8ba988c3c6a186f434992fa751b2055300e4928",
+        "version": "0.8.1",
+        "text": "FROZEN REPRODUCIBILITY TRIAL \u00b7 not current discovery. Latest observed snapshot \u00b7 10/26/2026, 9:52:11 PM ET. Scheduled snapshot, not live. Latest attempt: 10/26/2026, 9:52:11 PM ET."
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T02",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "No login; navigation and plain learning view",
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "id": "T03",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "INTERNAL negative titles excluded",
+      "observed": "0 matching records \u00b7 0 individual listings / learning resources \u00b7 0 directories. 320 normalized RSS records before expiry filtering \u00b7 0 saved in this tab. Categories describe sources, not eligibility. Courses and directories are not jobs.",
+      "status": "PASS"
+    },
+    {
+      "id": "T04",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Two reviewed MPT fellowship identities",
+      "observed": [
+        {
+          "id": "mpt-media",
+          "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "title": "MD Center for Media Literacy & Education Student Fellow"
+        },
+        {
+          "id": "mpt-motorweek",
+          "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "title": "MotorWeek Student Fellow"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "T05",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Five individual learning resources labeled training",
+      "observed": [
+        "wai-easy-checks",
+        "wai-tutorials",
+        "forage-data",
+        "openlearn-cyber",
+        "openlearn-it"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "T06",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Empty individual paid project result with Parker fallback",
+      "observed": "No individually verified short paid project is connected.\n\nParker Dewey offers account-based discovery. This outbound directory is not an open project or a connected feed.\n\nExplore Parker Dewey\u2019s directory \u2197",
+      "status": "PASS"
+    },
+    {
+      "id": "T07",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Two alternatives and six actionable content nodes",
+      "observed": {
+        "alternatives": [
+          "Make civic information accessible",
+          "Translate public-service evidence"
+        ],
+        "nodes": [
+          "Discover a real source\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nMD Center for Media Literacy & Education Student Fellow\n\nDigital learning resources, accessible web content and outreach at Maryland Public Television. Students/recent graduates; minimum 16-hour weekly commitment.\n\nVerified from official source \u00b7 Open/continuous in official bulletin; no announced closing date\n\nShow this source in discoveryOpen original official source \u2197\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction.",
+          "Learn from a public resource\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nWAI Web Accessibility Tutorials\n\nSelf-guided implementation tutorials for accessible images, forms, page structure and tables.\n\nFree public tutorials, not a formal certificate or verified course completion. Study duration is not stated. Reading or following examples does not establish WCAG conformance or employer eligibility.\n\nMetadata reviewed 2026-10-27T08:45:02Z. No course completion is claimed.\n\nOpen the public learning resource \u2197\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction.",
+          "Try a related exercise\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nThe exercise retains its own frozen source and checks. An analogous skill is not an employer qualification.\n\nPlay the related quest\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction.",
+          "Build source-linked evidence\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nPassport source: MD Center for Media Literacy & Education Student Fellow. Use fictional experience. Source holds and unknowns remain visible.\n\nOpen this source\u2019s Passport\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction.",
+          "Prepare the human conversation\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nSource: MD Center for Media Literacy & Education Student Fellow. Check documents, actual announced deadlines and unresolved conditions; no advising appointment exists.\n\nPrepare this advisor handoff\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction.",
+          "Use the official route\n\nMPT lists accessible web content and educational resources as role duties. The exercise checks five fictional repairs, not MPT eligibility.\n\nMD Center for Media Literacy & Education Student Fellow\n\nOfficial application/program route. This may require an employer account and its terms. No application, message or agreement is sent by OpportunityBridge.\n\nOpen the official application or program \u2197Reinspect the official announcement \u2197\n\nA route is a suggested learning plan, not an employment match, placement or eligibility prediction."
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T08",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Internships OR fellowships AND paid; exact reset",
+      "observed": {
+        "filters": "Active filters \u00b7 Internships \u00b7 Fellowships \u00b7 paid: paid. Category chips combine with OR; other filters combine with AND.",
+        "ids": [
+          "doe-suli",
+          "nih-sip",
+          "mpt-media",
+          "mpt-motorweek"
+        ],
+        "pressed": [
+          "internships",
+          "fellowships"
+        ],
+        "resetMatches": true
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T09",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Opt-in route, captured fictional draft and checked receipt survive reload",
+      "observed": {
+        "summary": "Welcome back. You have 1 checked learning record and 0 saved opportunities. Pick up where you left off.",
+        "ledger": "1/3 activities completed \u00b7 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source Detective",
+        "source": "MD Center for Media Literacy & Education Student Fellow",
+        "interest": null
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T10",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Export actual JSON, delete device copy and reload empty",
+      "observed": {
+        "file": "baseline-journey.json",
+        "afterReload": "Working journey \u00b7 0 checked learning records \u00b7 0 saved sources \u00b7 0 explicitly captured fictional Passport drafts."
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T11",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Native import of actual generated file restores fictional draft; unverified zero XP",
+      "observed": {
+        "status": "Journey imported into working memory. Imported learning records and milestones are unverified, earn no XP, and need replay. Saving remains off until you opt in.",
+        "ledger": "0/3 activities completed \u00b7 0 learning XP. Product progress only; no employer-recognized credential.\n\nImported / unverified \u00b7 replay: Source Detective",
+        "source": "MD Center for Media Literacy & Education Student Fellow"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "T12",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "MPT26-008996-0007 actual handoff with documents/unknowns",
+      "observed": {
+        "file": "baseline-mpt-handoff.md",
+        "sourceMatches": true,
+        "unknown": true,
+        "documents": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "quests": [
+    {
+      "id": "Q1",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Five successful checks and first 30 XP",
+      "observed": {
+        "ledger": "1/3 activities completed \u00b7 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source Detective",
+        "feedback": "Exercise complete \u2014 the checked learning actions are recorded.\n\n\u2713 The frozen reviewed substitution uses 30 accredited college credits.\n\n\u2713 Those credits may replace the six-month administrative-experience requirement.\n\n\u2713 The official recruitment supports this substitution; a general job-board title does not.\n\n\u2713 Applicant records, high-school/equivalency and other source conditions are not established by the scenario.\n\n\u2713 A substitution is not proof of overall eligibility or a hiring guarantee.\n\nFirst completion recorded. Replays do not duplicate the learning record."
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "Q2",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Wrong answers fail; correct replay adds no XP",
+      "observed": {
+        "negative": "Keep exploring \u2014 these checks need attention.\n\n\u25cb The frozen reviewed substitution uses 30 accredited college credits.\n\n\u25cb Those credits may replace the six-month administrative-experience requirement.\n\n\u25cb The official recruitment supports this substitution; a general job-board title does not.\n\n\u25cb Applicant records, high-school/equivalency and other source conditions are not established by the scenario.\n\n\u25cb A substitution is not proof of overall eligibility or a hiring guarantee.\n\nNo completion recorded. Every essential check must pass.",
+        "replayed": "1/3 activities completed \u00b7 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source Detective"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "Q3",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Five repairs, 40 new XP, safe real HTML",
+      "observed": {
+        "ledger": "2/3 activities completed \u00b7 70 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source DetectiveSkill Builder \u00b7 Build an Accessibility Artifact",
+        "file": "baseline-repaired.html",
+        "label": true,
+        "heading": true,
+        "noExternalOrScript": true
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "Q4",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "Empty and separately unsupported claim reject completion",
+      "observed": {
+        "empty": "Keep exploring \u2014 these checks need attention.\n\n\u25cb Describe the fictional learner\u2019s concrete classroom, mentoring or research activity (at least 20 characters).\n\n\u25cb Choose a skill associated with the reviewed MPT source.\n\n\u25cb Choose an actual reviewed MPT condition or role duty; a duty is not a minimum qualification.\n\n\u25cb Describe a proposed sample and what it would show (at least 20 characters).\n\n\u25cb Write a specific human-verification question (at least 15 characters).\n\n\u2713 Unsupported hiring or certified-eligibility phrases must be absent. This limited check cannot verify every claim.\n\nNo completion recorded. Every essential check must pass.",
+        "unsupported": "Keep exploring \u2014 these checks need attention.\n\n\u2713 Describe the fictional learner\u2019s concrete classroom, mentoring or research activity (at least 20 characters).\n\n\u2713 Choose a skill associated with the reviewed MPT source.\n\n\u2713 Choose an actual reviewed MPT condition or role duty; a duty is not a minimum qualification.\n\n\u2713 Describe a proposed sample and what it would show (at least 20 characters).\n\n\u2713 Write a specific human-verification question (at least 15 characters).\n\n\u25cb Unsupported hiring or certified-eligibility phrases must be absent. This limited check cannot verify every claim.\n\nNo completion recorded. Every essential check must pass.",
+        "ledger": "2/3 activities completed \u00b7 70 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source DetectiveSkill Builder \u00b7 Build an Accessibility Artifact"
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "Q5",
+      "actions": "Actual public app controls; frozen discovery mode",
+      "expected": "40 new XP, total110, three records and populated fictional Passport",
+      "observed": {
+        "ledger": "3/3 activities completed \u00b7 110 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer \u00b7 Source DetectiveSkill Builder \u00b7 Build an Accessibility ArtifactEvidence Planner \u00b7 Career Evidence Builder",
+        "visibleFields": 10,
+        "experience": "Fictional classroom HTML guide with test notes for peers."
+      },
+      "status": "PASS"
+    }
+  ],
+  "confirmedDefects": [
+    {
+      "issue": "Save state ambiguity",
+      "observed": {
+        "status": "Journey saved on this device. Fictional Passport changes require the explicit draft-save button.",
+        "typedArtifact": "Proposed UPDATED fictional resource page, not yet explicitly captured.",
+        "measurementNote": "Typed through fill(); do not infer textarea.value from innerText. Captured text was independently inspected in actual exported JSON and after reload."
+      },
+      "restoredCapturedArtifact": "Proposed educational resource page with source links and test notes.",
+      "explanation": "Editing a captured Passport left a generic saved status while the new text was not included in the explicit saved snapshot."
+    }
+  ]
+}

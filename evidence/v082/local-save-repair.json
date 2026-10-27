@@ -1,0 +1,8 @@
+{
+  "uncaptured": "Saving enabled. Current route, saved sources and learning progress are saved. Passport: current draft NOT captured. Its text is not in the saved journey or Journey export.",
+  "captured": "Saving enabled. Current route, saved sources and learning progress are saved. Passport: current fictional draft explicitly captured and saved on this device.",
+  "edited": "Saving enabled. Current route, saved sources and learning progress are saved. Passport: unsaved session changes. Only the last captured snapshot is saved on this device. Capture again to include current edits.",
+  "memoryReset": "Saving off. Current route and learning progress are in this working session only. A previous device copy remains: reload to resume or delete it. Passport: no current draft to capture.",
+  "memoryResetReload": "Welcome back. You have 0 checked learning records and 0 saved opportunities. Pick up where you left off.",
+  "fullResetReload": "Working journey · 0 checked learning records · 0 saved sources · 0 explicitly captured fictional Passport drafts."
+}

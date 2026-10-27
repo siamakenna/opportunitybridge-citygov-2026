@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "opportunitybridge-passport-0.8",
+  "productVersion": "0.8.2",
+  "type": "Evidence planning document — not a credential or eligibility decision",
+  "generatedAt": "2026-10-27T18:12:32.306Z",
+  "sourceCatalogRevision": "local",
+  "source": {
+    "id": "26-008996-0007",
+    "title": "MD Center for Media Literacy & Education Student Fellow",
+    "employer": "Maryland Public Television",
+    "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+    "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=008996&RecruitNum3=0007",
+    "reviewedAt": "2026-10-27T00:22:27.538Z",
+    "status": "Verified from official source",
+    "mappingApproved": true,
+    "mappingSourceHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+  },
+  "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+  "declarations": {},
+  "connections": [
+    {
+      "experience": "Fictional classroom HTML guide with test notes for peers.",
+      "skill": "software",
+      "target": "Build educational web resource collections using HTML.",
+      "roleTask": true,
+      "reviewedExcerpt": null,
+      "artifact": "Proposed educational resource page with source links and test notes.",
+      "humanQuestion": "Which further conditions and documents should MPT verify?",
+      "interpretation": "Draft connection complete — human verification still required",
+      "unknowns": [],
+      "savedJourneySource": {
+        "id": "26-008996-0007",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "reviewedAt": "2026-10-27T00:22:27.538Z",
+        "mappingHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+        "catalogRevision": "local",
+        "origin": "imported-unverified"
+      },
+      "questReceipt": null,
+      "story": null
+    },
+    {
+      "experience": "Created an HTML guide for a classroom project teaching accessible headings and alternative text.",
+      "skill": "software",
+      "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+      "roleTask": true,
+      "reviewedExcerpt": null,
+      "artifact": "An accessible educational webpage demonstrating headings, labeled controls and documented keyboard testing.",
+      "humanQuestion": "Which accessibility deliverables would a new media literacy fellow be expected to prepare?",
+      "interpretation": "Draft connection complete — human verification still required",
+      "unknowns": [],
+      "savedJourneySource": null,
+      "questReceipt": {
+        "questId": "evidence",
+        "questVersion": "0.8.1",
+        "sourceSnapshot": {
+          "id": "26-008996-0007",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "reviewedAt": "2026-10-27T00:22:27.538Z",
+          "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+        },
+        "simulation": true
+      },
+      "story": null
+    }
+  ],
+  "conditionReview": [
+    {
+      "label": "Student / recent-graduate route and weekly commitment",
+      "required": true,
+      "state": "unknown",
+      "reason": "This condition needs a human review of the complete official source."
+    }
+  ],
+  "documents": [
+    {
+      "text": "College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: résumé.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: academic or professional recommendation.",
+      "preparedSelfDeclared": false
+    },
+    {
+      "text": "College applicants: unofficial transcript.",
+      "preparedSelfDeclared": false
+    }
+  ],
+  "nextSteps": [
+    {
+      "action": "Recheck the full official source, identity, deadline and all conditions.",
+      "due": "2026-10-27T18:12:32.306Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+      "due": "2026-10-28T18:12:32.306Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Draft a truthful work sample and assemble the required documents.",
+      "due": "2026-10-30T18:12:32.306Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Have a human review the packet, accessibility needs and remaining questions.",
+      "due": "2026-11-03T18:12:32.306Z",
+      "kind": "personal target — not an employer deadline"
+    },
+    {
+      "action": "Use the official application only if appropriate; no application is sent by this tool.",
+      "due": "2026-11-10T18:12:32.306Z",
+      "kind": "personal target — not an employer deadline"
+    }
+  ],
+  "unknowns": [
+    "Student / recent-graduate route and weekly commitment: This condition needs a human review of the complete official source."
+  ],
+  "humanReviewRequired": true,
+  "independentParticipants": 0
+}

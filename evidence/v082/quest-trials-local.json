@@ -1,0 +1,727 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "run": 1,
+      "fixtureSha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366",
+      "releaseRevision": "local",
+      "discoveryClock": "2026-10-27T02:00:00Z",
+      "context": "fresh same-origin iframe document; no persistence, shared browser cache",
+      "steps": [
+        {
+          "task": "01 Homepage and three playable quests",
+          "status": "PASS"
+        },
+        {
+          "task": "02 Select interest; reorder without eligibility",
+          "status": "PASS"
+        },
+        {
+          "task": "03 Find legitimate source-reviewed fellowship",
+          "status": "PASS"
+        },
+        {
+          "task": "04a Legacy student filter excludes INTERNAL false positives",
+          "status": "PASS"
+        },
+        {
+          "task": "04b Internship chip excludes INTERNAL false positives",
+          "status": "PASS"
+        },
+        {
+          "task": "05 Free short courses are training, not jobs",
+          "status": "PASS"
+        },
+        {
+          "task": "06 Paid short projects show truthful empty state and directory fallback",
+          "status": "PASS"
+        },
+        {
+          "task": "07a Exact normalized title finds one approved record",
+          "status": "PASS"
+        },
+        {
+          "task": "07b Directory identity is distinct from an individual opening",
+          "status": "PASS"
+        },
+        {
+          "task": "08a Empty answers cannot earn completion",
+          "status": "PASS"
+        },
+        {
+          "task": "08b Source Detective correct; repeat cannot farm XP",
+          "status": "PASS"
+        },
+        {
+          "task": "09 Five real preview repairs completed",
+          "status": "PASS"
+        },
+        {
+          "task": "10a Empty Evidence Builder cannot complete",
+          "status": "PASS"
+        },
+        {
+          "task": "10b Evidence quest completes only with valid populated source chain",
+          "status": "PASS"
+        },
+        {
+          "task": "10c Passport exposes all five transferred fields",
+          "status": "PASS"
+        },
+        {
+          "task": "11 Historical exercise appended with original attribution",
+          "status": "PASS"
+        },
+        {
+          "task": "12 Advisor Studio preserves unresolved eligibility",
+          "status": "PASS"
+        },
+        {
+          "task": "13 Actual generated JSON Blob obtained",
+          "status": "PASS"
+        },
+        {
+          "task": "14 JSON schema, source, quest receipt, historical attribution and unknown verified",
+          "status": "PASS"
+        },
+        {
+          "task": "14b Actual Markdown includes learning receipt",
+          "status": "PASS"
+        },
+        {
+          "task": "14c Versioned progress stores actual checks and source snapshots",
+          "status": "PASS"
+        },
+        {
+          "task": "14d No automated third-party resources",
+          "status": "PASS"
+        },
+        {
+          "task": "15 Full reset clears quests, ledger and Passport",
+          "status": "PASS"
+        },
+        {
+          "task": "16 Initial catalog order/count and quest state restored",
+          "status": "PASS"
+        }
+      ],
+      "filteredIds": {
+        "initial": [
+          "service-directory",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it",
+          "parker-directory",
+          "apprenticeship-directory",
+          "md-admin3",
+          "26-002554-0006",
+          "doe-suli",
+          "nih-sip",
+          "26-005430-0045",
+          "26-003003-0012"
+        ],
+        "fellowIds": [
+          "mpt-media",
+          "mpt-motorweek"
+        ],
+        "courseIds": [
+          "forage-data",
+          "openlearn-it"
+        ]
+      },
+      "passport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:11:13.445Z",
+        "sourceCatalogRevision": "local",
+        "source": {
+          "id": "26-008996-0007",
+          "title": "MD Center for Media Literacy & Education Student Fellow",
+          "employer": "Maryland Public Television",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=008996&RecruitNum3=0007",
+          "reviewedAt": "2026-10-27T00:22:27.538Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional classroom HTML guide with documented keyboard checks for peers.",
+            "skill": "software",
+            "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+            "roleTask": true,
+            "reviewedExcerpt": null,
+            "artifact": "Proposed accessible library resource page with test notes and source links.",
+            "humanQuestion": "Which further conditions and documents must MPT and an advisor verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": null,
+            "questReceipt": {
+              "questId": "evidence",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-008996-0007",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+                "reviewedAt": "2026-10-27T00:22:27.538Z",
+                "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+              },
+              "simulation": true
+            },
+            "story": null
+          },
+          {
+            "experience": "",
+            "skill": "software",
+            "target": "Unselected / unknown",
+            "roleTask": false,
+            "reviewedExcerpt": null,
+            "artifact": "OpportunityBridge recommendation: build a fictional checklist-to-source report using public documents, with traceable citations.",
+            "humanQuestion": "How does this proposed exercise relate to the selected employer source?",
+            "interpretation": "Connection needs clarification",
+            "unknowns": [
+              "Experience has not been declared.",
+              "No valid source requirement or role task selected."
+            ],
+            "savedJourneySource": null,
+            "questReceipt": null,
+            "story": {
+              "name": "Gargi Mahadeshwar",
+              "source": "https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows",
+              "sourceType": "NIH institutional project report",
+              "documentedWork": "NIH documents her desktop application generating PDF checklist reports with hyperlinked supporting passages.",
+              "recommendedExercise": "OpportunityBridge recommendation: build a fictional checklist-to-source report using public documents, with traceable citations.",
+              "career": "This source establishes a deliverable, not a subsequent job outcome.",
+              "unknown": "No hiring outcome or independent user-impact measurement is documented here.",
+              "relationship": "Historical analogy only. This proposed exercise is not the fellow’s artifact. It is not the current vacancy, an endorsement or a learner accomplishment."
+            }
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "Student / recent-graduate route and weekly commitment",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: résumé.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: academic or professional recommendation.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: unofficial transcript.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:11:13.445Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:11:13.445Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:11:13.445Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:11:13.445Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-10T18:11:13.445Z",
+            "kind": "personal target — not an employer deadline"
+          }
+        ],
+        "unknowns": [
+          "Student / recent-graduate route and weekly commitment: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "ledger": {
+        "schemaVersion": "opportunitybridge-progress-0.8",
+        "sourceCatalogRevision": "local",
+        "records": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:11:13.331Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          },
+          {
+            "key": "accessibility@0.8.1",
+            "questId": "accessibility",
+            "questVersion": "0.8.1",
+            "checks": {
+              "alt": true,
+              "contrast": true,
+              "heading": true,
+              "link": true,
+              "label": true
+            },
+            "sourceSnapshot": {
+              "id": "26-008996-0007",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z",
+              "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+            },
+            "completedAt": "2026-10-27T18:11:13.347Z",
+            "notes": "",
+            "xp": 40,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          },
+          {
+            "key": "evidence@0.8.1",
+            "questId": "evidence",
+            "questVersion": "0.8.1",
+            "checks": {
+              "experience": true,
+              "skill": true,
+              "source": true,
+              "artifact": true,
+              "question": true,
+              "claims": true
+            },
+            "sourceSnapshot": {
+              "id": "26-008996-0007",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z",
+              "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+            },
+            "completedAt": "2026-10-27T18:11:13.407Z",
+            "notes": "",
+            "xp": 40,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          }
+        ],
+        "independentParticipants": 0
+      },
+      "metrics": {
+        "initialCLS": 0,
+        "searchableCatalogMs": 436.6000000014901,
+        "initialDomContentLoadedMs": 280.19999999552965,
+        "initialLoadMs": 325.5,
+        "searchFilterDomMs": 26.599999994039536,
+        "openQuestDomMs": 12,
+        "passportUpdateDomMs": 0.7999999970197678,
+        "exportGenerationDomMs": 5.5,
+        "encodedResourceBytes": 319448,
+        "transferredResourceBytes": 326348,
+        "resourceCount": 24,
+        "encodedPageAndResourceBytes": 339365,
+        "transferredPageAndResourceBytes": 346565
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "viewport": {
+          "width": 1287,
+          "height": 780
+        },
+        "network": "unthrottled; shared browser cache; not a physical phone"
+      },
+      "independentParticipants": 0
+    },
+    {
+      "run": 2,
+      "fixtureSha256": "786d492fb5fdfa10783b16975aa723b7933e0710dc6e2bbcb4fad5325144c366",
+      "releaseRevision": "local",
+      "discoveryClock": "2026-10-27T02:00:00Z",
+      "context": "fresh same-origin iframe document; no persistence, shared browser cache",
+      "steps": [
+        {
+          "task": "01 Homepage and three playable quests",
+          "status": "PASS"
+        },
+        {
+          "task": "02 Select interest; reorder without eligibility",
+          "status": "PASS"
+        },
+        {
+          "task": "03 Find legitimate source-reviewed fellowship",
+          "status": "PASS"
+        },
+        {
+          "task": "04a Legacy student filter excludes INTERNAL false positives",
+          "status": "PASS"
+        },
+        {
+          "task": "04b Internship chip excludes INTERNAL false positives",
+          "status": "PASS"
+        },
+        {
+          "task": "05 Free short courses are training, not jobs",
+          "status": "PASS"
+        },
+        {
+          "task": "06 Paid short projects show truthful empty state and directory fallback",
+          "status": "PASS"
+        },
+        {
+          "task": "07a Exact normalized title finds one approved record",
+          "status": "PASS"
+        },
+        {
+          "task": "07b Directory identity is distinct from an individual opening",
+          "status": "PASS"
+        },
+        {
+          "task": "08a Empty answers cannot earn completion",
+          "status": "PASS"
+        },
+        {
+          "task": "08b Source Detective correct; repeat cannot farm XP",
+          "status": "PASS"
+        },
+        {
+          "task": "09 Five real preview repairs completed",
+          "status": "PASS"
+        },
+        {
+          "task": "10a Empty Evidence Builder cannot complete",
+          "status": "PASS"
+        },
+        {
+          "task": "10b Evidence quest completes only with valid populated source chain",
+          "status": "PASS"
+        },
+        {
+          "task": "10c Passport exposes all five transferred fields",
+          "status": "PASS"
+        },
+        {
+          "task": "11 Historical exercise appended with original attribution",
+          "status": "PASS"
+        },
+        {
+          "task": "12 Advisor Studio preserves unresolved eligibility",
+          "status": "PASS"
+        },
+        {
+          "task": "13 Actual generated JSON Blob obtained",
+          "status": "PASS"
+        },
+        {
+          "task": "14 JSON schema, source, quest receipt, historical attribution and unknown verified",
+          "status": "PASS"
+        },
+        {
+          "task": "14b Actual Markdown includes learning receipt",
+          "status": "PASS"
+        },
+        {
+          "task": "14c Versioned progress stores actual checks and source snapshots",
+          "status": "PASS"
+        },
+        {
+          "task": "14d No automated third-party resources",
+          "status": "PASS"
+        },
+        {
+          "task": "15 Full reset clears quests, ledger and Passport",
+          "status": "PASS"
+        },
+        {
+          "task": "16 Initial catalog order/count and quest state restored",
+          "status": "PASS"
+        }
+      ],
+      "filteredIds": {
+        "initial": [
+          "service-directory",
+          "forage-data",
+          "openlearn-cyber",
+          "openlearn-it",
+          "parker-directory",
+          "apprenticeship-directory",
+          "md-admin3",
+          "26-002554-0006",
+          "doe-suli",
+          "nih-sip",
+          "26-005430-0045",
+          "26-003003-0012"
+        ],
+        "fellowIds": [
+          "mpt-media",
+          "mpt-motorweek"
+        ],
+        "courseIds": [
+          "forage-data",
+          "openlearn-it"
+        ]
+      },
+      "passport": {
+        "schemaVersion": "opportunitybridge-passport-0.8",
+        "productVersion": "0.8.2",
+        "type": "Evidence planning document — not a credential or eligibility decision",
+        "generatedAt": "2026-10-27T18:11:14.666Z",
+        "sourceCatalogRevision": "local",
+        "source": {
+          "id": "26-008996-0007",
+          "title": "MD Center for Media Literacy & Education Student Fellow",
+          "employer": "Maryland Public Television",
+          "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "applicationUrl": "https://www.jobapscloud.com/MD/newregpages/termsofuse.asp?RecruitNum1=26&RecruitNum2=008996&RecruitNum3=0007",
+          "reviewedAt": "2026-10-27T00:22:27.538Z",
+          "status": "Verified from official source",
+          "mappingApproved": true,
+          "mappingSourceHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+        },
+        "method": "Deterministic field completeness and selected source-bound rules. No live model, semantic eligibility match or independently verified learner evidence.",
+        "declarations": {},
+        "connections": [
+          {
+            "experience": "Fictional classroom HTML guide with documented keyboard checks for peers.",
+            "skill": "software",
+            "target": "Support accessible web content, videos and PDFs; assist with Moodle course work.",
+            "roleTask": true,
+            "reviewedExcerpt": null,
+            "artifact": "Proposed accessible library resource page with test notes and source links.",
+            "humanQuestion": "Which further conditions and documents must MPT and an advisor verify?",
+            "interpretation": "Draft connection complete — human verification still required",
+            "unknowns": [],
+            "savedJourneySource": null,
+            "questReceipt": {
+              "questId": "evidence",
+              "questVersion": "0.8.1",
+              "sourceSnapshot": {
+                "id": "26-008996-0007",
+                "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+                "reviewedAt": "2026-10-27T00:22:27.538Z",
+                "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+              },
+              "simulation": true
+            },
+            "story": null
+          },
+          {
+            "experience": "",
+            "skill": "software",
+            "target": "Unselected / unknown",
+            "roleTask": false,
+            "reviewedExcerpt": null,
+            "artifact": "OpportunityBridge recommendation: build a fictional checklist-to-source report using public documents, with traceable citations.",
+            "humanQuestion": "How does this proposed exercise relate to the selected employer source?",
+            "interpretation": "Connection needs clarification",
+            "unknowns": [
+              "Experience has not been declared.",
+              "No valid source requirement or role task selected."
+            ],
+            "savedJourneySource": null,
+            "questReceipt": null,
+            "story": {
+              "name": "Gargi Mahadeshwar",
+              "source": "https://datascience.nih.gov/meet-coding-it-forward-civic-digital-fellows",
+              "sourceType": "NIH institutional project report",
+              "documentedWork": "NIH documents her desktop application generating PDF checklist reports with hyperlinked supporting passages.",
+              "recommendedExercise": "OpportunityBridge recommendation: build a fictional checklist-to-source report using public documents, with traceable citations.",
+              "career": "This source establishes a deliverable, not a subsequent job outcome.",
+              "unknown": "No hiring outcome or independent user-impact measurement is documented here.",
+              "relationship": "Historical analogy only. This proposed exercise is not the fellow’s artifact. It is not the current vacancy, an endorsement or a learner accomplishment."
+            }
+          }
+        ],
+        "conditionReview": [
+          {
+            "label": "Student / recent-graduate route and weekly commitment",
+            "required": true,
+            "state": "unknown",
+            "reason": "This condition needs a human review of the complete official source."
+          }
+        ],
+        "documents": [
+          {
+            "text": "College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: résumé.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: academic or professional recommendation.",
+            "preparedSelfDeclared": false
+          },
+          {
+            "text": "College applicants: unofficial transcript.",
+            "preparedSelfDeclared": false
+          }
+        ],
+        "nextSteps": [
+          {
+            "action": "Recheck the full official source, identity, deadline and all conditions.",
+            "due": "2026-10-27T18:11:14.666Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Ask an advisor or employer about unresolved qualifications and substitutions.",
+            "due": "2026-10-28T18:11:14.666Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Draft a truthful work sample and assemble the required documents.",
+            "due": "2026-10-30T18:11:14.666Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Have a human review the packet, accessibility needs and remaining questions.",
+            "due": "2026-11-03T18:11:14.666Z",
+            "kind": "personal target — not an employer deadline"
+          },
+          {
+            "action": "Use the official application only if appropriate; no application is sent by this tool.",
+            "due": "2026-11-10T18:11:14.666Z",
+            "kind": "personal target — not an employer deadline"
+          }
+        ],
+        "unknowns": [
+          "Student / recent-graduate route and weekly commitment: This condition needs a human review of the complete official source."
+        ],
+        "humanReviewRequired": true,
+        "independentParticipants": 0
+      },
+      "ledger": {
+        "schemaVersion": "opportunitybridge-progress-0.8",
+        "sourceCatalogRevision": "local",
+        "records": [
+          {
+            "key": "source@0.8.1",
+            "questId": "source",
+            "questVersion": "0.8.1",
+            "checks": {
+              "credits": true,
+              "months": true,
+              "evidence": true,
+              "applicant": true,
+              "assumption": true
+            },
+            "sourceSnapshot": {
+              "id": "26-001755-0041",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+              "reviewedAt": "2026-10-27T00:22:27.535Z",
+              "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+            },
+            "completedAt": "2026-10-27T18:11:14.621Z",
+            "notes": "",
+            "xp": 30,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          },
+          {
+            "key": "accessibility@0.8.1",
+            "questId": "accessibility",
+            "questVersion": "0.8.1",
+            "checks": {
+              "alt": true,
+              "contrast": true,
+              "heading": true,
+              "link": true,
+              "label": true
+            },
+            "sourceSnapshot": {
+              "id": "26-008996-0007",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z",
+              "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+            },
+            "completedAt": "2026-10-27T18:11:14.629Z",
+            "notes": "",
+            "xp": 40,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          },
+          {
+            "key": "evidence@0.8.1",
+            "questId": "evidence",
+            "questVersion": "0.8.1",
+            "checks": {
+              "experience": true,
+              "skill": true,
+              "source": true,
+              "artifact": true,
+              "question": true,
+              "claims": true
+            },
+            "sourceSnapshot": {
+              "id": "26-008996-0007",
+              "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+              "reviewedAt": "2026-10-27T00:22:27.538Z",
+              "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+            },
+            "completedAt": "2026-10-27T18:11:14.636Z",
+            "notes": "",
+            "xp": 40,
+            "type": "In-app learning progress — not a credential or employer endorsement"
+          }
+        ],
+        "independentParticipants": 0
+      },
+      "metrics": {
+        "initialCLS": 0,
+        "searchableCatalogMs": 203.10000000149012,
+        "initialDomContentLoadedMs": 57.900000005960464,
+        "initialLoadMs": 95.70000000298023,
+        "searchFilterDomMs": 25.30000000447035,
+        "openQuestDomMs": 7.9000000059604645,
+        "passportUpdateDomMs": 0.7000000029802322,
+        "exportGenerationDomMs": 8.100000001490116,
+        "encodedResourceBytes": 319448,
+        "transferredResourceBytes": 319152,
+        "resourceCount": 24,
+        "encodedPageAndResourceBytes": 339365,
+        "transferredPageAndResourceBytes": 339369
+      },
+      "environment": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+        "viewport": {
+          "width": 1287,
+          "height": 780
+        },
+        "network": "unthrottled; shared browser cache; not a physical phone"
+      },
+      "independentParticipants": 0
+    }
+  ],
+  "reproducibility": {
+    "sameFixture": true,
+    "sameIds": true,
+    "samePassport": true,
+    "sameLedger": true,
+    "normalization": "Remove generatedAt, completedAt and personal due timestamps recursively. Preserve checks, answer interpretation, schemas, source IDs/dates/hashes, release SHA and unknowns."
+  },
+  "independentParticipants": 0
+}

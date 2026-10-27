@@ -27,3 +27,8 @@ The explained relevance order is a stable lexicographic sequence: selected goal,
 The new browser harness performs two fresh, same-origin iframe trials with the fixed `data/trial-v08.json`, discovery clock 2026-10-27T12:00:00Z, tech interest, fictional source-reading exercise and absent journey storage key. It exercises all 15 required tasks, including real reload, generated JSON Blobs, storage deletion, file-input import, unverified receipt and complete reset. Separate UI-driven actual downloads/import/new-tab checks inspect files on disk. It normalizes only generatedAt, completedAt, savedAt and personal due timestamps; source dates, hashes, versions, checks and unknowns stay exact. Timings are synthetic, unthrottled and share browser cache.
 
 The 117 previous Node checks, six Python checks and 96 browser assertions remain required alongside 16 new journey tests. Classification and safe journey tests are explicit blocking steps in both publishing workflows. Independent unfamiliar participants remain **n=0**. No learning, return, employment, equity or causal speed benefit is established by these software trials.
+
+
+## v0.8.2 repair
+
+Product0.8.1 Journey data migrates to0.8.2; schema and learning version0.8.1 remain compatible. A content-only capture comparison ignores display provenance, reports current uncaptured/edited text, and never silently captures it. Reset working session pauses saving and preserves the existing device copy; Delete saved device copy leaves working memory; Delete everything resets both. Native input selection enters a validating status before accepted/rejected feedback. Active filter/count feedback and focus retention are repaired. See V082_AUDIT_REPORT.md for actual pre/post checks and unavailable zoom/AT tests.

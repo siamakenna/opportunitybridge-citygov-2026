@@ -1,4 +1,4 @@
-# OpportunityBridge: Career Constellation · v0.8.1
+# OpportunityBridge: Career Constellation · v0.8.2
 
 A source-grounded civic-career prototype for Team Kenny!, CityGov Hackathon 2026. Continue the existing [app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) and [judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html). No account, paid service or live language-model agent.
 
@@ -31,3 +31,8 @@ Independent unfamiliar participants **n=0**. Internal mock **87/100**, not an of
 ## Current v0.8.1 Career Constellation
 
 Two alternative routes per interest, six actionable node types, optional local save/resume and strict Journey JSON import/export are implemented. Saving is off by default; fictional Passport drafts require an explicit capture. Imported achievements stay unverified/no XP. Source mapping dates remain unchanged. See [current method](docs/CAREER_CONSTELLATION_METHOD.md) and [execution report](docs/EXECUTION_REPORT.md) for evidence and limits. Independent n=0; mock 87/100.
+
+
+## Targeted v0.8.2 audit
+
+See [audit](docs/V082_AUDIT_REPORT.md), [official compliance](docs/SUBMISSION_COMPLIANCE_v082.md) and [fresh87/100 mock](docs/V082_JUDGING_REVIEW.md). Save-state, restore/file explanations, deletion scopes and focus are repaired.136 Node/6 Python checks; all96 preserved browser assertions. No major features or score inflation. v0.8.1 rollback retained.
