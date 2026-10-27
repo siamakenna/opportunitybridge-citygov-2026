@@ -1,10 +1,11 @@
 {
   "name": "opportunitybridge-citygov",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "type": "module",
   "description": "Evidence-linked civic workforce pathway prototype for CityGov Hackathon 2026",
   "scripts": {
+    "test:classification": "node --test tests/taxonomy.test.js",
     "test": "node --test tests/*.test.js && python3 -m unittest discover -s tests -p '*_test.py'",
     "start": "python3 -m http.server 5173",
     "benchmark": "node scripts/benchmark.mjs && node scripts/real-benchmark.mjs",

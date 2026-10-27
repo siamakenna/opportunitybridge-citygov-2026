@@ -18,3 +18,9 @@ Spacing: 6/12/20/32/56px. Corners: 8/18/28px. System typography: Avenir Next, Se
 New information hierarchy: expressive two-journey hero → dated Pulse and review levels → reviewed source library → one Passport stage at a time → inspectable evidence map/text equivalent → Advisor Studio → attributed stories and proposed pilot. Shared navigation and breadcrumbs preserve context across pages.
 
 The path line animates once on entry; hover motion is small and all animation/transitions are disabled under prefers-reduced-motion. New controls retain native keyboard behavior. Rendered contrast/reflow findings and limitations are in the execution report; design tokens alone do not establish accessibility certification.
+
+## v0.8 Career Quest
+
+Gold #FFD36C is reserved for optional learning progress and the Try destination, always with navy text. Four selectable Explore/Try/Build/Launch destinations lead to working controls. Three main cards use a consistent shape, numbered marker, time estimate, state, source-focused objective and Play button; the journey links remain freely navigable. Plain learning view replaces the grid with a list and hides XP/decoration. Predefined library content is a local interactive example, not an external iframe or real service.
+
+Quest workbenches show controls and a forming preview, with 44px minimum game controls, explicit labels, constructive status feedback, wrapped source hashes, reduced-motion overrides and responsive collapse. Passport offers all fields or guided stages, live source/unknown previews and direct resets. Supplementary records have visible type/provenance and directory/training distinctions. Interest/category changes never imply eligibility.

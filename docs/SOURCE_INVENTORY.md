@@ -33,3 +33,7 @@ Daily 14:17 UTC GitHub workflow source-check.yml creates a step summary and seve
 ## v0.7 discovery boundary
 
 Approved catalog and qualification-review dates above are unchanged. Opportunity Pulse separately observes the advertised Maryland RSS metadata; initial331items yielded320 strict normalized recruitment identities. Those leads are not individually reviewed jobs. See PULSE_SOURCES.md and the dated/hash-bound public data/pulse.json. Runtime holds can suppress interpretation on a newer changed/unavailable/unreviewed observation without editing the approved source artifact.
+
+## v0.8 supplementary coverage
+
+See SUPPLEMENTARY_SOURCES.md for actual October 26 ET public-page observations. Three additional individual learning resources (OpenLearn IT, OpenLearn cyber security, Forage Deloitte data simulation), plus three outbound directory routes (Parker Dewey, Apprenticeship.gov, AmeriCorps). Direct AmeriCorps retrieval returned 403 and remains recheck-needed. No individual short paid project or additional public feed verified. USAJOBS credentials unavailable. Courses/directories are never counted as jobs/openings. Twelve qualification-review dates and mappings unchanged.

@@ -32,6 +32,8 @@ jobs:
           if-no-files-found: error
 
       - uses: actions/configure-pages@v5
+      - name: Release blocker — taxonomy regressions
+        run: npm run test:classification
       - run: npm test
       - run: npm run sources
       - run: npm run build

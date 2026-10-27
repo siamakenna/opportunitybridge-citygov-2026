@@ -36,3 +36,15 @@ The 150-second v0.7 video is six authentic local-app captures, assembled as a sc
 For a 5–7-minute finalist presentation: spend 45 seconds on the network/qualification interpretation barrier; 75 seconds on dated Pulse, discovery versus approved mappings and “What changed?”; 90 seconds building a Passport and inspecting one map node/text equivalent; 45 seconds on NIH's actual deliverable and the separately labeled proposed exercise; 60 seconds on Advisor Studio, the real download and an insufficient-information handoff; 60 seconds on the 60-day pilot, $6,240 budget and independent n=0. Close with steward/source review and actual unfamiliar-user/partner evidence still needed. Rehearse with a clock; these written timings are not a measured performance.
 
 Q&A: Pulse is a scheduled public-RSS snapshot, not live or comprehensive. USAJOBS is disabled pending owner-approved credentials. A recent feed date never renews a source qualification review. Passport is a local planning document, not a credential. Ready for discussion never means eligible. The software sends no application or advising message. A page hash difference is not a verified requirement change. Independent participant count remains zero.
+
+## v0.8 180-second screenshot walkthrough and finalist update
+
+0:00–0:20: education/experience can be hard to translate into an employer's language; show original Career Quest identity and no-account access.
+0:20–0:40: choose among three real playable challenges; show optional plain view and freely navigable journey.
+0:40–1:10: complete Source Detective's five frozen-source checks; distinguish 30 credits/six months from actual applicant records and unsupported hiring guarantees.
+1:10–1:45: repair the fictional library preview and download the actual HTML exercise. Explain the five-check boundary and no WCAG certification.
+1:45–2:15: show a valid Evidence Builder source chain and all-field Passport transfer, original MPT snapshot and an unresolved human question.
+2:15–2:40: demonstrate the corrected internship taxonomy, free short courses and honest paid-project empty state/directory.
+2:40–3:00: real advisor handoff; proposed60-day/25-adult pilot, no host and n=0. No career or retention result claimed.
+
+5–7-minute finalist pitch: retain the problem, civic pilot roles, budget assumptions and Q&A. Spend the added live demonstration time on these three quests and actual exported receipts. Show the negative empty-field attempt and duplicate-completion behavior. Explain why INTERNAL is not intern, graduate is not entry level, and contractual is not a short paid project. Compare alternatives through their public docs without superiority claims. Close with the independent evidence and willing host needed next. No synthetic voices, users or testimonials.

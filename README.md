@@ -1,15 +1,24 @@
-# OpportunityBridge — Pulse, Evidence Passport & Career Studio
+# OpportunityBridge: Career Quest · v0.8
 
-CityGov2026 · Kenny! · v0.7. Existing repository and GitHub Pages hosting preserved. [Public app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) · [Guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html) · [Current captioned screenshot walkthrough](https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html).
+A source-grounded civic-career prototype for Team Kenny!, CityGov Hackathon 2026. Continue the existing [app](https://siamakenna.github.io/opportunitybridge-citygov-2026/) and [judge guide](https://siamakenna.github.io/opportunitybridge-citygov-2026/judge.html). No account, paid service or live language-model agent.
 
-Opportunity Pulse uses the advertised public Maryland RSS feed, with discovery/source-reviewed/preparation-ready levels. Initial331RSS items normalized to320 valid recruitment identities. A dated snapshot is not a live or comprehensive job search; unreviewed leads never receive qualification rules. The approved12-record catalog remains separate and its review dates are unchanged. Read [sources, permissions and failure behavior](docs/PULSE_SOURCES.md).
+The three playable quests are the centerpiece: Source Detective, a fictional accessibility repair sandbox with an actual downloadable HTML artifact, and Career Evidence Builder. Their checked results transfer to a source-bound Passport and human-advisor packet. A deterministic versioned ledger records actual learning checks once per session. No points for card clicks, eligibility, hiring worthiness or predicted career benefit. Plain learning view and conventional career tools remain accessible.
 
-Evidence Passport connects declared experience→skill→source target→proposed artifact→human question with a staged editor, interactive map/text equivalent, JSON/Markdown/print and source-bound receipts. Career Stories add attributed proposed exercises; Advisor Studio prepares questions without certifying eligibility. No runtime model, private profile database, automatic application or message. Drafts/saves stay in memory and reset on reload; exports are learner-controlled. One credential-free same-origin GET loads public snapshot metadata. Hosting/external-site policies still apply.
+The Student/Fellowship INTERNAL false-positive defect is a release blocker. Structured taxonomy and word boundaries preserve per-type provenance; graduate alone never establishes entry level, and contractual never establishes a short engagement. Both publishing workflows run the explicit classification gate. Discovery and approved qualification mappings stay separate.
 
-Run `npm start` at port5173; no install or API key needed. `npm test`:102Node and6Python tests. `npm run benchmark`:8real-source frozen fixtures and12practice judgments. `npm run sources`:schema/provenance only. `npm run sources:scan`:actual official observations; `npm run sources:prepare -- <id>` creates an unapproved candidate. Only explicit source-backed decisions authorize mapping/date changes. `npm run pulse:refresh` collects public RSS metadata; `npm run build` packages a versioned static site and binds the Pulse hash/date to source.json.
+Maryland's advertised RSS is the only connected feed. Twelve curated reviewed/pathway/history records retain their dates. Three source-reviewed learning resources and three directory routes supplement them; courses are not jobs and directories are not individual openings. Paid short-project discovery has an honest empty state and provider fallback.
 
-After build, open tests/real-browser.html(23),tests/browser.html(15),tests/evaluation-browser.html(9),tests/v06-browser.html(25),tests/v07-browser.html(24):96executed browser assertions. The daily workflow tests and publishes discovery snapshots only; no repository edits or automatic qualification approvals. A current-main guard prevents scheduled old-code deployment. USAJOBS is disabled without owner-approved credentials.
+## Run and verify
 
-Rollback:baseline-v0.6→6eae9654eb35669ba39787da914c828844514aae. Earlier tags/history remain. Independent unfamiliar participants n=0; internal mock87/100. No career/equity/efficiency outcome, independent accessibility approval or partner commitment. Proposed25adults/25sources/60days,$6,240economic/$500cash only with contributed labor. Existing pilot PDF/kit and Practice Mode retained.
+- `npm test`: 117 Node tests plus six Python feed tests.
+- `npm run test:classification`: release-blocking taxonomy regression cases.
+- `npm run sources`: schema/provenance; does not renew official sources.
+- `npm run benchmark`: eight frozen real-source cases and twelve fictional judgments.
+- `npm run build`: static distribution with one code revision across modules/styles.
+- `npm start`: serve repo, then open `/dist/index.html`.
+- `/tests/*-browser.html`: 96 preserved browser assertions.
+- `/dist/tests/v08-trial.html`: two fresh-document frozen trials, 24 checks each, actual generated exports and performance measurements. Public counterpart: `/tests/v08-trial.html`.
 
-[Execution report](docs/EXECUTION_REPORT.md) · [Design tokens](docs/DESIGN_SYSTEM.md) · [Source inventory](docs/SOURCE_INVENTORY.md) · [Evaluation](evaluation.html) · [Partner kit](pilot.html) · [Disclosure](docs/AI_DISCLOSURE.md) · [Mock rubric](docs/CITYGOV_RUBRIC_MATRIX.md) · [Owner decisions](docs/OWNER_ACTIONS.md).
+[Quest/taxonomy/reproducibility method](docs/CAREER_QUEST_METHOD.md), [sources](docs/SUPPLEMENTARY_SOURCES.md), [comparison](docs/COMPETITIVE_MATRIX.md), [execution report](docs/EXECUTION_REPORT.md), [release receipt](docs/RELEASE.md), [evaluation](docs/EVALUATION_PROTOCOL.md).
+
+Independent unfamiliar participants **n=0**. Internal mock **87/100**, not an official score. The owner-reported external automated estimate was approximately 85/100. No independent impact, retention, partner or accessibility outcome claimed. Existing CityGov entry remains draft-only until the owner authorizes final judging submission. Rollbacks v0.7.0 and baseline-v0.7 preserve the previous release.

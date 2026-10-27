@@ -61,3 +61,5 @@ Serve the repository and open `/tests/browser.html`. The test-only iframe harnes
 No independent WCAG audit, screen-reader session, physical-device test, participant study, partner review or measured career benefit. Public anonymous verification is recorded in RELEASE.md after successful publication. Do not infer those from a local test.
 
 Real-workflow browser regression loads `dist/index.html`; run `npm run build` first. Numeric input is tested before blur/change so displayed declarations and generated exports cannot silently diverge.
+
+v0.8: run /dist/tests/v08-trial.html locally or /tests/v08-trial.html publicly. Two fresh iframe documents execute the same 24 checks across the 16 required tasks. Exact release/fixture SHA, normalized exports, ledger, IDs/order, network/viewport and synthetic timing receipts are downloadable. Browser profile/cache are shared, explicitly disclosed. Repeat after code changes; no independent-user claim. Original 96 assertions remain in the existing five browser suites.
