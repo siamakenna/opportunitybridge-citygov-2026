@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "opportunitybridge-progress-0.8",
+  "sourceCatalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+  "records": [
+    {
+      "key": "source@0.8.1",
+      "questId": "source",
+      "questVersion": "0.8.1",
+      "checks": {
+        "credits": true,
+        "months": true,
+        "evidence": true,
+        "applicant": true,
+        "assumption": true
+      },
+      "sourceSnapshot": {
+        "id": "26-001755-0041",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+      },
+      "completedAt": "2026-10-27T18:21:09.663Z",
+      "notes": "",
+      "xp": 30,
+      "type": "In-app learning progress — not a credential or employer endorsement"
+    },
+    {
+      "key": "accessibility@0.8.1",
+      "questId": "accessibility",
+      "questVersion": "0.8.1",
+      "checks": {
+        "alt": true,
+        "contrast": true,
+        "heading": true,
+        "link": true,
+        "label": true
+      },
+      "sourceSnapshot": {
+        "id": "26-008996-0007",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "reviewedAt": "2026-10-27T00:22:27.538Z",
+        "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+      },
+      "completedAt": "2026-10-27T18:21:10.376Z",
+      "notes": "",
+      "xp": 40,
+      "type": "In-app learning progress — not a credential or employer endorsement"
+    },
+    {
+      "key": "evidence@0.8.1",
+      "questId": "evidence",
+      "questVersion": "0.8.1",
+      "checks": {
+        "experience": true,
+        "skill": true,
+        "source": true,
+        "artifact": true,
+        "question": true,
+        "claims": true
+      },
+      "sourceSnapshot": {
+        "id": "26-008996-0007",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "reviewedAt": "2026-10-27T00:22:27.538Z",
+        "snapshot": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21"
+      },
+      "completedAt": "2026-10-27T18:21:12.348Z",
+      "notes": "",
+      "xp": 40,
+      "type": "In-app learning progress — not a credential or employer endorsement"
+    }
+  ],
+  "independentParticipants": 0
+}

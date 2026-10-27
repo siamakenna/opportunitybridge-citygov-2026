@@ -1,0 +1,66 @@
+{
+  "migration": {
+    "status": "Journey imported into working memory. Imported learning records and milestones are unverified, earn no XP, and need replay. Saving remains off until you opt in.",
+    "ledger": "0/3 activities completed · 0 learning XP. Product progress only; no employer-recognized credential.\n\nImported / unverified · replay: Source Detective"
+  },
+  "unsaved": "Saving enabled. Current route, saved sources and learning progress are saved. Passport: unsaved session changes. Only the last captured snapshot is saved on this device. Capture again to include current edits.",
+  "memoryReset": "Saving off. Current route and learning progress are in this working session only. A previous device copy remains: reload to resume or delete it. Passport: no current draft to capture.",
+  "memoryResetReload": "Welcome back. You have 0 checked learning records and 0 saved opportunities. Pick up where you left off. 1 imported learning record is unverified; replay the exercise to check it here.",
+  "restoredArtifact": "Proposed fictional revision with additional keyboard and source-review notes.",
+  "deviceDeleteKeepsWorking": "MD Center for Media Literacy & Education Student Fellow",
+  "fullResetReload": "Working journey · 0 checked learning records · 0 saved sources · 0 explicitly captured fictional Passport drafts.",
+  "invalidImports": [
+    {
+      "file": "malformed",
+      "observed": "Import rejected; current journey preserved. Journey JSON could not be read.",
+      "status": "PASS"
+    },
+    {
+      "file": "schema",
+      "observed": "Import rejected; current journey preserved. Unsupported journey schema; reset or use a compatible export.",
+      "status": "PASS"
+    },
+    {
+      "file": "version",
+      "observed": "Import rejected; current journey preserved. Unsupported product version.",
+      "status": "PASS"
+    },
+    {
+      "file": "unsafe",
+      "observed": "Import rejected; current journey preserved. Unsafe object key.",
+      "status": "PASS"
+    },
+    {
+      "file": "source",
+      "observed": "Import rejected; current journey preserved. Unsupported saved source URL.",
+      "status": "PASS"
+    },
+    {
+      "file": "fields",
+      "observed": "Import rejected; current journey preserved. Unexpected journey field.",
+      "status": "PASS"
+    },
+    {
+      "file": "receipt",
+      "observed": "Import rejected; current journey preserved. Completion receipt lacks actual successful checks.",
+      "status": "PASS"
+    }
+  ],
+  "browserErrors": [
+    {
+      "level": "error",
+      "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+      "timestamp": "2026-10-27T18:08:46.236Z"
+    },
+    {
+      "level": "error",
+      "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+      "timestamp": "2026-10-27T18:08:47.166Z"
+    },
+    {
+      "level": "error",
+      "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+      "timestamp": "2026-10-27T18:08:47.728Z"
+    }
+  ]
+}

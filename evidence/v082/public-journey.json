@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "opportunitybridge-journey-1",
+  "productVersion": "0.8.2",
+  "viewedNodes": [
+    "civic-maker:discover",
+    "civic-maker:learn",
+    "civic-maker:practice",
+    "civic-maker:build",
+    "civic-maker:prepare",
+    "civic-maker:connect"
+  ],
+  "handoffIds": [],
+  "progressOrigin": "device-record",
+  "savedAt": "2026-10-27T18:21:07.440Z",
+  "sourceCatalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+  "questVersion": "0.8.1",
+  "interest": "tech",
+  "route": "civic-research",
+  "savedOpportunities": [],
+  "questLedger": [
+    {
+      "key": "source@0.8.1",
+      "questId": "source",
+      "questVersion": "0.8.1",
+      "checks": {
+        "credits": true,
+        "months": true,
+        "evidence": true,
+        "applicant": true,
+        "assumption": true
+      },
+      "sourceSnapshot": {
+        "id": "26-001755-0041",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+        "reviewedAt": "2026-10-27T00:22:27.535Z",
+        "snapshot": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52"
+      },
+      "completedAt": "2026-10-27T18:21:04.041Z",
+      "notes": "",
+      "xp": 30,
+      "type": "In-app learning progress — not a credential or employer endorsement",
+      "origin": "restored-local"
+    }
+  ],
+  "passportDrafts": [
+    {
+      "opportunityId": "mpt-media",
+      "source": {
+        "id": "26-008996-0007",
+        "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+        "reviewedAt": "2026-10-27T00:22:27.538Z",
+        "mappingHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+        "catalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1"
+      },
+      "rows": [
+        {
+          "experience": "Fictional classroom HTML guide with test notes for peers.",
+          "skill": "software",
+          "requirement": "duty:0",
+          "artifact": "Proposed educational resource page with source links and test notes.",
+          "verification": "Which further conditions and documents should MPT verify?",
+          "savedSource": {
+            "id": "26-008996-0007",
+            "url": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+            "reviewedAt": "2026-10-27T00:22:27.538Z",
+            "mappingHash": "3a012807bc74d2bb778d03b7f26daa3d67cb2b66d9048018ffd1f13d7074ca21",
+            "catalogRevision": "6614559726981bf6f419e340e68f835d2dc63eb1",
+            "origin": "saved-device-draft"
+          }
+        }
+      ]
+    }
+  ],
+  "selectedOpportunityId": "mpt-media"
+}
