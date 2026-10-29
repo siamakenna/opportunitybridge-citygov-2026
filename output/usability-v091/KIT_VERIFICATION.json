@@ -1,0 +1,42 @@
+{
+  "participant": {
+    "name": "OpportunityBridge-v091-Participant-Testing-Kit.zip",
+    "bytes": 40607,
+    "sha256": "c38771970b002edad1923d8d013b165a5602db91d0e28c8459d72ce822b7445d",
+    "crc": "PASS",
+    "cleanExtraction": "PASS",
+    "files": [
+      "participant/SESSION_A.html",
+      "participant/SESSION_B.html",
+      "participant/SESSION_C.html",
+      "participant/SESSION_D.html",
+      "participant/START_HERE.md",
+      "participant/TASK_CARDS.md",
+      "participant/PRIVACY_AND_SAVING.md",
+      "participant/FIVE_MINUTE_FIRST_IMPRESSION.md",
+      "participant/VERSION.json"
+    ]
+  },
+  "facilitator": {
+    "name": "OpportunityBridge-v091-Facilitator-Scoring-Kit.zip",
+    "bytes": 11704,
+    "sha256": "f831e386a283f9288cac9cc25fbefca6ce4918c1387449c598c3e0b6ed1a00a2",
+    "crc": "PASS",
+    "cleanExtraction": "PASS",
+    "files": [
+      "facilitator/analyze_results.py",
+      "facilitator/START_HERE.md",
+      "facilitator/SCORING_KEY_PRIVATE_v2.md",
+      "facilitator/TIMING_SHEET.csv",
+      "facilitator/CONSENT_WITHDRAWAL.md",
+      "facilitator/ORIGINAL_ARCHIVE_DIGESTS.json",
+      "facilitator/PROTOCOL_AMENDMENT.md",
+      "facilitator/SCORING_KEY_PRIVATE_v1_ORIGINAL.md",
+      "facilitator/COUNTERBALANCING.csv",
+      "facilitator/USABILITY_OBSERVATION.md",
+      "facilitator/QUALITATIVE_FEEDBACK_BLANK.md",
+      "facilitator/observations_blank.csv"
+    ],
+    "distribution": "Private local file only. Never upload this key to public Pages/release."
+  }
+}

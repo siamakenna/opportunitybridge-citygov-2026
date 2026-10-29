@@ -1,0 +1,114 @@
+{
+  "baselineSha": "51967987d6aad1d5dcbd77d5fac7cbf336ced0c6",
+  "fixture": "trial=v081",
+  "before": {
+    "app": [
+      {
+        "controls": 26,
+        "firstScreenChoices": 12,
+        "height": 900,
+        "heroWords": 103,
+        "introWords": 18,
+        "pageHeight": 42080,
+        "pageWidth": 305,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 6,
+        "visibleTextWords": 4236,
+        "width": 320
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 14,
+        "height": 900,
+        "heroWords": 103,
+        "introWords": 18,
+        "pageHeight": 37027,
+        "pageWidth": 375,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 6,
+        "visibleTextWords": 4236,
+        "width": 390
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 16,
+        "height": 900,
+        "heroWords": 103,
+        "introWords": 18,
+        "pageHeight": 21909,
+        "pageWidth": 753,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 6,
+        "visibleTextWords": 4246,
+        "width": 768
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 16,
+        "height": 900,
+        "heroWords": 103,
+        "introWords": 18,
+        "pageHeight": 16384,
+        "pageWidth": 1351,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 6,
+        "visibleTextWords": 4246,
+        "width": 1366
+      }
+    ],
+    "participant": [
+      {
+        "externalLinks": 3,
+        "height": 900,
+        "introWords": 113,
+        "pageHeight": 5878,
+        "pageWidth": 305,
+        "questions": 8,
+        "requiredFields": 0,
+        "selects": 3,
+        "textEntryFields": 12,
+        "visibleTextWords": 574,
+        "width": 320
+      },
+      {
+        "externalLinks": 3,
+        "height": 900,
+        "introWords": 113,
+        "pageHeight": 5172,
+        "pageWidth": 375,
+        "questions": 8,
+        "requiredFields": 0,
+        "selects": 3,
+        "textEntryFields": 12,
+        "visibleTextWords": 574,
+        "width": 390
+      },
+      {
+        "externalLinks": 3,
+        "height": 900,
+        "introWords": 113,
+        "pageHeight": 4015,
+        "pageWidth": 753,
+        "questions": 8,
+        "requiredFields": 0,
+        "selects": 3,
+        "textEntryFields": 12,
+        "visibleTextWords": 574,
+        "width": 768
+      },
+      {
+        "externalLinks": 3,
+        "height": 900,
+        "introWords": 113,
+        "pageHeight": 3878,
+        "pageWidth": 1351,
+        "questions": 8,
+        "requiredFields": 0,
+        "selects": 3,
+        "textEntryFields": 12,
+        "visibleTextWords": 574,
+        "width": 1366
+      }
+    ]
+  }
+}

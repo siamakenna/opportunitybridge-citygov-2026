@@ -1,0 +1,38 @@
+{
+  "protocol": "opportunitybridge-shortform-2.0",
+  "kitVersion": "2.0",
+  "preparedDatePacific": "2026-10-28",
+  "targetSoftwareRelease": "0.9.1",
+  "baselineCommit": "51967987d6aad1d5dcbd77d5fac7cbf336ced0c6",
+  "informalExternalReviewersReported": 1,
+  "completedTimedIndependentSessions": 0,
+  "independentGoldAdjudicators": 0,
+  "originalParticipantArchiveSha256": "50c799e0043bb6a87778314a750248a79cb832d00e25c971104e4b9ce8e35918",
+  "assignments": {
+    "A": [
+      "ADMIN/source-only",
+      "MEDIA/assisted"
+    ],
+    "B": [
+      "ADMIN/assisted",
+      "MEDIA/source-only"
+    ],
+    "C": [
+      "MEDIA/source-only",
+      "ADMIN/assisted"
+    ],
+    "D": [
+      "MEDIA/assisted",
+      "ADMIN/source-only"
+    ]
+  },
+  "essentialAnswersPerTask": 3,
+  "timeCapsMinutes": {
+    "orientation": 2,
+    "task1": 5,
+    "task2": 5,
+    "finish": 3
+  },
+  "humanFeasibility": "Not established; structural reduction only. Timeouts/incomplete work retained.",
+  "answerKeyIncluded": false
+}

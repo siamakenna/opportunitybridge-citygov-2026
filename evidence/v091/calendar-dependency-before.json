@@ -1,0 +1,43 @@
+{
+  "baselineSha": "51967987d6aad1d5dcbd77d5fac7cbf336ced0c6",
+  "baseline": [
+    {
+      "page": "v06-browser.html",
+      "result": "PASS MPT commitment visible on card\nPASS Four college document items available on card\nFAIL Cannot read properties of null (reading 'href')"
+    },
+    {
+      "page": "evaluation-browser.html",
+      "result": "\nFAIL Recently reviewed sources permit rehearsal"
+    },
+    {
+      "page": "v07-browser.html",
+      "result": "PASS Pulse names snapshot provenance without a live label\nPASS Pulse paginates the actual normalized feed\nPASS New discoveries and preparation-ready sources are distinct\nPASS Discovery lead has no qualification or Passport shortcut\nPASS Saved filter retains exactly the saved discovery\nPASS Accessible sort renders results\nPASS Pulse explains an empty result\nPASS Passport initially reveals one control stage per connection\nPASS Moving between stages preserves declarations\nPASS Same-page career navigation preserves the current Passport context\nFAIL Readiness to discuss is not eligibility"
+    }
+  ],
+  "afterUXBeforeFixtureRepair": [
+    {
+      "page": "browser.html",
+      "result": "15 assertions passed\nPASS Actual modules initialize four roles\nPASS No-selection export disabled\nPASS Role selection focuses plan heading\nPASS Edited unknown fact reaches requirement display\nPASS Contradicted skill no longer offered as supported\nPASS Downloaded plan uses edited credential\nPASS Downloaded plan uses edited unknown\nPASS Handoff includes current draft\nPASS Handoff includes current declarations\nPASS Simpler explanation preserves draft\nPASS Persona switch clears selection\nPASS Technology filter returns one sample\nPASS Reset restores all roles\nPASS Reset clears sample draft\nPASS Reset clears simpler-explanation state"
+    },
+    {
+      "page": "real-browser.html",
+      "result": "23 assertions passed\nPASS Actual real-opportunity modules load\nPASS Fictional engine is absent from primary page\nPASS Five attributed historical records load\nPASS Expired intake excluded from default\nPASS History preserves expired status\nPASS No-result state is explained\nPASS Shortlist shows only saved record\nPASS Inspect moves focus to selected opportunity\nPASS Requirement title distinct from state\nPASS Unknown declarations remain unknown\nPASS Sample coursework declarations load\nPASS Fact editing preserves the selected record draft\nPASS Untrusted draft is never inserted as HTML\nPASS Export preserves actual recruitment ID\nPASS Export uses numeric edits before blur/change\nPASS Export includes selected draft\nPASS Export keeps missing conditions\nPASS Export includes action plan\nPASS Export strips HTML delimiters\nPASS Clear session deletes shortlist\nPASS Clear session deletes selection and facts\nPASS Historical skills distinguish recommended portfolio work\nPASS Practice Mode remains reachable"
+    },
+    {
+      "page": "v06-browser.html",
+      "result": "PASS MPT commitment visible on card\nPASS Four college document items available on card\nFAIL Cannot read properties of null (reading 'href')"
+    },
+    {
+      "page": "evaluation-browser.html",
+      "result": "\nFAIL Recently reviewed sources permit rehearsal"
+    },
+    {
+      "page": "v07-browser.html",
+      "result": "PASS Pulse names snapshot provenance without a live label\nPASS Pulse paginates the actual normalized feed\nPASS New discoveries and preparation-ready sources are distinct\nPASS Discovery lead has no qualification or Passport shortcut\nPASS Saved filter retains exactly the saved discovery\nPASS Accessible sort renders results\nPASS Pulse explains an empty result\nPASS Passport initially reveals one control stage per connection\nPASS Moving between stages preserves declarations\nPASS Same-page career navigation preserves the current Passport context\nFAIL Readiness to discuss is not eligibility"
+    },
+    {
+      "page": "evidence-browser.html",
+      "result": "74 assertions passed\nPASS All60 frozen cases load\nPASS Displayed source revision equals actual release module (cached metadata regression)\nPASS UI replay equals retained production output Q01\nPASS UI replay equals retained production output Q02\nPASS UI replay equals retained production output Q03\nPASS UI replay equals retained production output Q04\nPASS UI replay equals retained production output Q05\nPASS UI replay equals retained production output Q06\nPASS UI replay equals retained production output Q07\nPASS UI replay equals retained production output Q08\nPASS UI replay equals retained production output Q09\nPASS UI replay equals retained production output Q10\nPASS UI replay equals retained production output Q11\nPASS UI replay equals retained production output Q12\nPASS UI replay equals retained production output C01\nPASS UI replay equals retained production output C02\nPASS UI replay equals retained production output C03\nPASS UI replay equals retained production output C04\nPASS UI replay equals retained production output C05\nPASS UI replay equals retained production output C06\nPASS UI replay equals retained production output C07\nPASS UI replay equals retained production output C08\nPASS UI replay equals retained production output C09\nPASS UI replay equals retained production output C10\nPASS UI replay equals retained production output C11\nPASS UI replay equals retained production output C12\nPASS UI replay equals retained production output D01\nPASS UI replay equals retained production output D02\nPASS UI replay equals retained production output D03\nPASS UI replay equals retained production output D04\nPASS UI replay equals retained production output D05\nPASS UI replay equals retained production output D06\nPASS UI replay equals retained production output D07\nPASS UI replay equals retained production output D08\nPASS UI replay equals retained production output D09\nPASS UI replay equals retained production output D10\nPASS UI replay equals retained production output U01\nPASS UI replay equals retained production output U02\nPASS UI replay equals retained production output U03\nPASS UI replay equals retained production output U04\nPASS UI replay equals retained production output U05\nPASS UI replay equals retained production output U06\nPASS UI replay equals retained production output U07\nPASS UI replay equals retained production output U08\nPASS UI replay equals retained production output U09\nPASS UI replay equals retained production output U10\nPASS UI replay equals retained production output P01\nPASS UI replay equals retained production output P02\nPASS UI replay equals retained production output P03\nPASS UI replay equals retained production output P04\nPASS UI replay equals retained production output P05\nPASS UI replay equals retained production output P06\nPASS UI replay equals retained production output P07\nPASS UI replay equals retained production output P08\nPASS UI replay equals retained production output A01\nPASS UI replay equals retained production output A02\nPASS UI replay equals retained production output A03\nPASS UI replay equals retained production output A04\nPASS UI replay equals retained production output A05\nPASS UI replay equals retained production output A06\nPASS UI replay equals retained production output A07\nPASS UI replay equals retained production output A08\nPASS One fact changes selected route and retains other unknowns\nPASS Reset restores unknown selected state\nPASS Evaluation partition48\nPASS Development partition12\nPASS All60 comparison rows restored\nPASS Reviewer absence holds all source versions\nPASS Double review time computes cost and backlog\nPASS Base staffing and economic cost reconcile\nPASS Zero modeled plans has no invented unit cost\nPASS All Evidence Room controls have labels\nPASS Live result semantics present (actual AT untested)\nPASS No-script plain reports available"
+    }
+  ]
+}

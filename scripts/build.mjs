@@ -4,11 +4,13 @@ import {join} from 'node:path';
 const revision=process.env.GITHUB_SHA||'local';
 await rm('dist',{recursive:true,force:true});await mkdir('dist');
 for(const f of ['index.html','evidence.html','finalist.html','practice.html','judge.html','walkthrough.html','evaluation.html','pilot.html','LICENSE'])await copyFile(f,'dist/'+f);
-for(const d of ['src','docs','evidence','media','output','data'])await cp(d,'dist/'+d,{recursive:true});
+for(const d of ['src','docs','evidence','media','output','data','study'])await cp(d,'dist/'+d,{recursive:true});
+// Clearly labeled test copies only: production pages retain the actual clock/holds.
+for(const [from,to] of [['index.html','rehearsal-index.html'],['evaluation.html','rehearsal-evaluation.html']]){let text=await readFile(from,'utf8');text=text.replace('</head>','<script src="./tests/frozen-clock.js"></script></head>').replace('<body>','<body><aside class="wrap source-notice" role="note">FROZEN SOFTWARE REHEARSAL · clock 2026-10-27T12:00:00Z. Historical source/interface fixture, not current discovery, a real participant session or an eligibility assessment. Use the normal application for actual source freshness.</aside>');await writeFile('dist/'+to,text);}
 // A release's entry modules, transitive imports and styles must share one cache identity.
 async function versionAssets(directory){for(const item of await readdir(directory,{withFileTypes:true})){const path=join(directory,item.name);if(item.isDirectory()){if(item.name==='src')await versionAssets(path);}else if(/\.(html|js)$/.test(item.name)){const text=await readFile(path,'utf8');const versioned=text.replace(/(['"])(\.{1,2}\/[^'"\s?]+\.(?:js|css|svg))\1/g,(_,quote,url)=>`${quote}${url}?rev=${revision}${quote}`);await writeFile(path,versioned);}}}
 await versionAssets('dist');
-await writeFile('dist/source.json',JSON.stringify({revision,version:'0.9.0',assetPolicy:'entry modules, relative imports and styles use the release revision'},null,2)+'\n');
+await writeFile('dist/source.json',JSON.stringify({revision,version:'0.9.1',assetPolicy:'entry modules, relative imports and styles use the release revision'},null,2)+'\n');
 console.log('Static distribution ready in dist/; assets versioned to '+revision);
 
 await writeFile('dist/src/release.js',`export const releaseRevision=${JSON.stringify(revision)};\n`);
