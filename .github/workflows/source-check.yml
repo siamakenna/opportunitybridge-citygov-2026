@@ -38,7 +38,11 @@ jobs:
         run: npm run test:journey
       - run: npm test
       - run: npm run sources
+      - run: npm run study:build
+      - name: Release blocker — reproducible public study kit
+        run: git diff --exit-code -- study/participant
       - run: npm run build
+      - run: python3 scripts/verify-study-package.py
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

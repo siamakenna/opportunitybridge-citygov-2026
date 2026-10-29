@@ -1,0 +1,95 @@
+{
+  "observationAt": "2026-10-29T04:49:02.878Z",
+  "approvalsRenewed": false,
+  "summary": {
+    "expired": 1,
+    "unavailable": 5,
+    "unchanged": 6
+  },
+  "rows": [
+    {
+      "id": "cif-winter",
+      "sourceUrl": "https://codingitforward.com/apply",
+      "state": "expired",
+      "stale": true,
+      "verifiedAt": "2026-10-26T18:03:34Z"
+    },
+    {
+      "id": "doe-suli",
+      "sourceUrl": "https://science.osti.gov/wdts/suli",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    },
+    {
+      "id": "federal-entry",
+      "sourceUrl": "https://earlycareer.usajobs.gov/search/results",
+      "state": "unavailable",
+      "stale": true,
+      "verifiedAt": "2026-10-26T18:03:34Z"
+    },
+    {
+      "id": "federal-grad",
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/recentgraduates/",
+      "state": "unavailable",
+      "stale": true,
+      "verifiedAt": "2026-10-26T18:03:34Z"
+    },
+    {
+      "id": "federal-student",
+      "sourceUrl": "https://www.usajobs.gov/hiringpath/students/",
+      "state": "unavailable",
+      "stale": true,
+      "verifiedAt": "2026-10-26T18:03:34Z"
+    },
+    {
+      "id": "md-admin",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.535Z"
+    },
+    {
+      "id": "md-admin3",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    },
+    {
+      "id": "md-vendor",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    },
+    {
+      "id": "mpt-media",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    },
+    {
+      "id": "mpt-motorweek",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+      "state": "unchanged",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    },
+    {
+      "id": "nih-postbac",
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/pb/",
+      "state": "unavailable",
+      "stale": true,
+      "verifiedAt": "2026-10-26T18:03:34Z"
+    },
+    {
+      "id": "nih-sip",
+      "sourceUrl": "https://www.training.nih.gov/research-training/pb/sip/",
+      "state": "unavailable",
+      "stale": true,
+      "verifiedAt": "2026-10-27T00:22:27.538Z"
+    }
+  ]
+}

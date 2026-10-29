@@ -1,0 +1,122 @@
+{
+  "code": "276a7b10c3b693443ac691819d7a57782a82aba3",
+  "fixture": "trial=v081; actual clock",
+  "after": {
+    "app": [
+      {
+        "controls": 26,
+        "firstScreenChoices": 12,
+        "height": 900,
+        "heroWords": 51,
+        "horizontalOverflow": false,
+        "introWords": 13,
+        "pageHeight": 11839,
+        "pageWidth": 305,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 0,
+        "visibleTextWords": 1020,
+        "width": 320
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 14,
+        "height": 900,
+        "heroWords": 51,
+        "horizontalOverflow": false,
+        "introWords": 13,
+        "pageHeight": 10662,
+        "pageWidth": 375,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 0,
+        "visibleTextWords": 1020,
+        "width": 390
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 14,
+        "height": 900,
+        "heroWords": 73,
+        "horizontalOverflow": false,
+        "introWords": 13,
+        "pageHeight": 7676,
+        "pageWidth": 753,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 0,
+        "visibleTextWords": 1052,
+        "width": 768
+      },
+      {
+        "controls": 26,
+        "firstScreenChoices": 14,
+        "height": 900,
+        "heroWords": 73,
+        "horizontalOverflow": false,
+        "introWords": 13,
+        "pageHeight": 6855,
+        "pageWidth": 1351,
+        "principalAreas": 6,
+        "principalDefaultExpanded": 0,
+        "visibleTextWords": 1052,
+        "width": 1366
+      }
+    ],
+    "participant": [
+      {
+        "consentRequiredToBegin": true,
+        "height": 900,
+        "horizontalOverflow": false,
+        "introWords": 53,
+        "pageHeight": 2831,
+        "pageWidth": 305,
+        "questionsAcrossBothTasks": 6,
+        "requiredFields": 0,
+        "selects": 0,
+        "textEntryFields": 1,
+        "visibleTextWords": 279,
+        "width": 320
+      },
+      {
+        "consentRequiredToBegin": true,
+        "height": 900,
+        "horizontalOverflow": false,
+        "introWords": 53,
+        "pageHeight": 2576,
+        "pageWidth": 375,
+        "questionsAcrossBothTasks": 6,
+        "requiredFields": 0,
+        "selects": 0,
+        "textEntryFields": 1,
+        "visibleTextWords": 279,
+        "width": 390
+      },
+      {
+        "consentRequiredToBegin": true,
+        "height": 900,
+        "horizontalOverflow": false,
+        "introWords": 53,
+        "pageHeight": 1930,
+        "pageWidth": 753,
+        "questionsAcrossBothTasks": 6,
+        "requiredFields": 0,
+        "selects": 0,
+        "textEntryFields": 1,
+        "visibleTextWords": 279,
+        "width": 768
+      },
+      {
+        "consentRequiredToBegin": true,
+        "height": 900,
+        "horizontalOverflow": false,
+        "introWords": 53,
+        "pageHeight": 1971,
+        "pageWidth": 1351,
+        "questionsAcrossBothTasks": 6,
+        "requiredFields": 0,
+        "selects": 0,
+        "textEntryFields": 1,
+        "visibleTextWords": 279,
+        "width": 1366
+      }
+    ]
+  }
+}

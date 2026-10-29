@@ -1,0 +1,21 @@
+{
+  "validStructure": true,
+  "protocol": "opportunitybridge-shortform-2.0",
+  "assignment": "B",
+  "taskOrder": [
+    "ADMIN/assisted",
+    "MEDIA/source-only"
+  ],
+  "consent": {
+    "adultAndVoluntarySelfConfirmed": true,
+    "withdrawn": false,
+    "sharingAutomatic": false
+  },
+  "rehearsal": true,
+  "progress": {
+    "answered": 1,
+    "max": 6
+  },
+  "generatedAt": "2026-10-29T04:48:31.121Z",
+  "participation": "Unverified. This parser does not establish genuine consent, observed timing, correct answers or any completed human session."
+}

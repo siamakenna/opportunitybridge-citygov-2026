@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "workflows": [
+    {
+      "id": 1,
+      "result": true,
+      "observed": "Hero Explore opens Pulse in one action."
+    },
+    {
+      "id": 2,
+      "result": true,
+      "focus": "summary-pulse"
+    },
+    {
+      "id": 3,
+      "result": true
+    },
+    {
+      "id": 4,
+      "result": true,
+      "value": "Fictional draft — kept across section changes."
+    },
+    {
+      "id": 5,
+      "result": true,
+      "source": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b="
+    },
+    {
+      "id": 6,
+      "result": true,
+      "observed": "Native correct Source Detective run in local acceptance Q1."
+    },
+    {
+      "id": 7,
+      "result": true,
+      "observed": {
+        "negative": "Keep exploring — these checks need attention.\n\n○ The frozen reviewed substitution uses 30 accredited college credits.\n\n○ Those credits may replace the six-month administrative-experience requirement.\n\n○ The official recruitment supports this substitution; a general job-board title does not.\n\n○ Applicant records, high-school/equivalency and other source conditions are not established by the scenario.\n\n○ A substitution is not proof of overall eligibility or a hiring guarantee.\n\nNo completion recorded. Every essential check must pass.",
+        "ledger": "1/3 activities completed · 30 learning XP. Product progress only; no employer-recognized credential.\n\nEvidence Explorer · Source Detective"
+      }
+    },
+    {
+      "id": 8,
+      "result": true,
+      "progress": "0 of 6 responses entered. This counts entries, not correct answers or completed participation."
+    },
+    {
+      "id": 9,
+      "result": true,
+      "observed": {
+        "name": "native-B-partial.json",
+        "bytes": 2338,
+        "parsed": true,
+        "assignment": "B",
+        "taskOrder": [
+          "ADMIN/assisted",
+          "MEDIA/source-only"
+        ],
+        "answered": 1,
+        "consent": {
+          "adultAndVoluntarySelfConfirmed": true,
+          "withdrawn": false,
+          "sharingAutomatic": false
+        },
+        "rehearsal": true,
+        "generatedAt": "2026-10-29T04:48:31.121Z",
+        "participantSessionVerified": false,
+        "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+      }
+    },
+    {
+      "id": 10,
+      "result": true,
+      "observed": "Actual downloaded JSON parsed; original ADMIN/MEDIA IDs and B conditions correct. No human verified."
+    }
+  ],
+  "downloads": [
+    {
+      "name": "native-A-partial.json",
+      "bytes": 2663,
+      "parsed": true,
+      "assignment": "A",
+      "taskOrder": [
+        "ADMIN/source-only",
+        "MEDIA/assisted"
+      ],
+      "answered": 1,
+      "consent": {
+        "adultAndVoluntarySelfConfirmed": true,
+        "withdrawn": false,
+        "sharingAutomatic": false
+      },
+      "rehearsal": true,
+      "generatedAt": "2026-10-29T04:48:29.385Z",
+      "participantSessionVerified": false,
+      "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    },
+    {
+      "name": "native-B-empty.json",
+      "bytes": 2121,
+      "parsed": true,
+      "assignment": "B",
+      "taskOrder": [
+        "ADMIN/assisted",
+        "MEDIA/source-only"
+      ],
+      "answered": 0,
+      "consent": {
+        "adultAndVoluntarySelfConfirmed": false,
+        "withdrawn": false,
+        "sharingAutomatic": false
+      },
+      "rehearsal": true,
+      "generatedAt": "2026-10-29T04:48:30.108Z",
+      "participantSessionVerified": false,
+      "status": "Blank response template generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    },
+    {
+      "name": "native-B-partial.json",
+      "bytes": 2338,
+      "parsed": true,
+      "assignment": "B",
+      "taskOrder": [
+        "ADMIN/assisted",
+        "MEDIA/source-only"
+      ],
+      "answered": 1,
+      "consent": {
+        "adultAndVoluntarySelfConfirmed": true,
+        "withdrawn": false,
+        "sharingAutomatic": false
+      },
+      "rehearsal": true,
+      "generatedAt": "2026-10-29T04:48:31.121Z",
+      "participantSessionVerified": false,
+      "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    },
+    {
+      "name": "native-B-complete.json",
+      "bytes": 3386,
+      "parsed": true,
+      "assignment": "B",
+      "taskOrder": [
+        "ADMIN/assisted",
+        "MEDIA/source-only"
+      ],
+      "answered": 6,
+      "consent": {
+        "adultAndVoluntarySelfConfirmed": true,
+        "withdrawn": false,
+        "sharingAutomatic": false
+      },
+      "rehearsal": true,
+      "generatedAt": "2026-10-29T04:48:45.561Z",
+      "participantSessionVerified": false,
+      "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    },
+    {
+      "name": "native-B-readable.txt",
+      "bytes": 1976,
+      "parsed": false,
+      "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    },
+    {
+      "name": "native-B-withdrawn.json",
+      "bytes": 3386,
+      "parsed": true,
+      "assignment": "B",
+      "taskOrder": [
+        "ADMIN/assisted",
+        "MEDIA/source-only"
+      ],
+      "answered": 6,
+      "consent": {
+        "adultAndVoluntarySelfConfirmed": false,
+        "withdrawn": true,
+        "sharingAutomatic": false
+      },
+      "rehearsal": true,
+      "generatedAt": "2026-10-29T04:48:46.564Z",
+      "participantSessionVerified": false,
+      "status": "Responses generated; browser download requested. Nothing was sent automatically. If no file appears, try again or save a readable copy. This page cannot confirm the browser completed a download."
+    }
+  ],
+  "additional": {
+    "boundedAnswerLength": 500,
+    "unicodeRetained": true,
+    "withdrawn": {
+      "adultAndVoluntarySelfConfirmed": false,
+      "withdrawn": true,
+      "sharingAutomatic": false
+    },
+    "formalTimedParticipants": 0
+  }
+}

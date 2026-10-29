@@ -1,0 +1,20 @@
+{
+  "back": {
+    "url": "http://127.0.0.1:5173/dist/index.html?trial=v081#pulse",
+    "pulseOpen": true
+  },
+  "mobile": {
+    "noticeOrder": [
+      "mpt-practice-context",
+      "quest-accessibility-alt",
+      "quest-accessibility-contrast"
+    ],
+    "overflow": false,
+    "position": "sticky",
+    "warning": "Fictional MPT practice · eligibility remains unknown. Official source ↗",
+    "width": 320
+  },
+  "actual200PercentZoom": "UNTESTED — macOS Computer Use permission denied",
+  "screenReader": "UNTESTED — macOS Computer Use permission denied",
+  "wcagCertification": false
+}
