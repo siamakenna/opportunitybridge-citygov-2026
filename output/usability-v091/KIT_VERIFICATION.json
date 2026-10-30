@@ -1,8 +1,8 @@
 {
   "participant": {
     "name": "OpportunityBridge-v091-Participant-Testing-Kit.zip",
-    "bytes": 40607,
-    "sha256": "c38771970b002edad1923d8d013b165a5602db91d0e28c8459d72ce822b7445d",
+    "bytes": 41051,
+    "sha256": "5fcec40e4ac112a7817f3544b698dd1e3ff1f45e9789db3d172e0c0fc140fd8c",
     "crc": "PASS",
     "cleanExtraction": "PASS",
     "files": [
