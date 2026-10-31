@@ -1,0 +1,554 @@
+{
+  "version": "1.0",
+  "frozenAt": "2026-10-31T17:07:10.221273+00:00",
+  "implementationBefore": "79ceb6a4346c2c50d92d8c87a25fea3ef6f1cce6",
+  "independentAdjudicators": 0,
+  "claim": "Preimplementation frozen developer-authored challenge; not an independently unseen dataset. No tuning on scored challenge results.",
+  "cases": [
+    {
+      "id": "H01",
+      "record": {
+        "id": "holdout-1",
+        "title": "Museum collections assistant",
+        "summary": "A part-time staff position cataloguing collections.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/1",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "part-time"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H02",
+      "record": {
+        "id": "holdout-2",
+        "title": "Water systems apprenticeship",
+        "summary": "A paid apprenticeship in public utilities.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/2",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "apprenticeship",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H03",
+      "record": {
+        "id": "holdout-3",
+        "title": "Policy fellowship participant",
+        "summary": "Fellowship participant opening in policy analysis.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/3",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "fellowship",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H04",
+      "record": {
+        "id": "holdout-4",
+        "title": "Archives summer placement",
+        "summary": "Paid internship in municipal archives.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/4",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "internship",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H05",
+      "record": {
+        "id": "holdout-5",
+        "title": "Civic mapping seminar",
+        "summary": "A training course for geospatial beginners.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/5",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "course",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H06",
+      "record": {
+        "id": "holdout-6",
+        "title": "County careers hub",
+        "summary": "Career directory linking multiple employers.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/6",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "directory",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H07",
+      "record": {
+        "id": "holdout-7",
+        "title": "Transit poster assignment",
+        "summary": "Short paid project to design one poster.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/7",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "micro",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H08",
+      "record": {
+        "id": "holdout-8",
+        "title": "Seasonal park ranger",
+        "summary": "A temporary staff job; no student qualification is implied.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/8",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "temporary"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H09",
+      "record": {
+        "id": "holdout-9",
+        "title": "Procurement analyst",
+        "summary": "Full-time contractual staff position. No short duration is stated.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/9",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "full-time contractual"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H10",
+      "record": {
+        "id": "holdout-10",
+        "title": "Internship administrator",
+        "summary": "A part-time staff position administering student placements; not an internship.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/10",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "part-time"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H11",
+      "record": {
+        "id": "holdout-11",
+        "title": "Research fellowship director",
+        "summary": "Full-time staff job managing a fellowship program; not a fellowship participant opening.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/11",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "full-time"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H12",
+      "record": {
+        "id": "holdout-12",
+        "title": "Internal controls supervisor",
+        "summary": "",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/12",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H13",
+      "record": {
+        "id": "holdout-13",
+        "title": "Graduate bridge engineer",
+        "summary": "",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/13",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H14",
+      "record": {
+        "id": "holdout-14",
+        "title": "Contractual translator",
+        "summary": "",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/14",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H15",
+      "record": {
+        "id": "holdout-15",
+        "title": "Housing intake worker",
+        "summary": "An excellent place to build your career.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/15",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H16",
+      "record": {
+        "id": "holdout-16",
+        "title": "Unpaid internship in urban forestry",
+        "summary": "Unpaid internship; verify all other conditions.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/16",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "internship",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H17",
+      "record": {
+        "id": "holdout-17",
+        "title": "Open science guide",
+        "summary": "Free course, not a paid position.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/17",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "course",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H18",
+      "record": {
+        "id": "holdout-18",
+        "title": "Fellowship coordinator",
+        "summary": "",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/18",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H19",
+      "record": {
+        "id": "holdout-19",
+        "title": "Laboratory research assistant",
+        "summary": "",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/19",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "research",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H20",
+      "record": {
+        "id": "holdout-20",
+        "title": "Community kitchen volunteer",
+        "summary": "Volunteer service opportunity.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/20",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "service",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H21",
+      "record": {
+        "id": "holdout-21",
+        "title": "Public policy grant",
+        "summary": "Scholarship funding for study, not a job.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/21",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "scholarship",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H22",
+      "record": {
+        "id": "holdout-22",
+        "title": "Civic design hackathon",
+        "summary": "A competition for civic prototypes.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/22",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "competition",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H23",
+      "record": {
+        "id": "holdout-23",
+        "title": "Neighborhood data worker",
+        "summary": "A staff job with no stated working schedule.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/23",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "job",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H24",
+      "record": {
+        "id": "holdout-24",
+        "title": "Ambiguous placement",
+        "summary": "Full-time staff job and paid internship are both stated without resolving the conflict.",
+        "employer": "Synthetic City \u2014 no actual opening",
+        "sourceUrl": "https://example.invalid/holdout/24",
+        "verification": "synthetic",
+        "observedAt": "2026-10-31T17:20:00Z"
+      },
+      "options": {
+        "synthetic": true
+      },
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic; developer-authored; no independent adjudicator"
+    },
+    {
+      "id": "H25",
+      "record": {
+        "id": "holdout-25",
+        "title": "Analyst",
+        "summary": "Full-time staff job",
+        "sourceUrl": "https://board.example/lead"
+      },
+      "options": {},
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic untrusted input boundary; developer-authored"
+    },
+    {
+      "id": "H26",
+      "record": {
+        "id": "holdout-26",
+        "title": "Internship Manager",
+        "summary": "Paid internship",
+        "sourceUrl": "https://board.example/lead"
+      },
+      "options": {},
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic untrusted input boundary; developer-authored"
+    },
+    {
+      "id": "H27",
+      "record": {
+        "id": "holdout-27",
+        "title": "Free course",
+        "classifications": [
+          {
+            "type": "paid-internship",
+            "basis": "source-reviewed"
+          }
+        ],
+        "sourceUrl": "https://board.example/lead"
+      },
+      "options": {},
+      "expected": {
+        "primary": "unknown",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic untrusted input boundary; developer-authored"
+    },
+    {
+      "id": "H28",
+      "record": {
+        "id": "holdout-28",
+        "title": "Civic jobs directory",
+        "recordKind": "directory",
+        "kind": "program"
+      },
+      "options": {},
+      "expected": {
+        "primary": "directory",
+        "employmentArrangement": "unknown"
+      },
+      "origin": "explicitly synthetic untrusted input boundary; developer-authored"
+    }
+  ]
+}
