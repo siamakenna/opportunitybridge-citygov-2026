@@ -13,3 +13,5 @@
 4:00–5:00 Inspect the [five-person stage](PILOT_STAGE_ONE.md),cost sensitivities and go/no-go gates. One reported informal reviewer,zero verified formal timed human sessions. Host,advisor and funding are proposed. Test the product capability while preserving these evidence limits.
 
 The [three-minute screenshot demonstration](../walkthrough.html) has English captions/transcript and genuine working-app captures. It is not continuous footage or a human-study recording. No employer/institutional endorsement or hiring probability is claimed.
+
+For stale or held sources, the final plan prioritizes checking the current announcement and documents before proposed work-sample preparation. Expired sources still start with a current alternative; fresh-source examples may start with the fictional sample. Exactly three actions remain. This ordering repair follows the skeptical simulated review, whose initial score is preserved.

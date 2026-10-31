@@ -1,0 +1,161 @@
+{
+  "assessment": "Municipal Workforce Judge \u2014 simulated perspective",
+  "assessmentDate": "2026-10-31",
+  "candidateRevision": "5903b83a2c5f912e45ac1dbcb59361bf017e2851",
+  "status": "Simulated assessment; not an independent human or genuinely blinded review",
+  "perspective": "Practical learner value, equity, implementation, measurable outcomes and affordability",
+  "criteriaSource": "docs/CITYGOV_CRITERIA_v093.md",
+  "scoreScale": "Each A\u2013J 0\u201310; equal weighting; total /100",
+  "scores": {
+    "A": 8,
+    "B": 8,
+    "C": 7,
+    "D": 7,
+    "E": 6,
+    "F": 9,
+    "G": 5,
+    "H": 8,
+    "I": 7,
+    "J": 8
+  },
+  "total": 73,
+  "maximum": 100,
+  "criteria": [
+    {
+      "id": "A",
+      "criterion": "Barrier clarity",
+      "score": 8,
+      "maximum": 10,
+      "rationale": "The HTML-to-MPT example identifies a concrete translation barrier: learners can name coursework but struggle to connect it to employer duties, documents and a next step. The source-linked plan makes the barrier inspectable. Deduct 2 because its prevalence and severity for the intended underserved population have not been established through retained learner observations.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md",
+        "docs/CAREER_BRIDGE_EVALUATION.md"
+      ]
+    },
+    {
+      "id": "B",
+      "criterion": "Usefulness",
+      "score": 8,
+      "maximum": 10,
+      "rationale": "The learner can produce exactly three prioritized actions, a proposed work sample, required-document checklist and a specific human question without an account or fee. Actual downloaded plans and software trials support that capability. Deduct 2 because unfamiliar learners have not demonstrated comprehension, completion or useful action, and the current source hold still requires outside verification.",
+      "evidence": [
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md",
+        "output/career-bridge-v093/LOCAL_BRIDGE_ACCEPTANCE.json",
+        "docs/CAREER_BRIDGE_EVALUATION.md"
+      ]
+    },
+    {
+      "id": "C",
+      "criterion": "Creativity/originality",
+      "score": 7,
+      "maximum": 10,
+      "rationale": "The combination of duty-linked skill translation, optional fictional practice, explicit unknowns and portable advisor preparation is thoughtfully integrated. Deduct 3 because the constituent functions are familiar, equivalent manual preparation is possible, and no comparative evidence establishes a distinctive user advantage.",
+      "evidence": [
+        "docs/COMPARATIVE_VALUE.md",
+        "docs/CAREER_BRIDGE_PRODUCT.md"
+      ]
+    },
+    {
+      "id": "D",
+      "criterion": "Pilot feasibility",
+      "score": 7,
+      "maximum": 10,
+      "rationale": "Five adults, five double-reviewed sources, a staged launch, safety gates and explicit labor/cost sensitivities make a small pilot operationally imaginable. Deduct 3 because there is no committed host, advisor, funding or named staffing; workload estimates remain assumptions and accessibility accommodations are not validated. The base economic and cash cost is $1,415, or $283 per learner, before any overrun; $175 cash requires all modeled labor to be donated.",
+      "evidence": [
+        "docs/PILOT_STAGE_ONE.md",
+        "output/career-bridge-v093/PILOT_SCENARIOS.json"
+      ]
+    },
+    {
+      "id": "E",
+      "criterion": "Career impact/equity",
+      "score": 6,
+      "maximum": 10,
+      "rationale": "Account-free access and specific preparation steps plausibly benefit learners without professional networks. Unknown enrollment, authorization and weekly availability are exposed rather than silently excluded. Deduct 4 because there are zero verified timed human sessions, no measured actionability or career transitions, and no subgroup evidence that this reaches or benefits people with less access. The workflow still depends on an available advisor or employer response; willingness, scheduling and accommodation barriers remain real.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "docs/CAREER_BRIDGE_EVALUATION.md",
+        "docs/PILOT_STAGE_ONE.md"
+      ]
+    },
+    {
+      "id": "F",
+      "criterion": "Civic relevance",
+      "score": 9,
+      "maximum": 10,
+      "rationale": "The workflow connects learning to a real public employer and actual published duties, uses official recruitment provenance and distinguishes public-service preparation from employer decisions. Deduct 1 because a municipal workforce office or public employer has not committed to using or recognizing the outputs.",
+      "evidence": [
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md",
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "docs/PILOT_STAGE_ONE.md"
+      ]
+    },
+    {
+      "id": "G",
+      "criterion": "Sustainability/scalability",
+      "score": 5,
+      "maximum": 10,
+      "rationale": "Transparent labor accounting, a small first stage and a funded-capacity stop gate are sound starting points. Deduct 5 because no maintenance owner, recurring funding, staffing commitment or observed review/support throughput exists. Source refreshes, second reviews and human handoffs create recurring costs; a static deployed app does not establish an affordable operating service. Stage 2 costs $6,240 economically for 25 learners, while its $500 cash figure depends on fully donated modeled labor. Expansion of a reliable curated catalog remains unproven.",
+      "evidence": [
+        "docs/PILOT_STAGE_ONE.md",
+        "output/career-bridge-v093/PILOT_SCENARIOS.json",
+        "docs/CLASSIFICATION_IMPROVEMENT_v093.md"
+      ]
+    },
+    {
+      "id": "H",
+      "criterion": "Measurement",
+      "score": 8,
+      "maximum": 10,
+      "rationale": "The plan specifies completion denominators, missing outcomes, two independent raters, retained disagreements, safety vetoes and capacity gates; it separates outputs, short-term preparation and employment follow-up. Deduct 2 because these measures have not been collected, no independent gold adjudication exists, and there is no observed comparative human baseline. Authored classification scores and browser checks validate bounded software behavior, not workforce impact.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_EVALUATION.md",
+        "docs/PILOT_STAGE_ONE.md",
+        "output/career-bridge-v093/CLASSIFICATION_RESULTS.json"
+      ]
+    },
+    {
+      "id": "I",
+      "criterion": "Inclusive accessibility",
+      "score": 7,
+      "maximum": 10,
+      "rationale": "Local voluntary saving/sharing, no login or fee, labels, keyboard focus checks and 320\u20131280px reflow reduce practical access and privacy barriers. Deduct 3 because actual 200% zoom and screen-reader operation are untested, and evidence does not establish usability across language, literacy, assistive technology or low-connectivity circumstances. A small accommodation reserve and fictional testing do not demonstrate equitable access.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "docs/CAREER_BRIDGE_EVALUATION.md",
+        "output/career-bridge-v093/REFLOW.json",
+        "output/career-bridge-v093/KEYBOARD.json",
+        "docs/PILOT_STAGE_ONE.md"
+      ]
+    },
+    {
+      "id": "J",
+      "criterion": "Presentation",
+      "score": 8,
+      "maximum": 10,
+      "rationale": "The five-minute verification path, captioned screenshot sequence and real exported example clearly explain what a learner does and what remains unknown. Deduct 2 because screenshots do not demonstrate continuous unaided use, the document/checks package is dense, and no novice comprehension result shows the caveats and workflow are understood.",
+      "evidence": [
+        "docs/JUDGE_COMPREHENSION_GUIDE.md",
+        "media/v093-walkthrough-transcript.txt",
+        "output/career-bridge-v093/DEMO_ACCEPTANCE.json",
+        "docs/CAREER_BRIDGE_EVALUATION.md"
+      ]
+    }
+  ],
+  "strongestCompetitiveArgument": "A learner can leave a public-source search with a concrete, portable preparation plan that preserves the boundary between an actual employer duty, a fictional skill declaration, a proposed artifact and an unresolved eligibility decision. That is a credible workforce-advising aid worth a bounded feasibility pilot.",
+  "weakestCompetitiveArgument": "The case that it produces better career or equity outcomes, or can operate more cheaply at scale than existing advising and manual source review, is currently hypothetical. There is no human comparative advantage, employer recognition, recurring funding or operating commitment.",
+  "unresolvedWeaknesses": [
+    "One owner-reported informal reviewer is not a verified timed participant study; zero verified timed human sessions and zero independent benchmark adjudicators remain.",
+    "12/12 on source-assisted known authored cases and 28/28 on a frozen authored challenge are bounded engineering results. The challenge was visible to its author, descriptive inputs are richer than ordinary RSS, and no production-feed accuracy or human efficacy follows.",
+    "Public deployment/build, 233 asset byte checks, 209 preserved assertions and 13 new Bridge workflows are supplied release context; I did not independently rerun them. They do not represent users or placements.",
+    "Source reviews/holds were not renewed by Employment Type metadata retrieval. The sample retains a source hold; applicant eligibility and employer acceptance remain unknown.",
+    "Actual 200% zoom and screen reader are UNTESTED. No WCAG certification or equitable usability outcome is established.",
+    "No committed host, advisor or funding; planned labor rates, review times and support demand are assumptions."
+  ],
+  "priorScoreExposure": {
+    "encountered": false,
+    "disclosure": "No prior internal numeric scores, target scores or other assessor files were read."
+  },
+  "scope": "Read only FRESH_EVALUATION_PACKET.json and its listed current evidence. No product files changed, outreach made or live re-testing performed."
+}

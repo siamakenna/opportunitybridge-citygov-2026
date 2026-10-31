@@ -2,7 +2,7 @@
   "schema": "opportunitybridge-career-bridge-1",
   "bridgeVersion": "1.0",
   "productVersion": "0.9.3",
-  "createdAt": "2026-10-31T17:47:13.693Z",
+  "createdAt": "2026-10-31T18:22:58.983Z",
   "fictionalDemo": true,
   "title": "My Career Bridge Plan",
   "source": {
@@ -36,22 +36,22 @@
   "actions": [
     {
       "priority": 1,
-      "title": "Prepare the proposed work sample",
-      "why": "Introductory HTML can be demonstrated through the educational web collections named in MPT’s reviewed duties. The source also describes accessibility work; this exercise does not prove WCAG conformance or student eligibility.",
-      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
-      "sourceEvidence": "Build educational web resource collections using HTML.",
-      "expectedArtifactOrDecision": "Proposed accessible fictional library resource page, with heading, language, link, alternative-text and label checks.",
-      "unresolvedCondition": "Learner work is declared/proposed and has not been independently verified.",
-      "status": "Planned — not completed"
-    },
-    {
-      "priority": 2,
       "title": "Check the full current announcement and documents",
       "why": "The source controls the qualification, schedule, documents and deadline. A static review may be stale.",
       "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
       "sourceEvidence": "Build educational web resource collections using HTML.",
       "expectedArtifactOrDecision": "College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.; College applicants: résumé.; College applicants: academic or professional recommendation.; College applicants: unofficial transcript.",
       "unresolvedCondition": "Availability, accepted documents and all employer conditions require current review.",
+      "status": "Planned — not completed"
+    },
+    {
+      "priority": 2,
+      "title": "Prepare the proposed work sample",
+      "why": "Introductory HTML can be demonstrated through the educational web collections named in MPT’s reviewed duties. The source also describes accessibility work; this exercise does not prove WCAG conformance or student eligibility.",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+      "sourceEvidence": "Build educational web resource collections using HTML.",
+      "expectedArtifactOrDecision": "Proposed accessible fictional library resource page, with heading, language, link, alternative-text and label checks.",
+      "unresolvedCondition": "Learner work is declared/proposed and has not been independently verified.",
       "status": "Planned — not completed"
     },
     {

@@ -1,6 +1,6 @@
 # My Career Bridge Plan
 Fictional demonstration / preparation plan — not a credential or eligibility decision.
-Generated: 2026-10-31T17:47:13.113Z; product 0.9.3; bridge 1.0
+Generated: 2026-10-31T18:22:58.360Z; product 0.9.3; bridge 1.0
 Employer: Maryland Public Television
 Opportunity: MD Center for Media Literacy & Education Student Fellow (26-008996-0007)
 Official source: https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=
@@ -20,19 +20,19 @@ Proposed evidence: Proposed accessible fictional library resource page, with hea
 No demonstrated work verified. The sample is proposed.
 
 ## Exactly three next actions
-1. Prepare the proposed work sample
-   Why: Introductory HTML can be demonstrated through the educational web collections named in MPT’s reviewed duties. The source also describes accessibility work; this exercise does not prove WCAG conformance or student eligibility.
-   Source: https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=
-   Source evidence: Build educational web resource collections using HTML.
-   Expected preparation artifact or decision: Proposed accessible fictional library resource page, with heading, language, link, alternative-text and label checks.
-   Unresolved: Learner work is declared/proposed and has not been independently verified.
-   Status: Planned — not completed
-2. Check the full current announcement and documents
+1. Check the full current announcement and documents
    Why: The source controls the qualification, schedule, documents and deadline. A static review may be stale.
    Source: https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=
    Source evidence: Build educational web resource collections using HTML.
    Expected preparation artifact or decision: College applicants: cover letter identifying the MPT opportunity and whether academic credit is sought.; College applicants: résumé.; College applicants: academic or professional recommendation.; College applicants: unofficial transcript.
    Unresolved: Availability, accepted documents and all employer conditions require current review.
+   Status: Planned — not completed
+2. Prepare the proposed work sample
+   Why: Introductory HTML can be demonstrated through the educational web collections named in MPT’s reviewed duties. The source also describes accessibility work; this exercise does not prove WCAG conformance or student eligibility.
+   Source: https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=
+   Source evidence: Build educational web resource collections using HTML.
+   Expected preparation artifact or decision: Proposed accessible fictional library resource page, with heading, language, link, alternative-text and label checks.
+   Unresolved: Learner work is declared/proposed and has not been independently verified.
    Status: Planned — not completed
 3. Ask an advisor or employer a specific question
    Why: Which enrollment or recent-graduate records, weekly schedule and accessible HTML sample should I discuss with MPT?

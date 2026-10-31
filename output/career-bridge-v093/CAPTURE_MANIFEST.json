@@ -1,5 +1,5 @@
 {
-  "kind": "Authentic screenshots,not continuous video",
+  "kind": "Authentic local-app screenshot clips,not continuous video; source-first scenes recaptured after review fix",
   "durationSeconds": 180,
   "images": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "path": "media/v093-captures/03-connect.png",
-      "sha256": "7db13f9ec380bad073be14cacd9c43499d272902853e6af3b1e8255762544b51"
+      "sha256": "0d165834bf1874129a42782cec290d29fb09a6629fabbdde5444959ffd2fddf3"
     },
     {
       "path": "media/v093-captures/04-demonstrate.png",
@@ -24,11 +24,11 @@
     },
     {
       "path": "media/v093-captures/05-plan.png",
-      "sha256": "1a9135bf5cf19ad0940810f41321b338988c295159197f4d49d6ef7e36e123dc"
+      "sha256": "14bf7ad77a464eaaf0033f237338c3dfff636a01fcd94b0bdb527f19c1ae1068"
     },
     {
       "path": "media/v093-captures/06-unknown.png",
-      "sha256": "23a60a2a7a8229f9c09ad362b7f10f1c179b759ff05c417d15008b4261543dbc"
+      "sha256": "b19f5de045c32a8f8ad6477b47d421f1106a1e264fb44b3111a370c3d70eef14"
     },
     {
       "path": "media/v093-captures/07-pilot.png",

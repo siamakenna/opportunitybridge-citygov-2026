@@ -1,0 +1,64 @@
+{
+  "perspective": "Skeptical Competition Judge",
+  "assessmentType": "Bounded follow-up of the same simulated perspective; not a new independent human or blinded assessment",
+  "originalAssessmentTotal": 68,
+  "originalAssessmentPreserved": true,
+  "reviewedChange": "Local post-review source-first ordering patch; source revision for this follow-up is not asserted to equal the original deployed candidate.",
+  "scope": [
+    "src/bridge-core.js, bounded action ordering logic",
+    "tests/career-bridge.test.js, source-first regression and expired-source control",
+    "media/v093-captures/05-plan.png",
+    "../OpportunityBridge-v093-Release-Receipts/SOURCE_FIRST_FIX.json"
+  ],
+  "finding": "Resolved: non-expired stale/held plans now put the full current announcement/document check first, the proposed sample or skill-fit step second, and the human question third; priorities are renumbered 1–3. Fresh-source proposed-sample-first and expired-source alternative-first behavior are preserved in the inspected logic and targeted controls.",
+  "evidence": [
+    {
+      "path": "src/bridge-core.js",
+      "line": 28,
+      "observation": "The non-expired/stale guard moves the original first action behind the source check and renumbers priorities."
+    },
+    {
+      "path": "tests/career-bridge.test.js",
+      "observation": "The appended regression covers old-review staleness and a recent sourceReviewPending hold, then verifies a fresh-source control."
+    },
+    {
+      "path": "media/v093-captures/05-plan.png",
+      "observation": "Visually inspected: first card is Check the full current announcement and documents; second is Prepare the proposed work sample; third is the specific human question."
+    },
+    {
+      "path": "../OpportunityBridge-v093-Release-Receipts/SOURCE_FIRST_FIX.json",
+      "observation": "Local receipt reports pass and the source-first action."
+    }
+  ],
+  "verification": {
+    "command": "node --test --test-name-pattern='Stale and held sources|Expired opportunity' tests/career-bridge.test.js",
+    "independentlyRunByThisPerspective": true,
+    "tests": 2,
+    "passed": 2,
+    "failed": 0,
+    "fullSuite": "175 JavaScript + 6 Python tests reported passed by the parent; not rerun by this perspective."
+  },
+  "resolvedConcern": "The original B usefulness discussion flagged stale-source work-sample preparation before current-source review. That concrete concern no longer applies to the inspected patched flow.",
+  "criterionScoreChanges": [],
+  "scoreChangeWarranted": false,
+  "currentCriterionScores": {
+    "A": 7,
+    "B": 7,
+    "C": 6,
+    "D": 6,
+    "E": 6,
+    "F": 9,
+    "G": 5,
+    "H": 7,
+    "I": 7,
+    "J": 8
+  },
+  "currentTotal": 68,
+  "scoreRationale": "The repair improves one specific prioritization weakness within B. I keep B at 7/10 because the remaining evidence still lacks observed learner comprehension, advisor-rated usefulness and evidence that the plan reduces decision effort; output reading burden is unchanged. This bounded correction alone does not warrant an entire criterion point. No other criterion changes: the patch adds no user outcomes, independent comparison, commitments, maintenance evidence or assistive-technology observation.",
+  "limitations": "Source checks still require a person to complete them; reordering does not establish eligibility or guarantee users follow the sequence. This review verifies local logic, targeted tests and the supplied screenshot/receipt, not deployed public parity or human benefit.",
+  "priorScoreExposure": "Only this perspective’s own original 68/100 is used as the explicitly preserved baseline. No other assessor or historic scoring files were read.",
+  "filesChangedByThisFollowUp": [
+    "output/career-bridge-v093/JUDGE_SKEPTICAL_ADDENDUM.json",
+    "output/career-bridge-v093/JUDGE_SKEPTICAL_ADDENDUM.md"
+  ]
+}

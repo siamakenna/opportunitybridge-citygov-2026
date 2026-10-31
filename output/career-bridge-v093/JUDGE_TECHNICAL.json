@@ -1,0 +1,167 @@
+{
+  "perspective": "Technical/Product Judge",
+  "assessmentType": "Simulated perspective; not an independent human judge, blinded review or official result",
+  "candidateRevision": "5903b83a2c5f912e45ac1dbcb59361bf017e2851",
+  "date": "2026-10-31",
+  "scoreScale": "Each official A\u2013J criterion 0\u201310; equal weight; total /100",
+  "priorRubricScoreExposure": false,
+  "priorScoreDisclosure": "No prior internal rubric scores, target score or other assessor review was read or used. Historical classification metrics were read as product evidence, not judging scores.",
+  "evidenceMethod": "Read fresh packet and listed documents/receipts plus four permitted source modules; verified SHA-256 for all 18 listed files. Public 233 assets/209 assertions/13 workflows, CI pass, 174 JS + 6 Python tests and six private synthetic analyzer controls are supplied release attestations, not independently rerun in this perspective. No product files changed and no external contact made.",
+  "criteria": [
+    {
+      "id": "A",
+      "criterion": "Barrier clarity",
+      "score": 8,
+      "max": 10,
+      "rationaleAndDeductions": "The example makes the education-to-work translation barrier concrete: introductory HTML becomes a proposed sample tied to a real public-employer duty. Deduct 2 because the supplied evidence does not establish prevalence or priority through observed learner sessions; the fictional example and one reported informal reviewer are limited problem validation.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "docs/CAREER_BRIDGE_EVALUATION.md"
+      ]
+    },
+    {
+      "id": "B",
+      "criterion": "Usefulness",
+      "score": 8,
+      "max": 10,
+      "rationaleAndDeductions": "A working account-free flow produces exactly three prioritized actions, unknown conditions and usable MD/JSON artifacts; negative and expired-source paths are retained. Deduct 2 for narrow authored mapping and no observed human comprehension/actionability advantage. A free-text experience declaration does not generate a new duty mapping.",
+      "evidence": [
+        "src/bridge-core.js:6",
+        "src/bridge-app.js:18",
+        "output/career-bridge-v093/LOCAL_BRIDGE_ACCEPTANCE.json",
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md"
+      ]
+    },
+    {
+      "id": "C",
+      "criterion": "Creativity/originality",
+      "score": 7,
+      "max": 10,
+      "rationaleAndDeductions": "The useful combination is inspectable source provenance, skill translation, fictional practice and an uncertainty-preserving advisor handoff. Deduct 3 because the core steps are reproducible with an official announcement and competent manual or chatbot assistance, and the direct mapping is specifically authored for one demonstration; no comparative human or competitor-workflow advantage is measured.",
+      "evidence": [
+        "docs/COMPARATIVE_VALUE.md",
+        "src/bridge-core.js:6"
+      ]
+    },
+    {
+      "id": "D",
+      "criterion": "Pilot feasibility",
+      "score": 7,
+      "max": 10,
+      "rationaleAndDeductions": "Five adults/five double-reviewed sources, explicit safety gates and a 24.25-hour/$1,415 paid-labor base are plausible for a feasibility pilot. Deduct 3 because host, advisor, funding and operational staffing are uncommitted; review/support/accommodation assumptions have not been tested in delivery. This is an executable plan once resourced, not a launched service.",
+      "evidence": [
+        "docs/PILOT_STAGE_ONE.md",
+        "output/career-bridge-v093/PILOT_SCENARIOS.json"
+      ]
+    },
+    {
+      "id": "E",
+      "criterion": "Career impact/equity",
+      "score": 6,
+      "max": 10,
+      "rationaleAndDeductions": "No account, fee or required quest lowers entry friction, and specific questions could help a learner without professional networks approach an advisor. Deduct 4 because no observed preparation gain, application/interview/placement outcome or differential access benefit exists. Human verification remains a dependency for people who may lack access to it; a portable fictional plan is an output rather than evidence of a career transition.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "docs/CAREER_BRIDGE_EVALUATION.md",
+        "docs/PILOT_STAGE_ONE.md"
+      ]
+    },
+    {
+      "id": "F",
+      "criterion": "Civic relevance",
+      "score": 9,
+      "max": 10,
+      "rationaleAndDeductions": "The demonstration is grounded in a real Maryland Public Television recruitment, public-employer duties and official-source verification rather than a generic private-sector career exercise. Deduct 1 because there is no committed public-service host or employer/advisor adoption, and the current source review remains on hold.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_PRODUCT.md",
+        "output/career-bridge-v093/SOURCE_PROVENANCE.json",
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md"
+      ]
+    },
+    {
+      "id": "G",
+      "criterion": "Sustainability/scalability",
+      "score": 6,
+      "max": 10,
+      "rationaleAndDeductions": "A static, local-first prototype is inexpensive to distribute; explicit review gates and cost sensitivities expose maintenance needs. Deduct 4 because expert source review, ongoing freshness, broader duty mappings, accessibility support and advisor handoff require people; no funded owner, demonstrated throughput or sustainable expansion mechanism exists. The new inspected classification registry contains two selected publisher-field observations, not broad feed enrichment.",
+      "evidence": [
+        "docs/PILOT_STAGE_ONE.md",
+        "docs/CLASSIFICATION_IMPROVEMENT_v093.md",
+        "src/classification-evidence.js:2",
+        "src/bridge-core.js:6"
+      ]
+    },
+    {
+      "id": "H",
+      "criterion": "Measurement",
+      "score": 8,
+      "max": 10,
+      "rationaleAndDeductions": "Evidence distinguishes software checks, authored benchmark accuracy, immediate outputs and future human outcomes; the pilot retains missing outcomes and independent-rater disagreements with explicit go/no-go gates. All 18 packet-listed file hashes matched. Deduct 2 because independent adjudicators and verified timed human sessions remain zero; authored descriptions do not estimate normal RSS accuracy or real-world effectiveness.",
+      "evidence": [
+        "docs/CAREER_BRIDGE_EVALUATION.md",
+        "docs/CLASSIFICATION_IMPROVEMENT_v093.md",
+        "output/career-bridge-v093/CLASSIFICATION_RESULTS.json",
+        "docs/PILOT_STAGE_ONE.md"
+      ]
+    },
+    {
+      "id": "I",
+      "criterion": "Inclusive accessibility",
+      "score": 7,
+      "max": 10,
+      "rationaleAndDeductions": "Narrow-width reflow, labeled controls, focus movement, captions/transcript and opt-in local persistence are credible inclusion measures. The inspected Bridge renderer uses textContent and external links use noopener/noreferrer. Deduct 3 because actual 200% zoom and screen-reader use are untested; no disabled-user, low-literacy, language or subgroup outcome validation is supplied. These source/receipt checks are neither a WCAG certification nor a full security audit.",
+      "evidence": [
+        "output/career-bridge-v093/REFLOW.json",
+        "output/career-bridge-v093/KEYBOARD.json",
+        "media/v093-walkthrough-transcript.txt",
+        "src/bridge-app.js:3",
+        "docs/CAREER_BRIDGE_EVALUATION.md"
+      ]
+    },
+    {
+      "id": "J",
+      "criterion": "Presentation",
+      "score": 8,
+      "max": 10,
+      "rationaleAndDeductions": "The five-minute verification path and seven-scene captioned walkthrough lead through source, duty, action and export, with unusually explicit evidence limitations. Deduct 2 because the plan repeats lengthy cautions and source details, the showcase is a screenshot sequence rather than continuous interaction, and comprehension by an unfamiliar judge or learner has not been observed.",
+      "evidence": [
+        "docs/JUDGE_COMPREHENSION_GUIDE.md",
+        "output/career-bridge-v093/DEMO_ACCEPTANCE.json",
+        "media/v093-walkthrough-transcript.txt",
+        "output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md"
+      ]
+    }
+  ],
+  "total": 74,
+  "maximum": 100,
+  "demonstratedCapabilities": [
+    "Deterministic source-linked three-action preparation plan with MD/JSON downloads.",
+    "Direct reviewed MPT HTML-duty connection; separate transferable and unsupported-skill paths.",
+    "Source freshness/unknown eligibility preserved; expired opening becomes historical practice and current-alternative-first actions.",
+    "Local download and explicit capture/save flow with software acceptance receipts."
+  ],
+  "hypotheticalBenefits": [
+    "Less learner effort or confusion.",
+    "More useful advisor conversations and stronger work samples.",
+    "Improved applications, interviews, placements or equitable career access."
+  ],
+  "strongestCompetitiveArgument": "An inspectable account-free preparation workflow makes the boundary between employer facts, learner declarations, proposed work and unresolved decisions visible in the export. Reliability and source restraint are more defensible differentiators than headline authored benchmark accuracy.",
+  "weakestCompetitiveArgument": "Claiming superior matching, broad automated skill translation, production classification accuracy, employer-recognized credentials or better career outcomes than source-only/manual/chatbot/Handshake/Forage workflows. None is established by this packet.",
+  "unresolvedWeaknesses": [
+    "Only the MPT software path has the inspected dedicated direct duty mapping; additional routes need authored source review and mapping.",
+    "Normal RSS lacks the rich synthetic descriptions behind 12/12 and 28/28; two metadata observations do not establish broad production coverage.",
+    "Historical 6/12 classification remains a relevant adverse baseline; there is no independent external gold-set evaluation.",
+    "All source qualification reviews and holds remain unrenewed; no availability or applicant eligibility determination follows.",
+    "No host/advisor/funding commitment and no observed staff throughput or participant support burden.",
+    "Actual 200% zoom, screen-reader operation, human usefulness and subgroup access outcomes are untested.",
+    "Security observations are scoped to permitted modules; no full dependency, deployment, import/export or penetration audit performed.",
+    "Each action currently reuses the same selected duty/requirement in its sourceEvidence field, which is weaker than action-specific document/condition citations."
+  ],
+  "technicalNotes": [
+    "bridge-core.js directly special-cases mpt-media/software and emits generic evidence/exploration proposals elsewhere. This is a reliable bounded prototype, not general semantic inference.",
+    "classification-core.js uses a small explicit-language parser and an inspected registry. Source-binding guards help ingestion integrity but do not authenticate arbitrary third-party JSON; this is a trust-boundary limitation, not a demonstrated exploit.",
+    "Bridge UI text uses textContent; downloads use local Blob URLs and revoke them. These are positive implementation choices, not sufficient evidence for complete security.",
+    "The sample plan catalogRevision is local, consistent with the documented capture artifact. It is not evidence that the public deployment has a revision mismatch."
+  ],
+  "overallJudgment": "Strong, reproducible engineering demonstration of a deliberately narrow preparation workflow. Competitive on provenance, conservative uncertainty and tangible outputs; materially weaker on independently observed usefulness, broad coverage and the people/funding needed for a sustainable service."
+}

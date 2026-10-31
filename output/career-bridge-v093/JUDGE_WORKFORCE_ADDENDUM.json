@@ -1,0 +1,66 @@
+{
+  "assessment": "Municipal Workforce Judge \u2014 follow-up addendum",
+  "assessmentDate": "2026-10-31",
+  "status": "Same simulated perspective follow-up, not a new independent assessment",
+  "baselineAssessment": "JUDGE_WORKFORCE.json",
+  "baselineCandidateRevision": "5903b83a2c5f912e45ac1dbcb59361bf017e2851",
+  "patchRevisionStatus": "Local post-review patch per SOURCE_FIRST_FIX.json; this inspection does not establish public deployment",
+  "specificRepair": "For a nonexpired stale/held source, recheck the full current announcement and documents becomes priority 1, proposed work becomes priority 2, and the human question remains priority 3. Fresh-source proposed-sample-first and expired-source alternative-first behavior are retained.",
+  "verification": {
+    "inspected": [
+      "src/bridge-core.js",
+      "tests/career-bridge.test.js",
+      "../OpportunityBridge-v093-Release-Receipts/SOURCE_FIRST_FIX.json",
+      "media/v093-captures/05-plan.png"
+    ],
+    "observed": "Source logic reorders nonexpired stale plans and renumbers all three priorities. Screenshot displays source/document review before proposed sample work. Regression exercises stale and held cases plus the fresh case; existing expired-case test retains alternative-first expectation.",
+    "executedCommand": "node --test tests/career-bridge.test.js",
+    "executedResult": {
+      "tests": 23,
+      "passed": 23,
+      "failed": 0
+    },
+    "suppliedBroaderChecks": "175 JavaScript and 6 Python passes reported by parent; not independently rerun in this addendum"
+  },
+  "decision": "No criterion-score change",
+  "scoreChanges": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "F": 0,
+    "G": 0,
+    "H": 0,
+    "I": 0,
+    "J": 0
+  },
+  "scores": {
+    "A": 8,
+    "B": 8,
+    "C": 7,
+    "D": 7,
+    "E": 6,
+    "F": 9,
+    "G": 5,
+    "H": 8,
+    "I": 7,
+    "J": 8
+  },
+  "total": 73,
+  "totalChange": 0,
+  "rationale": "This is a practical improvement: scarce learner time should not first be invested in a proposed sample for an opportunity whose current requirements or availability have not been rechecked. It strengthens the quality of B Usefulness and supports the equity rationale in E by reducing avoidable preparation effort. It does not cross an integer scoring threshold because the original B deduction rests on untested learner comprehension/usefulness and remaining source verification, while E rests on absent learner, career and subgroup evidence. The repair supplies no new human or operational evidence. Other criterion deductions remain unchanged.",
+  "residualLimits": [
+    "Reordering a planned action does not verify that the learner actually rechecks the source or that the source is current.",
+    "No measured reduction in wasted preparation time or observed improvement in learner decisions.",
+    "No new learner sessions, independent adjudication, career/equity outcomes, host/advisor/funding commitments or recurring cost evidence.",
+    "Actual 200% zoom and screen-reader usability remain untested."
+  ],
+  "originalFilesPreserved": true,
+  "priorScoreExposure": {
+    "otherAssessorScoresRead": false,
+    "targetScoreUsed": false,
+    "disclosure": "Only this perspective's original 73/100 is retained as explicitly requested; no other assessor scores were read."
+  },
+  "mutations": "Only this separate addendum JSON was written; original assessment files and product files were not edited."
+}

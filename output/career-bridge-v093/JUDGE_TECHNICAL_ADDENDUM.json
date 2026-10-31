@@ -1,0 +1,45 @@
+{
+  "perspective": "Technical/Product Judge",
+  "assessmentType": "Follow-up to the same simulated review; not independent, blinded or official judging",
+  "date": "2026-10-31",
+  "baselineTotal": 74,
+  "baselinePreserved": true,
+  "baselineFilesPreserved": [
+    "output/career-bridge-v093/JUDGE_TECHNICAL.md",
+    "output/career-bridge-v093/JUDGE_TECHNICAL.json"
+  ],
+  "repairRevisionStatus": "SOURCE_FIRST_FIX.json labels this a local post-review patch; this addendum does not establish a new public deployment revision.",
+  "evidenceInspected": [
+    "src/bridge-core.js",
+    "tests/career-bridge.test.js (new final regression and existing expired-source test)",
+    "../OpportunityBridge-v093-Release-Receipts/SOURCE_FIRST_FIX.json",
+    "media/v093-captures/05-plan.png"
+  ],
+  "finding": "For non-expired stale/held sources, bridgePlan now puts the full-current-announcement/document check first, proposed preparation second and the human question third, then renumbers priorities 1\u20133. The screenshot shows that order. The explicit expired branch still puts a current alternative first; the new regression checks stale/held and fresh-source ordering.",
+  "verificationLimit": "The inspected receipt reports pass and the parent reports 175 JavaScript plus 6 Python tests passing. This perspective inspected the code, regression, receipt and screenshot; it did not independently rerun those tests or establish human behavior.",
+  "criterionDecision": {
+    "criterion": "B",
+    "name": "Usefulness",
+    "before": 8,
+    "after": 8,
+    "delta": 0,
+    "rationale": "The repair is worthwhile: when source freshness is uncertain, the displayed priority now reduces the risk of investing effort before rechecking relevance and requirements. It strengthens the existing usefulness score within the same band. The original two-point deduction concerned narrow authored mapping and absent observed human comprehension/actionability advantage; neither is resolved by ordering three existing actions."
+  },
+  "allCriterionScoresAfter": {
+    "A": 8,
+    "B": 8,
+    "C": 7,
+    "D": 7,
+    "E": 6,
+    "F": 9,
+    "G": 6,
+    "H": 8,
+    "I": 7,
+    "J": 8
+  },
+  "totalAfter": 74,
+  "totalDelta": 0,
+  "otherCriteria": "No score changes. The patch adds no source-review renewal, broader mapping, committed host/funding, actual assistive-technology result, independent benchmark adjudication or measured career/equity outcome.",
+  "remainingScopeLimit": "This is prioritization rather than enforcement: stale-source plans still permit proposed preparation and export, and no recorded successful recheck is required to proceed. That is consistent with a bounded preparation prototype but does not certify current opportunity availability.",
+  "priorScoreExposure": "Only this perspective\u2019s original 74/100 was supplied for preservation. No other assessor scores, target or review were inspected; the follow-up is not represented as an independently blind re-score."
+}

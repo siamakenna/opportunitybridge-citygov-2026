@@ -8,3 +8,9 @@ const original=d.cases.filter(c=>c.stratum==='classification').map(c=>{const p=i
 const heldout=challenge.cases.map(c=>({id:c.id,expected:c.expected.primary,expectedArrangement:c.expected.employmentArrangement,after:classifyEvidence(structuredClone(c.record),{now,...c.options})}));
 const report={version:'0.9.3',challengeSha256:digest,challengeFreezeImplementation:challenge.implementationBefore,provenance:'Developer-authored references; no independent adjudication. Frozen preimplementation challenge, not genuinely unseen to its author; no post-score tuning.',original:{beforeCorrect:original.filter(x=>x.before===x.expected).length,metrics:metrics(original),rows:original},challenge:{metrics:metrics(heldout),arrangementCorrect:heldout.filter(x=>x.expectedArrangement===x.after.employmentArrangement).length,rows:heldout},originalConditionAndDeadline:'Unchanged historical v1 adapter and results remain independently replayed by cceb-verify.mjs; 23/25 conditions,10/10 deadlines,6/12 old classification,baselines12/12.'};
 await writeFile(out+'/CLASSIFICATION_RESULTS.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({original:report.original.metrics,challenge:report.challenge.metrics,arrangementCorrect:report.challenge.arrangementCorrect}));
+
+// Authored regression gates;these do not establish independent/generalized accuracy.
+assert.equal(report.original.metrics.correct,12,'Retained source-assisted cases regressed');
+assert.equal(report.challenge.metrics.correct,28,'Frozen authored challenge regressed');
+assert.equal(report.challenge.metrics.falseParticipantClassifications,0,'Unsupported participant label');
+assert.equal(report.challenge.arrangementCorrect,28,'Frozen arrangement contract regressed');

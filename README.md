@@ -1,3 +1,17 @@
+# OpportunityBridge v0.9.3 — Career Bridge
+
+Turn fictional coursework into a source-linked preparation plan: choose a reviewed public-service opportunity, inspect a skill-to-duty connection, try optional fictional practice, retain unknown qualifications, and export exactly three actions for a human advisor. Stale/held sources prioritize checking the current announcement before work-sample investment. No account, fee, automatic application or eligibility certification.
+
+[Working Career Bridge](https://siamakenna.github.io/opportunitybridge-citygov-2026/?bridge=demo#career-bridge) · [Judge Evidence Room](https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html#career-bridge-evidence) · [Captioned three-minute screenshot sequence](https://siamakenna.github.io/opportunitybridge-citygov-2026/walkthrough.html) · [Product contract](docs/CAREER_BRIDGE_PRODUCT.md) · [Execution report](docs/V093_EXECUTION_REPORT.md)
+
+Source-aware classification separates type, employment arrangement, career stage and applicant eligibility. Original CCEB adverse results remain reproducible. New description-assisted and frozen authored challenge results are separately labeled; no independent accuracy or learner benefit is claimed. Participant kit 2.0.1/shortform 2.0 and private facilitator boundaries are preserved.
+
+Verification:177 JavaScript tests,6 Python tests,209 preserved browser assertions,14 Career Bridge workflow checks,12 functional checks and5 quest checks, with actual downloads inspected. [Classification evidence](docs/CLASSIFICATION_IMPROVEMENT_v093.md) · [Staged pilot](docs/PILOT_STAGE_ONE.md) · [All fresh simulated judging results and limitations](docs/CITYGOV_FRESH_SCORING_v093.md).
+
+One reported informal reviewer;zero verified formal timed human sessions;zero independent gold adjudicators. Actual 200% zoom/screen reader remain UNTESTED;no host/advisor/funding commitment. Historical project notes follow and retain their original version context.
+
+---
+
 # OpportunityBridge v0.9 — Evidence That Survives Scrutiny
 
 [Judge Evidence Room](https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html) · [Internal benchmark comparison](docs/evidence/BASELINE_COMPARISON.md) · [Failures](output/evidence-v09/ERROR_ANALYSIS.md)

@@ -27,3 +27,5 @@ Revised12/12(100%); macroF1=1.0; coverage11/12(91.67%); abstention1/12(8.33%);11
 Final28/28 exact primary;28/28 arrangement; macroF1=1.0; coverage19/28(67.86%); abstention9/28(32.14%);19/19non-abstentions correct; all9required unknowns correct. Zero false internship/fellowship participant labels and zero incorrect definite types. One explicit conflicting-description control abstains. Precision,recall,F1,confusion matrices and level-stratified denominators are in [CLASSIFICATION_RESULTS.json](../output/career-bridge-v093/CLASSIFICATION_RESULTS.json). Small authored strata do not establish calibration or external generalization.
 
 Run `node scripts/classification-v093.mjs` and `npm run benchmark:cceb`. Original first-run failures,retained directed repairs and independent-review-needed status are preserved.
+
+The Pulse UI also separates primary job type from employment arrangement. The job filter includes reviewed generic staff jobs; full-time/part-time/temporary/contractual/unknown arrangement is a separate metadata filter. This does not infer a schedule or career stage from a title. Original legacy tags remain in receipts for compatibility.

@@ -1,0 +1,75 @@
+{
+  "assessmentType": "Three separately framed simulated perspectives;not independent humans,not genuinely blinded or calibrated official judging",
+  "assessedRevision": "5903b83a2c5f912e45ac1dbcb59361bf017e2851",
+  "initialPacket": "Public release asset FRESH_JUDGING_PACKET.zip preserves all18assessed artifact hashes at that revision",
+  "rows": [
+    {
+      "perspective": "Municipal workforce",
+      "scores": {
+        "A": 8,
+        "B": 8,
+        "C": 7,
+        "D": 7,
+        "E": 6,
+        "F": 9,
+        "G": 5,
+        "H": 8,
+        "I": 7,
+        "J": 8
+      },
+      "total": 73,
+      "source": "JUDGE_WORKFORCE.json",
+      "followup": "JUDGE_WORKFORCE_ADDENDUM.json",
+      "followupScoreChange": 0
+    },
+    {
+      "perspective": "Technical/product",
+      "scores": {
+        "A": 8,
+        "B": 8,
+        "C": 7,
+        "D": 7,
+        "E": 6,
+        "F": 9,
+        "G": 6,
+        "H": 8,
+        "I": 7,
+        "J": 8
+      },
+      "total": 74,
+      "source": "JUDGE_TECHNICAL.json",
+      "followup": "JUDGE_TECHNICAL_ADDENDUM.json",
+      "followupScoreChange": 0
+    },
+    {
+      "perspective": "Skeptical competition",
+      "scores": {
+        "A": 7,
+        "B": 7,
+        "C": 6,
+        "D": 6,
+        "E": 6,
+        "F": 9,
+        "G": 5,
+        "H": 7,
+        "I": 7,
+        "J": 8
+      },
+      "total": 68,
+      "source": "JUDGE_SKEPTICAL.json",
+      "followup": "JUDGE_SKEPTICAL_ADDENDUM.json",
+      "followupScoreChange": 0
+    }
+  ],
+  "range": [
+    68,
+    74
+  ],
+  "median": 73,
+  "mean": 71.66666666666667,
+  "historicalInternalScore": 87,
+  "historicalScoreShownBeforeInitialScoring": false,
+  "sourceFirstRepair": "Verified by all3same simulated perspectives in separate addenda;no point changes;original assessments preserved",
+  "targetAchieved": false,
+  "calibrationLimit": "Difference from87is subjective recalibration under fresh framing,not a controlled product regression. No human outcome or statistical uncertainty estimate is inferred."
+}
