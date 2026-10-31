@@ -40,9 +40,9 @@ Engineering checks: 152 JavaScript and 6 Python tests; 96 preserved browser asse
 
 The retained 180-second v0.8.1 walkthrough is an honestly labeled captioned screenshot sequence of the working app, not continuous live footage. Existing source dates remain visible. Separate evidence demo script, six-minute finalist presentation and three-minute Q&A are available. No fabricated participants, endorsements or narrated success stories.
 
-ChatGPT supplied the starter. Codex significantly assisted research, code, design, deterministic workflows, evaluation, documents, testing, media and publication; owner review remains necessary. MIT code, system fonts, public RSS, Node/Python and GitHub Pages; no paid API or live language-model runtime. Prior-project methods inspired evaluation discipline without importing private code, data or branding. Official publishers retain their materials. Personal/institutional, IP and prize permissions require owner confirmation; no attestation is made here.
+ChatGPT supplied the starter. Codex significantly assisted research, code, design, deterministic workflows, evaluation, documents, testing, media and publication; owner review remains necessary. MIT code, system fonts, public RSS, Node/Python and GitHub Pages; no paid API or live language-model runtime. Prior-project methods inspired evaluation discipline without importing private code, data or branding. Official publishers retain their materials. Owner reports permitted resources/material rights and no known unresolved restrictions; no institutional ethics clearance or endorsement is claimed.
 
-TEAM: Kenny!; captain Makenna Rodriguez; one existing registered member. Registration and eligibility metadata preserved. Saved draft only, not submitted for judging. A shareable member profile URL has not been verified in the authorized interface; owner/organizer clarification remains required.
+TEAM: Kenny!; captain Makenna Rodriguez; one existing registered member. Registration and eligibility metadata preserved. Saved draft only, not submitted for judging. Owner identifies Account→Profile, set Public. A member-specific sharing URL is not exposed; organizer confirmation remains necessary.
 
 DEMO: https://siamakenna.github.io/opportunitybridge-citygov-2026/
 EVIDENCE ROOM: https://siamakenna.github.io/opportunitybridge-citygov-2026/evidence.html
