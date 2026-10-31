@@ -1,5 +1,5 @@
 {
-  "phase": "local-source-first",
+  "phase": "local-repaired",
   "kind": "Software acceptance; no human participants or independent usefulness measurement",
   "trials": [
     {
@@ -106,15 +106,15 @@
   ],
   "downloads": [
     {
-      "file": "local-source-first-Career-Bridge-Plan.md",
+      "file": "local-repaired-Career-Bridge-Plan.md",
       "bytes": 4546
     },
     {
-      "file": "local-source-first-Career-Bridge-Plan.json",
+      "file": "local-repaired-Career-Bridge-Plan.json",
       "bytes": 5131
     },
     {
-      "file": "local-source-first-accessibility.html",
+      "file": "local-repaired-accessibility.html",
       "bytes": 956
     }
   ],

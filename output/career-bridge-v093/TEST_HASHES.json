@@ -1,7 +1,9 @@
 {
   "tests/browser.html": "0dc7875c4fc5b09e07d455697369b9df1d566d13d681f5ac5cb78099705f793c",
   "tests/browser.js": "03995429b0c2d2b3b292e0cbb961f6ec64c356cab1391df729b34f9790238b5f",
-  "tests/career-bridge.test.js": "c343cbf693b6e47cae43cda61af2e5e0ef2b0292849612039b9e29d74ddd3fb8",
+  "tests/career-bridge.test.js": "0a73683313a2985cc6d060a26719aef00cb3ca4a0c6114dfbfe9019eaaeb6783",
+  "tests/classification-browser.html": "1deba07c3d94b3b179a65a1c55d2aa24dc46d56cbb2e25e40313775fd0040fd7",
+  "tests/classification-browser.js": "f69cb3fddc4f4d153c2ed19c1dfe2f49ee9cfa2710f7ca256c3500e359d1733a",
   "tests/core.test.js": "2fa2da7caa0fd8d1897b0ed248e41367b87023a2b5a9a5c26aa11038981af361",
   "tests/evaluation-browser.html": "9997fc30bdf71d52f9014324f135b13e2224680445f0955884f48ce777a491b7",
   "tests/evaluation-browser.js": "5636ee411313fb17d557d4dc275f6b7cc942ced4f78262a2d77a2adf38bc6308",

@@ -1,0 +1,11 @@
+PASS Original selected field is level2 metadata
+PASS Second normalization cannot promote provenance
+PASS Third normalization retains the same decision
+PASS Arrangement survives the discovery/filter pipeline
+PASS Full source review remains mandatory
+PASS Applicant eligibility remains unknown
+PASS Job and full-time filters retain the matching record
+PASS Part-time filter does not rewrite the known arrangement
+PASS Provider text cannot approve a forged participant classification
+PASS Genuine curated learning survives without an employment claim
+10 assertions passed

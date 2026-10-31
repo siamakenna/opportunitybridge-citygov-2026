@@ -1,6 +1,7 @@
 import {classify as legacy,normalizeText} from './taxonomy-v092.js';
 import {mappingApproved} from './source-review.js';
 import {classificationEvidence} from './classification-evidence.js';
+import {supplementary as curatedResources} from './supplementary.js';
 const participantStaff=t=>/\b(internship|fellowship)\b/.test(t)&&/\b(coordinator|manager|director|administrator)\b/.test(t);
 const primary=types=>types.includes('course')?'course':types.includes('fellowship')?'fellowship':types.some(x=>x.includes('internship'))?'internship':types.some(x=>['job','full-time','part-time'].includes(x))?'job':types.find(x=>['apprenticeship','research','micro','service','scholarship','competition','resource'].includes(x))||'unknown';
 const arrangement=text=>{const s=normalizeText(text);return /\bfull time\b/.test(s)?(/\bcontractual\b/.test(s)?'full-time contractual':'full-time'):/\bpart time\b/.test(s)?'part-time':/\btemporary\b/.test(s)?'temporary':/\bcontractual\b/.test(s)?'contractual':'unknown';};
@@ -25,8 +26,10 @@ export function classifyEvidence(r,{now=new Date(),synthetic=false}={}){
  let result={primary:'unknown',employmentArrangement:'unknown',careerStage:'unknown',applicantEligibility:null,evidenceLevel:5,basis:'unknown',sourceUrl:url,sourceDate:null,explanation:'Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.',unknowns:['Applicant eligibility','Full qualifications','Career stage','Employment duration'],requiresFullSourceReview:true,conflicts:[],synthetic:false};
  const assign=(p,level,basis,reason,date=null,arr='unknown')=>Object.assign(result,{primary:p,evidenceLevel:level,basis,explanation:reason,sourceDate:date,employmentArrangement:arr});
  const historical=mappingApproved(r)&&r.verification==='official';
+ const curated=curatedResources.find(c=>c.id===r.id&&c.sourceUrl===url&&c.title===r.title);
+ const curatedClassification=curated&&Array.isArray(r.classifications)&&r.classifications.length===curated.classifications.length&&r.classifications.every((c,i)=>['type','basis','sourceUrl','reviewedAt'].every(k=>c[k]===curated.classifications[i][k]));
  if(historical){const cs=legacy(r);assign(primary(cs.map(c=>c.type)),1,'source-reviewed','Individually reviewed official mapping; the original review date and all freshness/observation holds still apply.',r.mappingReview.reviewedAt,arrangement(r.type||'')!=='unknown'?arrangement(r.type):cs.some(c=>c.type==='part-time')?'part-time':cs.some(c=>c.type==='full-time')?'full-time':'unknown');}
- else if(r.classifications?.length&&r.classifications.every(c=>c.sourceUrl===url&&Number.isFinite(Date.parse(c.reviewedAt)))&&r.provider){assign(primary(r.classifications.map(c=>c.type)),1,'source-reviewed','Curated provider resource metadata. No employment or qualification approval.',r.reviewedAt||r.verifiedAt);}
+ else if(curatedClassification&&r.classifications.every(c=>c.basis==='source-reviewed'&&Number.isFinite(Date.parse(c.reviewedAt)))){assign(primary(r.classifications.map(c=>c.type)),1,'source-reviewed','Curated provider resource metadata. No employment or qualification approval.',r.reviewedAt||r.verifiedAt);}
  else {
   const e=classificationEvidence.find(e=>e.id===r.id&&canonical(e.sourceUrl)===canonical(url)&&title.startsWith(normalizeText(e.title)));
   if(e){

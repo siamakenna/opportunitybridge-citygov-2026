@@ -29,3 +29,9 @@ Final28/28 exact primary;28/28 arrangement; macroF1=1.0; coverage19/28(67.86%); 
 Run `node scripts/classification-v093.mjs` and `npm run benchmark:cceb`. Original first-run failures,retained directed repairs and independent-review-needed status are preserved.
 
 The Pulse UI also separates primary job type from employment arrangement. The job filter includes reviewed generic staff jobs; full-time/part-time/temporary/contractual/unknown arrangement is a separate metadata filter. This does not infer a schedule or career stage from a title. Original legacy tags remain in receipts for compatibility.
+
+## Live integration failure and repaired provenance
+
+Final live filtering exposed a genuine repeated-normalization defect: the automatically added provider string allowed generated publisher-metadata classifications to enter the curated-resource branch. A second pass promoted evidence level2 to1 and discarded the full-time arrangement, so the job/full-time filter returned an incorrect empty result. Initial unit/challenge and UI trials had missed that combination; their passing receipts remain preserved and do not erase the failure.
+
+The stable v0.9.2 main-ref workflow was rerun and its exact79ceb6a deployment verified before repair. Curated resource provenance is now bound to the immutable supplementary registry and matching identity,title,type,basis,source URL and date fields. Provider text cannot create an approval. Three new JavaScript regressions and ten browser assertions cover repeated passes,arrangement retention,mandatory full-source review,unknown eligibility,forged provider metadata and real curated learning. The actual auditor filter now returns the expected source-bound metadata result. Frozen CCEB/challenge references and source approval dates remain unchanged. This is a repaired integration failure,not new independent accuracy evidence.

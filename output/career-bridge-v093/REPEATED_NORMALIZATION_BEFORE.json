@@ -1,0 +1,56 @@
+{
+  "raw": {
+    "id": "26-004373-0002",
+    "title": "INTERNAL AUDITOR II (Gaming Auditor)",
+    "employer": "State",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004373&R3=0002"
+  },
+  "first": {
+    "primary": "job",
+    "employmentArrangement": "full-time",
+    "careerStage": "unknown",
+    "applicantEligibility": null,
+    "evidenceLevel": 2,
+    "basis": "publisher-metadata",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004373&R3=0002",
+    "sourceDate": "2026-10-31T18:04:54.543800Z",
+    "explanation": "Official Employment Type field inspected for this exact recruitment. This describes the schedule, not student suitability, duration or qualification approval.",
+    "unknowns": [
+      "Applicant eligibility",
+      "Full qualifications",
+      "Career stage",
+      "Employment duration"
+    ],
+    "requiresFullSourceReview": true,
+    "conflicts": [],
+    "synthetic": false,
+    "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+  },
+  "second": {
+    "primary": "job",
+    "employmentArrangement": "unknown",
+    "careerStage": "unknown",
+    "applicantEligibility": null,
+    "evidenceLevel": 1,
+    "basis": "source-reviewed",
+    "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004373&R3=0002",
+    "sourceDate": null,
+    "explanation": "Curated provider resource metadata. No employment or qualification approval.",
+    "unknowns": [
+      "Applicant eligibility",
+      "Full qualifications",
+      "Career stage",
+      "Employment duration",
+      "Employment arrangement"
+    ],
+    "requiresFullSourceReview": true,
+    "conflicts": [],
+    "synthetic": false,
+    "sourceStatus": "Recheck / historical or missing review"
+  },
+  "arrangements": [
+    "full-time",
+    "unknown"
+  ],
+  "status": "REPRODUCED — provenance promotion and arrangement loss on second normalization"
+}

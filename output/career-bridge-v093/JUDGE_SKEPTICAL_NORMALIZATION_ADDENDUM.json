@@ -1,0 +1,77 @@
+{
+  "perspective": "Skeptical Competition Judge",
+  "assessmentType": "Further bounded follow-up of the same simulated perspective; not a new independent human or blinded assessment",
+  "originalAssessmentTotal": 68,
+  "originalAssessmentsAndAddendaPreserved": true,
+  "assessmentSubject": "Locally repaired v0.9.3 classification pipeline. This score is not a certification of the superseded deployed candidate or a claim that repaired v0.9.3 is currently public.",
+  "evidenceInspected": [
+    {
+      "path": "src/classification-core.js",
+      "observation": "Curated resource recognition requires a registry match on id, source URL and title plus matching classification fields. A normalized record with publisher metadata cannot qualify as a curated resource solely because it carries reviewed-looking classifications or a provider string."
+    },
+    {
+      "path": "tests/career-bridge.test.js",
+      "observation": "Final three tests check repeat normalization preserving metadata level/arrangement/mandatory review, rejection of forged provider-based provenance, and repeat preservation of genuine curated learning metadata."
+    },
+    {
+      "path": "tests/classification-browser.js",
+      "observation": "Ten checks include three successive normalizations, unchanged provenance, full-time arrangement, mandatory full review, unknown eligibility, a positive job/full-time filter, a negative part-time filter, forged-provider rejection and genuine curated learning."
+    },
+    {
+      "path": "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_BEFORE.json",
+      "observation": "Retained real failure: first normalization reports job/full-time at level 2 publisher metadata; second reports job/unknown arrangement at level 1 source-reviewed. Applicant eligibility remains null and mandatory review remains true in the retained failure, so the receipt does not show a false applicant eligibility approval."
+    },
+    {
+      "path": "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_BROWSER_LOCAL.txt",
+      "observation": "Supplied local browser receipt records ten passing assertions."
+    },
+    {
+      "path": "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_UI_LOCAL.json",
+      "observation": "Supplied positive UI receipt contains the actual auditor card, job classification, full-time arrangement, level 2 publisher metadata, unknown eligibility and mandatory substantive source inspection."
+    },
+    {
+      "path": "../OpportunityBridge-v093-Release-Receipts/ROLLBACK_V092_CI.json",
+      "observation": "Receipt records successful build/deploy of stable revision 79ceb6a4346c2c50d92d8c87a25fea3ef6f1cce6. This establishes the recorded rollback CI result, not repaired-v0.9.3 deployment parity."
+    }
+  ],
+  "failureAssessment": "This was a substantive functional and provenance defect, not merely a cosmetic label: repeated normalization overstated the evidence tier and lost a known arrangement, causing a valid job/full-time record to disappear from a matching filter. Earlier broad pass counts did not cover this positive repeated-normalization path. The original technical-confidence language therefore needs this explicit qualification. There is no evidence in the supplied failure of applicant eligibility being approved.",
+  "repairAssessment": "The inspected registry guard closes the identified provenance promotion route. Independent targeted execution confirms stable level 2 publisher metadata/full-time arrangement across repeats, a retained matching job/full-time record, mandatory full-source review and null applicant eligibility. Genuine curated learning still survives. This is bounded evidence for the identified path, not universal proof against provenance errors or arbitrary external-data authentication.",
+  "independentVerificationByThisPerspective": {
+    "unitCommand": "node --test --test-name-pattern='Repeated normalization|A provider string' tests/career-bridge.test.js",
+    "unitTestsPassed": 3,
+    "unitTestsFailed": 0,
+    "harnessExecution": "Executed tests/classification-browser.js under Node with a minimal document result sink; all ten logic assertions passed. This is not an independently operated browser session.",
+    "harnessAssertionsPassed": 10,
+    "suppliedBrowserEvidence": "Read the local browser ten-assertion receipt and the actual positive UI card receipt; did not independently operate the UI.",
+    "fullSuite": "180 JavaScript + 6 Python tests reported passed by the parent; not independently rerun here."
+  },
+  "criterionScoreChanges": [],
+  "scoreChangeWarranted": false,
+  "currentCriterionScores": {
+    "A": 7,
+    "B": 7,
+    "C": 6,
+    "D": 6,
+    "E": 6,
+    "F": 9,
+    "G": 5,
+    "H": 7,
+    "I": 7,
+    "J": 8
+  },
+  "currentTotal": 68,
+  "scoreRationale": {
+    "B_Usefulness": "Remains 7/10 for the locally repaired artifact. The real filter failure reduces confidence in prior coverage, but this specific defect now has a positive-path regression and an observed local UI receipt. The principal remaining deductions are still unmeasured learner/advisor usefulness and reading burden.",
+    "H_Measurement": "Remains 7/10. The retained adverse receipt, rollback and added cross-normalization/positive-filter controls improve the engineering measurement discipline after exposing a concrete gap. They neither erase the failure nor add independent accuracy or human outcome evidence. These developments change the qualification within the existing score band, rather than justify a whole criterion point in either direction.",
+    "otherCriteria": "No new evidence changes barrier prevalence, comparative originality, pilot commitments, career/equity outcomes, civic relevance, operating economics, assistive-technology access or presentation."
+  },
+  "remainingLimits": [
+    "Local repaired behavior is verified only on the supplied bounded paths; repaired public deployment and parity are not established by the rollback receipt.",
+    "The stable rollback must not be presented as a live demonstration of repaired v0.9.3 Career Bridge.",
+    "The identified failure shows that a large assertion count is not equivalent to complete user-path coverage.",
+    "No new learner sessions, independent adjudicators, advisor ratings, benefit measurements or operational commitments were supplied.",
+    "No career or equity effect follows from repaired filtering or preserved evidence levels."
+  ],
+  "priorScoreExposure": "This perspective uses its own explicitly preserved 68/100 baseline only. No other assessors or historic score files were inspected.",
+  "fileWritten": "output/career-bridge-v093/JUDGE_SKEPTICAL_NORMALIZATION_ADDENDUM.json"
+}

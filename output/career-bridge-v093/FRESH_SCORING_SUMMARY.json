@@ -71,5 +71,6 @@
   "historicalScoreShownBeforeInitialScoring": false,
   "sourceFirstRepair": "Verified by all3same simulated perspectives in separate addenda;no point changes;original assessments preserved",
   "targetAchieved": false,
-  "calibrationLimit": "Difference from87is subjective recalibration under fresh framing,not a controlled product regression. No human outcome or statistical uncertainty estimate is inferred."
+  "calibrationLimit": "Difference from87is subjective recalibration under fresh framing,not a controlled product regression. No human outcome or statistical uncertainty estimate is inferred.",
+  "normalizationFollowup": "Material live failure,stablev0.9.2 rollback,source-bound repair inspected by all3same perspectives;all original scores unchanged;final deployed acceptance required."
 }

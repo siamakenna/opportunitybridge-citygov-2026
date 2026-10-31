@@ -6,7 +6,7 @@ Turn fictional coursework into a source-linked preparation plan: choose a review
 
 Source-aware classification separates type, employment arrangement, career stage and applicant eligibility. Original CCEB adverse results remain reproducible. New description-assisted and frozen authored challenge results are separately labeled; no independent accuracy or learner benefit is claimed. Participant kit 2.0.1/shortform 2.0 and private facilitator boundaries are preserved.
 
-Verification:177 JavaScript tests,6 Python tests,209 preserved browser assertions,14 Career Bridge workflow checks,12 functional checks and5 quest checks, with actual downloads inspected. [Classification evidence](docs/CLASSIFICATION_IMPROVEMENT_v093.md) · [Staged pilot](docs/PILOT_STAGE_ONE.md) · [All fresh simulated judging results and limitations](docs/CITYGOV_FRESH_SCORING_v093.md).
+Verification:180 JavaScript tests,6 Python tests,209 preserved browser assertions,14 Career Bridge workflow checks,12 functional checks and5 quest checks, with actual downloads inspected. [Classification evidence](docs/CLASSIFICATION_IMPROVEMENT_v093.md) · [Staged pilot](docs/PILOT_STAGE_ONE.md) · [All fresh simulated judging results and limitations](docs/CITYGOV_FRESH_SCORING_v093.md).
 
 One reported informal reviewer;zero verified formal timed human sessions;zero independent gold adjudicators. Actual 200% zoom/screen reader remain UNTESTED;no host/advisor/funding commitment. Historical project notes follow and retain their original version context.
 

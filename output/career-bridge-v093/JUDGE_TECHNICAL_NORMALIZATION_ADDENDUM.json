@@ -1,0 +1,59 @@
+{
+  "perspective": "Technical/Product Judge",
+  "assessmentType": "Follow-up to the same simulated assessment; not independent, blinded or official judging",
+  "date": "2026-10-31",
+  "assessmentScope": "Previously assessed v0.9.3 candidate, newly reproduced pipeline failure, rollback receipts and local repaired candidate. This is not confirmation of a repaired public v0.9.3 deployment.",
+  "previousTotal": 74,
+  "previousAssessmentAndAddendumPreserved": true,
+  "evidenceInspected": [
+    "src/classification-core.js",
+    "tests/career-bridge.test.js (final three regressions)",
+    "tests/classification-browser.js",
+    "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_BEFORE.json",
+    "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_BROWSER_LOCAL.txt",
+    "../OpportunityBridge-v093-Release-Receipts/REPEATED_NORMALIZATION_UI_LOCAL.json",
+    "../OpportunityBridge-v093-Release-Receipts/ROLLBACK_V092_CI.json",
+    "../OpportunityBridge-v093-Release-Receipts/ROLLBACK_V092_PUBLIC_SOURCE.json"
+  ],
+  "failureAssessment": {
+    "material": true,
+    "observed": "The preserved before receipt shows the exact auditor record classified as level 2 publisher-metadata/full-time on its first pass, then incorrectly classified as level 1 source-reviewed/unknown arrangement on its second pass.",
+    "consequence": "This undermined the provenance hierarchy and made the full-time filter omit a known matching record. It invalidates treating earlier single-pass classification success as evidence of full discovery/filter integration correctness.",
+    "limit": "In the reproduced failure, applicantEligibility remained null and requiresFullSourceReview remained true. The receipt does not establish that the bug certified an applicant eligible or silently removed the full-review requirement."
+  },
+  "repairAssessment": {
+    "mechanism": "The curated-provider branch now requires a registry match on id, source URL and exact title, plus a same-length classification sequence matching type, basis, sourceUrl and reviewedAt against the imported supplementary records. A provider string and generated classification objects alone cannot satisfy that branch.",
+    "regressionCoverage": "The final tests cover first/second/third-pass decision stability, preservation of full-time and mandatory full review, the positive job/full-time filter, rejection of a fabricated provider-review claim and retention of a genuine curated course without employment claims. The browser fixture also checks exclusion from the part-time filter and unknown applicant eligibility.",
+    "observedLocalReceipts": "All ten browser assertions pass in the supplied local browser receipt. The supplied local UI receipt shows the real auditor card at level 2/publisher-metadata/full-time with unknown career stage and eligibility, no qualification mapping and full inspection required.",
+    "testCountProvenance": "180 JavaScript plus 6 Python passing tests are reported by the parent. This perspective inspected code, regressions and supplied receipts; it did not independently rerun the suite or browser.",
+    "rollback": "The supplied CI receipt records successful build/deploy of 79ceb6a4346c2c50d92d8c87a25fea3ef6f1cce6; the supplied public-source receipt identifies that revision as v0.9.2. This supports the stated rollback rather than a claim that the local repair is live."
+  },
+  "scoreDecision": {
+    "changes": [],
+    "scoresAfter": {
+      "A": 8,
+      "B": 8,
+      "C": 7,
+      "D": 7,
+      "E": 6,
+      "F": 9,
+      "G": 6,
+      "H": 8,
+      "I": 7,
+      "J": 8
+    },
+    "totalAfter": 74,
+    "totalDelta": 0,
+    "B_usefulness": "Remains 8/10 for the repaired local prototype. The reproduced filter/provenance failure was material and would prevent accepting the failed version as release-ready. The inspected repair restores the bounded intended behavior; it adds no new human usefulness evidence and leaves the original mapping/generalization deductions unresolved.",
+    "H_measurement": "Remains 8/10. Earlier passing counts missed a real multi-pass integration defect, so confidence must be bounded to named tested paths. The retained failure, rollback, direct before/after trace, negative and positive filter checks and browser UI evidence are credible corrective measurement. They do not justify a higher score or claims of complete correctness.",
+    "otherCriteria": "Unchanged. No new barrier research, originality advantage, committed pilot resources, career/equity outcome, funded maintenance plan or actual assistive-technology validation is supplied."
+  },
+  "confidenceRevision": "The numeric score is unchanged, but the interpretation is tighter: source-integrity confidence is supported for the now-tested repeated-normalization path, not every ingestion or transformation path. Prior release pass counts alone were insufficient evidence of end-to-end provenance preservation.",
+  "remainingConditions": [
+    "A repaired public v0.9.3 release still requires deployment-specific verification; the supplied public state is the v0.9.2 rollback.",
+    "Future changes should retain these normalization/filter checks as release blockers; a passing authored classifier benchmark does not cover integration transformations.",
+    "The registry match is an ingestion/provenance constraint within this application, not cryptographic authentication of arbitrary third-party JSON. No full security audit was performed.",
+    "Independent real-feed adjudication, human usefulness, actual 200% zoom/screen-reader operation and operational commitments remain absent."
+  ],
+  "priorScoreDisclosure": "Only this perspective's original 74/100 and its unchanged ordering addendum were retained as required. No other assessor scores, historical judging scores or target were consulted."
+}

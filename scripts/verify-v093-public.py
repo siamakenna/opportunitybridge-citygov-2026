@@ -22,7 +22,7 @@ files += ['tests/study-pointer-browser.html','tests/study-pointer-browser.js']
 files += ['output/OpportunityBridge-v092-Participant-Testing-Kit.zip','docs/evidence/STUDY_INTEGRITY_RELEASE_v092.md','docs/PORTAL_COPY_v092.txt']
 files += [str(x.relative_to('dist')) for x in Path('dist/output/usability-v092').iterdir() if x.is_file()]
 files += [str(x.relative_to('dist')) for directory in ['docs','media/v093-captures','output/career-bridge-v093','data/classification-v093'] for x in Path('dist',directory).iterdir() if x.is_file() and (directory!='docs' or x.name in ['CLASSIFICATION_IMPROVEMENT_v093.md','CAREER_BRIDGE_PRODUCT.md','CAREER_BRIDGE_EVALUATION.md','COMPARATIVE_VALUE.md','PILOT_STAGE_ONE.md','JUDGE_COMPREHENSION_GUIDE.md','CITYGOV_FRESH_SCORING_v093.md','V093_EXECUTION_REPORT.md'])]
-files += ['media/v093-scenes.json','media/v093-walkthrough-transcript.txt']
+files += ['media/v093-scenes.json','media/v093-walkthrough-transcript.txt','tests/classification-browser.html','tests/classification-browser.js']
 files=sorted(set(files))
 def compare(path):
  b=get(path+'?verify='+revision);expected=Path('dist',path).read_bytes();return {'path':path,'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest(),'matches':b==expected}
