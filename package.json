@@ -1,6 +1,6 @@
 {
   "name": "opportunitybridge-citygov",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "private": true,
   "type": "module",
   "description": "Evidence-linked civic workforce pathway prototype for CityGov Hackathon 2026",

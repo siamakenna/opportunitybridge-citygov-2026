@@ -9,3 +9,5 @@ Blank and partial files are supported. The page distinguishes entries, file gene
 Use an organizer-assigned anonymous code, never your name. Do not enter private records, contact details, credentials or identifiers. Common patterns are blocked, but no detector can guarantee removal of every private fact. Share a file only voluntarily under your organizer's disclosed consent/retention arrangements. A withdrawal file does not authorize organizer use. Ask how to withdraw before aggregation and how long records are retained; no institutional approval is asserted by this kit.
 
 Page clocks/answer counts do not establish genuine participation, correct answers, valid consent or a formal timed session. A facilitator must verify those separately. Activity order and protocol version are included so incompatible versions need not be pooled.
+
+Kit 2.0.1 is a compatible integrity patch to protocol 2.0: timing after reopening and rehearsal labeling are repaired; tasks, facts, assignment order and scoring definitions are unchanged. Browser timestamps remain unverified. Original kit 2.0 is retained in the v0.9.1 release.

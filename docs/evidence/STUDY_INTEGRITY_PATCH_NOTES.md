@@ -1,3 +1,5 @@
+> Historical local-patch record. The current v0.9.2 release integration is documented in [STUDY_INTEGRITY_RELEASE_v092.md](./STUDY_INTEGRITY_RELEASE_v092.md). Statements below describe the earlier unpublished candidate.
+
 # Prepared study-integrity patch — unpublished
 
 Base: OpportunityBridge v0.9.1, `90a9578505ecc9c8938b7214890167ff2155e9fc`.

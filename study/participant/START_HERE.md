@@ -11,4 +11,6 @@ Two activities, about 15 minutes. Use fictional examples, not personal job recor
 
 Do not enter names, emails, passwords, IDs, health information, transcripts, resumes or actual applications. Common identifier/credential patterns are blocked before export, but this cannot detect every private detail. The official source can change and this exercise never certifies eligibility, accessibility compliance, a placement or an employer credential.
 
-Protocol opportunitybridge-shortform-2.0; kit 2.0, prepared October 28, 2026 for target app v0.9.1. Original kit 1.0 is preserved separately. The new questions/timing/order differ; do not combine versions as one study. Browser timestamps do not prove a real timed participant session.
+Protocol opportunitybridge-shortform-2.0; kit 2.0.1, prepared October 30, 2026 for target app v0.9.2. Original kit 1.0 is preserved separately. The new questions/timing/order differ; do not combine versions as one study. Browser timestamps do not prove a real timed participant session.
+
+Kit 2.0.1 is a compatible integrity patch to protocol 2.0: timing after reopening and rehearsal labeling are repaired; tasks, facts, assignment order and scoring definitions are unchanged. Browser timestamps remain unverified. Original kit 2.0 is retained in the v0.9.1 release.

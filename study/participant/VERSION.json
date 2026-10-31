@@ -1,8 +1,8 @@
 {
   "protocol": "opportunitybridge-shortform-2.0",
-  "kitVersion": "2.0",
-  "preparedDatePacific": "2026-10-28",
-  "targetSoftwareRelease": "0.9.1",
+  "kitVersion": "2.0.1",
+  "preparedDatePacific": "2026-10-30",
+  "targetSoftwareRelease": "0.9.2",
   "baselineCommit": "51967987d6aad1d5dcbd77d5fac7cbf336ced0c6",
   "informalExternalReviewersReported": 1,
   "completedTimedIndependentSessions": 0,
@@ -34,5 +34,8 @@
     "finish": 3
   },
   "humanFeasibility": "Not established; structural reduction only. Timeouts/incomplete work retained.",
-  "answerKeyIncluded": false
+  "answerKeyIncluded": false,
+  "previousSoftwareRelease": "0.9.1",
+  "compatibleProtocolPatch": true,
+  "taskDefinitionsChanged": false
 }
