@@ -1,0 +1,38 @@
+{
+  "kind": "Authentic screenshots,not continuous video",
+  "durationSeconds": 180,
+  "images": [
+    {
+      "path": "media/v093-captures/00-before-v092.png",
+      "sha256": "ed74029f6492d06d94082f1be4cbff586643ecdb1e077d3da55d2cfdcebd559b"
+    },
+    {
+      "path": "media/v093-captures/01-problem.png",
+      "sha256": "4f1ec48e3597aef988fd82c4073bf18fe8e2c5e3b91ff6e9a69031e5077ae8db"
+    },
+    {
+      "path": "media/v093-captures/02-discover.png",
+      "sha256": "6d2307750ae0373fa47405a43e39e538bd0ff7ce32bce8f277f069f0667e32c6"
+    },
+    {
+      "path": "media/v093-captures/03-connect.png",
+      "sha256": "7db13f9ec380bad073be14cacd9c43499d272902853e6af3b1e8255762544b51"
+    },
+    {
+      "path": "media/v093-captures/04-demonstrate.png",
+      "sha256": "16cb87f0b7561282fc112cfc3dc197a658a4d071f8a024bfe349a548e2b80910"
+    },
+    {
+      "path": "media/v093-captures/05-plan.png",
+      "sha256": "1a9135bf5cf19ad0940810f41321b338988c295159197f4d49d6ef7e36e123dc"
+    },
+    {
+      "path": "media/v093-captures/06-unknown.png",
+      "sha256": "23a60a2a7a8229f9c09ad362b7f10f1c179b759ff05c417d15008b4261543dbc"
+    },
+    {
+      "path": "media/v093-captures/07-pilot.png",
+      "sha256": "8f420b7d3bcacac807edf3cc26a5852132795906bdfb32e77f393c001b073a49"
+    }
+  ]
+}

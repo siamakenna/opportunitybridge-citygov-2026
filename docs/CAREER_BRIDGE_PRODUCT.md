@@ -1,0 +1,11 @@
+# Career Bridge product contract
+
+Turn learned skills into a credible next action. The existing Constellation area now starts with Career Bridge; alternate routes remain in a native disclosure. Existing six source/evidence sections,quests,Passport,Advisor Studio,device-saving choice and source holds remain. Homepage choices:Explore a career,Build my Career Bridge,Try a skill. No login,fee,quest completion or new personal profile is required.
+
+A learner selects a reviewed source and fictional learned skill, inspects the employer duty/requirement and relevance reason, proposes work, keeps unknown applicant requirements visible and exports exactly three prioritized actions. Each action contains purpose,source evidence,expected preparation artifact/decision,unresolved condition,priority and planned status. Source recheck and human verification are never optional eligibility certifications.
+
+MPT example: fictional introductory HTML coursework/classroom page → reviewed duty to build educational web collections → proposed accessible fictional library page → optional existing five-repair Accessibility Artifact quest → full announcement/documents → specific enrollment/schedule/task question. Enrollment,recent-graduate route,at least16hours/week,work authorization and remaining conditions are unverified. No portfolio is called complete simply because a plan was created.
+
+`skillConnection()` labels direct reviewed duty,reasoned transferable skill or general exploratory learning. A separate-source quest is explicitly labeled transferable. An unsupported skill does not invent a duty. Expired sources produce alternative-first historical-practice actions,not an application deadline. Live stale/changed holds remain visible.
+
+State uses existing Passport rows and Journey schema1. Explicit capture is required for export/device saving; no automatic cloud save. v0.9.2 Journeys migrate to0.9.3 while imported progress remains unverified. Bridge edits never change employer source approval or frozen quest versions. MD/JSON downloads contain source URL,original review,source revision/hash,skill,duty,proposed evidence,three actions,questions,freshness and human limits. They remain local until voluntarily shared.

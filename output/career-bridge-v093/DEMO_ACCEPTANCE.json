@@ -1,0 +1,48 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "A skill is only the start",
+      "time": "0:00 / 3:00 · scene1/7",
+      "loaded": true
+    },
+    {
+      "scene": 2,
+      "title": "Discover a real source",
+      "time": "0:20 / 3:00 · scene2/7",
+      "loaded": true
+    },
+    {
+      "scene": 3,
+      "title": "Connect learning to work",
+      "time": "0:45 / 3:00 · scene3/7",
+      "loaded": true
+    },
+    {
+      "scene": 4,
+      "title": "Try a relevant exercise",
+      "time": "1:10 / 3:00 · scene4/7",
+      "loaded": true
+    },
+    {
+      "scene": 5,
+      "title": "Leave with three actions",
+      "time": "1:40 / 3:00 · scene5/7",
+      "loaded": true
+    },
+    {
+      "scene": 6,
+      "title": "Keep uncertainty honest",
+      "time": "2:10 / 3:00 · scene6/7",
+      "loaded": true
+    },
+    {
+      "scene": 7,
+      "title": "Export, then test usefulness",
+      "time": "2:35 / 3:00 · scene7/7",
+      "loaded": true
+    }
+  ],
+  "playPause": true,
+  "continuousFootage": false
+}

@@ -1,0 +1,37 @@
+{
+  "before": [
+    {
+      "id": "C01",
+      "expected": "job",
+      "actual": "unknown"
+    },
+    {
+      "id": "C02",
+      "expected": "job",
+      "actual": "unknown"
+    },
+    {
+      "id": "C03",
+      "expected": "job",
+      "actual": "unknown"
+    },
+    {
+      "id": "C04",
+      "expected": "job",
+      "actual": "unknown"
+    },
+    {
+      "id": "C05",
+      "expected": "job",
+      "actual": "unknown"
+    },
+    {
+      "id": "C06",
+      "expected": "job",
+      "actual": "unknown"
+    }
+  ],
+  "after": [],
+  "challengeErrors": [],
+  "scope": "Explicit synthetic-description evaluation; production RSS usually has title only."
+}

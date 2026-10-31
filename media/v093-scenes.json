@@ -1,0 +1,58 @@
+[
+  {
+    "image": "01-problem.png",
+    "duration": 20,
+    "start": 0,
+    "title": "A skill is only the start",
+    "body": "A fictional learner knows introductory HTML but cannot yet explain its relevance to a real employer. Career Bridge turns that starting point into a portable preparation plan.",
+    "caption": "Genuine working-app screenshots. Fictional learner; no measured human outcomes."
+  },
+  {
+    "image": "02-discover.png",
+    "duration": 25,
+    "start": 20,
+    "title": "Discover a real source",
+    "body": "Choose MPT\u2019s Media Literacy Student Fellow recruitment. Inspect the original official source and review date. An old review never guarantees current availability.",
+    "caption": "Source facts and review holds remain visible. Applicant eligibility stays unknown."
+  },
+  {
+    "image": "03-connect.png",
+    "duration": 25,
+    "start": 45,
+    "title": "Connect learning to work",
+    "body": "Introductory HTML connects directly to MPT\u2019s reviewed educational-web duty. The library page is a proposed fictional sample, with a reasoned explanation and outstanding conditions.",
+    "caption": "Direct source link, transferable skill and general exploration are labeled separately."
+  },
+  {
+    "image": "04-demonstrate.png",
+    "duration": 30,
+    "start": 70,
+    "title": "Try a relevant exercise",
+    "body": "The existing Accessibility Artifact quest checks five fictional repairs. Its local HTML sample demonstrates the exercise result; it is not a credential or employer-approved portfolio.",
+    "caption": "A checked fictional exercise does not establish WCAG conformance or eligibility."
+  },
+  {
+    "image": "05-plan.png",
+    "duration": 30,
+    "start": 100,
+    "title": "Leave with three actions",
+    "body": "Prepare a proposed sample. Recheck the full employer announcement and documents. Ask a specific enrollment, schedule or task question. Every action has a purpose and unresolved condition.",
+    "caption": "Exactly three source-linked next actions. Planned preparation is not completed professional work."
+  },
+  {
+    "image": "06-unknown.png",
+    "duration": 25,
+    "start": 130,
+    "title": "Keep uncertainty honest",
+    "body": "Select a skill with no supported source connection. The tool says general exploratory learning instead of inventing a duty. Enrollment, authorization and employer acceptance still need human review.",
+    "caption": "No eligibility, hiring probability, automatic application or employer response is produced."
+  },
+  {
+    "image": "07-pilot.png",
+    "duration": 25,
+    "start": 155,
+    "title": "Export, then test usefulness",
+    "body": "Download the actual Markdown or JSON Career Bridge Plan. Proposed first stage: five adults and five double-reviewed sources, with independent plan ratings and explicit cost/safety gates.",
+    "caption": "No host committed. Zero verified timed human sessions. Inspect the plan and pilot assumptions."
+  }
+]

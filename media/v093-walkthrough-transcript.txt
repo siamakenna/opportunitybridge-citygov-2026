@@ -1,0 +1,34 @@
+OpportunityBridge v0.9.3 — 180-second captioned screenshot sequence
+Seven genuine local-app screenshots; not continuous footage or participant findings. Each scene preserves capture-time source dates; they do not renew qualification approvals.
+
+0:00–0:20 A skill is only the start
+A fictional learner knows introductory HTML but cannot yet explain its relevance to a real employer. Career Bridge turns that starting point into a portable preparation plan.
+Genuine working-app screenshots. Fictional learner; no measured human outcomes.
+
+0:20–0:45 Discover a real source
+Choose MPT’s Media Literacy Student Fellow recruitment. Inspect the original official source and review date. An old review never guarantees current availability.
+Source facts and review holds remain visible. Applicant eligibility stays unknown.
+
+0:45–1:10 Connect learning to work
+Introductory HTML connects directly to MPT’s reviewed educational-web duty. The library page is a proposed fictional sample, with a reasoned explanation and outstanding conditions.
+Direct source link, transferable skill and general exploration are labeled separately.
+
+1:10–1:40 Try a relevant exercise
+The existing Accessibility Artifact quest checks five fictional repairs. Its local HTML sample demonstrates the exercise result; it is not a credential or employer-approved portfolio.
+A checked fictional exercise does not establish WCAG conformance or eligibility.
+
+1:40–2:10 Leave with three actions
+Prepare a proposed sample. Recheck the full employer announcement and documents. Ask a specific enrollment, schedule or task question. Every action has a purpose and unresolved condition.
+Exactly three source-linked next actions. Planned preparation is not completed professional work.
+
+2:10–2:35 Keep uncertainty honest
+Select a skill with no supported source connection. The tool says general exploratory learning instead of inventing a duty. Enrollment, authorization and employer acceptance still need human review.
+No eligibility, hiring probability, automatic application or employer response is produced.
+
+2:35–3:00 Export, then test usefulness
+Download the actual Markdown or JSON Career Bridge Plan. Proposed first stage: five adults and five double-reviewed sources, with independent plan ratings and explicit cost/safety gates.
+No host committed. Zero verified timed human sessions. Inspect the plan and pilot assumptions.
+
+Source: https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=
+Actual downloaded plan: output/career-bridge-v093/SAMPLE_CAREER_BRIDGE_PLAN.md
+Proposed pilot: docs/PILOT_STAGE_ONE.md

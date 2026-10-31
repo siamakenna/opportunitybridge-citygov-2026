@@ -1,0 +1,15 @@
+{
+  "path": [
+    "bridge-skill",
+    "bridge-experience",
+    "bridge-demo",
+    "bridge-plan-title"
+  ],
+  "expected": [
+    "bridge-skill",
+    "bridge-experience",
+    "bridge-demo",
+    "bridge-plan-title"
+  ],
+  "pass": true
+}

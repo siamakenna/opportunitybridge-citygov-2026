@@ -1,0 +1,1538 @@
+{
+  "version": "0.9.3",
+  "challengeSha256": "ae63a51931a9918066c58c2a5c1e1b8c6b0edb11ed27b2c53485e61a120a4930",
+  "challengeFreezeImplementation": "79ceb6a4346c2c50d92d8c87a25fea3ef6f1cce6",
+  "provenance": "Developer-authored references; no independent adjudication. Frozen preimplementation challenge, not genuinely unseen to its author; no post-score tuning.",
+  "original": {
+    "beforeCorrect": 6,
+    "metrics": {
+      "n": 12,
+      "correct": 12,
+      "accuracy": 1,
+      "coverage": 0.9166666666666666,
+      "abstentionRate": 0.08333333333333333,
+      "correctAmongNonAbstentions": 11,
+      "nonAbstentions": 11,
+      "nonAbstentionAccuracy": 1,
+      "requiredUnknownCorrect": 1,
+      "falseParticipantClassifications": 0,
+      "incorrectDefiniteTypes": 0,
+      "macroF1": 1,
+      "perClass": {
+        "course": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "directory": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "fellowship": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "internship": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "job": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "unknown": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        }
+      },
+      "confusion": {
+        "course": {
+          "course": 1,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "unknown": 0
+        },
+        "directory": {
+          "course": 0,
+          "directory": 1,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "unknown": 0
+        },
+        "fellowship": {
+          "course": 0,
+          "directory": 0,
+          "fellowship": 2,
+          "internship": 0,
+          "job": 0,
+          "unknown": 0
+        },
+        "internship": {
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 1,
+          "job": 0,
+          "unknown": 0
+        },
+        "job": {
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 6,
+          "unknown": 0
+        },
+        "unknown": {
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "unknown": 1
+        }
+      },
+      "byEvidenceLevel": {
+        "1": {
+          "n": 2,
+          "correct": 2,
+          "abstentions": 0
+        },
+        "3": {
+          "n": 8,
+          "correct": 8,
+          "abstentions": 0
+        },
+        "4": {
+          "n": 1,
+          "correct": 1,
+          "abstentions": 0
+        },
+        "5": {
+          "n": 1,
+          "correct": 1,
+          "abstentions": 1
+        }
+      },
+      "sourceConflicts": []
+    },
+    "rows": [
+      {
+        "id": "C01",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C02",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C03",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C04",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time contractual",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C05",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C06",
+        "expected": "job",
+        "before": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C07",
+        "expected": "internship",
+        "before": "internship",
+        "after": {
+          "primary": "internship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C08",
+        "expected": "course",
+        "before": "course",
+        "after": {
+          "primary": "course",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C09",
+        "expected": "fellowship",
+        "before": "fellowship",
+        "after": {
+          "primary": "fellowship",
+          "employmentArrangement": "part-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 1,
+          "basis": "source-reviewed",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0007&b=",
+          "sourceDate": "2026-10-27T00:22:27.538Z",
+          "explanation": "Individually reviewed official mapping; the original review date and all freshness/observation holds still apply.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": false,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        },
+        "asymmetry": "Frozen reviewed source; current freshness differs."
+      },
+      {
+        "id": "C10",
+        "expected": "fellowship",
+        "before": "fellowship",
+        "after": {
+          "primary": "fellowship",
+          "employmentArrangement": "part-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 1,
+          "basis": "source-reviewed",
+          "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=008996&R3=0006&b=",
+          "sourceDate": "2026-10-27T00:22:27.538Z",
+          "explanation": "Individually reviewed official mapping; the original review date and all freshness/observation holds still apply.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": false,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        },
+        "asymmetry": "Frozen reviewed source; current freshness differs."
+      },
+      {
+        "id": "C11",
+        "expected": "directory",
+        "before": "directory",
+        "after": {
+          "primary": "directory",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 4,
+          "basis": "inferred-candidate",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "This record identifies an outbound directory, not an individual opening.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      },
+      {
+        "id": "C12",
+        "expected": "unknown",
+        "before": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/synthetic-fixture",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        },
+        "asymmetry": "Explicit synthetic source description; production RSS generally has no description."
+      }
+    ]
+  },
+  "challenge": {
+    "metrics": {
+      "n": 28,
+      "correct": 28,
+      "accuracy": 1,
+      "coverage": 0.6785714285714286,
+      "abstentionRate": 0.32142857142857145,
+      "correctAmongNonAbstentions": 19,
+      "nonAbstentions": 19,
+      "nonAbstentionAccuracy": 1,
+      "requiredUnknownCorrect": 9,
+      "falseParticipantClassifications": 0,
+      "incorrectDefiniteTypes": 0,
+      "macroF1": 1,
+      "perClass": {
+        "apprenticeship": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "competition": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "course": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "directory": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "fellowship": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "internship": {
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "job": {
+          "tp": 6,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "micro": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "research": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "scholarship": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "service": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        },
+        "unknown": {
+          "tp": 9,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1,
+          "recall": 1,
+          "f1": 1
+        }
+      },
+      "confusion": {
+        "apprenticeship": {
+          "apprenticeship": 1,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "competition": {
+          "apprenticeship": 0,
+          "competition": 1,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "course": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 2,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "directory": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 2,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "fellowship": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 1,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "internship": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 2,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "job": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 6,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "micro": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 1,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "research": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 1,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 0
+        },
+        "scholarship": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 1,
+          "service": 0,
+          "unknown": 0
+        },
+        "service": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 1,
+          "unknown": 0
+        },
+        "unknown": {
+          "apprenticeship": 0,
+          "competition": 0,
+          "course": 0,
+          "directory": 0,
+          "fellowship": 0,
+          "internship": 0,
+          "job": 0,
+          "micro": 0,
+          "research": 0,
+          "scholarship": 0,
+          "service": 0,
+          "unknown": 9
+        }
+      },
+      "byEvidenceLevel": {
+        "3": {
+          "n": 18,
+          "correct": 18,
+          "abstentions": 1
+        },
+        "4": {
+          "n": 2,
+          "correct": 2,
+          "abstentions": 0
+        },
+        "5": {
+          "n": 8,
+          "correct": 8,
+          "abstentions": 8
+        }
+      },
+      "sourceConflicts": [
+        "H24"
+      ]
+    },
+    "arrangementCorrect": 28,
+    "rows": [
+      {
+        "id": "H01",
+        "expected": "job",
+        "expectedArrangement": "part-time",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "part-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/1",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H02",
+        "expected": "apprenticeship",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "apprenticeship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/2",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H03",
+        "expected": "fellowship",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "fellowship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/3",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H04",
+        "expected": "internship",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "internship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/4",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H05",
+        "expected": "course",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "course",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/5",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H06",
+        "expected": "directory",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "directory",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/6",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H07",
+        "expected": "micro",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "micro",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/7",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H08",
+        "expected": "job",
+        "expectedArrangement": "temporary",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "temporary",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/8",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H09",
+        "expected": "job",
+        "expectedArrangement": "full-time contractual",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time contractual",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/9",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H10",
+        "expected": "job",
+        "expectedArrangement": "part-time",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "part-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/10",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H11",
+        "expected": "job",
+        "expectedArrangement": "full-time",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "full-time",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/11",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H12",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/holdout/12",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H13",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/holdout/13",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H14",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/holdout/14",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H15",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/holdout/15",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H16",
+        "expected": "internship",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "internship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/16",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H17",
+        "expected": "course",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "course",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/17",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H18",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://example.invalid/holdout/18",
+          "sourceDate": null,
+          "explanation": "Program-administration title without a provenanced staff description. Do not infer a participant internship or fellowship.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H19",
+        "expected": "research",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "research",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 4,
+          "basis": "inferred-candidate",
+          "sourceUrl": "https://example.invalid/holdout/19",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Bounded publisher-title candidate only. Full source review is required; no verified employment arrangement or applicant eligibility follows.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H20",
+        "expected": "service",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "service",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/20",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H21",
+        "expected": "scholarship",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "scholarship",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/21",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H22",
+        "expected": "competition",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "competition",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/22",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H23",
+        "expected": "job",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "job",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/23",
+          "sourceDate": "2026-10-31T17:20:00Z",
+          "explanation": "Explicit developer-authored scenario description; not an employer fact or independent source interpretation.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": true,
+          "sourceStatus": "Recorded type review within48hours; availability not guaranteed"
+        }
+      },
+      {
+        "id": "H24",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 3,
+          "basis": "synthetic-description",
+          "sourceUrl": "https://example.invalid/holdout/24",
+          "sourceDate": null,
+          "explanation": "Conflicting explicit scenario descriptions; abstain until the source resolves the type.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [
+            "job",
+            "internship"
+          ],
+          "synthetic": true,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H25",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://board.example/lead",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H26",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://board.example/lead",
+          "sourceDate": null,
+          "explanation": "Program-administration title without a provenanced staff description. Do not infer a participant internship or fellowship.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H27",
+        "expected": "unknown",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "unknown",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 5,
+          "basis": "unknown",
+          "sourceUrl": "https://board.example/lead",
+          "sourceDate": null,
+          "explanation": "Missing a reviewed type, provenanced publisher field or explicit source description. A title alone does not establish employment arrangement or eligibility.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      },
+      {
+        "id": "H28",
+        "expected": "directory",
+        "expectedArrangement": "unknown",
+        "after": {
+          "primary": "directory",
+          "employmentArrangement": "unknown",
+          "careerStage": "unknown",
+          "applicantEligibility": null,
+          "evidenceLevel": 4,
+          "basis": "inferred-candidate",
+          "sourceUrl": null,
+          "sourceDate": null,
+          "explanation": "This record identifies an outbound directory, not an individual opening.",
+          "unknowns": [
+            "Applicant eligibility",
+            "Full qualifications",
+            "Career stage",
+            "Employment duration",
+            "Employment arrangement"
+          ],
+          "requiresFullSourceReview": true,
+          "conflicts": [],
+          "synthetic": false,
+          "sourceStatus": "Recheck / historical or missing review"
+        }
+      }
+    ]
+  },
+  "originalConditionAndDeadline": "Unchanged historical v1 adapter and results remain independently replayed by cceb-verify.mjs; 23/25 conditions,10/10 deadlines,6/12 old classification,baselines12/12."
+}

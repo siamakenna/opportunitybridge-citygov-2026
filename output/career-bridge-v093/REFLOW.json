@@ -1,0 +1,202 @@
+[
+  {
+    "width": 320,
+    "bridge": 269,
+    "buttons": [
+      {
+        "height": 46.796875,
+        "id": "bridge-demo",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-generate",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-download-md",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-download-json",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-quest",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-passport",
+        "width": 231
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-capture",
+        "width": 231
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-reset",
+        "width": 231
+      }
+    ],
+    "labels": true,
+    "page": 305,
+    "viewport": 320,
+    "pass": true
+  },
+  {
+    "width": 375,
+    "bridge": 324,
+    "buttons": [
+      {
+        "height": 46.796875,
+        "id": "bridge-demo",
+        "width": 286
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-generate",
+        "width": 286
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-download-md",
+        "width": 286
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-download-json",
+        "width": 286
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-quest",
+        "width": 286
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-passport",
+        "width": 286
+      },
+      {
+        "height": 67.59375,
+        "id": "bridge-capture",
+        "width": 286
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-reset",
+        "width": 286
+      }
+    ],
+    "labels": true,
+    "page": 360,
+    "viewport": 375,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "bridge": 697,
+    "buttons": [
+      {
+        "height": 46.796875,
+        "id": "bridge-demo",
+        "width": 228.71875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-generate",
+        "width": 232.4453125
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-download-md",
+        "width": 319.9375
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-download-json",
+        "width": 282.171875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-quest",
+        "width": 331.8203125
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-passport",
+        "width": 315.390625
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-capture",
+        "width": 309.5546875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-reset",
+        "width": 182.359375
+      }
+    ],
+    "labels": true,
+    "page": 753,
+    "viewport": 768,
+    "pass": true
+  },
+  {
+    "width": 1280,
+    "bridge": 1184,
+    "buttons": [
+      {
+        "height": 46.796875,
+        "id": "bridge-demo",
+        "width": 228.71875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-generate",
+        "width": 232.4453125
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-download-md",
+        "width": 319.9375
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-download-json",
+        "width": 282.171875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-quest",
+        "width": 331.8203125
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-passport",
+        "width": 315.390625
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-capture",
+        "width": 309.5546875
+      },
+      {
+        "height": 46.796875,
+        "id": "bridge-reset",
+        "width": 182.359375
+      }
+    ],
+    "labels": true,
+    "page": 1265,
+    "viewport": 1280,
+    "pass": true
+  }
+]

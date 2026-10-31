@@ -1,0 +1,8 @@
+{
+  "labelsAndFocus": "PASS",
+  "keyboardExample": "Native Enter moves focus to bridge-plan-title",
+  "reflow": "320,375,768,1280 passed; REFLOW.json",
+  "actual200PercentZoom": "UNTESTED \u2014 no accessible zoom control or native browser permission available",
+  "screenReader": "UNTESTED \u2014 no screen-reader control exposed and prior native access unavailable",
+  "WCAGCertification": false
+}

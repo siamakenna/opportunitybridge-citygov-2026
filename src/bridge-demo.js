@@ -1,0 +1,8 @@
+const $=id=>document.getElementById(id),clock=t=>`${Math.floor(t/60)}:${String(t%60).padStart(2,'0')}`;
+let seconds=0,playing=false,timer=null,scenes=[];
+function render(){const s=scenes.findLast(s=>seconds>=s.start)||scenes[0];if(!s)return;$('demo-image').src='./media/v093-captures/'+s.image;$('demo-image').alt='Genuine working-app screenshot: '+s.title+'. '+s.caption;$('demo-title').textContent=s.title;$('demo-body').textContent=s.body;$('demo-caption').textContent=s.caption;$('demo-time').textContent=clock(seconds)+' / 3:00 · scene'+(scenes.indexOf(s)+1)+'/7';$('demo-play').textContent=playing?'Pause sequence':'Play 3-minute sequence';}
+function pause(){playing=false;clearInterval(timer);render();}
+fetch('./media/v093-scenes.json').then(r=>{if(!r.ok)throw Error();return r.json();}).then(s=>{scenes=s;render();}).catch(()=>{$('demo-time').textContent='Sequence unavailable. Use the full transcript and screenshot links.';});
+$('demo-play').addEventListener('click',()=>{if(!scenes.length)return;if(playing){pause();return;}if(seconds>=180)seconds=0;playing=true;render();timer=setInterval(()=>{seconds++;if(seconds>=180){seconds=180;pause();}else{if(scenes.some(s=>s.start===seconds))render();$('demo-time').textContent=clock(seconds)+' / 3:00';}},1000);});
+for(const [id,step]of [['demo-prev',-1],['demo-next',1]])$(id).addEventListener('click',()=>{pause();const current=Math.max(0,scenes.findLastIndex(s=>seconds>=s.start)),next=Math.min(scenes.length-1,Math.max(0,current+step));seconds=scenes[next]?.start||0;render();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});

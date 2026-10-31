@@ -1,0 +1,357 @@
+{
+  "base": {
+    "assumptions": {
+      "learners": 5,
+      "sources": 5,
+      "reviewHours": 0.5,
+      "reviewers": 2,
+      "sessionsHours": 0.25,
+      "supportHours": 0.25,
+      "advisorHours": 0.25,
+      "ratingHours": 0.25,
+      "raters": 2,
+      "recruitmentWeeks": 2,
+      "donatedShare": 0
+    },
+    "roles": [
+      {
+        "role": "Source HR reviewer",
+        "hours": 2.5,
+        "rate": 60
+      },
+      {
+        "role": "Content steward",
+        "hours": 4.5,
+        "rate": 35
+      },
+      {
+        "role": "Facilitator / recruitment",
+        "hours": 4.5,
+        "rate": 50
+      },
+      {
+        "role": "Advisor",
+        "hours": 2.25,
+        "rate": 50
+      },
+      {
+        "role": "Two plan raters / reconciliation",
+        "hours": 3.5,
+        "rate": 50
+      },
+      {
+        "role": "Technical setup / maintenance",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Accessibility reviewer",
+        "hours": 2,
+        "rate": 60
+      }
+    ],
+    "staffHours": 24.25,
+    "labor": 1240,
+    "compensation": 75,
+    "accommodationReserve": 100,
+    "economicCost": 1415,
+    "cashCost": 1415,
+    "hostStatus": "No willing host/advisor has committed. All roles must be named and consent approved before launch.",
+    "scientificProtocol": "Existing participant kit2.0.1 / shortform2.0. Career Bridge plan review is a separately labeled exploratory output; do not insert it into the frozen A/B task or report a new causal comparison.",
+    "gates": [
+      "5/5 sources independently double-reviewed with no outstanding semantic hold",
+      "Zero unsupported eligibility or employment claims in inspected plans",
+      "At least4/5 starters finish the frozen task; report all missing/withdrawn outcomes",
+      "Two raters independently assess source correctness, uncertainty, skill connection, feasible action and provenance; retain disagreements",
+      "At least4/5 plans receive4/5 actionability items from both raters, without overruling a safety failure",
+      "Actual source/support workload no more than120% of funded capacity; stop/rebudget otherwise",
+      "No unresolved critical accessibility or privacy failure; accommodations actually usable",
+      "At least4/5 consenting respondents indicate willingness to continue; show missing responses separately"
+    ],
+    "outputs": "Counts and individual consented observations, not employment placements. Stage2 only after all gates and host approval; preserve 112hours/$6240 economic/$500 conditional donated-labor cash model."
+  },
+  "doubleReview": {
+    "assumptions": {
+      "learners": 5,
+      "sources": 5,
+      "reviewHours": 1,
+      "reviewers": 2,
+      "sessionsHours": 0.25,
+      "supportHours": 0.25,
+      "advisorHours": 0.25,
+      "ratingHours": 0.25,
+      "raters": 2,
+      "recruitmentWeeks": 2,
+      "donatedShare": 0
+    },
+    "roles": [
+      {
+        "role": "Source HR reviewer",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Content steward",
+        "hours": 7,
+        "rate": 35
+      },
+      {
+        "role": "Facilitator / recruitment",
+        "hours": 4.5,
+        "rate": 50
+      },
+      {
+        "role": "Advisor",
+        "hours": 2.25,
+        "rate": 50
+      },
+      {
+        "role": "Two plan raters / reconciliation",
+        "hours": 3.5,
+        "rate": 50
+      },
+      {
+        "role": "Technical setup / maintenance",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Accessibility reviewer",
+        "hours": 2,
+        "rate": 60
+      }
+    ],
+    "staffHours": 29.25,
+    "labor": 1477.5,
+    "compensation": 75,
+    "accommodationReserve": 100,
+    "economicCost": 1652.5,
+    "cashCost": 1652.5,
+    "hostStatus": "No willing host/advisor has committed. All roles must be named and consent approved before launch.",
+    "scientificProtocol": "Existing participant kit2.0.1 / shortform2.0. Career Bridge plan review is a separately labeled exploratory output; do not insert it into the frozen A/B task or report a new causal comparison.",
+    "gates": [
+      "5/5 sources independently double-reviewed with no outstanding semantic hold",
+      "Zero unsupported eligibility or employment claims in inspected plans",
+      "At least4/5 starters finish the frozen task; report all missing/withdrawn outcomes",
+      "Two raters independently assess source correctness, uncertainty, skill connection, feasible action and provenance; retain disagreements",
+      "At least4/5 plans receive4/5 actionability items from both raters, without overruling a safety failure",
+      "Actual source/support workload no more than120% of funded capacity; stop/rebudget otherwise",
+      "No unresolved critical accessibility or privacy failure; accommodations actually usable",
+      "At least4/5 consenting respondents indicate willingness to continue; show missing responses separately"
+    ],
+    "outputs": "Counts and individual consented observations, not employment placements. Stage2 only after all gates and host approval; preserve 112hours/$6240 economic/$500 conditional donated-labor cash model."
+  },
+  "slowRecruitment": {
+    "assumptions": {
+      "learners": 5,
+      "sources": 5,
+      "reviewHours": 0.5,
+      "reviewers": 2,
+      "sessionsHours": 0.25,
+      "supportHours": 0.25,
+      "advisorHours": 0.25,
+      "ratingHours": 0.25,
+      "raters": 2,
+      "recruitmentWeeks": 4,
+      "donatedShare": 0
+    },
+    "roles": [
+      {
+        "role": "Source HR reviewer",
+        "hours": 2.5,
+        "rate": 60
+      },
+      {
+        "role": "Content steward",
+        "hours": 4.5,
+        "rate": 35
+      },
+      {
+        "role": "Facilitator / recruitment",
+        "hours": 6.5,
+        "rate": 50
+      },
+      {
+        "role": "Advisor",
+        "hours": 2.25,
+        "rate": 50
+      },
+      {
+        "role": "Two plan raters / reconciliation",
+        "hours": 3.5,
+        "rate": 50
+      },
+      {
+        "role": "Technical setup / maintenance",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Accessibility reviewer",
+        "hours": 2,
+        "rate": 60
+      }
+    ],
+    "staffHours": 26.25,
+    "labor": 1340,
+    "compensation": 75,
+    "accommodationReserve": 100,
+    "economicCost": 1515,
+    "cashCost": 1515,
+    "hostStatus": "No willing host/advisor has committed. All roles must be named and consent approved before launch.",
+    "scientificProtocol": "Existing participant kit2.0.1 / shortform2.0. Career Bridge plan review is a separately labeled exploratory output; do not insert it into the frozen A/B task or report a new causal comparison.",
+    "gates": [
+      "5/5 sources independently double-reviewed with no outstanding semantic hold",
+      "Zero unsupported eligibility or employment claims in inspected plans",
+      "At least4/5 starters finish the frozen task; report all missing/withdrawn outcomes",
+      "Two raters independently assess source correctness, uncertainty, skill connection, feasible action and provenance; retain disagreements",
+      "At least4/5 plans receive4/5 actionability items from both raters, without overruling a safety failure",
+      "Actual source/support workload no more than120% of funded capacity; stop/rebudget otherwise",
+      "No unresolved critical accessibility or privacy failure; accommodations actually usable",
+      "At least4/5 consenting respondents indicate willingness to continue; show missing responses separately"
+    ],
+    "outputs": "Counts and individual consented observations, not employment placements. Stage2 only after all gates and host approval; preserve 112hours/$6240 economic/$500 conditional donated-labor cash model."
+  },
+  "combined": {
+    "assumptions": {
+      "learners": 5,
+      "sources": 5,
+      "reviewHours": 1,
+      "reviewers": 2,
+      "sessionsHours": 0.25,
+      "supportHours": 0.25,
+      "advisorHours": 0.25,
+      "ratingHours": 0.25,
+      "raters": 2,
+      "recruitmentWeeks": 4,
+      "donatedShare": 0
+    },
+    "roles": [
+      {
+        "role": "Source HR reviewer",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Content steward",
+        "hours": 7,
+        "rate": 35
+      },
+      {
+        "role": "Facilitator / recruitment",
+        "hours": 6.5,
+        "rate": 50
+      },
+      {
+        "role": "Advisor",
+        "hours": 2.25,
+        "rate": 50
+      },
+      {
+        "role": "Two plan raters / reconciliation",
+        "hours": 3.5,
+        "rate": 50
+      },
+      {
+        "role": "Technical setup / maintenance",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Accessibility reviewer",
+        "hours": 2,
+        "rate": 60
+      }
+    ],
+    "staffHours": 31.25,
+    "labor": 1577.5,
+    "compensation": 75,
+    "accommodationReserve": 100,
+    "economicCost": 1752.5,
+    "cashCost": 1752.5,
+    "hostStatus": "No willing host/advisor has committed. All roles must be named and consent approved before launch.",
+    "scientificProtocol": "Existing participant kit2.0.1 / shortform2.0. Career Bridge plan review is a separately labeled exploratory output; do not insert it into the frozen A/B task or report a new causal comparison.",
+    "gates": [
+      "5/5 sources independently double-reviewed with no outstanding semantic hold",
+      "Zero unsupported eligibility or employment claims in inspected plans",
+      "At least4/5 starters finish the frozen task; report all missing/withdrawn outcomes",
+      "Two raters independently assess source correctness, uncertainty, skill connection, feasible action and provenance; retain disagreements",
+      "At least4/5 plans receive4/5 actionability items from both raters, without overruling a safety failure",
+      "Actual source/support workload no more than120% of funded capacity; stop/rebudget otherwise",
+      "No unresolved critical accessibility or privacy failure; accommodations actually usable",
+      "At least4/5 consenting respondents indicate willingness to continue; show missing responses separately"
+    ],
+    "outputs": "Counts and individual consented observations, not employment placements. Stage2 only after all gates and host approval; preserve 112hours/$6240 economic/$500 conditional donated-labor cash model."
+  },
+  "allLaborDonated": {
+    "assumptions": {
+      "learners": 5,
+      "sources": 5,
+      "reviewHours": 0.5,
+      "reviewers": 2,
+      "sessionsHours": 0.25,
+      "supportHours": 0.25,
+      "advisorHours": 0.25,
+      "ratingHours": 0.25,
+      "raters": 2,
+      "recruitmentWeeks": 2,
+      "donatedShare": 1
+    },
+    "roles": [
+      {
+        "role": "Source HR reviewer",
+        "hours": 2.5,
+        "rate": 60
+      },
+      {
+        "role": "Content steward",
+        "hours": 4.5,
+        "rate": 35
+      },
+      {
+        "role": "Facilitator / recruitment",
+        "hours": 4.5,
+        "rate": 50
+      },
+      {
+        "role": "Advisor",
+        "hours": 2.25,
+        "rate": 50
+      },
+      {
+        "role": "Two plan raters / reconciliation",
+        "hours": 3.5,
+        "rate": 50
+      },
+      {
+        "role": "Technical setup / maintenance",
+        "hours": 5,
+        "rate": 60
+      },
+      {
+        "role": "Accessibility reviewer",
+        "hours": 2,
+        "rate": 60
+      }
+    ],
+    "staffHours": 24.25,
+    "labor": 1240,
+    "compensation": 75,
+    "accommodationReserve": 100,
+    "economicCost": 1415,
+    "cashCost": 175,
+    "hostStatus": "No willing host/advisor has committed. All roles must be named and consent approved before launch.",
+    "scientificProtocol": "Existing participant kit2.0.1 / shortform2.0. Career Bridge plan review is a separately labeled exploratory output; do not insert it into the frozen A/B task or report a new causal comparison.",
+    "gates": [
+      "5/5 sources independently double-reviewed with no outstanding semantic hold",
+      "Zero unsupported eligibility or employment claims in inspected plans",
+      "At least4/5 starters finish the frozen task; report all missing/withdrawn outcomes",
+      "Two raters independently assess source correctness, uncertainty, skill connection, feasible action and provenance; retain disagreements",
+      "At least4/5 plans receive4/5 actionability items from both raters, without overruling a safety failure",
+      "Actual source/support workload no more than120% of funded capacity; stop/rebudget otherwise",
+      "No unresolved critical accessibility or privacy failure; accommodations actually usable",
+      "At least4/5 consenting respondents indicate willingness to continue; show missing responses separately"
+    ],
+    "outputs": "Counts and individual consented observations, not employment placements. Stage2 only after all gates and host approval; preserve 112hours/$6240 economic/$500 conditional donated-labor cash model."
+  }
+}

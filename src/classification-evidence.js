@@ -1,0 +1,5 @@
+// Immutable, selected publisher-field observations. These do not approve qualifications.
+export const classificationEvidence=[
+ {id:'25-003706-0003',sourceUrl:'https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=25&R2=003706&R3=0003',title:'INTERNAL INVESTIGATION DETECTIVE SERGEANT PSCS',capturedAt:'2026-10-31T17:08:06Z',kind:'publisher-metadata',employmentType:'Full-Time',identity:'25-003706-0003',rawSha256:'691e3f0f04757290e0960970fdd3d28ad832fa399350ddd855ea8beb4db74842',scope:'Employment Type field only. No qualification mapping, current availability or applicant eligibility approved.',reviewer:'AI-assisted selected-field source inspection; independent reviewers0'},
+ {id:'26-004373-0002',sourceUrl:'https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004373&R3=0002',title:'INTERNAL AUDITOR II',capturedAt:'2026-10-31T18:04:54.543800Z',kind:'publisher-metadata',employmentType:'Full-Time',identity:'26-004373-0002',rawSha256:'fccfb001cb0491817beef57035c2618368279fb092bd0860260df64c50250ec6',scope:'Employment Type only; no qualification or availability approval.',reviewer:'AI-assisted selected-field inspection; independent reviewers0'}
+];

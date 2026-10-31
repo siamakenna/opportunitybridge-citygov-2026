@@ -1,7 +1,8 @@
+// Historical v1 adapter retains v0.9.2 taxonomy for reproducible adverse results.
 // CCEB input-only adapters. References and case IDs never enter these functions.
 import {reviewRecord,lifecycle,catalogIssues} from './real-core.js';
 import {heldCatalog} from './pulse-core.js';
-import {normalizeOpportunity,normalizeText} from './taxonomy.js';
+import {normalizeOpportunity,normalizeText} from './taxonomy-v092.js';
 import {mappingApproved} from './source-review.js';
 import {connectionReview} from './passport.js';
 import {preparationStatus} from './preparation.js';
