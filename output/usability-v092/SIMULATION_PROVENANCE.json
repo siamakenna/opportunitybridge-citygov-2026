@@ -1,0 +1,16 @@
+{
+  "auditDatePacific": "2026-10-30",
+  "AIRehearsals": 12,
+  "assignmentsRepeated": 3,
+  "taskPacks": 24,
+  "entries": 71,
+  "preauthoredSourceConsistent": 20,
+  "deliberatelyIncorrect": 3,
+  "plannedPartial": 1,
+  "reportedInformalQualitativeReviewers": 1,
+  "verifiedTimedHumanSessions": 0,
+  "independentBenchmarkAdjudicators": 0,
+  "rawResponseArchivePublished": false,
+  "originalAuditZipSha256": "93a0d0113fa1e80d48c390fb030f0ca4d34fe6a9e8e981cd513baab2ef5ff6bd",
+  "originalResponseHashesUnchanged": true
+}

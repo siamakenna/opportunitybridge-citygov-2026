@@ -1,0 +1,23 @@
+{
+  "codeRevision": "8f894738054f8915d92eaf035c961479b38b7602",
+  "cleanArchive": true,
+  "runs": [
+    {
+      "run": 1,
+      "exitCode": 0,
+      "stdout": "CCEB:60 frozen inputs \u00d73 methods repeat identically and match retained directed outputs. Pilot reconciliation/capacity checks pass. Known discrepancies remain documented.\n"
+    },
+    {
+      "run": 2,
+      "exitCode": 0,
+      "stdout": "CCEB:60 frozen inputs \u00d73 methods repeat identically and match retained directed outputs. Pilot reconciliation/capacity checks pass. Known discrepancies remain documented.\n"
+    }
+  ],
+  "datasetSha256": "ae6cab115731c5628846ee46da01effdb63574e550dd2b42d33a15fe77360f51",
+  "retainedOutputSha256": "03e3bc22eeb9657fcb88f817c2dead55d09fe87d1f7ecebb19990f6fd5f82fac",
+  "conditions": "23/25",
+  "deadlines": "10/10",
+  "classification": "6/12 versus A/B12/12",
+  "independentAdjudicators": 0,
+  "goldOrOriginalOutputsChanged": false
+}
