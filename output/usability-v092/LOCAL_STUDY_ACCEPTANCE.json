@@ -1,5 +1,5 @@
 {
-  "phase": "local",
+  "phase": "local-fixed",
   "classification": "Software acceptance only; no genuine participants or consent",
   "checks": [
     {
@@ -58,8 +58,8 @@
       "id": "R02-reopened-1",
       "status": "PASS",
       "observed": {
-        "wallMs": 8309,
-        "taskMs": 3891,
+        "wallMs": 5131,
+        "taskMs": 3177,
         "stop": null,
         "taskStop": null
       }
@@ -135,8 +135,8 @@
       "id": "R02-reopened-2",
       "status": "PASS",
       "observed": {
-        "wallMs": 5040,
-        "taskMs": 3071,
+        "wallMs": 5266,
+        "taskMs": 3100,
         "stop": null,
         "taskStop": null
       }
@@ -201,112 +201,112 @@
     {
       "name": "repeat1-partial.json",
       "bytes": 2352,
-      "sha256": "04fec59b0a0a6bf70f6b9638910ddfb915b60652ebb7913f6e2786cccccb338d",
+      "sha256": "eb30f3bdd86f36a88a903ba58caddd45745d38cac1d4c48caf38e0428be7c418",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat1-paused.json",
-      "bytes": 2392,
-      "sha256": "90b01ae3db803ddece024b4dfe3ae891b9598a7beed16a60646058bc08c36e30",
+      "bytes": 2391,
+      "sha256": "6d39623660d841813379fbb246fe37cd2c327b95c0b0a42b55ff0a439ee66fe8",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat1-finished.json",
-      "bytes": 3234,
-      "sha256": "105f7d68156774d4196dbc43fb1da1da4bd89cc4747d7fb20c084980b22ef322",
+      "bytes": 3233,
+      "sha256": "5b296b744ee1696b35284cfb64685737bd931b51abda5bcdc17eb0a53edd0bdd",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat1-closed-again.json",
-      "bytes": 3234,
-      "sha256": "6b4efb2fc776314ccb9d13af068513473201908f14739c97876e1fe5a252d3ea",
+      "bytes": 3233,
+      "sha256": "93f5a4adb790578b6908dc35d25502f8033f27a831f3548e6cb7087627f831a6",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat1-active.json",
       "bytes": 3268,
-      "sha256": "53da2608b6b352f60edc4458eea80bb18d58f5a9419886b985dd8efc79516d01",
+      "sha256": "78823b63e18b3a91002b648a3d439145a10c4e324b501fd637613bef380747cf",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat1-rehearsal.txt",
       "bytes": 2060,
-      "sha256": "5dd44e91c0224ccb612cb51719cee049a0a74c31b2757c2c85778aa77f5fad71",
+      "sha256": "3d6be9ec5a9d7fd7d38261cd7dd7db40c44477e9c22a174ae9a1f76732e79ff1",
       "kind": "text",
       "inspected": true
     },
     {
       "name": "repeat2-partial.json",
       "bytes": 2352,
-      "sha256": "2a1312e1a035b29ca4bc7a49618d0f0909f30feef065ab297861fdd1a57861a0",
+      "sha256": "d2b3fb8c98285898a1e707b879e6f4e4b0702ec27205b3836671e0b9825cf888",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat2-paused.json",
       "bytes": 2391,
-      "sha256": "7c0647509dd5ce3f7ea0dfc28820fb9b25159ff9ea035ea99df06ac189edac29",
+      "sha256": "c1797494f697c06e229e31cc1b6a440d6e186713656f8ec80e41c534d16299fd",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat2-finished.json",
       "bytes": 3233,
-      "sha256": "d045b73619ff29b4a94b926a3fbeebc8a360e70fd9ff8e94398b2cc98dcdab48",
+      "sha256": "b101c1fe2515a9a1c1addcafd72bef77ad7bf21114b1868773db2ca2229cd5a9",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat2-closed-again.json",
       "bytes": 3233,
-      "sha256": "f07015c0adde0dc1430bd40a8d1f086024d18aea086cf5489ae279fc0ea1fde5",
+      "sha256": "95fe2c863bbc226eab257c2a548e8dd910fedcdb29e793241f1e1598b8a3fee2",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat2-active.json",
       "bytes": 3268,
-      "sha256": "6a028b71edcbd09371ada70c0d9ef0d3b2f789848e17ed844dd393d72ad7812f",
+      "sha256": "92170e98c25a0138ab4267f5d85929bbe4010d3fa0d560d09d73b125da12bdfc",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "repeat2-rehearsal.txt",
       "bytes": 2060,
-      "sha256": "ea14f29c7f0d5647f92abf1b3519e0d871e663a8f5e785e26770ffdc23efe42e",
+      "sha256": "8d85f32d496228da56bbca4c9b5b228c8df3e6acfb85309b59a5242b4211723e",
       "kind": "text",
       "inspected": true
     },
     {
       "name": "withdrawn.json",
       "bytes": 2376,
-      "sha256": "0a0a2e21859cc28e4d534cd3fb84784e7e840ed60d0d76d97ed648af4b06997c",
+      "sha256": "a85127c2af6596c1d566e6f2cceaef4e68e2acb45f8365f25501eea04f862f84",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "withdrawn.txt",
       "bytes": 1851,
-      "sha256": "8fe29612973c1307769d910a7ad1652d8369c78d24f16ee8eb8e9ef3dd91058e",
+      "sha256": "9d4b03848539abe41e1625f4295d0fd1ad5c4bbec5568ea69373dbae62e86101",
       "kind": "text",
       "inspected": true
     },
     {
       "name": "ordinary-empty-control.json",
       "bytes": 2124,
-      "sha256": "5a708e6e9b15a71fad92f4984d4280c4b5a310025625014f136218f3e16a5eff",
+      "sha256": "15346bc98a73e3e1a84b853c3d21acfac4167595fa4f5e332a27ff5358e32d91",
       "kind": "JSON",
       "inspected": true
     },
     {
       "name": "ordinary-empty-control.txt",
       "bytes": 1839,
-      "sha256": "1cba155d58ff47fa1e352fa9ffc4211a4a1d06289e76cb49ff1f36b07c05a8f1",
+      "sha256": "80dcd5020918156636cdc7954c1d388cc6c16759279b74f53539d3be164cf8a7",
       "kind": "text",
       "inspected": true
     }

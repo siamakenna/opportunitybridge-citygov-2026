@@ -18,6 +18,7 @@ files += [str(x.relative_to('dist')) for x in Path('dist/output/study-v081').ite
 files += ['rehearsal-index.html','rehearsal-evaluation.html','tests/frozen-clock.js','tests/usability-browser.html','tests/usability-browser.js','output/OpportunityBridge-v091-Participant-Testing-Kit.zip','docs/evidence/EXTERNAL_USABILITY_FEEDBACK_v091.md','docs/PORTAL_COPY_v091.txt']
 files += [str(x.relative_to('dist')) for x in Path('dist/study/participant').iterdir() if x.is_file()]
 files += [str(x.relative_to('dist')) for x in Path('dist/output/usability-v091').iterdir() if x.is_file()]
+files += ['tests/study-pointer-browser.html','tests/study-pointer-browser.js']
 files += ['output/OpportunityBridge-v092-Participant-Testing-Kit.zip','docs/evidence/STUDY_INTEGRITY_RELEASE_v092.md','docs/PORTAL_COPY_v092.txt']
 files += [str(x.relative_to('dist')) for x in Path('dist/output/usability-v092').iterdir() if x.is_file()]
 def compare(path):
