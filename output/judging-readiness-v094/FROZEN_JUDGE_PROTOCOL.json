@@ -1,0 +1,44 @@
+{
+  "protocol": "OB-JUDGE-MATCHED-1",
+  "frozenAtUtc": "2026-11-03T03:59:45.959411+00:00",
+  "baselineCommit": "15dce5358f10cf06f34394d7d81cea0462aea0e5",
+  "historicalComparison": "Historical 87 setup cannot be reconstructed: reports retain scores, no original independent judge input packet, timed script, evidence budget, or separate assessor records. Recovered code can support functional inspection only; not a retroactive matched historical score. Fresh v0.9.3 baseline will be used.",
+  "officialCriteria": "A Barrier clarity; B Usefulness; C Creativity/originality; D Pilot feasibility; E Career impact/equity; F Civic relevance; G Scalability/sustainability; H Measurement; I Accessibility/inclusive design; J Presentation/communication",
+  "rubric": "Each criterion 0\u201310, summed /100, equal working weights. Official detailed table gives 0\u201310; general wording says 0\u2013100 and final weighted score without published numeric weights. Do not invent weights. Tie-break E then D.",
+  "evidenceBudget": "Same 5-minute scripted public journey plus same-length bounded evidence packet per snapshot; each assessor receives both neutral A/B snapshots, neither prior scores nor target. Assessment not a timed human or independent blinded study. Preserve every rating and deduction.",
+  "steps": [
+    {
+      "id": "J1",
+      "task": "Start at exact saved draft demo URL (root). Identify intended adult learner and proposed preparation outcome.",
+      "budgetSeconds": 30
+    },
+    {
+      "id": "J2",
+      "task": "Start complete fictional example without account, personal records or mandatory quest. Identify declaration, official employer duty, app suggestion and unknown qualification.",
+      "budgetSeconds": 60
+    },
+    {
+      "id": "J3",
+      "task": "Open official source, inspect URL and original review date/hold. Return and explain eligibility remains unknown.",
+      "budgetSeconds": 45
+    },
+    {
+      "id": "J4",
+      "task": "Read exactly 3 ordered concrete actions; download Markdown plan and inspect actual source/date/unknown/fictional status.",
+      "budgetSeconds": 45
+    },
+    {
+      "id": "J5",
+      "task": "From actual submission judge guide and evidence room, find current workflow, unfavorable benchmark, human n, pilot cost and AI disclosure. Record conflicting current/historical claims.",
+      "budgetSeconds": 60
+    },
+    {
+      "id": "J6",
+      "task": "Inspect alternate existing route for direct-versus-transferable label and source hold/closure. At mobile width, complete example and export.",
+      "budgetSeconds": 60
+    }
+  ],
+  "functionalScoring": "Each step PASS/PARTIAL/FAIL with receipts, actions, observed friction; no human comprehension inference. Desktop1280x720, mobile375x812, same clock/source snapshots for matched local tests. Actual zoom and AT recorded separately.",
+  "simulatedScoring": "3 separately framed workforce, technical/product, skeptical perspectives; criterion-level score+rationale+evidence; report all scores, range, median/mean and paired differences. Novelty, outcome and scale credit must match demonstrated evidence; no automatic bonus for tests.",
+  "releaseRule": "Choose candidate only if no critical safety/source/privacy regression and complete functional route is at least preserved. Mixed subjective scores disclosed. Stable v0.9.3 tag retained rollback. No Submit/new declarations; private portal proof excluded."
+}
