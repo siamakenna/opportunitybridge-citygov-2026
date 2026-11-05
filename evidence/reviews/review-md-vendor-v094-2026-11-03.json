@@ -1,0 +1,17 @@
+{
+  "id": "review-md-vendor-v094-2026-11-03",
+  "decisions": [
+    {
+      "id": "md-vendor",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "sourceHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+      "sourceRawHash": "5ef6a533a7c19f13107e4df589abc0963e0dc257e7a9e1fbf00cb96abf5581f0",
+      "mappingSha256": "838e71d94f93daec1a6ece887d56a8d5bc8a68856bc5927127c87e915e060af2",
+      "decision": "verify",
+      "inspectedAt": "2026-11-03T04:05:54.803069+00:00",
+      "reviewer": "Codex AI-assisted full-source inspection; not independent HR adjudication",
+      "inspectionMethod": "Full public HTTPS announcement read from identity through further instructions; exact fragments and SHA256 retained",
+      "notes": "Reinspected recruitment26-004518-0015: Full-Time; November5 11:59PM local-time assumption; vendor-table maintenance/forms, good-standing requests, sorting/scanning and1099 corrections. High-school/equivalent, two qualifying financial years, six accounting credits replace ONE year; vocational/military and education-equivalence conditions retained without stacking. Preferred Office/detail/communication do not replace minimum experience.18+, no current/future sponsorship, fingerprinting, foreign-credential evaluation, complete application and deadline conditions require employer verification. No sensitive records in demo. AI review only; independent HR/second review still required for pilot."
+    }
+  ]
+}

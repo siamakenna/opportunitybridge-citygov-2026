@@ -107,8 +107,8 @@ export const catalog = [
     "deadline": "2026-11-05T23:59:00-05:00",
     "deadlineLabel": "Nov 5, 2026 · 11:59 PM · Maryland local time assumed",
     "observedAt": "2026-10-26T18:03:34Z",
-    "verifiedAt": "2026-10-27T00:22:27.538Z",
-    "reviewer": "Codex source-backed review; not independent HR validation · Full official announcement and HTTPS identity/excerpts inspected",
+    "verifiedAt": "2026-11-03T04:05:54.803069+00:00",
+    "reviewer": "Codex AI-assisted full-source inspection; not independent HR adjudication · Full public HTTPS announcement read from identity through further instructions; exact fragments and SHA256 retained",
     "verification": "official",
     "requirements": [
       {
@@ -176,9 +176,19 @@ export const catalog = [
     "mappingReview": {
       "snapshot": "{\"id\":\"md-vendor\",\"sourceUrl\":\"https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=\",\"recruitment\":\"26-004518-0015\",\"requirements\":[{\"id\":\"education\",\"label\":\"High-school education or permitted equivalent\",\"exact\":\"high school equivalency certificate\",\"context\":\"Minimum Qualifications · education (fragment)\",\"summary\":\"High-school credential, or permitted numerical-work substitution; HR must verify equivalency.\",\"required\":true,\"rule\":\"vendor-education\"},{\"id\":\"experience\",\"label\":\"Financial-transaction experience\",\"exact\":\"Two years of experience reviewing, verifying, recording, adjusting and balancing financial transactions.\",\"context\":\"Minimum Qualifications · experience\",\"summary\":\"24 qualifying months. Six accounting credits replace one year, not automatically both years.\",\"required\":true,\"rule\":\"md-finance-experience\"},{\"id\":\"conditions\",\"label\":\"Age, authorization and screening conditions\",\"exact\":\"\",\"context\":\"Selection Process\",\"summary\":\"18+, work authorization without current/future sponsorship and fingerprinting/screening; verify all with employer.\",\"required\":true,\"rule\":\"human\"},{\"id\":\"office\",\"label\":\"Office software familiarity\",\"exact\":\"Microsoft Office Products\",\"context\":\"Desired or Preferred Qualifications (fragment)\",\"summary\":\"Preferred software skill; not a substitute for the mandatory experience condition.\",\"required\":false,\"rule\":\"office\"}],\"preferred\":[\"Office software, attention to detail, communication and vendor-record/accounts-payable experience (summary).\"],\"substitutions\":[\"Six accredited accounting credits may replace one year of financial experience.\",\"Five specified vocational accounting courses or six months of qualifying training may replace one year.\",\"Qualifying military financial experience substitutes year-for-year; ask HR.\",\"Numerical-data work may substitute for required high-school education; verify equivalency.\"],\"restrictions\":\"18+, no current/future sponsorship and employer screening apply; source has additional conditions.\",\"qualificationSummary\":\"Two years of qualifying financial work. Six accounting credits replace one year only; vocational/military routes need review. Stacking is not assumed.\"}",
       "sourceHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
-      "reviewedAt": "2026-10-27T00:22:27.538Z",
-      "reviewer": "Codex source-backed review; not independent HR validation",
-      "notes": "Full bulletin re-read: Nov5 11:59PM, two qualifying financial years, six accounting credits replace one year only; vocational and military routes require HR, no inferred stacking. Screening/18+/authorization conditions retained."
+      "reviewedAt": "2026-11-03T04:05:54.803069+00:00",
+      "reviewer": "Codex AI-assisted full-source inspection; not independent HR adjudication",
+      "notes": "Reinspected recruitment26-004518-0015: Full-Time; November5 11:59PM local-time assumption; vendor-table maintenance/forms, good-standing requests, sorting/scanning and1099 corrections. High-school/equivalent, two qualifying financial years, six accounting credits replace ONE year; vocational/military and education-equivalence conditions retained without stacking. Preferred Office/detail/communication do not replace minimum experience.18+, no current/future sponsorship, fingerprinting, foreign-credential evaluation, complete application and deadline conditions require employer verification. No sensitive records in demo. AI review only; independent HR/second review still required for pilot."
+    },
+    "duties": [
+      "Maintain and monitor the State Accounting System vendor table, process vendor-maintenance and good-standing requests, and check corrections."
+    ],
+    "bridgeDutyReview": {
+      "snapshot": "{\"id\":\"md-vendor\",\"sourceUrl\":\"https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=\",\"recruitment\":\"26-004518-0015\",\"duties\":[\"Maintain and monitor the State Accounting System vendor table, process vendor-maintenance and good-standing requests, and check corrections.\"],\"skill\":\"data\"}",
+      "sourceHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+      "reviewedAt": "2026-11-03T04:05:54.803069+00:00",
+      "context": "POSITION DUTIES; explicit AI-assisted full-source review, not independent HR validation",
+      "basis": "Paraphrase of vendor-table maintenance, requests and correction duties. Spreadsheet practice is the app’s proposal; no official tool or accepted credential is inferred."
     }
   },
   {

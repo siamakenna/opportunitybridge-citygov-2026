@@ -1,0 +1,31 @@
+{
+  "checkedAtUtc": "2026-11-03T04:18:46.647364+00:00",
+  "deadline": "2026-11-06T23:59:00-05:00",
+  "rulesUrl": "https://www.citygov.com/hackathon/citygov-hackathon-2026",
+  "spotlightUrl": "https://www.citygov.com/spotlight/2026-citygov-hackathon-challenge",
+  "spotlightResult": "No superseding date or format announcement found in the linked current hackathon Spotlight; other visible Spotlight is judge introduction.",
+  "submissionRequirements": {
+    "demo": "Public link accepted; no software download, account or payment required for judging.",
+    "video": "Optional Round2, 2\u20133min English or English captions. Current screenshot sequence is labeled honestly as recorded v0.9.3; not claimed continuous video.",
+    "profile": "Team names, CityGov profile links and lead required under6.2; each member needs completed account/profile with photo. Public member-specific sharing URL remains to verify.",
+    "solutionWords": "Up to500\u2013750 as posted",
+    "equityWords": "Up to400",
+    "aiDisclosure": "Significant tools/purposes required",
+    "finalAction": "Owner-only Submit/new declarations"
+  },
+  "rulesTextSha256": "0d8f165efaf09e9219e4d76abeef833232baa7b60ed0663a359e8d59a17efad5",
+  "spotlightTextSha256": "dd905627ceb670a2b48bcba5a03c6ba7448cae06da0e4da591895e43ca802e8c",
+  "nativePermissions": [
+    {
+      "attempt": "initial Safari control",
+      "result": "Computer Use permissions are not granted"
+    },
+    {
+      "attempt": "after owner authorization to enable native access",
+      "result": "Computer Use permissions are not granted"
+    }
+  ],
+  "actualZoom": "UNTESTED",
+  "screenReader": "UNTESTED",
+  "wcagCertification": false
+}

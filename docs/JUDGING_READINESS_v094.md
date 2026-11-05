@@ -1,0 +1,15 @@
+# Judging-readiness patch and evidence boundaries
+
+The candidate fixes observed audience/start-path friction and conflicting current/historical judge instructions. It adds a directly reviewed spreadsheet-to-vendor-record route, explicitly separates learner declarations, employer summaries, app proposals and unknowns in the UI/export, and preserves all three-action, closure, privacy and source-hold behavior. Original v0.9.3 is the rollback reference.
+
+[Current five-minute guide](../judge.html), [HTML example](../index.html?bridge=demo#career-bridge), [spreadsheet example](../index.html?bridge=data-demo#career-bridge), [historical scoring gap](SCORE_GAP_ANALYSIS_v094.md), [source operation and cost assumptions](SOURCE_OPERATIONS_v094.md).
+
+The matched script was frozen before implementation at `6774958`. The exact v0.9.3 code passed 180 Node and six Python checks. The baseline complete-example/export route worked on desktop/mobile, but the hero did not name a learner audience, required two start clicks, and the actual judge guide exposed five conflicting historical/current statements. Every lower assessment and failure remains retained. The candidate's current acceptance, public revision and all paired simulated ratings are attached as dated release receipts after the actual tests; this document does not predeclare those gates passed.
+
+A source review exposed a pre-existing unit-fixture coupling: `pulse-passport.test.js` defined a fresh clock from the latest review anywhere in the catalog. Updating one unrelated source made an older test source stale and caused two failures. The test fixture now freezes review timestamps independently, preserving every original assertion. The first failed run is retained. Production freshness and approval logic were not weakened, nor were frozen CCEB references changed.
+
+Actual native access attempts returned “Computer Use permissions are not granted,” including after the owner's authorization to enable access. Actual 200% browser zoom and screen-reader announcements remain UNTESTED until the operating-system/app grant is available. Viewport reflow, browser keyboard actions and semantic snapshots are separate software checks, not assistive-technology outcomes. No WCAG certification.
+
+No available consented volunteer records were supplied, and no recruitment/contact occurred. One reported informal reviewer, zero verified formal timed human sessions, twelve previous AI engineering rehearsals and zero independent benchmark adjudicators remain. No employment, equity or advisor-effectiveness gain follows from this patch.
+
+Official rules were reread and current Spotlight checked: November 6, 2026 at 11:59 PM EST remains the stated deadline. A public demo link is accepted; Round 2's 2–3 minute video is optional. The retained captioned screenshot sequence is labeled as recorded v0.9.3, with the current live examples prominent. No continuous current video is claimed. Rules require team names, profile links and lead; the owner must resolve any member-specific share-link ambiguity before final submission. No final Submit action or new declarations are authorized by this patch.

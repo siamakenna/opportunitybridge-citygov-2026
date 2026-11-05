@@ -87,6 +87,6 @@ bridge=mountBridge({catalog:approvedCatalog,revision:releaseRevision,
  onPassport:id=>{selected=id;renderDetail();focusPlan();},
  onCapture:()=>document.getElementById('journey-save-passport').click()});
 bridge.sync(catalog.find(r=>r.id===selected),(worksheets[selected]||[]).at(-1)||{});
-if(location.hash==='#career-bridge'&&new URLSearchParams(location.search).get('bridge')==='demo')document.getElementById('bridge-demo').click();
+if(location.hash==='#career-bridge'){const example=new URLSearchParams(location.search).get('bridge');if(example==='demo')document.getElementById('bridge-demo').click();if(example==='data-demo')document.getElementById('bridge-data-demo').click();}
 
 for(const a of document.querySelectorAll('.nav a[href="#constellation"]'))a.addEventListener('click',()=>{document.getElementById('bridge-alternatives').open=true;});

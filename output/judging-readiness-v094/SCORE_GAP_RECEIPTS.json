@@ -1,0 +1,160 @@
+{
+  "historicalSetupReconstructable": false,
+  "historicalEarliestRecoveredMatrixCommit": "13c80d1afbfa89d2c96ed5c2acbfcff9e899f7d7",
+  "historicalLastRetainedCode": "79ceb6a4346c2c50d92d8c87a25fea3ef6f1cce6",
+  "recentInitialJudgedCommit": "5903b83a2c5f912e45ac1dbcb59361bf017e2851",
+  "recentFinalFollowupCode": "15dce5358f10cf06f34394d7d81cea0462aea0e5",
+  "recentPacketSha256": "50fdd0a99ef345f7a529acd1d9971f9b1439c15a9ac356822b6c91444c930ebd",
+  "criteria": [
+    {
+      "criterion": "A",
+      "label": "Barrier clarity",
+      "historical": 8,
+      "freshScores": [
+        8,
+        8,
+        7
+      ],
+      "deductions": [
+        "The HTML-to-MPT example identifies a concrete translation barrier: learners can name coursework but struggle to connect it to employer duties, documents and a next step. The source-linked plan makes the barrier inspectable. Deduct 2 because its prevalence and severity for the intended underserved population have not been established through retained learner observations.",
+        "The example makes the education-to-work translation barrier concrete: introductory HTML becomes a proposed sample tied to a real public-employer duty. Deduct 2 because the supplied evidence does not establish prevalence or priority through observed learner sessions; the fictional example and one reported informal reviewer are limited problem validation.",
+        "The fictional HTML learner and real MPT web-resource duty make the education-to-employment translation barrier specific. The packet does not establish its prevalence or severity through direct learner research."
+      ]
+    },
+    {
+      "criterion": "B",
+      "label": "Usefulness",
+      "historical": 9,
+      "freshScores": [
+        8,
+        8,
+        7
+      ],
+      "deductions": [
+        "The learner can produce exactly three prioritized actions, a proposed work sample, required-document checklist and a specific human question without an account or fee. Actual downloaded plans and software trials support that capability. Deduct 2 because unfamiliar learners have not demonstrated comprehension, completion or useful action, and the current source hold still requires outside verification.",
+        "A working account-free flow produces exactly three prioritized actions, unknown conditions and usable MD/JSON artifacts; negative and expired-source paths are retained. Deduct 2 for narrow authored mapping and no observed human comprehension/actionability advantage. A free-text experience declaration does not generate a new duty mapping.",
+        "The working route produces a source-linked plan, three actions, unresolved conditions and portable exports. Actual learner comprehension and advisor usefulness remain unmeasured. The sample places preparation before the full current announcement check despite a source hold; that ordering could waste effort and has not been evaluated."
+      ]
+    },
+    {
+      "criterion": "C",
+      "label": "Creativity/originality",
+      "historical": 9,
+      "freshScores": [
+        7,
+        7,
+        6
+      ],
+      "deductions": [
+        "The combination of duty-linked skill translation, optional fictional practice, explicit unknowns and portable advisor preparation is thoughtfully integrated. Deduct 3 because the constituent functions are familiar, equivalent manual preparation is possible, and no comparative evidence establishes a distinctive user advantage.",
+        "The useful combination is inspectable source provenance, skill translation, fictional practice and an uncertainty-preserving advisor handoff. Deduct 3 because the core steps are reproducible with an official announcement and competent manual or chatbot assistance, and the direct mapping is specifically authored for one demonstration; no comparative human or competitor-workflow advantage is measured.",
+        "The combination of provenance, explicit uncertainty, skill-to-duty explanation, optional fictional practice and export is defensible. Individual features overlap familiar job discovery, simulation and advising workflows. The packet expressly has no authenticated competitor comparison or performance benchmark."
+      ]
+    },
+    {
+      "criterion": "D",
+      "label": "Pilot feasibility",
+      "historical": 9,
+      "freshScores": [
+        7,
+        7,
+        6
+      ],
+      "deductions": [
+        "Five adults, five double-reviewed sources, a staged launch, safety gates and explicit labor/cost sensitivities make a small pilot operationally imaginable. Deduct 3 because there is no committed host, advisor, funding or named staffing; workload estimates remain assumptions and accessibility accommodations are not validated. The base economic and cash cost is $1,415, or $283 per learner, before any overrun; $175 cash requires all modeled labor to be donated.",
+        "Five adults/five double-reviewed sources, explicit safety gates and a 24.25-hour/$1,415 paid-labor base are plausible for a feasibility pilot. Deduct 3 because host, advisor, funding and operational staffing are uncommitted; review/support/accommodation assumptions have not been tested in delivery. This is an executable plan once resourced, not a launched service.",
+        "A five-person first stage specifies roles, workload, compensation, cost sensitivities and stop gates. Its base is 24.25 staff hours and $1,415 economic/cash cost with paid labor. No host, advisor or funding has committed; review/support assumptions remain unobserved."
+      ]
+    },
+    {
+      "criterion": "E",
+      "label": "Career impact/equity",
+      "historical": 7,
+      "freshScores": [
+        6,
+        6,
+        6
+      ],
+      "deductions": [
+        "Account-free access and specific preparation steps plausibly benefit learners without professional networks. Unknown enrollment, authorization and weekly availability are exposed rather than silently excluded. Deduct 4 because there are zero verified timed human sessions, no measured actionability or career transitions, and no subgroup evidence that this reaches or benefits people with less access. The workflow still depends on an available advisor or employer response; willingness, scheduling and accommodation barriers remain real.",
+        "No account, fee or required quest lowers entry friction, and specific questions could help a learner without professional networks approach an advisor. Deduct 4 because no observed preparation gain, application/interview/placement outcome or differential access benefit exists. Human verification remains a dependency for people who may lack access to it; a portable fictional plan is an output rather than evidence of a career transition.",
+        "An account-free source-linked plan could help learners who lack advice translate classroom skills into preparation. No verified timed learner sessions, independent plan ratings or observed access improvements establish that pathway. Advisor availability and employer acceptance remain prerequisites."
+      ]
+    },
+    {
+      "criterion": "F",
+      "label": "Civic relevance",
+      "historical": 9,
+      "freshScores": [
+        9,
+        9,
+        9
+      ],
+      "deductions": [
+        "The workflow connects learning to a real public employer and actual published duties, uses official recruitment provenance and distinguishes public-service preparation from employer decisions. Deduct 1 because a municipal workforce office or public employer has not committed to using or recognizing the outputs.",
+        "The demonstration is grounded in a real Maryland Public Television recruitment, public-employer duties and official-source verification rather than a generic private-sector career exercise. Deduct 1 because there is no committed public-service host or employer/advisor adoption, and the current source review remains on hold.",
+        "The demonstration connects a real public employer\u2019s educational-web duty to an accessible civic-information exercise, retaining official recruitment provenance and human decisions. This is a substantive public-service connection."
+      ]
+    },
+    {
+      "criterion": "G",
+      "label": "Sustainability/scalability",
+      "historical": 9,
+      "freshScores": [
+        5,
+        6,
+        5
+      ],
+      "deductions": [
+        "Transparent labor accounting, a small first stage and a funded-capacity stop gate are sound starting points. Deduct 5 because no maintenance owner, recurring funding, staffing commitment or observed review/support throughput exists. Source refreshes, second reviews and human handoffs create recurring costs; a static deployed app does not establish an affordable operating service. Stage 2 costs $6,240 economically for 25 learners, while its $500 cash figure depends on fully donated modeled labor. Expansion of a reliable curated catalog remains unproven.",
+        "A static, local-first prototype is inexpensive to distribute; explicit review gates and cost sensitivities expose maintenance needs. Deduct 4 because expert source review, ongoing freshness, broader duty mappings, accessibility support and advisor handoff require people; no funded owner, demonstrated throughput or sustainable expansion mechanism exists. The new inspected classification registry contains two selected publisher-field observations, not broad feed enrichment.",
+        "A static account-free product limits technical overhead, and labor is honestly costed. Scaling still requires current source review, content stewardship, advisors, accessibility review and independent ratings. Neither a funded owner nor a tested maintenance cadence is established."
+      ]
+    },
+    {
+      "criterion": "H",
+      "label": "Measurement",
+      "historical": 9,
+      "freshScores": [
+        8,
+        8,
+        7
+      ],
+      "deductions": [
+        "The plan specifies completion denominators, missing outcomes, two independent raters, retained disagreements, safety vetoes and capacity gates; it separates outputs, short-term preparation and employment follow-up. Deduct 2 because these measures have not been collected, no independent gold adjudication exists, and there is no observed comparative human baseline. Authored classification scores and browser checks validate bounded software behavior, not workforce impact.",
+        "Evidence distinguishes software checks, authored benchmark accuracy, immediate outputs and future human outcomes; the pilot retains missing outcomes and independent-rater disagreements with explicit go/no-go gates. All 18 packet-listed file hashes matched. Deduct 2 because independent adjudicators and verified timed human sessions remain zero; authored descriptions do not estimate normal RSS accuracy or real-world effectiveness.",
+        "The plan separates engineering checks, exploratory plan ratings and later career outcomes, preserves missing denominators, and defines independent ratings and safety gates. Authored 12/12 and 28/28 classification results are transparent but cannot establish production accuracy or user benefit. Measurement quality in practice remains untested."
+      ]
+    },
+    {
+      "criterion": "I",
+      "label": "Accessibility",
+      "historical": 9,
+      "freshScores": [
+        7,
+        7,
+        7
+      ],
+      "deductions": [
+        "Local voluntary saving/sharing, no login or fee, labels, keyboard focus checks and 320\u20131280px reflow reduce practical access and privacy barriers. Deduct 3 because actual 200% zoom and screen-reader operation are untested, and evidence does not establish usability across language, literacy, assistive technology or low-connectivity circumstances. A small accommodation reserve and fictional testing do not demonstrate equitable access.",
+        "Narrow-width reflow, labeled controls, focus movement, captions/transcript and opt-in local persistence are credible inclusion measures. The inspected Bridge renderer uses textContent and external links use noopener/noreferrer. Deduct 3 because actual 200% zoom and screen-reader use are untested; no disabled-user, low-literacy, language or subgroup outcome validation is supplied. These source/receipt checks are neither a WCAG certification nor a full security audit.",
+        "No fee/login, explicit local saving, fictional input, reflow at 320\u20131280px and a checked keyboard path support access and privacy. The screenshots show clear labels but long prose. Actual 200% zoom and screen-reader use remain UNTESTED; no observed accessibility or background-specific comprehension sessions are supplied."
+      ]
+    },
+    {
+      "criterion": "J",
+      "label": "Presentation",
+      "historical": 9,
+      "freshScores": [
+        8,
+        8,
+        8
+      ],
+      "deductions": [
+        "The five-minute verification path, captioned screenshot sequence and real exported example clearly explain what a learner does and what remains unknown. Deduct 2 because screenshots do not demonstrate continuous unaided use, the document/checks package is dense, and no novice comprehension result shows the caveats and workflow are understood.",
+        "The five-minute verification path and seven-scene captioned walkthrough lead through source, duty, action and export, with unusually explicit evidence limitations. Deduct 2 because the plan repeats lengthy cautions and source details, the showcase is a screenshot sequence rather than continuous interaction, and comprehension by an unfamiliar judge or learner has not been observed.",
+        "The hero, short fictional scenario, direct duty map, three-action artifact and honest limitations create an intelligible judge narrative. The seven genuine stills support a 180-second captioned walkthrough. The result panels and pilot prose are dense; the sequence does not demonstrate uninterrupted use by a learner."
+      ]
+    }
+  ]
+}

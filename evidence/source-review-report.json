@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T04:49:02.878Z",
+  "generatedAt": "2026-11-03T04:05:55.031Z",
   "rows": [
     {
       "id": "cif-winter",
@@ -15,6 +15,31 @@
       "fetchedAt": "2026-10-29T04:49:01.810822+00:00",
       "semanticHash": "d3c4e2459ccfb6af8561515e6a367823204f87bcbaa2d04b9e6f16db7d870241",
       "excerptChecks": [],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "md-admin",
+      "recruitment": "26-001755-0041",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
+      "verifiedAt": "2026-10-27T00:22:27.535Z",
+      "state": "unchanged",
+      "stale": true,
+      "priority": 1,
+      "deadline": "2026-11-03T17:00:00-05:00",
+      "sourceRawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
+      "approvedReviewMethod": "public HTTPS consistency check",
+      "fetchedAt": "2026-10-29T04:49:01.417006+00:00",
+      "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
+      "excerptChecks": [
+        {
+          "id": "education",
+          "found": true
+        },
+        {
+          "id": "experience",
+          "found": true
+        }
+      ],
       "action": "Independent source inspection required before any renewal or mapping change."
     },
     {
@@ -92,31 +117,6 @@
       "action": "Independent source inspection required before any renewal or mapping change."
     },
     {
-      "id": "md-admin",
-      "recruitment": "26-001755-0041",
-      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=001755&R3=0041&b=",
-      "verifiedAt": "2026-10-27T00:22:27.535Z",
-      "state": "unchanged",
-      "stale": true,
-      "priority": 2,
-      "deadline": "2026-11-03T17:00:00-05:00",
-      "sourceRawHash": "884a022c0056bd0db0eab46e51df5162a2b36c84ebd234cee240420e6f2dced6",
-      "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-29T04:49:01.417006+00:00",
-      "semanticHash": "5e1faaf0937f748e5b353e2eddc2f3e553c84f9708655c818b159d5458b59e52",
-      "excerptChecks": [
-        {
-          "id": "education",
-          "found": true
-        },
-        {
-          "id": "experience",
-          "found": true
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
       "id": "md-admin3",
       "recruitment": "26-002043-0037",
       "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=002043&R3=0037&b=",
@@ -136,35 +136,6 @@
         },
         {
           "id": "experience",
-          "found": true
-        }
-      ],
-      "action": "Independent source inspection required before any renewal or mapping change."
-    },
-    {
-      "id": "md-vendor",
-      "recruitment": "26-004518-0015",
-      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
-      "verifiedAt": "2026-10-27T00:22:27.538Z",
-      "state": "unchanged",
-      "stale": true,
-      "priority": 2,
-      "deadline": "2026-11-05T23:59:00-05:00",
-      "sourceRawHash": "1878cafda0db5eef8ba979c0b38a14d9364507d4a20eac5ff2c1f30219ff5142",
-      "approvedReviewMethod": "public HTTPS consistency check",
-      "fetchedAt": "2026-10-29T04:49:01.419651+00:00",
-      "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
-      "excerptChecks": [
-        {
-          "id": "education",
-          "found": true
-        },
-        {
-          "id": "experience",
-          "found": true
-        },
-        {
-          "id": "office",
           "found": true
         }
       ],
@@ -250,6 +221,35 @@
         {
           "id": "inperson",
           "found": false
+        }
+      ],
+      "action": "Independent source inspection required before any renewal or mapping change."
+    },
+    {
+      "id": "md-vendor",
+      "recruitment": "26-004518-0015",
+      "sourceUrl": "https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015&b=",
+      "verifiedAt": "2026-11-03T04:05:54.803069+00:00",
+      "state": "unchanged",
+      "stale": false,
+      "priority": 3,
+      "deadline": "2026-11-05T23:59:00-05:00",
+      "sourceRawHash": "5ef6a533a7c19f13107e4df589abc0963e0dc257e7a9e1fbf00cb96abf5581f0",
+      "approvedReviewMethod": "public HTTPS consistency check",
+      "fetchedAt": "2026-11-03T04:01:16.101939+00:00",
+      "semanticHash": "dd519154f084b1f3723c1986d21776b31c98f39b2763210b46b9bab1f7bca0c4",
+      "excerptChecks": [
+        {
+          "id": "education",
+          "found": true
+        },
+        {
+          "id": "experience",
+          "found": true
+        },
+        {
+          "id": "office",
+          "found": true
         }
       ],
       "action": "Independent source inspection required before any renewal or mapping change."
