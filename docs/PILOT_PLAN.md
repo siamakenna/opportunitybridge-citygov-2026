@@ -1,4 +1,6 @@
-# OpportunityBridge · proposed 60-day pilot
+# OpportunityBridge · Stage 2 proposed 60-day expansion
+
+Start with the [Stage 1 feasibility plan](PILOT_STAGE_ONE.md). This 25-person expansion requires the Stage 1 gates to pass and a new host staffing and funding decision.
 
 **Proposal only: 25 adult learners, 25 verified opportunities, zero committed institutions, zero recruited learners, zero observed career outcomes.** A college career-services office and a municipal workforce/HR team must agree to named responsibilities before launch. The current demonstrator reviews selected real-source conditions using fictional declarations; it never evaluates overall employment eligibility. Pilot use requires independent double review of every mapping. See PILOT_OPERATIONS.md for the source SOP, consent, staff workflow and rubric.
 
