@@ -24,7 +24,7 @@ export function bridgePlan(r,row={},revision='local',now=new Date()){
   action(3,'Bring a source-specific question to a human advisor',question,'A recorded question; no response invented','Advisor availability and employer decisions remain unknown.')
  ]:[
   action(1,map.target?'Prepare the proposed work sample':'Check whether this skill fits the employer’s work',map.reason,map.proposal,'Learner work is declared/proposed and has not been independently verified.'),
-  action(2,'Check the full current announcement and documents','The source controls the qualification, schedule, documents and deadline. A static review may be stale.',(r.materials||[]).join('; ')||'A source-linked document and deadline checklist','Availability, accepted documents and all employer conditions require current review.'),
+  {...action(2,'Check the full current announcement and documents','The source controls the qualification, schedule, documents and deadline. A static review may be stale.',(r.materials||[]).join('; ')||'A source-linked document and deadline checklist','Availability, accepted documents and all employer conditions require current review.'),documents:r.materials||[]},
   action(3,'Ask an advisor or employer a specific question',question,'A question to discuss voluntarily; no message sent','No eligibility determination or employer response is recorded.')
  ];
  if(life.state!=='expired'&&(life.stale||(r.deadline&&Date.parse(r.deadline)-now.getTime()<72*3600000))){const first=actions.shift();actions.splice(1,0,first);actions.forEach((a,i)=>a.priority=i+1);}
@@ -33,4 +33,45 @@ export function bridgePlan(r,row={},revision='local',now=new Date()){
 export function bridgeRow(r,skill,experience=''){
  const map=skillConnection(r,skill);return {experience:clean(experience),skill:skill==='other'?'':skill,requirement:map.target,artifact:map.proposal,verification:r.id==='mpt-media'?'Which enrollment or recent-graduate records, weekly schedule and accessible HTML sample should I discuss with MPT?':'Which records establish the selected requirement, and what remaining conditions should HR verify?'};
 }
-export function bridgeMarkdown(p){return ['# '+p.title,'Fictional demonstration / preparation plan — not a credential or eligibility decision.',`Generated: ${p.createdAt}; product ${p.productVersion}; bridge ${p.bridgeVersion}`,`Employer: ${p.source.employer}`,`Opportunity: ${p.source.title} (${p.source.recruitment})`,`Official source: ${p.source.url}`,`Original review date: ${p.source.reviewedAt}`,`Source version: ${p.source.catalogRevision}; mapping hash: ${p.source.mappingHash||'None'}`,`Source freshness: ${p.source.status}. ${p.source.warning}`,`Deadline: ${p.source.deadlineLabel}`,'','## Skill-to-requirement map',`Learner supplied (fictional): ${p.learner.skill}`,`Learner declaration: ${p.learner.experience}`,p.learner.evidenceStatus,`Connection: ${p.connection.kind}`,`Employer source says (reviewed summary): ${p.connection.duty}`,`App suggests — why: ${p.connection.reason}`,`App suggests — proposed evidence: ${p.proposedEvidence}`,p.demonstratedEvidence,'','## Exactly three next actions',...p.actions.flatMap(a=>[`${a.priority}. ${a.title}`,`   Why: ${a.why}`,`   Source: ${a.sourceUrl}`,`   Source evidence: ${a.sourceEvidence}`,`   Expected preparation artifact or decision: ${a.expectedArtifactOrDecision}`,`   Unresolved: ${a.unresolvedCondition}`,`   Status: ${a.status}`]),'','## Outstanding questions',...p.unknowns.map(x=>'- '+x),`Specific human question: ${p.humanQuestion}`,p.humanVerification,'Downloads stay on your device. Share only by choice. No application, message, employer response or cloud save occurs.'].join('\n');}
+export function bridgeDocument(plan) {
+ const {source, learner, connection} = plan;
+ const documents = plan.actions.find(action => action.documents?.length)?.documents;
+ return [
+  {paragraphs:[
+   'Fictional demonstration for career preparation.',
+   source.employer + ' · ' + source.title + ' (' + source.recruitment + ')',
+   'Official source: ' + source.url,
+   source.status + '. ' + source.warning,
+   'Deadline: ' + source.deadlineLabel,
+  ]},
+  {title:'Skill-to-duty connection', paragraphs:[
+   'Learner supplied (fictional): ' + learner.skill + ' · ' + learner.experience,
+   'Employer source says (reviewed summary): ' + connection.duty,
+   connection.kind + '. ' + connection.reason,
+   'App suggests — proposed evidence: ' + plan.proposedEvidence,
+   plan.demonstratedEvidence,
+  ]},
+  {title:'Exactly three next actions', paragraphs:['Planned — not completed'], items:
+   plan.actions.map(action => action.title + '. ' + action.unresolvedCondition), ordered:true},
+  ...(documents ? [{title:'Documents to check with the employer', items:documents}] : []),
+  {title:'Advisor question', paragraphs:[plan.humanQuestion]},
+  {title:'Outstanding questions', items:plan.unknowns, paragraphs:[plan.humanVerification]},
+  {title:'Source and export details', paragraphs:[
+   'Original review date: ' + source.reviewedAt,
+   'Source version: ' + source.catalogRevision + ' · mapping hash: ' + (source.mappingHash || 'None'),
+   'Generated: ' + plan.createdAt + ' · product ' + plan.productVersion + ' · bridge ' + plan.bridgeVersion,
+   'No application or message is sent. Share this plan by choice.',
+  ]},
+ ];
+}
+
+export function bridgeMarkdown(plan) {
+ return [
+  '# ' + plan.title,
+  ...bridgeDocument(plan).map(({title, paragraphs = [], items = [], ordered}) => [
+   ...(title ? ['## ' + title] : []),
+   ...paragraphs,
+   ...(items.length ? [items.map((item, index) => (ordered ? (index + 1) + '. ' : '- ') + item).join('\n')] : []),
+  ].join('\n\n')),
+ ].join('\n\n') + '\n';
+}

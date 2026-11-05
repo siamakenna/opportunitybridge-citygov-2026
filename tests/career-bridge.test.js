@@ -17,7 +17,17 @@ test('Transferable exercise states separate source scope',()=>{const p=bridgePla
 test('Exactly three distinct actionable priorities preserve all required fields',()=>{const p=bridgePlan(mpt,bridgeRow(mpt,'software'),'local',now);assert.deepEqual(p.actions.map(a=>a.priority),[1,2,3]);assert.equal(new Set(p.actions.map(a=>a.title)).size,3);for(const a of p.actions)for(const k of ['title','why','sourceUrl','sourceEvidence','expectedArtifactOrDecision','unresolvedCondition','status'])assert(a[k]);});
 test('Missing applicant facts and stale source block no false eligibility decision',()=>{const p=bridgePlan(mpt,{},'local',now);assert.match(p.unknowns.join(' '),/enrollment|enrolled/i);assert.match(p.source.warning,/Reinspect/);assert.match(p.humanVerification,/No eligibility/);assert.equal(p.source.reviewedAt,mpt.verifiedAt);});
 test('Expired opportunity generates alternative-first historical practice actions',()=>{const p=bridgePlan({...mpt,deadline:'2026-01-01'},bridgeRow(mpt,'software'),'local',now);assert.match(p.actions[0].title,/current alternative/);assert.match(p.source.warning,/do not apply/);assert.equal(p.actions.length,3);});
-test('Downloaded readable plan includes source version, unknowns and no automatic sending',()=>{const t=bridgeMarkdown(bridgePlan(mpt,bridgeRow(mpt,'software'),'local',now));for(const x of ['# My Career Bridge Plan',mpt.sourceUrl,mpt.verifiedAt,mpt.duties[0],'Exactly three next actions','Outstanding questions','No application','Fictional demonstration'])assert(t.includes(x),x);});
+test('Readable plan lists document requirements separately and keeps source provenance',()=>{
+ const plan=bridgePlan(mpt,bridgeRow(mpt,'software'),'local',now);
+ const text=bridgeMarkdown(plan);
+ for(const entry of ['# My Career Bridge Plan',mpt.sourceUrl,mpt.verifiedAt,mpt.duties[0],
+  'Exactly three next actions','Outstanding questions','No application','Fictional demonstration']){
+  assert(text.includes(entry),entry);
+ }
+ assert.equal(text.split(mpt.sourceUrl).length,2,'The source URL appears once');
+ for(const document of mpt.materials)assert(text.includes('- '+document),document);
+ assert.equal(text.split(plan.humanQuestion).length,2,'The advisor question appears once');
+});
 test('Fictional Bridge rows use existing safe Journey capture and resume migration',()=>{const j=makeJourney({passportDrafts:[{opportunityId:mpt.id,source:{id:mpt.recruitment,url:mpt.sourceUrl,reviewedAt:mpt.verifiedAt,mappingHash:mpt.mappingReview.sourceHash,catalogRevision:'local'},rows:[bridgeRow(mpt,'software','Fictional class HTML page')]}]},'local',now);const restored=validateJourney(j);assert.equal(restored.passportDrafts[0].rows[0].skill,'software');assert.equal(restored.productVersion,'0.9.4');assert.equal(validateJourney({...j,productVersion:'0.9.2'}).productVersion,'0.9.4');});
 test('Bridge export removes executable markup without certifying learner claims',()=>{const p=bridgePlan(mpt,{skill:'software',experience:'<script>bad</script>',artifact:'<img src=x>'},'local',now);assert(!bridgeMarkdown(p).includes('<script>'));assert.match(p.learner.evidenceStatus,/not independently verified/);});
 test('Source mutation removes the direct reviewed map',()=>{const r=structuredClone(mpt);r.requirements[0].summary+=' unapproved';assert.match(skillConnection(r,'software').kind,/Transferable/);assert.notEqual(skillConnection(r,'software').target,'duty:0');});

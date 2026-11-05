@@ -9,3 +9,11 @@ Frozen CCEB references and participant kit unchanged. Only finance source was ex
 ## Bounded evidence pass, November5
 
 New proposed solution561words/equity150words, significant AI/third-party credits, verified NACE rationale with cross-sectional/self-rating limits; two-minute local-candidate demo script and separate unexecuted formative protocol. Small judge-guide problem-rationale paragraph only; product/runtime/source dates unchanged. Source-maintenance AI observation16.262seconds is not human or double-review/publish workload. Native access initially timed out, retry succeeded; Safari local preview failed and user changed browser, so actual zoom/VoiceOver remain untested. In-app actual Tab/Return reached example, source link and downloaded plan. No human sessions, outreach, portal edits or publication. Final packet/assessment in sibling OpportunityBridge-Evidence-Pass.
+
+## Returning-reviewer simplification, November 5
+
+Integrated the supplied patch against exact base 1c56ace6a06aeb7f8295fce6ecdec52d2158fc72. Native action disclosures, live coursework summary with retained focus/card state, primary print/copy controls, and shared readable print/Markdown content replace the previous denser flow. Provenance, source holds, unknown eligibility, three planned actions and structured JSON remain.
+
+This packet attributes qualitative comments to a returning outside reviewer; exact reviewed revision and public-quotation consent were not supplied. No formal human-study completion, advisor commitment or new numerical assessment is inferred. Preserve the earlier subjective 81/100 and frozen study.
+
+Integrated 186 JavaScript and six Python tests and build pass. Browser checks verified HTML Enter disclosure, live editing with focus/card retention, exact clipboard questions and actual Markdown/JSON downloads on both routes. Native print click timed out after 148.13 seconds; native Codex-app inspection was explicitly unavailable for safety reasons. One DOM recovery succeeded, with no remaining print document and no PDF artifact. Native Save as PDF, actual 200% zoom and screen-reader behavior remain unverified. No speculative product repair for that infrastructure blocker. Detailed receipts and final exact identity: sibling OpportunityBridge-Reviewer-Feedback/FINAL_HANDOFF.md. No public actions.
