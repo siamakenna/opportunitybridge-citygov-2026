@@ -45,7 +45,7 @@ test('A learner check-in exports the safe first action without changing source r
  const afterVendorDeadline=new Date('2026-11-06T17:30:00Z');
  const vendor=catalog.find(record=>record.id==='md-vendor');
  for(const [record,skill,first] of [
-  [mpt,'software','Check the full current announcement and documents'],
+  [{...mpt,verifiedAt:'2026-11-01T00:00:00Z'},'software','Check the full current announcement and documents'],
   [vendor,'data','Compare a current alternative'],
  ]){
   const row=bridgeRow(record,skill);
@@ -89,4 +89,15 @@ test('An expired Maryland posting provides a distinct official search without ch
  assert.match(bridgeMarkdown(plan),/Search Maryland state job openings: https:\/\/www\.jobapscloud\.com\/MD\//);
  assert.equal(bridgePlan(record,row,'release',new Date(expiredAt.getTime()-1)).actions[0].destination,undefined);
  assert.equal(bridgePlan({...record,sourceUrl:'https://example.org/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015'},row,'release',expiredAt).actions[0].destination,undefined);
+});
+
+test('A practice check-in is omitted when the source ages out and recheck takes priority',()=>{
+ const record={...mpt,verifiedAt:'2026-11-01T00:00:00Z'};
+ const row=bridgeRow(record,'software');
+ const boundary=Date.parse(record.verifiedAt)+48*3600*1000;
+ const checkIn={action:'Prepare the proposed work sample',date:'2026-11-04'};
+ assert.equal(bridgePlan(record,row,'release',new Date(boundary),checkIn).learnerCheckIn?.date,'2026-11-04');
+ const stale=bridgePlan(record,row,'release',new Date(boundary+1),checkIn);
+ assert.equal(stale.learnerCheckIn,undefined);
+ assert.match(stale.actions[0].title,/Check the full current announcement/);
 });
