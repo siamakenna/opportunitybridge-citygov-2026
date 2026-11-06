@@ -1,5 +1,6 @@
 import {lifecycle} from './real-core.js';
 import {mappingApproved} from './source-review.js';
+import {canonicalMd} from './pulse-core.js';
 export const bridgeVersion='1.1';
 export function reviewedDataDuty(r){const review=r.bridgeDutyReview;return r.id==='md-vendor'&&mappingApproved(r)&&review?.snapshot===JSON.stringify({id:r.id,sourceUrl:r.sourceUrl,recruitment:r.recruitment,duties:r.duties,skill:'data'})&&review.sourceHash===r.mappingReview.sourceHash&&review.reviewedAt===r.verifiedAt?r.duties?.[0]:null;}
 export const bridgeSkills={software:'Introductory HTML and web accessibility',communication:'Clear written communication',data:'Organizing and checking data',research:'Finding and explaining source evidence',other:'A skill not yet linked to this source'};
@@ -28,6 +29,9 @@ export function bridgePlan(r,row={},revision='local',now=new Date(),checkIn){
   action(3,'Ask an advisor or employer a specific question',question,'A question to discuss voluntarily; no message sent','No eligibility determination or employer response is recorded.')
  ];
  if(life.state!=='expired'&&(life.stale||(r.deadline&&Date.parse(r.deadline)-now.getTime()<72*3600000))){const first=actions.shift();actions.splice(1,0,first);actions.forEach((a,i)=>a.priority=i+1);}
+ if(life.state==='expired' && canonicalMd(source.url)){
+  actions[0].destination={label:'Search Maryland state job openings',url:'https://www.jobapscloud.com/MD/'};
+ }
  const date=checkIn?.date;
  const validDate=typeof date==='string' && /^\d{4}-\d{2}-\d{2}$/.test(date)
   && Number.isFinite(Date.parse(date)) && new Date(date).toISOString().slice(0,10)===date;
@@ -58,7 +62,8 @@ export function bridgeDocument(plan) {
    plan.demonstratedEvidence,
   ]},
   {title:'Exactly three next actions', paragraphs:['Planned — not completed'], items:
-   plan.actions.map(action => action.title + '. ' + action.unresolvedCondition), ordered:true},
+   plan.actions.map(action => action.title + '. ' + action.unresolvedCondition
+    + (action.destination ? ' ' + action.destination.label + ': ' + action.destination.url : '')), ordered:true},
   ...(documents ? [{title:'Documents to check with the employer', items:documents}] : []),
   ...(plan.learnerCheckIn ? [{title:'My check-in',paragraphs:[
    plan.learnerCheckIn.action,

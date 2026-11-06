@@ -72,3 +72,21 @@ test('An invalid date or superseded first action does not export a check-in',()=
  assert.equal(Object.hasOwn(expired,'learnerCheckIn'),false);
  assert.equal(expired.actions[0].title,'Compare a current alternative');
 });
+
+test('An expired Maryland posting provides a distinct official search without changing its provenance',()=>{
+ const record=catalog.find(item=>item.id==='md-vendor');
+ const row=bridgeRow(record,'data');
+ const expiredAt=new Date(record.deadline);
+ const plan=bridgePlan(record,row,'release',expiredAt);
+ assert.equal(plan.source.url,record.sourceUrl);
+ assert.equal(plan.source.status,'Deadline passed');
+ assert.equal(plan.actions.length,3);
+ assert.deepEqual(plan.actions[0].destination,{
+  label:'Search Maryland state job openings',url:'https://www.jobapscloud.com/MD/',
+ });
+ assert.match(plan.actions[0].unresolvedCondition,/No alternative opening is guaranteed/);
+ assert.equal(plan.actions[1].destination,undefined);
+ assert.match(bridgeMarkdown(plan),/Search Maryland state job openings: https:\/\/www\.jobapscloud\.com\/MD\//);
+ assert.equal(bridgePlan(record,row,'release',new Date(expiredAt.getTime()-1)).actions[0].destination,undefined);
+ assert.equal(bridgePlan({...record,sourceUrl:'https://example.org/MD/sup/bulpreview.asp?R1=26&R2=004518&R3=0015'},row,'release',expiredAt).actions[0].destination,undefined);
+});

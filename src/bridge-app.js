@@ -21,7 +21,8 @@ export function mountBridge({catalog,revision,onSelect,onDraft,onQuest,onPasspor
    if(!dl.children.length)value.id='bridge-learner-summary';
    dl.append(el('dt',k),value);
   }
-  const source=el('a','Inspect the official employer announcement ↗');source.href=p.source.url;source.target='_blank';source.rel='noopener noreferrer';source.setAttribute('aria-label','Inspect the official employer announcement (opens a new tab)');
+  const sourceLabel=p.actions[0].destination?'Inspect the historical employer announcement':'Inspect the official employer announcement';
+  const source=el('a',sourceLabel+' ↗');source.href=p.source.url;source.target='_blank';source.rel='noopener noreferrer';source.setAttribute('aria-label',sourceLabel+' (opens a new tab)');
   output.append(dl,source,el('p',`Original review: ${p.source.reviewedAt} · ${p.source.warning}`,'source-notice'));
   const h=el('h3','Three next actions');h.id='bridge-plan-title';h.tabIndex=-1;
   const list=el('ol','','bridge-actions');
@@ -38,6 +39,16 @@ export function mountBridge({catalog,revision,onSelect,onDraft,onQuest,onPasspor
    }
    details.append(el('p','Still unresolved: '+action.unresolvedCondition),el('small',action.status));
    card.append(details);
+   if(action.destination){
+    const link=el('a',action.destination.label+' ↗');
+    link.href=action.destination.url;
+    link.target='_blank';
+    link.rel='noopener noreferrer';
+    link.setAttribute('aria-label',action.destination.label+' (opens a new tab)');
+    const destination=el('p');
+    destination.append(link);
+    card.append(destination);
+   }
    list.append(card);
   }
   const question=el('p',p.humanQuestion);question.id='bridge-advisor-question';question.tabIndex=-1;
