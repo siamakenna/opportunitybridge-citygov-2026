@@ -11,7 +11,7 @@ export function skillConnection(r,skill){
  if((r.skills||[]).includes(skill)&&skill!=='other')return {kind:'Transferable skill with a reasoned connection',target:approved?r.requirements?.[0]?.id||'':'',duty:approved?(r.requirements?.[0]?.summary||'No reviewed duty available.'):'No approved duty or requirement mapping available; inspect the source.',reason:'This skill is present in the curated source record. A proposed evidence memo can support a conversation; it does not satisfy the selected qualification. The optional exercise uses a separate frozen source.',proposal:'Proposed source-linked '+skill+' evidence memo, reviewed with an advisor.',questId:r.id.startsWith('md-admin')?'source':'evidence'};
  return {kind:'General exploratory learning',target:'',duty:'No supported skill-to-duty connection selected.',reason:'This skill is not mapped to the selected source. Ask an advisor to inspect the employer’s duties before proposing a direct connection.',proposal:'Proposed exploration note asking whether this skill is relevant; no employer duty is invented.',questId:null};
 }
-export function bridgePlan(r,row={},revision='local',now=new Date()){
+export function bridgePlan(r,row={},revision='local',now=new Date(),checkIn){
  if(!r)throw Error('Choose a reviewed opportunity first.');
  const skill=Object.hasOwn(bridgeSkills,row.skill)?row.skill:'',map=skillConnection(r,skill),life=lifecycle(r,now),declared=clean(row.experience);
  const unknowns=[...new Set([...(r.requirements||[]).filter(x=>x.required).map(x=>x.label),...(r.id==='mpt-media'?['Verified enrollment or accepted recent-graduate route','Weekly availability of at least 16 hours','Work authorization and any full-source conditions']:[]),'Employer acceptance of a proposed sample','Full current announcement and document requirements'])];
@@ -28,7 +28,13 @@ export function bridgePlan(r,row={},revision='local',now=new Date()){
   action(3,'Ask an advisor or employer a specific question',question,'A question to discuss voluntarily; no message sent','No eligibility determination or employer response is recorded.')
  ];
  if(life.state!=='expired'&&(life.stale||(r.deadline&&Date.parse(r.deadline)-now.getTime()<72*3600000))){const first=actions.shift();actions.splice(1,0,first);actions.forEach((a,i)=>a.priority=i+1);}
- return {schema:'opportunitybridge-career-bridge-1',bridgeVersion,productVersion:'0.9.4',createdAt:now.toISOString(),fictionalDemo:true,title:'My Career Bridge Plan',source,learner:{experience:declared||'No learner experience declared.',evidenceStatus:'Learner-declared fictional information; not independently verified.',skill:bridgeSkills[skill]||'Not selected'},connection:map,proposedEvidence:clean(row.artifact)||map.proposal,demonstratedEvidence:row.questReceipt?'A fictional exercise receipt is attached in Passport. Replay/check its version; it is not a credential.':'No demonstrated work verified. The sample is proposed.',actions,unknowns,humanQuestion:question,humanVerification:'A human advisor or employer must verify applicant records and interpret full conditions. No eligibility, hiring probability, employment offer or automatic submission is produced.'};
+ const date=checkIn?.date;
+ const validDate=typeof date==='string' && /^\d{4}-\d{2}-\d{2}$/.test(date)
+  && Number.isFinite(Date.parse(date)) && new Date(date).toISOString().slice(0,10)===date;
+ const learnerCheckIn=validDate && checkIn.action===actions[0].title
+  ? {action:actions[0].title,owner:'Learner',date,status:'Planned by learner'}
+  : null;
+ return {schema:'opportunitybridge-career-bridge-1',bridgeVersion,productVersion:'0.9.4',createdAt:now.toISOString(),fictionalDemo:true,title:'My Career Bridge Plan',source,learner:{experience:declared||'No learner experience declared.',evidenceStatus:'Learner-declared fictional information; not independently verified.',skill:bridgeSkills[skill]||'Not selected'},connection:map,proposedEvidence:clean(row.artifact)||map.proposal,demonstratedEvidence:row.questReceipt?'A fictional exercise receipt is attached in Passport. Replay/check its version; it is not a credential.':'No demonstrated work verified. The sample is proposed.',actions,unknowns,humanQuestion:question,humanVerification:'A human advisor or employer must verify applicant records and interpret full conditions. No eligibility, hiring probability, employment offer or automatic submission is produced.',...(learnerCheckIn?{learnerCheckIn}:{})};
 }
 export function bridgeRow(r,skill,experience=''){
  const map=skillConnection(r,skill);return {experience:clean(experience),skill:skill==='other'?'':skill,requirement:map.target,artifact:map.proposal,verification:r.id==='mpt-media'?'Which enrollment or recent-graduate records, weekly schedule and accessible HTML sample should I discuss with MPT?':'Which records establish the selected requirement, and what remaining conditions should HR verify?'};
@@ -54,6 +60,11 @@ export function bridgeDocument(plan) {
   {title:'Exactly three next actions', paragraphs:['Planned — not completed'], items:
    plan.actions.map(action => action.title + '. ' + action.unresolvedCondition), ordered:true},
   ...(documents ? [{title:'Documents to check with the employer', items:documents}] : []),
+  ...(plan.learnerCheckIn ? [{title:'My check-in',paragraphs:[
+   plan.learnerCheckIn.action,
+   'Owner: '+plan.learnerCheckIn.owner+' · Check in: '+plan.learnerCheckIn.date,
+   'Planned by the learner. This is a personal note and sends no reminder.',
+  ]}] : []),
   {title:'Advisor question', paragraphs:[plan.humanQuestion]},
   {title:'Outstanding questions', items:plan.unknowns, paragraphs:[plan.humanVerification]},
   {title:'Source and export details', paragraphs:[

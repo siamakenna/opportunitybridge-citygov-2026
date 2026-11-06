@@ -40,3 +40,35 @@ test('Arrangement filtering does not turn an unknown title into a verified sched
 test('Repeated normalization preserves metadata level, full-time arrangement and mandatory review',async()=>{const {normalizeOpportunity,filterExplore}=await import('../src/taxonomy.js');const r={id:'26-004373-0002',title:'INTERNAL AUDITOR II (Gaming Auditor)',employer:'State',sourceUrl:'https://www.jobapscloud.com/MD/sup/bulpreview.asp?R1=26&R2=004373&R3=0002'};const first=normalizeOpportunity(r),second=normalizeOpportunity(first),third=normalizeOpportunity(second);for(const item of [first,second,third]){assert.equal(item.employmentArrangement,'full-time');assert.equal(item.classificationDecision.evidenceLevel,2);assert.equal(item.classificationDecision.basis,'publisher-metadata');assert.equal(item.classificationDecision.requiresFullSourceReview,true);}assert.deepEqual(first.classificationDecision,third.classificationDecision);assert.equal(filterExplore([first],{type:'job',arrangement:'full-time'}).length,1);});
 test('A provider string and claimed reviewed classifications cannot create curated-source provenance',()=>{const r={id:'board-lead',title:'Civic opportunity',provider:'Imposter provider',sourceUrl:'https://board.example/lead',classifications:[{type:'paid-internship',basis:'source-reviewed',sourceUrl:'https://board.example/lead',reviewedAt:'2026-10-31T17:00:00Z'}]};const d=classifyEvidence(r,{now});assert.equal(d.primary,'unknown');assert.equal(d.evidenceLevel,5);assert.equal(d.requiresFullSourceReview,true);});
 test('Repeated normalization retains genuine curated learning-source identity without employment claims',async()=>{const {supplementary}=await import('../src/supplementary.js'),{normalizeOpportunity}=await import('../src/taxonomy.js');const first=normalizeOpportunity(supplementary.find(r=>r.id==='wai-tutorials')),second=normalizeOpportunity(first);assert.equal(first.classificationDecision.primary,'course');assert.deepEqual(first.classificationDecision,second.classificationDecision);assert.equal(second.employmentArrangement,'unknown');});
+
+test('A learner check-in exports the safe first action without changing source review or actions',()=>{
+ const afterVendorDeadline=new Date('2026-11-06T17:30:00Z');
+ const vendor=catalog.find(record=>record.id==='md-vendor');
+ for(const [record,skill,first] of [
+  [mpt,'software','Check the full current announcement and documents'],
+  [vendor,'data','Compare a current alternative'],
+ ]){
+  const row=bridgeRow(record,skill);
+  const original=bridgePlan(record,row,'release',afterVendorDeadline);
+  const plan=bridgePlan(record,row,'release',afterVendorDeadline,{action:first,date:'2026-11-13'});
+  assert.deepEqual(plan.learnerCheckIn,{action:first,owner:'Learner',date:'2026-11-13',status:'Planned by learner'});
+  assert.deepEqual(plan.source,original.source);
+  assert.deepEqual(plan.actions,original.actions);
+  assert.deepEqual(plan.unknowns,original.unknowns);
+  assert.match(bridgeMarkdown(plan),/## My check-in/);
+  assert.match(bridgeMarkdown(plan),/Owner: Learner · Check in: 2026-11-13/);
+  assert.equal(Object.hasOwn(original,'learnerCheckIn'),false);
+ }
+});
+
+test('An invalid date or superseded first action does not export a check-in',()=>{
+ const row=bridgeRow(mpt,'software');
+ const heldAction='Check the full current announcement and documents';
+ for(const date of ['','2026-02-30','2026-11-06<script>',null]){
+  const plan=bridgePlan(mpt,row,'release',now,{action:heldAction,date});
+  assert.equal(Object.hasOwn(plan,'learnerCheckIn'),false);
+ }
+ const expired=bridgePlan({...mpt,deadline:'2026-10-01'},row,'release',now,{action:heldAction,date:'2026-11-13'});
+ assert.equal(Object.hasOwn(expired,'learnerCheckIn'),false);
+ assert.equal(expired.actions[0].title,'Compare a current alternative');
+});
